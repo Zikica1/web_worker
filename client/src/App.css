@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/quicksand/Quicksand-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/assets/fonts/quicksand/Quicksand-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/assets/fonts/quicksand/Quicksand-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/assets/fonts/quicksand/Quicksand-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/quicksand/Ubuntu-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/assets/fonts/quicksand/Ubuntu-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/assets/fonts/quicksand/Ubuntu-Bold.woff2') format('woff2');
+}
+
+:root {
+  --clr-pri: rgb(52, 152, 219);
+  --clr-sec: rgb(52, 58, 64);
+  --clr-ter: rgb(23, 253, 184);
+
+  /*text*/
+  --clr-text: rgb(68, 68, 68);
+  --clr-text-2: rgba(20 20 20/0.95);
+  --clr-text-3: rgb(52, 58, 64);
+  --clr-text-4: rgb(61, 61, 61);
+
+  /*bg*/
+  --clr-body-bg: #ffffff;
+  --clr-section-bg: #f9f9f9;
+  --clr-ham-bg: #333;
+  --clr-modal-bg: #f4f4f4;
+  --clr-card: #ffffff;
+  --clr-card-service: #ffffff;
+  --clr-card-experts: #333333;
+  --clr-border: #3d3d3d;
+
+  /* linear-gradient */
+  --gradient-1: linear-gradient(257deg, #0c0c0c 0%, #474747 100%);
+  --gradient-2: linear-gradient(
+    269deg,
+    var(--clr-primary) 0%,
+    var(--clr-tertial) 100%
+  );
+  --gradient-3: linear-gradient(
+    24deg,
+    var(--clr-primary) 0%,
+    var(--clr-tertial) 100%
+  );
+  --gradient-4: linear-gradient(
+    24deg,
+    var(--clr-tertial) 0%,
+    var(--clr-primary) 100%
+  );
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-clr: transparent;
+}
+
+body {
+  color: var(--clr-text);
+  background-color: var(--clr-body-bg);
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: var(--clr-text);
+  text-decoration: none;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "showcase": "Showcase",
+    "contact": "Contact"
+  },
+  "hero": {
+    "0": {
+      "title": "We Are a Web Design <span>Agency</span>",
+      "subtitle": "6 years of experience",
+      "description": "Weaving together stunning visuals and intuitive interfaces to create unforgettable online journeys."
+    },
+    "1": {
+      "title": "A Group of Expert <span>Planners</span>",
+      "subtitle": "6 years of experience",
+      "description": "Crafting visually stunning websites that engage, inspire, and elevate your brand's online presence."
+    },
+    "2": {
+      "title": "Focus on Your <span>Business</span>",
+      "subtitle": "6 years of experience",
+      "description": "Transforming ideas into extraordinary digital experiences that captivate and convert."
+    }
+  }
+}

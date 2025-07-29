@@ -1,0 +1,17 @@
+.buttonLen {
+  color: white;
+  border: none;
+  background: none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  cursor: pointer;
+}
+
+.buttonLen-globeIco {
+  width: 20px;
+  height: 20px;
+}

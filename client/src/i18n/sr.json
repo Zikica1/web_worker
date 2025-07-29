@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "home": "Početna",
+    "about": "O nama",
+    "services": "Usluge",
+    "showcase": "Istaknuto",
+    "contact": "Kontakti"
+  },
+  "hero": {
+    "0": {
+      "title": "Mi smo Agencija za Veb <span>Dizajn</span>",
+      "subtitle": "6 godina iskustva",
+      "description": "Stvarajući zapanjujuće vizualne efekte i intuitivne interfejs kako bi strovili nezaboravna onlajn putovanja"
+    },
+    "1": {
+      "title": "Grupa Stručnih <span>Planera</span>",
+      "subtitle": "6 godina iskustva",
+      "description": "Kreiranje vizuelno zapanjujućih veb stranica koje angažuju, inspirišu i podižu onlajn prisustvo vešeg brenda."
+    },
+    "2": {
+      "title": "Fokus na Vaš <span>Posao</span>",
+      "subtitle": "6 godina iskustva",
+      "description": "Transformisanje ideja u izvanredna digitalna iskustva"
+    }
+  }
+}
