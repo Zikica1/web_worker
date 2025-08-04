@@ -10,7 +10,7 @@
     "0": {
       "title": "We Are a Web Design <span>Agency</span>",
       "subtitle": "6 years of experience",
-      "description": "Weaving together stunning visuals and intuitive interfaces to create unforgettable online journeys."
+      "description": "We create stunning visuals and an intuitive interface to create unforgettable online journeys. We create a unique, modern and functional website for you that conveys your brand message clearly, confidently and with style."
     },
     "1": {
       "title": "A Group of Expert <span>Planners</span>",
@@ -22,5 +22,9 @@
       "subtitle": "6 years of experience",
       "description": "Transforming ideas into extraordinary digital experiences that captivate and convert."
     }
+  },
+  "service": {
+    "title": "Who we are & what we do",
+    "description": "With over six years of experience in user interface design, we combine innovation and artistry to create seamless digital experiences. Enhance your brand with our expertise in web design, development, SEO optimization and more. Discover our identity, which was created by years of experience in user interface design"
   }
 }

@@ -10,7 +10,7 @@
     "0": {
       "title": "Mi smo Agencija za Veb <span>Dizajn</span>",
       "subtitle": "6 godina iskustva",
-      "description": "Stvarajući zapanjujuće vizualne efekte i intuitivne interfejs kako bi strovili nezaboravna onlajn putovanja"
+      "description": "Kreiramo zapanjujuće vizualne elemente i intuitivan interfejs, kako bi smo stvorili nezaboravna onlajn putovanja. Kreiramo jedinstven, moderan i funkcionalan veb sajt za vas koji  prenosi poruku vašeg brenda jasno, samouvereno i sa stilom."
     },
     "1": {
       "title": "Grupa Stručnih <span>Planera</span>",
@@ -22,5 +22,9 @@
       "subtitle": "6 godina iskustva",
       "description": "Transformisanje ideja u izvanredna digitalna iskustva"
     }
+  },
+  "service": {
+    "title": "Ko smo mi i šta radimo",
+    "description": "Sa preko šest godina iskustva u dizajnu korisničkog interfejsa, kombinujemo inovacije i umetnost kako bi smo stvorili besprekorna digitalna iskustva. Unapredite svoj, brend uz našu stručnost u vez dizajnu, razvoju, SEO optimaizaciji i još mnogo čemu. Otkrijte naš identitet koji je stvoren višegodišnjim iskustvom u dizajnu korisničkog interfejsa."
   }
 }

@@ -10,13 +10,8 @@
 
 /*hederTop*/
 .headerTop {
-  color: rgb(255 255 255);
-  background-image: linear-gradient(
-    257deg,
-    rgb(52, 152, 219) 0%,
-    rgb(41, 128, 185) 50%,
-    rgb(15, 55, 85) 100%
-  );
+  color: var(--clr-text-light);
+  background-image: var(--gradient-prim);
   display: grid;
   grid-template-columns: 1fr;
   padding-inline: 2.11em;
@@ -79,7 +74,7 @@
 }
 
 .headerBott {
-  background-color: rgb(255 255 255);
+  background-color: var(--clr-bg-light);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -117,7 +112,7 @@
   left: 0;
   right: 0;
   height: 2px;
-  background-color: rgb(34 34 34);
+  background-color: var(--clr-menu);
   transition: all 0.5s ease;
 }
 

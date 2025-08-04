@@ -1,55 +1,119 @@
 import './hero.css';
-import { useTranslation, Trans } from 'react-i18next';
+import HeroCard from './HeroCard';
+import { useState, useRef } from 'react';
 import { hero } from '../../../data/db';
-import { MdPlayArrow } from 'react-icons/md';
 
 const Hero = () => {
-  const { t } = useTranslation();
+  const [startX, setStartX] = useState(0);
+  const [scrollLeft, setScrollLeft] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const refSlider = useRef(null);
+  const refItems = useRef([]);
+
+  const refIsDragging = useRef(false);
+
+  const handlePointerDown = (e) => {
+    e.preventDefault();
+    refIsDragging.current = false;
+    setStartX(e.pageX - refSlider.current.offsetLeft);
+    setScrollLeft(refSlider.current.scrollLeft);
+    window.addEventListener('pointerup', handlePointerUp);
+    if (refSlider.current) {
+      refSlider.current.classList.add('dragging');
+    }
+  };
+
+  const handlePointerMove = (e) => {
+    if (e.buttons !== 1) return;
+    const x = e.pageX - refSlider.current.offsetLeft;
+    const walk = x - startX;
+    if (Math.abs(walk) > 5) {
+      refIsDragging.current = true;
+    }
+
+    refSlider.current.scrollLeft = scrollLeft - walk;
+  };
+
+  const handlePointerUp = () => {
+    setTimeout(() => (refIsDragging.current = false), 0);
+    if (refSlider.current) {
+      refSlider.current.classList.remove('dragging');
+    }
+    window.removeEventListener('pointerup', handlePointerUp);
+
+    // DETEKCIJA NAJVIDLJIVIJE KARTICE
+
+    // let maxVisible = 0;
+    // let newActive = 0;
+    // refItems.current.forEach((el, idx) => {
+    //   if (!el) return;
+    //   const rect = el.getBoundingClientRect();
+    //   const visibleWidth =
+    //     Math.min(rect.right, window.innerWidth) - Math.max(rect.left, 0);
+    //   if (visibleWidth > maxVisible) {
+    //     maxVisible = visibleWidth;
+    //     newActive = idx;
+    //   }
+    // });
+    // setActiveIndex(newActive);
+  };
+
+  const handlePointerLeave = () => {
+    refIsDragging.current = false;
+    if (refSlider.current) {
+      refSlider.current.classList.remove('dragging');
+    }
+    window.removeEventListener('pointerup', handlePointerUp);
+  };
+
+  const handleNext = (index) => {
+    const el = refItems.current[index];
+    if (!el) return;
+    const parent = el.offsetParent;
+    parent.scrollTo({
+      left: parent.scrollLeft + el.offsetWidth,
+      behavior: 'smooth',
+    });
+    // setTimeout(() => {
+    //   setActiveIndex((prev) => Math.min(prev + 1, hero.length - 1));
+    // }, 400);
+  };
+
+  const handlePrevious = (index) => {
+    const el = refItems.current[index];
+    if (!el) return;
+    const parent = el.offsetParent;
+    parent.scrollTo({
+      left: parent.scrollLeft - el.offsetWidth,
+      behavior: 'smooth',
+    });
+    // setTimeout(() => {
+    //   setActiveIndex((prev) => Math.max(prev - 1, 0));
+    // }, 400);
+  };
 
   return (
     <section className='hero'>
       <div className='hero-wrapper'>
-        <ul className='heroSlides'>
-          {hero.map((item) => (
-            <li className='heroSlides-item' key={item.id}>
-              <div className='heroSlides-leftCol'>
-                <h2 className='heroSlides-subtitle'>
-                  {t(`hero.${item.id}.subtitle`)}
-                </h2>
-                <h1 className='heroSlides-title'>
-                  <Trans
-                    i18nKey={`hero.${item.id}.title`}
-                    components={{ span: <span className='heroSlides-span' /> }}
-                  />
-                </h1>
-                <p className='heroSlides-des'>
-                  {t(`hero.${item.id}.description`)}
-                </p>
-                <div className='heroSlides-buttonWrap'>
-                  <button className='heroSlides-button heroSlides-button--rotate'>
-                    <MdPlayArrow />
-                  </button>
-                  <button className='heroSlides-button'>
-                    <MdPlayArrow />
-                  </button>
-                </div>
-              </div>
-              <div className='heroSlides-rightCol'>
-                <div className='heroSlides-images'>
-                  <img
-                    className='heroSlide-img'
-                    srcSet={`${item.imgMob} 325w,${item.imgMob2} 650w,${item.imgTab} 586w,${item.imgDes} 822w`}
-                    sizes='(max-width: 768px) 325px,(max-width: 1024px) 440px,(min-width: 1025px) 625px'
-                    src={item.imgDes}
-                    alt='hero-slide-img'
-                  />
-                  <div className='heroSlide-anim heroSlide-anim--1'></div>
-                  <div className='heroSlide-anim heroSlide-anim--2'></div>
-                  <div className='heroSlide-anim heroSlide-anim--3'></div>
-                  <div className='heroSlide-anim heroSlide-anim--4'></div>
-                </div>
-              </div>
-            </li>
+        <ul
+          className='heroSlides'
+          ref={refSlider}
+          onPointerDown={handlePointerDown}
+          onPointerMove={handlePointerMove}
+          onPointerUp={handlePointerUp}
+          onPointerLeave={handlePointerLeave}
+        >
+          {hero.map((item, index) => (
+            <HeroCard
+              key={item.id}
+              item={item}
+              refItem={(el) => (refItems.current[index] = el)}
+              handleNext={() => handleNext(index)}
+              handlePrevious={() => handlePrevious(index)}
+              index={index}
+              activeIndex={activeIndex}
+            />
           ))}
         </ul>
       </div>
