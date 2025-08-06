@@ -1,0 +1,18 @@
+.head-title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-block-end: 20px;
+
+  @media (min-width: 48rem) {
+    font-size: 3rem;
+  }
+
+  @media (min-width: 63.75rem) {
+    font-size: 3.437rem;
+    line-height: 1.2;
+  }
+}
+
+.hading-span {
+  color: var(--clr-pri);
+}

@@ -1,3 +1,9 @@
+import {
+  MdSpeed,
+  MdOutlineDesktopWindows,
+  MdPhoneIphone,
+} from 'react-icons/md';
+
 export const hero = [
   {
     id: 0,
@@ -19,5 +25,20 @@ export const hero = [
     imgMob2: '/assets/pictures/home/hero/hero-3-325@2x.webp',
     imgTab: '/assets/pictures/home/hero/hero-3-586px.webp',
     imgDes: '/assets/pictures/home/hero/hero-3-822px.webp',
+  },
+];
+
+export const services = [
+  {
+    id: 0,
+    Icon: MdOutlineDesktopWindows,
+  },
+  {
+    id: 1,
+    Icon: MdSpeed,
+  },
+  {
+    id: 2,
+    Icon: MdPhoneIphone,
   },
 ];

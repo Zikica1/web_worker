@@ -1,3 +1,83 @@
 .service {
-  margin-top: 8.94rem;
+  margin-top: 9em;
+
+  @media (min-width: 48rem) {
+    margin-block: 12.562em;
+  }
+}
+
+.serviceTitle {
+  color: var(--clr-pri);
+  font-size: 2.687em;
+  font-weight: 600;
+  text-align: center;
+  padding-block: 1.162em;
+}
+
+.serviceWrapper {
+  margin-block-start: 9.37em;
+  display: grid;
+  grid-template-areas:
+    'img'
+    'content';
+  padding-inline: 2.187em;
+  min-width: 0;
+  overflow-wrap: break-word;
+
+  @media (min-width: 48rem) {
+    padding-inline: 9.06em;
+    margin-block-start: 4.06em;
+    grid-template-areas:
+      'content'
+      'img';
+  }
+
+  @media (min-width: 63.75rem) {
+    grid-template-columns:
+      minmax(2.187rem, 1fr)
+      minmax(0, 28.45rem)
+      minmax(0, 56.91rem)
+      minmax(2.187rem, 1fr);
+    grid-template-areas: '. content img .';
+    padding-inline: 0;
+  }
+}
+
+.serviceWrapper > *:last-child {
+  padding-inline-end: 1em;
+}
+
+.serviceImg {
+  grid-area: img;
+}
+
+.serviceHead {
+  text-align: center;
+  margin-block: 3.125em;
+
+  @media (min-width: 1020px) {
+    text-align: left;
+  }
+}
+.serviceHead-image {
+  margin-inline: auto;
+
+  @media (min-width: 63.75em) {
+    margin-inline: unset;
+  }
+}
+
+.serviceDes {
+  grid-area: content;
+  padding-block-start: 3.125em;
+  text-align: center;
+
+  @media (min-width: 63.75em) {
+    padding-block-start: 0;
+    text-align: left;
+  }
+}
+
+.serviceDes-para {
+  margin-block-end: 3.125em;
 }

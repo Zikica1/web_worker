@@ -24,7 +24,29 @@
     }
   },
   "service": {
-    "title": "Ko smo mi i šta radimo",
-    "description": "Sa preko šest godina iskustva u dizajnu korisničkog interfejsa, kombinujemo inovacije i umetnost kako bi smo stvorili besprekorna digitalna iskustva. Unapredite svoj, brend uz našu stručnost u vez dizajnu, razvoju, SEO optimaizaciji i još mnogo čemu. Otkrijte naš identitet koji je stvoren višegodišnjim iskustvom u dizajnu korisničkog interfejsa."
+    "top": {
+      "title": "Ko smo mi &<br/> šta <span>radimo<span/>",
+      "description": "Sa preko šest godina iskustva u dizajnu korisničkog interfejsa, kombinujemo inovacije i umetnost kako bi smo stvorili besprekorna digitalna iskustva. Unapredite svoj, brend uz našu stručnost u vez dizajnu, razvoju, SEO optimaizaciji i još mnogo čemu. Otkrijte naš identitet koji je stvoren višegodišnjim iskustvom u dizajnu korisničkog interfejsa."
+    },
+    "bottom": {
+      "title": "Imamo <span>sve</span> štovama<br/>  je <span>potrebno</span>"
+    },
+    "cards": {
+      "0": {
+        "title": "Izrada veb sajtova",
+        "subtitle": "Vidi Još",
+        "description": "Kreiramo web stranice koje kombinuju dizajn i funkcionalnost. Sajtovi koje mi izrađujemo su moderni i prilagodljivi svim rezolucijama ekrana. Dizajn sajta prezentuje vašu kompaniju i uliva poverenje budućih klijenta, stvarajući vizuelno iskustvo koje daje rezultate."
+      },
+      "1": {
+        "title": "SEO",
+        "subtitle": "Vidi Još",
+        "description": "SEO (Search engine optimization) optimizacija predstavlja unapređenje kvaliteta koda sajta, a sve u cilju povećavanja kvaliteta saobraćaja, odnosno broja poseta korisnika ka vašem web sajtu kao i bolje rangiranje od strane internet pretraživača.To znači, da sajt mora imati pre svega dobar sadržaj odnosno SEO tekst prožet ključnim rečima a zatim i mnogo drugih elemenata koji ga čine dobro optimizovanim. "
+      },
+      "2": {
+        "title": "Prilagodljiv Dizain",
+        "subtitle": "Vidi Još",
+        "description": "Prilagodljiv dizain veb strane predstavlja web dizain koji omogućava optimizovano prikazivanje, jednostavno korišćenje, čitanje i kretanje kroz veb sajt koji će biti pregledan na različitim uređajima."
+      }
+    }
   }
 }

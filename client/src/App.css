@@ -55,9 +55,9 @@
   /*text*/
   --clr-text-light: rgb(255 255 255);
   --clr-text-pri: rgb(52, 152, 219);
+  --clr-text-sec: rgb(52, 58, 64);
   --clr-text: rgb(68, 68, 68);
   --clr-text-2: rgba(20 20 20/0.95);
-  --clr-text-3: rgb(52, 58, 64);
   --clr-text-4: rgb(61, 61, 61);
 
   /*bg*/

@@ -24,7 +24,29 @@
     }
   },
   "service": {
-    "title": "Who we are & what we do",
-    "description": "With over six years of experience in user interface design, we combine innovation and artistry to create seamless digital experiences. Enhance your brand with our expertise in web design, development, SEO optimization and more. Discover our identity, which was created by years of experience in user interface design"
+    "top": {
+      "title": "Who We Are &<br/> What <span>We Do<span/>",
+      "description": "With over six years of experience in user interface design, we combine innovation and artistry to create seamless digital experiences. Enhance your brand with our expertise in web design, development, SEO optimization and more. Discover our identity, which was created by years of experience in user interface design"
+    },
+    "bottom": {
+      "title": "We have <span>everything<span> <br/> you <span>need</span>"
+    },
+    "cards": {
+      "0": {
+        "title": "WebSite Development",
+        "subtitle": "See More",
+        "description": "We create websites that combine design and functionality. The sites we create are modern and adaptable to all screen resolutions. Site design showcases your company and instills confidence in prospective clients, creating a visual experience that delivers results"
+      },
+      "1": {
+        "title": "SEO",
+        "subtitle": "See More",
+        "description": "SEO (Search engine optimization) optimization represents the improvement of the quality of the site's code, all with the aim of increasing the quality of traffic, i.e. the number of user visits to your website, as well as better ranking by internet search engines. This means that the site must first of all have good content, i.e. SEO text imbued with keywords and then many other elements that make it well optimized."
+      },
+      "2": {
+        "title": "Responsive design",
+        "subtitle": "See More",
+        "description": "Responsive web page design is a web design that enables optimized display, ease of use, reading and movement through a website that will be viewed on different devices."
+      }
+    }
   }
 }

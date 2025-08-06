@@ -6,7 +6,7 @@ import { hero } from '../../../data/db';
 const Hero = () => {
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
-  const [activeIndex, setActiveIndex] = useState(0);
+  // const [activeIndex, setActiveIndex] = useState(0);
 
   const refSlider = useRef(null);
   const refItems = useRef([]);
@@ -112,7 +112,7 @@ const Hero = () => {
               handleNext={() => handleNext(index)}
               handlePrevious={() => handlePrevious(index)}
               index={index}
-              activeIndex={activeIndex}
+              // activeIndex={activeIndex}
             />
           ))}
         </ul>
