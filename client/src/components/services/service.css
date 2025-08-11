@@ -81,3 +81,17 @@
 .serviceDes-para {
   margin-block-end: 3.125em;
 }
+
+.servicesList {
+  margin-block-start: 9.375em;
+  padding-inline: 2.187em;
+}
+
+.servicesListHead {
+  text-align: center;
+  margin-block-end: 70px;
+}
+
+.servicesListHead-img {
+  margin-inline: auto;
+}

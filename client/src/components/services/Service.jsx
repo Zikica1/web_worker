@@ -1,15 +1,10 @@
 import './service.css';
-import { useLocation } from 'react-router-dom';
-import { services } from '../../data/db';
 import Hading from '../header/Hading';
-import ServiceCard from './ServiceCard';
+import ServicesCards from './ServicesCards';
 import { useTranslation, Trans } from 'react-i18next';
 
 const Service = () => {
   const { t } = useTranslation();
-  const location = useLocation();
-
-  const isHome = location.pathname === '/';
 
   return (
     <section className='service'>
@@ -43,17 +38,7 @@ const Service = () => {
         </div>
         <div className='serviceDes'>
           <div className='serviceHead'>
-            <Hading
-              title={
-                <Trans
-                  i18nKey='service.top.title'
-                  components={{
-                    span: <span className='hading-span' />,
-                    br: <br />,
-                  }}
-                />
-              }
-            />
+            <Hading i18nKey='service.top.title' />
 
             <img
               className='serviceHead-image'
@@ -67,26 +52,16 @@ const Service = () => {
       </div>
 
       <div className='servicesList'>
-        <div className='servicesList-head'>
-          <Hading
-            title={
-              <Trans
-                i18nKey={'service.bottom.title'}
-                components={{
-                  span: <span className='hading-span' />,
-                  br: <br />,
-                }}
-              />
-            }
-          />
+        <div className='servicesListHead'>
+          <Hading i18nKey='service.bottom.title' />
 
-          <img src='/assets/pictures/services/divider.webp' alt='divider' />
+          <img
+            className='servicesListHead-img'
+            src='/assets/pictures/services/divider.webp'
+            alt='divider'
+          />
         </div>
-        <ul className={`${!isHome && 'scene scene--card'}`}>
-          {services.map((service) => (
-            <ServiceCard key={service.id} service={service} isHome={isHome} />
-          ))}
-        </ul>
+        <ServicesCards />
       </div>
     </section>
   );

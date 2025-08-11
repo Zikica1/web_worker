@@ -9,6 +9,7 @@ import LayoutMain from './components/LayoutMain';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
+import ServiceCardDet from './components/services/ServiceCardDet';
 import Showcase from './pages/Showcase';
 import Contact from './pages/Contact';
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path='about' element={<About />} />
         <Route path='services' element={<Services />} />
+        <Route path='services/:id' element={<ServiceCardDet />} />
         <Route path='showcase' element={<Showcase />} />
         <Route path='contact' element={<Contact />} />
       </Route>

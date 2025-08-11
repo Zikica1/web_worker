@@ -25,7 +25,7 @@
   },
   "service": {
     "top": {
-      "title": "Ko smo mi &<br/> šta <span>radimo<span/>",
+      "title": "Ko smo mi &<br/> šta <span>radimo</span>",
       "description": "Sa preko šest godina iskustva u dizajnu korisničkog interfejsa, kombinujemo inovacije i umetnost kako bi smo stvorili besprekorna digitalna iskustva. Unapredite svoj, brend uz našu stručnost u vez dizajnu, razvoju, SEO optimaizaciji i još mnogo čemu. Otkrijte naš identitet koji je stvoren višegodišnjim iskustvom u dizajnu korisničkog interfejsa."
     },
     "bottom": {
@@ -35,18 +35,67 @@
       "0": {
         "title": "Izrada veb sajtova",
         "subtitle": "Vidi Još",
-        "description": "Kreiramo web stranice koje kombinuju dizajn i funkcionalnost. Sajtovi koje mi izrađujemo su moderni i prilagodljivi svim rezolucijama ekrana. Dizajn sajta prezentuje vašu kompaniju i uliva poverenje budućih klijenta, stvarajući vizuelno iskustvo koje daje rezultate."
+        "description": "Kreiramo web stranice koje kombinuju dizajn i funkcionalnost. Dizajn sajta prezentuje vašu kompaniju i uliva poverenje budućih klijenta, stvarajući vizuelno iskustvo koje daje rezultate."
       },
       "1": {
         "title": "SEO",
         "subtitle": "Vidi Još",
-        "description": "SEO (Search engine optimization) optimizacija predstavlja unapređenje kvaliteta koda sajta, a sve u cilju povećavanja kvaliteta saobraćaja, odnosno broja poseta korisnika ka vašem web sajtu kao i bolje rangiranje od strane internet pretraživača.To znači, da sajt mora imati pre svega dobar sadržaj odnosno SEO tekst prožet ključnim rečima a zatim i mnogo drugih elemenata koji ga čine dobro optimizovanim. "
+        "description": "SEO (Search engine optimization) optimizacija predstavlja unapređenje kvaliteta koda sajta, a sve u cilju povećavanja kvaliteta saobraćaja, odnosno broja poseta korisnika ka vašem web sajtu."
       },
       "2": {
         "title": "Prilagodljiv Dizain",
         "subtitle": "Vidi Još",
         "description": "Prilagodljiv dizain veb strane predstavlja web dizain koji omogućava optimizovano prikazivanje, jednostavno korišćenje, čitanje i kretanje kroz veb sajt koji će biti pregledan na različitim uređajima."
       }
+    },
+    "cardDet": {
+      "0": {
+        "mainTitle": "Izrada web sajtova",
+        "title": "Izrada web sajtova koji povećavaju vaš profit",
+        "parag": "Naš cilj je da svaki projekat dobije snažan i kvalitetan početak. Zajedno sa vama definišemo ključne pokazatelje uspeha (KPI - Key Performance Indicators), jet tek nakon toga pristupamo izradi strukture sajta. Prilikom kreiranja arhitekture vodimo računa o kategorizaciji i podkategorijama, kako bi svaki deo sajta imao jasno svrhu i doprinosio boljoj organizaciji. Da biste zauzeli mesto u top 10 rezltata na Google-u, vaš sadržaj mora biti originalan i visokog kvaliteta. Bez kvalitetnog sadržaja, ni najbolji dizajn neće doneti rezultat. Zato posebnu pažnju posvećujemo optimizaciji svake stranice, uz korišćenje profesionalnih alata koji nam pomažu u izboru pravih kljčnih reći za vaš sajt.<br/><bold>Tipovi web sajtova koje izrađujemo</bold><br/>Na našem tržištu, najčešće realizujemo tri glavne vrste web sajtova:",
+        "categories": [
+          "<bold>Mali biznis web sajtovi</bold><br/> Obično sadrže od 7 do 15 stranica i namenjeni su malim peduzećima koji žele da predstave i prodaju svoje proizvode ili usluge online. Profesionalno izrađen sajt može vas izdvojiti od konkurencije i privući nove kupce koji do sada nisu znali za vas.",
+          "<bold>Veliki biznis web sajtovi</bold><br/>Sa opsegom od 20 do 50 stranica, ovi sajtovi su namenjeni zahtevnijim klijentima - srednjim i velikim kompanijama. Pored onsvonih informacija, mogu sadržati napredne funkcionalnosti i personalizovana rešenja koja prate potrebe korisnika.",
+          "<bold>E-commerce web sajtovi</bold><br/>Mog sadžati od desetak do nekoliko hiljada proizvoda. Namenjena su onima koji žele da prodaju robu, usluge ili digitalne proizvode putem interneta. E-trgovina omogućava obradu porudžbina, više opcija plaćanja, praćenje isporuka i podršku kupcima - bilo da je reč o B2B ili B2C modelu."
+        ],
+        "subtitle": "Zašto je važno imati savršen web sajt?",
+        "parag2": "Pravilan izbor agencije može vas poštedeti brojnih problema u budućnosti. Danas je kvalitetan web sajt centralno mesto svakog marketinga, ako vas nema na internetu, mnogi potencijalni kupci neće ni znati da postojite. Pretraživači su prvo mesto gde klijenti traže rešenja, a mi znamo kako tamo da vas pozicioniramo. Razumemo gde najčešće nastaju greške i kako da ih izbegnemo. Ne izrađujemo sajtove koji brzo zastarevaju ili gube funkcionalnost, svaki projekat detaljno pripremamo.",
+        "categories2": []
+      },
+      "1": {
+        "mainTitle": "Optimizacija za pretraživače",
+        "title": "Šta je SEO optimizacija?",
+        "parag": "SEO (Search Engine Optimization) predstavlja skup strategija i tehnika koje se primenjuju kako bi se web sajt prilagodio pravilima i preporukama pretraživača. Cilj SEO-a je da poveća vidljivost vašeg sajta u organskoj pretrazi, rezultatima koji se pojavljuju prirodno, bez plaćenih oglasa. Kada korisnik unese određenu ključnu reč ili frazu u Google ili drugi pretraživač, algoritam prikazuje web stranice koje najbolje odgovaraju tom upitu. Da bi vaš sajt bio među tim rezultatima, neophodno je da sadrži kvalitetan i relevantan sadržaj, optimizovan pravim ključnim rečima. SEO ne obuhvata samo tekst - tu su i optimizovane slike, pravilno postavljeni tagovi, interna i eksterna povezanost stranica, integracija sa društvenim mrežama,registracija sajta u alatima poput Google Search Console, upis u relevantne direktorijume i redovno dodavanje svežeg sadržaja (blog postovi, novisti i sl.).<br/> U praksi se razlikuju dve glavne vrste optimizacije:",
+        "categories": [
+          "On-site SEO - sve aktivnosti na samom sajtu (struktura, sadržaj, tehnička optimizacija).",
+          "Off-site SEO - aktivnosti van sajta koje utiču na njegov autoritet i rang(link building, prisutnost na mrežama itd)"
+        ],
+        "subtitle": "Zašto je SEO važan?",
+        "parag2": "Ako poslujete u okruženju bez konkurencije, možda vam SEO i nije potreban. Međutim, u realnosti, gotovo svaka delatnost ima konkurente na internetu, i upravo tada SEO postaje ključan. Kvalitetna optimizacija vam omogućava da se rangirate visoko u pretrazi i zadržite tu poziciju. To znači više poseta, veću prodaju, prepoznatljiv brend i jasnu prednost nad konkurencijom. Bilo da koristite custom rešenje ili open-source platforme poput WordPress-aili Joomla-e, za svaku vrstu sajta postoji prilagođena SEO strategija koja daje najbolje rezultate.",
+        "categories2": []
+      },
+      "2": {
+        "mainTitle": "Responzivni web dizain",
+        "title": "Šta je responzivni web dizajn?",
+        "parag": "Responzive web dizajn (RWD) podrazumeva izradu web sajta koji se <bold>automatski prilagođava ekranu i uređaju na kojem se prikazuje</bold>, bilo da korisnik gleda vaš sajt na telefonu, tabletu, laptopu ili velikom monitoru. Cilj je da sadržaj uvek bude pregledan, funkcionalan i privlačan, bez obzira na veličinu ekrana ili orijentaciju uređaja.<br/> Ovakav pristup omogućava:",
+        "categories": [
+          "prilagođavanje različitim rezolucijama i rasporedima",
+          "korišćenje fleksibilnih mreža i elemenata",
+          "optimizovane slike i grafiku",
+          "brže učitavanje stranica"
+        ],
+        "subtitle": "Zašto je responzivni web dizajn važan za vaš biznis?",
+        "parag2": "Danas većina korisnika internet pretražuje putem mobilnih telefona. Prema istraživanju iz 2025. godine, <bold>čak 68% maloprodajnih kupovina širom sveta obavljeno je putem pametnih telefona.</bold> To znači da ako vaš sajt nije prilagođen mobilnim uređajima, gubite velik broj potencijalnih kupaca.<br/>Predonst responzivnog dizajna:<br/>",
+        "categories2": [
+          "<bold>Jedan sajt za sve uređaje</bold> - nema potrebe praviti odvojene verzije za desktop i mobilni prikaz",
+          "<bold>Bolje korisničko iskustvo</bold> - posetioci duže ostaju na sajtu i lakše pronalaze ono što im treba",
+          "<bold>SEO prednost</bold> - Google favorizuje mobilno prilagođene sajtove, što znači bolji rang u pretrazi",
+          "<bold>Veća konverzija</bold> - sajt koji izgleda profesionalno i radi besprekorno povećava poverenje kupaca i šanse za prodaju"
+        ]
+      }
     }
+  },
+  "homeService": {
+    "title": "Tu smo da <br/> učinimo da vaš <span>Veb sajt</span> <br/>izgleda <span>elegantnije</span> i bolje!"
   }
 }

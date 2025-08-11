@@ -35,18 +35,65 @@
       "0": {
         "title": "WebSite Development",
         "subtitle": "See More",
-        "description": "We create websites that combine design and functionality. The sites we create are modern and adaptable to all screen resolutions. Site design showcases your company and instills confidence in prospective clients, creating a visual experience that delivers results"
+        "description": "We create websites that combine design and functionality. Site design showcases your company and instills confidence in prospective clients, creating a visual experience that delivers results"
       },
       "1": {
         "title": "SEO",
         "subtitle": "See More",
-        "description": "SEO (Search engine optimization) optimization represents the improvement of the quality of the site's code, all with the aim of increasing the quality of traffic, i.e. the number of user visits to your website, as well as better ranking by internet search engines. This means that the site must first of all have good content, i.e. SEO text imbued with keywords and then many other elements that make it well optimized."
+        "description": "SEO (Search engine optimization) optimization represents the improvement of the quality of the site's code, all with the aim of increasing the quality of traffic, i.e. the number of user visits to your website."
       },
       "2": {
         "title": "Responsive design",
         "subtitle": "See More",
         "description": "Responsive web page design is a web design that enables optimized display, ease of use, reading and movement through a website that will be viewed on different devices."
       }
+    },
+    "cardDet": {
+      "0": {
+        "mainTitle": "Website development",
+        "title": "Creating websites that increase your profits",
+        "parag": "Our goal is for every project to get off to a strong and high-quality start. Together with you, we define the key indicators of success (KPI - Key Performance Indicators), and only after that we approach the creation of the site structure. When creating the architecture, we take care of categorization and subcategories, so that each part of the site has a clear purpose and contributes to a better organization. To rank in the top 10 results on Google, your content must be original and of high quality. Without quality content, even the best design will not bring results. That's why we pay special attention to the optimization of each page, using professional tools that help us choose the right keywords for your site.<br/><strong>Types of websites we create</strong><br/>In our market, we most often realize three main types of websites:",
+        "categories": [
+          "<strong>Small business websites</strong><br/> Usually contain from 7 to 15 pages and are intended for small businesses that want to present and sell their products or services online. A professionally designed website can set you apart from your competition and attract new customers who didn't know about you until now.",
+          "<strong>Large business web sites</strong><br/>With a range of 20 to 50 pages, these sites are intended for more demanding clients - medium and large companies. In addition to external information, they can contain advanced functionalities and personalized solutions that follow the needs of users.",
+          "<strong>E-commerce websites</strong><br/>Can consist of ten to several thousand products. They are intended for those who want to sell goods, services or digital products via the Internet. E-commerce enables order processing, multiple payment options, delivery tracking and customer support - whether it is a B2B or B2C model."
+        ],
+        "subtitle": "Why is it important to have a perfect website?",
+        "parag2": "Choosing the right agency can save you from many problems in the future. Today, a quality website is the central place of everyone marketing, if you're not online, many potential customers won't even know you exist. Search engines are the first place customers look for solutions, and we know how to position you there. We understand where mistakes most often occur and how to avoid them. We do not create sites that quickly become outdated or lose functionality, we prepare each project in detail."
+      },
+      "1": {
+        "mainTitle": "Search Engine Optimization",
+        "title": "What is SEO optimization?",
+        "parag": "SEO (Search Engine Optimization) represents a set of strategies and techniques that are applied in order to adapt the website to the rules and recommendations of search engines. The goal of SEO is to increase the visibility of your site in organic search, the results that appear naturally, without paid ads. When a user enters a specific keyword or phrase into Google or another search engine, the algorithm displays the web pages that best match that query. In order for your site to be among those results, it is necessary to contain quality and relevant content, optimized with the right keywords. SEO does not only include text - there are also optimized images, properly placed tags, internal and external connection of pages, integration with social networks, site registration in tools such as Google Search Console, registration in relevant directories and regular addition of fresh content (blog posts, news, etc.).<br/> In practice, two main types of optimization are distinguished:",
+        "categories": [
+          "On-site SEO - all activities on the site itself (structure, content, technical optimization).",
+          "Off-site SEO - activities outside the site that affect its authority and ranking (link building, presence on networks, etc.)"
+        ],
+        "subtitle": "Why is SEO important?",
+        "parag2": "If you operate in an environment without competition, you may not need SEO. However, in reality, almost every business has competitors on the Internet, and that's when SEO becomes crucial. Quality optimization allows you to rank high in search and maintain that position. This means more visits, more sales, a recognizable brand and a clear advantage over the competition. Whether you use a custom solution or an open-source platform like WordPress or Joomla, for every type of site there is a customized SEO strategy that delivers the best results."
+      },
+      "2": {
+        "mainTitle": "responsive web design",
+        "title": "What is Responsive Web Design?",
+        "parag": "Responsive web design (RWD) means creating a website that <strong>automatically adapts to the screen and device on which it is displayed</strong>, whether the user is viewing your site on a phone, tablet, laptop or large monitor. The goal is for the content to always be viewed, functional and attractive, regardless of screen size or device orientation.<br/> This approach enables:",
+        "categories": [
+          "adapting to different resolutions and layouts",
+          "use of flexible networks and elements",
+          "optimized images and graphics",
+          "faster page loading"
+        ],
+        "subtitle": "Why is responsive web design important for your business?",
+        "parag2": "Today, most users browse the Internet via mobile phones. According to research from 2025, <strong>as many as 68% of retail purchases worldwide will be made via smartphones.</strong> This means that if your site is not mobile-friendly, you are missing out on a large number of potential customers.<br/>Advantages of Responsive Design:<br/>",
+        "categories2": [
+          "<strong>One site for all devices</strong> - no need to create separate versions for desktop and mobile view",
+          "<strong>Better user experience</strong> - visitors stay on the site longer and find what they need more easily",
+          "<strong>SEO advantage</strong> - Google favors mobile-friendly sites, which means better search rankings",
+          "<strong>Higher conversion</strong> - a site that looks professional and works flawlessly increases customer trust and chances of making a sale"
+        ]
+      }
     }
+  },
+  "homeService": {
+    "title": "We are hero to <br/> make your <span>Website</span> <br/> look more <span>Elegant</span> and better!"
   }
 }
