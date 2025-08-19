@@ -52,7 +52,9 @@
       "0": {
         "mainTitle": "Izrada web sajtova",
         "title": "Izrada web sajtova koji povećavaju vaš profit",
-        "parag": "Naš cilj je da svaki projekat dobije snažan i kvalitetan početak. Zajedno sa vama definišemo ključne pokazatelje uspeha (KPI - Key Performance Indicators), jet tek nakon toga pristupamo izradi strukture sajta. Prilikom kreiranja arhitekture vodimo računa o kategorizaciji i podkategorijama, kako bi svaki deo sajta imao jasno svrhu i doprinosio boljoj organizaciji. Da biste zauzeli mesto u top 10 rezltata na Google-u, vaš sadržaj mora biti originalan i visokog kvaliteta. Bez kvalitetnog sadržaja, ni najbolji dizajn neće doneti rezultat. Zato posebnu pažnju posvećujemo optimizaciji svake stranice, uz korišćenje profesionalnih alata koji nam pomažu u izboru pravih kljčnih reći za vaš sajt.<br/><bold>Tipovi web sajtova koje izrađujemo</bold><br/>Na našem tržištu, najčešće realizujemo tri glavne vrste web sajtova:",
+        "parag": "Naš cilj je da svaki projekat dobije snažan i kvalitetan početak. Zajedno sa vama definišemo ključne pokazatelje uspeha (KPI - Key Performance Indicators), jet tek nakon toga pristupamo izradi strukture sajta. Prilikom kreiranja arhitekture vodimo računa o kategorizaciji i podkategorijama, kako bi svaki deo sajta imao jasno svrhu i doprinosio boljoj organizaciji. Da biste zauzeli mesto u top 10 rezltata na Google-u, vaš sadržaj mora biti originalan i visokog kvaliteta. Bez kvalitetnog sadržaja, ni najbolji dizajn neće doneti rezultat. Zato posebnu pažnju posvećujemo optimizaciji svake stranice, uz korišćenje profesionalnih alata koji nam pomažu u izboru pravih kljčnih reći za vaš sajt.<br/>",
+        "sectionTitle": "Tipovi web sajtova koje izrađujemo",
+        "sectionPara": "Na našem tržištu, najčešće realizujemo tri glavne vrste web sajtova:",
         "categories": [
           "<bold>Mali biznis web sajtovi</bold><br/> Obično sadrže od 7 do 15 stranica i namenjeni su malim peduzećima koji žele da predstave i prodaju svoje proizvode ili usluge online. Profesionalno izrađen sajt može vas izdvojiti od konkurencije i privući nove kupce koji do sada nisu znali za vas.",
           "<bold>Veliki biznis web sajtovi</bold><br/>Sa opsegom od 20 do 50 stranica, ovi sajtovi su namenjeni zahtevnijim klijentima - srednjim i velikim kompanijama. Pored onsvonih informacija, mogu sadržati napredne funkcionalnosti i personalizovana rešenja koja prate potrebe korisnika.",
@@ -66,6 +68,8 @@
         "mainTitle": "Optimizacija za pretraživače",
         "title": "Šta je SEO optimizacija?",
         "parag": "SEO (Search Engine Optimization) predstavlja skup strategija i tehnika koje se primenjuju kako bi se web sajt prilagodio pravilima i preporukama pretraživača. Cilj SEO-a je da poveća vidljivost vašeg sajta u organskoj pretrazi, rezultatima koji se pojavljuju prirodno, bez plaćenih oglasa. Kada korisnik unese određenu ključnu reč ili frazu u Google ili drugi pretraživač, algoritam prikazuje web stranice koje najbolje odgovaraju tom upitu. Da bi vaš sajt bio među tim rezultatima, neophodno je da sadrži kvalitetan i relevantan sadržaj, optimizovan pravim ključnim rečima. SEO ne obuhvata samo tekst - tu su i optimizovane slike, pravilno postavljeni tagovi, interna i eksterna povezanost stranica, integracija sa društvenim mrežama,registracija sajta u alatima poput Google Search Console, upis u relevantne direktorijume i redovno dodavanje svežeg sadržaja (blog postovi, novisti i sl.).<br/> U praksi se razlikuju dve glavne vrste optimizacije:",
+        "sectionTitle": "",
+        "sectionPara": "",
         "categories": [
           "On-site SEO - sve aktivnosti na samom sajtu (struktura, sadržaj, tehnička optimizacija).",
           "Off-site SEO - aktivnosti van sajta koje utiču na njegov autoritet i rang(link building, prisutnost na mrežama itd)"
@@ -78,6 +82,8 @@
         "mainTitle": "Responzivni web dizain",
         "title": "Šta je responzivni web dizajn?",
         "parag": "Responzive web dizajn (RWD) podrazumeva izradu web sajta koji se <bold>automatski prilagođava ekranu i uređaju na kojem se prikazuje</bold>, bilo da korisnik gleda vaš sajt na telefonu, tabletu, laptopu ili velikom monitoru. Cilj je da sadržaj uvek bude pregledan, funkcionalan i privlačan, bez obzira na veličinu ekrana ili orijentaciju uređaja.<br/> Ovakav pristup omogućava:",
+        "sectionTitle": "",
+        "sectionPara": "",
         "categories": [
           "prilagođavanje različitim rezolucijama i rasporedima",
           "korišćenje fleksibilnih mreža i elemenata",

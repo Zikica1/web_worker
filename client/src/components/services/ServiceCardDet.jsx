@@ -1,5 +1,5 @@
 import './serviceCardDet.css';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { useTranslation, Trans } from 'react-i18next';
 import { services } from '../../data/db';
 
@@ -8,18 +8,20 @@ const ServiceCardDet = () => {
   const cardDet = services.find((s) => s.id === Number(id));
 
   const { t } = useTranslation();
-  const categories = t(`service.cardDet.${id}.categories`, {
-    returnObjects: true,
-  });
-  const categories2 = t(`service.cardDet.${id}.categories2`, {
-    returnObjects: true,
-  });
-
-  console.log(t(`service.cardDet.${id}.parag`));
+  const categories =
+    t(`service.cardDet.${id}.categories`, {
+      returnObjects: true,
+    }) || [];
+  const categories2 =
+    t(`service.cardDet.${id}.categories2`, {
+      returnObjects: true,
+    }) || [];
 
   return (
     <section className='serCardDet'>
-      <h1>{t(`service.cardDet.${id}.mainTitle`)}</h1>
+      <h1 className='serCardDet-title'>
+        {t(`service.cardDet.${id}.mainTitle`)}
+      </h1>
       <div className='cardDetWrapper'>
         <div className='cardDetImages'>
           <picture>
@@ -28,7 +30,7 @@ const ServiceCardDet = () => {
               srcSet={`${cardDet.imgMob} 1x,${cardDet.imgMob2} 2x`}
             />
             <source media='(max-width: 1024px)' srcSet={`${cardDet.imgTab}`} />
-            <source media='(min-width: 1024px)' srcSet={`${cardDet.imgDes}`} />
+            <source media='(min-width: 1025px)' srcSet={`${cardDet.imgDes}`} />
             <img
               src={`${cardDet.imgDes}`}
               alt='image that describes the title'
@@ -43,7 +45,7 @@ const ServiceCardDet = () => {
               {t(`service.cardDet.${id}.title`)}
             </h3>
 
-            <p className='cardDetSecOne-para'>
+            <p className='cardDetDes-para cardDetSecOne-para'>
               <Trans
                 i18nKey={`service.cardDet.${id}.parag`}
                 components={{
@@ -52,6 +54,17 @@ const ServiceCardDet = () => {
                 }}
               />
             </p>
+            {t(`service.cardDet.${id}.sectionTitle`).length > 0 && (
+              <h4 className='cardDetSecOne-subhead'>
+                {t(`service.cardDet.${id}.sectionTitle`)}
+              </h4>
+            )}
+
+            {t(`service.cardDet.${id}.sectionPara`).length > 0 && (
+              <p className='cardDetDes-para cardDetSecOne-paraSec'>
+                {t(`service.cardDet.${id}.sectionPara`)}
+              </p>
+            )}
           </div>
           <div className='cardDetSecTwo'>
             <ul className='cardDetSecTwo-categories'>
@@ -69,7 +82,7 @@ const ServiceCardDet = () => {
             <h3 className='cardDetSecThree-head'>
               {t(`service.cardDet.${id}.subtitle`)}
             </h3>
-            <p className='cardDetSecThree-para'>
+            <p className='cardDetDes-para cardDetSecThree-para'>
               <Trans
                 i18nKey={`service.cardDet.${id}.parag2`}
                 components={{
@@ -80,9 +93,9 @@ const ServiceCardDet = () => {
             </p>
 
             {categories2.length > 0 && (
-              <ul>
-                {categories2.map((c, index) => (
-                  <li key={index}>
+              <ul className='cardDetSecThreeList'>
+                {categories2.map((_, index) => (
+                  <li className='cardDetSecThreeList-item' key={index}>
                     <Trans
                       i18nKey={`service.cardDet.${id}.categories2.${index}`}
                       components={{

@@ -1,10 +1,21 @@
 .homeServices {
-  padding: 130px 35px;
+  padding: 8.125em 2.1875em;
+}
+
+.homeServiceWrapper {
+  @media (min-width: 64rem) {
+    display: grid;
+    grid-template-columns: 35% 1fr;
+  }
 }
 
 .homeServicesHad {
   text-align: center;
   margin-block-end: 70px;
+
+  @media (min-width: 64rem) {
+    text-align: left;
+  }
 }
 
 .homeServicesHad-divider {

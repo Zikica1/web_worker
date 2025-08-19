@@ -5,24 +5,26 @@ import { useTranslation } from 'react-i18next';
 import { FaLongArrowAltRight } from 'react-icons/fa';
 import { services } from '../../data/db';
 
-const ServiceCard = ({ service, index }) => {
+const ServiceCard = ({ service }) => {
   const { t } = useTranslation();
   const location = useLocation();
-  const refs = useRef([]);
+  // const refs = useRef([]);
+  const ref = useRef(null);
 
   const isService = location.pathname === '/services';
 
   const Icon = service.Icon;
 
   const handleClick = () => {
-    refs.current.forEach((el) => {
-      el.classList.toggle('isFlip');
-    });
+    // refs.current.forEach((el) => {
+    //   el.classList.toggle('isFlip');
+    ref.current.classList.toggle('isFlip');
   };
 
   return (
     <li
-      ref={(el) => (refs.current[index] = el)}
+      ref={ref}
+      // ref={(el) => (refs.current[index] = el)}
       className={`card ${isService && 'cardService'}`}
     >
       <div className=' card-face card-face--front'>
@@ -63,8 +65,8 @@ const ServiceCard = ({ service, index }) => {
 const ServicesCards = () => {
   return (
     <ul className='servicesCards grid'>
-      {services.map((service, index) => (
-        <ServiceCard key={service.id} service={service} index={index} />
+      {services.map((service) => (
+        <ServiceCard key={service.id} service={service} />
       ))}
     </ul>
   );

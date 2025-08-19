@@ -51,6 +51,6 @@ export const services = [
     imgMob: '/assets/pictures/serviceCardDet/serviceCardRes-img-480px.webp',
     imgMob2: '/assets/pictures/serviceCardDet/serviceCardRes-img-480px@2x.webp',
     imgTab: '/assets/pictures/serviceCardDet/serviceCardRes-img-1024px.webp',
-    imgDes: '/assets/pictures/serviceCardDet/serviceCardRes-img-1536.webp',
+    imgDes: '/assets/pictures/serviceCardDet/serviceCardRes-img-1536px.webp',
   },
 ];

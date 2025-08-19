@@ -1,3 +1,92 @@
 .serCardDet {
-  margin-top: 300px;
+  margin-block-start: 9em;
+  padding-inline: 2.187em;
+  overflow-x: clip;
+}
+
+.serCardDet-title {
+  color: var(--clr-pri);
+  font-size: 2.6875rem;
+  font-weight: 600;
+  padding-block: 0.93em 130px;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    padding-block: 2.5em 130px;
+  }
+}
+
+.cardDetWrapper {
+  max-width: 868px;
+  margin-inline: auto;
+}
+
+.cardDetImages {
+  max-width: 100vw;
+  width: 100vw;
+  margin: 0 calc(-50vw + 50%);
+  object-fit: cover;
+}
+
+.cardDetDes-para {
+  color: rgba(7 12 31/0.9);
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.cardDetDes {
+  padding-block: 50px;
+}
+
+.cardDetSecOne-head {
+  color: var(--clr-text-2);
+  font-size: 33px;
+  margin-block: 2.5em 1em;
+  text-align: center;
+}
+
+.cardDetSecOne-para {
+  margin-block-end: 1em;
+}
+
+.cardDetSecOne-subhead {
+  color: var(--clr-text-2);
+  font-size: 33px;
+  font-weight: 600;
+  text-align: center;
+  margin-block: 2.5em 1em;
+}
+
+.cardDetSecOne-paraSec {
+  margin-block: 1em;
+}
+
+.cardDetSecTwo-categories {
+  list-style-type: disc;
+  margin-inline-start: 3em;
+}
+
+.cardDetSecTwo-item {
+  color: rgba(7 12 31/0.9);
+  font-size: 20px;
+  line-height: 1.6;
+  margin-block-end: 1em;
+}
+
+.cardDetSecThree-head {
+  color: var(--clr-text-2);
+  text-align: center;
+  font-size: 33px;
+  font-weight: 600;
+  margin-block: 2.5em 1em;
+}
+
+.cardDetSecThree-para {
+  margin-block-end: 1em;
+}
+
+.cardDetSecThreeList-item {
+  color: rgba(7 12 31/0.9);
+  font-size: 20px;
+  margin-block-end: 1em;
 }

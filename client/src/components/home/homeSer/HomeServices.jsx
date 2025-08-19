@@ -9,17 +9,19 @@ const HomeServices = () => {
 
   return (
     <section className='homeServices'>
-      <div className='homeServicesHad'>
-        <Hading i18nKey='homeService.title' />
+      <div className='homeServiceWrapper'>
+        <div className='homeServicesHad'>
+          <Hading i18nKey='homeService.title' />
 
-        <img
-          className='homeServicesHad-divider'
-          src='/assets/pictures/services/divider.webp'
-          alt='divider'
-        />
+          <img
+            className='homeServicesHad-divider'
+            src='/assets/pictures/services/divider.webp'
+            alt='divider'
+          />
+        </div>
+
+        <ServicesCards />
       </div>
-
-      <ServicesCards />
     </section>
   );
 };
