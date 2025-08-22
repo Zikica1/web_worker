@@ -46,6 +46,11 @@
         "title": "Prilagodljiv Dizain",
         "subtitle": "Vidi Još",
         "description": "Prilagodljiv dizain veb strane predstavlja web dizain koji omogućava optimizovano prikazivanje, jednostavno korišćenje, čitanje i kretanje kroz veb sajt koji će biti pregledan na različitim uređajima."
+      },
+      "3": {
+        "title": "Web Hositng",
+        "subtitle": "Vidi Još",
+        "description": "Da bi vaš sajt bio vidljiv ostalim korisnicima potrebno je da bude smešten na određeni računar odnosno web server. Prostor na web serveru zakupljuje se kod provajdera kao davaoca usluge web hostinga."
       }
     },
     "cardDet": {
@@ -97,6 +102,26 @@
           "<bold>Bolje korisničko iskustvo</bold> - posetioci duže ostaju na sajtu i lakše pronalaze ono što im treba",
           "<bold>SEO prednost</bold> - Google favorizuje mobilno prilagođene sajtove, što znači bolji rang u pretrazi",
           "<bold>Veća konverzija</bold> - sajt koji izgleda profesionalno i radi besprekorno povećava poverenje kupaca i šanse za prodaju"
+        ]
+      },
+      "3": {
+        "mainTitle": "Web Hosting",
+        "title": "Šta je web hosting",
+        "parag": "Web hosting je usluga koja omogućava da vaš sajt ili aplikacija budu dostupni na internetu. Funkcioniše tako što hosting kompanije iznajmljuju prostor na svojim serverima za čuvanje svih datoteka vašeg sajta – tekstova, slika, video zapisa i drugih podataka.<br/> Najlakše je zamisliti hosting kao zakup prostora na internetu: provajder je vlasnik servera, dok je vaš domen adresa tog prostora. Kada neko ukuca vaš domen u pretraživač, server obrađuje zahtev i prikazuje sadržaj vašeg sajta.",
+        "sectionTitle": "Ključni elementi web hostina",
+        "sectionPara": "Da bi vaš sajt pravilno funkcionisao na internetu, potrebno je razumeti osnovne komponente koje web hosting čine mogućim. Svaki od ovih elemenata ima svoju ulogu u tome da vaša stranica bude dostupna i stabilna.",
+        "categories": [
+          "<bold>Server</bold> - snažan računar povezan na internet koji hostuje sve datoteke vašeg sajta.",
+          "<bold>Prostor na serveru</bold> - deo diska koji vam se iznajmljuje za skladištenje podataka.",
+          "<bold>Propusni opseg</bold> - količia podataka koja se prenosti sa servera do posetilaca.",
+          "<bold>Domen</bold> - adresa vašeg sajta na internetu, npr www.vaš-sajt.rs"
+        ],
+        "subtitle": "Zašto vam je potreban web hostin?",
+        "parag2": "",
+        "categories2": [
+          "<bold>Dostupnost</bold> - omogućava da vaš sajt bude vidljiv i dostupan posetiocima širom sveta u bilo kom trenutku",
+          "<bold>Skladištnje</bold> - pruža prostor za čuvanje svih fajlova (tekst, slike, video) na jednom mestu.",
+          "<bold>Tehnička podrška</bold> - hosting kompanije se brinu o održavanju servera, sigurnosti i drugih tehničkim aspektima koje bi samostalno bilo teško i skupo rešavati"
         ]
       }
     }

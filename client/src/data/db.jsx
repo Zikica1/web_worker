@@ -3,6 +3,7 @@ import {
   MdOutlineDesktopWindows,
   MdPhoneIphone,
 } from 'react-icons/md';
+import { MdStorage } from 'react-icons/md';
 
 export const hero = [
   {
@@ -52,5 +53,14 @@ export const services = [
     imgMob2: '/assets/pictures/serviceCardDet/serviceCardRes-img-480px@2x.webp',
     imgTab: '/assets/pictures/serviceCardDet/serviceCardRes-img-1024px.webp',
     imgDes: '/assets/pictures/serviceCardDet/serviceCardRes-img-1536px.webp',
+  },
+  {
+    id: 3,
+    Icon: MdStorage,
+    imgMob: '/assets/pictures/serviceCardDet/serviceCardHost-img-480px.webp',
+    imgMob2:
+      '/assets/pictures/serviceCardDet/serviceCardHost-img-480px@2x.webp',
+    imgTab: '/assets/pictures/serviceCardDet/serviceCardHost-img-1024px.webp',
+    imgDes: '/assets/pictures/serviceCardDet/serviceCardHost-img-1536px.webp',
   },
 ];

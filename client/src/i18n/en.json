@@ -46,6 +46,11 @@
         "title": "Responsive design",
         "subtitle": "See More",
         "description": "Responsive web page design is a web design that enables optimized display, ease of use, reading and movement through a website that will be viewed on different devices."
+      },
+      "3": {
+        "title": "Web Hosting",
+        "subtitle": "See More",
+        "description": "In order for your site to be visible to other users, it needs to be placed on a specific computer or web server. The space on the web server is leased from the provider as a web hosting service provider."
       }
     },
     "cardDet": {
@@ -97,6 +102,26 @@
           "<strong>Better user experience</strong> - visitors stay on the site longer and find what they need more easily",
           "<strong>SEO advantage</strong> - Google favors mobile-friendly sites, which means better search rankings",
           "<strong>Higher conversion</strong> - a site that looks professional and works flawlessly increases customer trust and chances of making a sale"
+        ]
+      },
+      "3": {
+        "mainTitle": "Web Hosting",
+        "title": "What is Web Hosting?",
+        "parag": "Web hosting is a service that allows your website or application to be available on the internet. It works by hosting companies renting out space on their servers to store all your website files – including text, images, videos, and other content.<br/>The easiest way to imagine hosting is like renting space online: the provider owns the server, while your domain is the address of that space. When someone enters your domain into a browser, the server processes the request and displays your site.",
+        "sectionTitle": "Key elements of web hosting",
+        "sectionPara": "For your website to function properly online, it is important to understand the basic components that make web hosting possible. Each of these elements plays a key role in keeping your site accessible and reliable.",
+        "categories": [
+          "<bold>Server</bold> - a powerful computer connected to the internet that stores all your website files.",
+          "<bold>Server space</bold> - the portion of disk space rented to you for storing data.",
+          "<bold>Bandwidth</bold> - the amount of data transferred from the server to visitors.",
+          "<bold>Domain</bold> - your website’s address on the internet, e.g. www.your-site.com."
+        ],
+        "subtitle": "Why do you need web hosting",
+        "parag2": "",
+        "categories2": [
+          "<bold>Availability</bold> - makes your site visible and accessible to visitors worldwide at any time.",
+          "<bold>Storage</bold> - allows you to keep all your website data (text, images, video) in one place.",
+          "<bold>Technical support</bold> - hosting companies take care of server maintenance, security, and technical needs, which would otherwise be costly and complex to manage on your own."
         ]
       }
     }

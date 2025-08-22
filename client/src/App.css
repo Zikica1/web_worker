@@ -147,7 +147,9 @@ svg {
   gap: 1.5em;
 
   @media (min-width: 48rem) {
-    grid-template-columns: repeat(auto-fill, 350px);
-    justify-content: center;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(25ch, 1fr) minmax(25ch, 1fr)
+    );
   }
 }

@@ -10,15 +10,11 @@
   font-weight: 600;
   padding-block: 0.93em 130px;
   text-align: center;
+  text-transform: capitalize;
 
   @media (min-width: 768px) {
     padding-block: 2.5em 130px;
   }
-}
-
-.cardDetWrapper {
-  max-width: 868px;
-  margin-inline: auto;
 }
 
 .cardDetImages {
@@ -36,6 +32,8 @@
 
 .cardDetDes {
   padding-block: 50px;
+  max-width: 960px;
+  margin-inline: auto;
 }
 
 .cardDetSecOne-head {

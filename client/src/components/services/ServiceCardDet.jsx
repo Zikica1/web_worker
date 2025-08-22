@@ -82,15 +82,17 @@ const ServiceCardDet = () => {
             <h3 className='cardDetSecThree-head'>
               {t(`service.cardDet.${id}.subtitle`)}
             </h3>
-            <p className='cardDetDes-para cardDetSecThree-para'>
-              <Trans
-                i18nKey={`service.cardDet.${id}.parag2`}
-                components={{
-                  br: <br />,
-                  bold: <strong />,
-                }}
-              />
-            </p>
+            {t(`service.cardDet.${id}.parag2`).length > 0 && (
+              <p className='cardDetDes-para cardDetSecThree-para'>
+                <Trans
+                  i18nKey={`service.cardDet.${id}.parag2`}
+                  components={{
+                    br: <br />,
+                    bold: <strong />,
+                  }}
+                />
+              </p>
+            )}
 
             {categories2.length > 0 && (
               <ul className='cardDetSecThreeList'>
