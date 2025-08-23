@@ -81,7 +81,10 @@
         ],
         "subtitle": "Why is SEO important?",
         "parag2": "If you operate in an environment without competition, you may not need SEO. However, in reality, almost every business has competitors on the Internet, and that's when SEO becomes crucial. Quality optimization allows you to rank high in search and maintain that position. This means more visits, more sales, a recognizable brand and a clear advantage over the competition. Whether you use a custom solution or an open-source platform like WordPress or Joomla, for every type of site there is a customized SEO strategy that delivers the best results.",
-        "categories2": []
+        "categories2": [],
+        "typesTitle": "",
+        "typesText": "",
+        "sharedHosting": ""
       },
       "2": {
         "mainTitle": "responsive web design",
@@ -102,7 +105,10 @@
           "<strong>Better user experience</strong> - visitors stay on the site longer and find what they need more easily",
           "<strong>SEO advantage</strong> - Google favors mobile-friendly sites, which means better search rankings",
           "<strong>Higher conversion</strong> - a site that looks professional and works flawlessly increases customer trust and chances of making a sale"
-        ]
+        ],
+        "typesTitle": "",
+        "typesText": "",
+        "sharedHosting": ""
       },
       "3": {
         "mainTitle": "Web Hosting",
@@ -122,7 +128,10 @@
           "<bold>Availability</bold> - makes your site visible and accessible to visitors worldwide at any time.",
           "<bold>Storage</bold> - allows you to keep all your website data (text, images, video) in one place.",
           "<bold>Technical support</bold> - hosting companies take care of server maintenance, security, and technical needs, which would otherwise be costly and complex to manage on your own."
-        ]
+        ],
+        "typesTitle": "Types of hosting",
+        "typesText": "There are different types of hosting that vary in performance, security, and management. This allows you to choose a package that best fits your needs – from simple blogs to large corporate websites.",
+        "sharedHosting": "One of the most common solutions is shared hosting. It is affordable, easy to use, and ideal for smaller websites or those just starting with web hosting."
       }
     }
   },

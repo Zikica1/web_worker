@@ -67,7 +67,10 @@
         ],
         "subtitle": "Zašto je važno imati savršen web sajt?",
         "parag2": "Pravilan izbor agencije može vas poštedeti brojnih problema u budućnosti. Danas je kvalitetan web sajt centralno mesto svakog marketinga, ako vas nema na internetu, mnogi potencijalni kupci neće ni znati da postojite. Pretraživači su prvo mesto gde klijenti traže rešenja, a mi znamo kako tamo da vas pozicioniramo. Razumemo gde najčešće nastaju greške i kako da ih izbegnemo. Ne izrađujemo sajtove koji brzo zastarevaju ili gube funkcionalnost, svaki projekat detaljno pripremamo.",
-        "categories2": []
+        "categories2": [],
+        "typesTitle": "",
+        "typesText": "",
+        "sharedHosting": ""
       },
       "1": {
         "mainTitle": "Optimizacija za pretraživače",
@@ -81,7 +84,10 @@
         ],
         "subtitle": "Zašto je SEO važan?",
         "parag2": "Ako poslujete u okruženju bez konkurencije, možda vam SEO i nije potreban. Međutim, u realnosti, gotovo svaka delatnost ima konkurente na internetu, i upravo tada SEO postaje ključan. Kvalitetna optimizacija vam omogućava da se rangirate visoko u pretrazi i zadržite tu poziciju. To znači više poseta, veću prodaju, prepoznatljiv brend i jasnu prednost nad konkurencijom. Bilo da koristite custom rešenje ili open-source platforme poput WordPress-aili Joomla-e, za svaku vrstu sajta postoji prilagođena SEO strategija koja daje najbolje rezultate.",
-        "categories2": []
+        "categories2": [],
+        "typesTitle": "",
+        "typesText": "",
+        "sharedHosting": ""
       },
       "2": {
         "mainTitle": "Responzivni web dizain",
@@ -102,7 +108,10 @@
           "<bold>Bolje korisničko iskustvo</bold> - posetioci duže ostaju na sajtu i lakše pronalaze ono što im treba",
           "<bold>SEO prednost</bold> - Google favorizuje mobilno prilagođene sajtove, što znači bolji rang u pretrazi",
           "<bold>Veća konverzija</bold> - sajt koji izgleda profesionalno i radi besprekorno povećava poverenje kupaca i šanse za prodaju"
-        ]
+        ],
+        "typesTitle": "",
+        "typesText": "",
+        "sharedHosting": ""
       },
       "3": {
         "mainTitle": "Web Hosting",
@@ -122,7 +131,10 @@
           "<bold>Dostupnost</bold> - omogućava da vaš sajt bude vidljiv i dostupan posetiocima širom sveta u bilo kom trenutku",
           "<bold>Skladištnje</bold> - pruža prostor za čuvanje svih fajlova (tekst, slike, video) na jednom mestu.",
           "<bold>Tehnička podrška</bold> - hosting kompanije se brinu o održavanju servera, sigurnosti i drugih tehničkim aspektima koje bi samostalno bilo teško i skupo rešavati"
-        ]
+        ],
+        "typesTitle": "Vrste hostinga",
+        "typesText": "Postoje različite vrste hostinga koje se razlikuju po nivou performansi, sigurnosti i načinu upravljanja. Tako možete odabrati opciju koja najbolje odgovara vašim potrebama – bilo da je reč o jednostavnom blogu ili velikom korporativnom sajtu.",
+        "sharedHosting": "Jedno od najčešćih rešenja je shared hosting. On je povoljan, jednostavan za upotrebu i odličan izbor za manje sajtove ili za početnike u svetu web hostinga."
       }
     }
   },

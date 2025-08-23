@@ -108,6 +108,26 @@ const ServiceCardDet = () => {
                 ))}
               </ul>
             )}
+
+            {t(`service.cardDet.${id}.typesTitle`).length > 0 && (
+              <h3 className='cardDetSecThree-head'>
+                {t(`service.cardDet.${id}.typesTitle`)}
+              </h3>
+            )}
+
+            {t(`service.cardDet.${id}.typesText`).length > 0 && (
+              <p className='cardDetDes-para'>
+                {t(`service.cardDet.${id}.typesText`)}
+              </p>
+            )}
+            {t(`service.cardDet.${id}.sharedHosting`).length > 0 && (
+              <p
+                className='cardDetDes-para'
+                style={{ marginBlockStart: '1em' }}
+              >
+                {t(`service.cardDet.${id}.sharedHosting`)}
+              </p>
+            )}
           </div>
         </div>
       </div>

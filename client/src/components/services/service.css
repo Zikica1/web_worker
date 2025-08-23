@@ -55,7 +55,7 @@
   text-align: center;
   margin-block: 3.125em;
 
-  @media (min-width: 1020px) {
+  @media (min-width: 63.75em) {
     text-align: left;
   }
 }
@@ -89,7 +89,7 @@
 
 .servicesListHead {
   text-align: center;
-  margin-block-end: 70px;
+  margin-block-end: 4.375em;
 }
 
 .servicesListHead-img {

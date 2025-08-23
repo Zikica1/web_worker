@@ -5,13 +5,13 @@
 .homeServiceWrapper {
   @media (min-width: 64rem) {
     display: grid;
-    grid-template-columns: 40% 1fr;
+    grid-template-columns: 35% 1fr;
   }
 }
 
 .homeServicesHad {
   text-align: center;
-  margin-block-end: 70px;
+  margin-block-end: 4.375em;
 
   @media (min-width: 64rem) {
     text-align: left;
@@ -20,4 +20,8 @@
 
 .homeServicesHad-divider {
   margin-inline: auto;
+
+  @media (min-width: 64rem) {
+    margin-inline: unset;
+  }
 }

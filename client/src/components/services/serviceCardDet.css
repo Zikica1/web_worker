@@ -8,12 +8,12 @@
   color: var(--clr-pri);
   font-size: 2.6875rem;
   font-weight: 600;
-  padding-block: 0.93em 130px;
+  padding-block: 0.93em 3.023em;
   text-align: center;
   text-transform: capitalize;
 
-  @media (min-width: 768px) {
-    padding-block: 2.5em 130px;
+  @media (min-width: 48rem) {
+    padding-block: 1.8em 3.023em;
   }
 }
 
@@ -22,25 +22,36 @@
   width: 100vw;
   margin: 0 calc(-50vw + 50%);
   object-fit: cover;
+
+  @media (min-width: 48rem) {
+    max-width: clamp(4.375em, 80vw, 60em);
+    width: unset;
+    margin: unset;
+    margin-inline: auto;
+    border-radius: 8px;
+  }
+}
+
+picture img {
+  border-radius: 8px;
 }
 
 .cardDetDes-para {
   color: rgba(7 12 31/0.9);
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.6;
 }
 
 .cardDetDes {
-  padding-block: 50px;
-  max-width: 960px;
+  padding-block: 3.125em;
+  max-width: 60em;
   margin-inline: auto;
 }
 
 .cardDetSecOne-head {
   color: var(--clr-text-2);
-  font-size: 33px;
+  font-size: 2.062rem;
   margin-block: 2.5em 1em;
-  text-align: center;
 }
 
 .cardDetSecOne-para {
@@ -49,9 +60,8 @@
 
 .cardDetSecOne-subhead {
   color: var(--clr-text-2);
-  font-size: 33px;
+  font-size: 2.062rem;
   font-weight: 600;
-  text-align: center;
   margin-block: 2.5em 1em;
 }
 
@@ -66,15 +76,14 @@
 
 .cardDetSecTwo-item {
   color: rgba(7 12 31/0.9);
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.6;
   margin-block-end: 1em;
 }
 
 .cardDetSecThree-head {
   color: var(--clr-text-2);
-  text-align: center;
-  font-size: 33px;
+  font-size: 2.062rem;
   font-weight: 600;
   margin-block: 2.5em 1em;
 }
@@ -85,6 +94,6 @@
 
 .cardDetSecThreeList-item {
   color: rgba(7 12 31/0.9);
-  font-size: 20px;
+  font-size: 1.25rem;
   margin-block-end: 1em;
 }
