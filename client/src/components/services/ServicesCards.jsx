@@ -1,14 +1,29 @@
 import './servicesCards.css';
 import { useRef } from 'react';
+import { motion, useInView } from 'motion/react';
 import { useLocation, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { FaLongArrowAltRight } from 'react-icons/fa';
 import { services } from '../../data/db';
 
-const ServiceCard = ({ service }) => {
+const listItemVariant = {
+  hidden: {
+    opacity: 0,
+    y: 30,
+  },
+  visible: (index) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.15,
+      delay: index * 0.2,
+    },
+  }),
+};
+
+const ServiceCard = ({ service, index }) => {
   const { t } = useTranslation();
   const location = useLocation();
-  // const refs = useRef([]);
   const ref = useRef(null);
 
   const isService = location.pathname === '/services';
@@ -16,15 +31,21 @@ const ServiceCard = ({ service }) => {
   const Icon = service.Icon;
 
   const handleClick = () => {
-    // refs.current.forEach((el) => {
-    //   el.classList.toggle('isFlip');
     ref.current.classList.toggle('isFlip');
   };
 
+  const isInView = useInView(ref, {
+    amount: 0.75,
+    once: true,
+  });
+
   return (
-    <li
+    <motion.li
+      variants={listItemVariant}
+      initial='hidden'
+      animate={isInView ? 'visible' : 'hidden'}
+      custom={index}
       ref={ref}
-      // ref={(el) => (refs.current[index] = el)}
       className={`card ${isService && 'cardService'}`}
     >
       <div className=' card-face card-face--front'>
@@ -58,17 +79,17 @@ const ServiceCard = ({ service }) => {
           <FaLongArrowAltRight className='cardSubtitle-icon' />
         </div>
       </div>
-    </li>
+    </motion.li>
   );
 };
 
 const ServicesCards = () => {
   return (
-    <ul className='servicesCards grid'>
-      {services.map((service) => (
-        <ServiceCard key={service.id} service={service} />
+    <motion.ul className='servicesCards grid'>
+      {services.map((service, index) => (
+        <ServiceCard key={service.id} service={service} index={index} />
       ))}
-    </ul>
+    </motion.ul>
   );
 };
 

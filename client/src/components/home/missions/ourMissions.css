@@ -1,0 +1,103 @@
+.ourMission {
+  padding: 8.125em 2.1875em;
+  overflow-x: hidden;
+}
+
+.ourMissionWrapper {
+  display: grid;
+  grid-template-areas:
+    'content'
+    'img';
+
+  @media (min-width: 48rem) {
+    grid-template-areas:
+      'img'
+      'content';
+  }
+
+  @media (min-width: 63.75rem) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'img content';
+    gap: 4em;
+  }
+}
+
+.ourMissionImage {
+  grid-area: img;
+}
+
+.ourMissionContent {
+  grid-area: content;
+
+  @media (min-width: 48rem) {
+    margin-block-start: 10em;
+  }
+
+  @media (min-width: 63.75rem) {
+    margin-block-start: 5em;
+  }
+}
+
+.ourMissionContent-par {
+  margin-block: 3.75em 7.5em;
+
+  @media (min-width: 63.75rem) {
+    margin-block: 3.75em 2.187em;
+  }
+}
+
+.ourMissionImage-picture {
+  max-width: 100vw;
+  width: 100vw;
+  margin: 0 calc(-50vw + 50%);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+
+  @media (min-width: 63.75rem) {
+    max-width: 50vw;
+    margin: 0 calc(-10vw + 10%);
+  }
+}
+
+.ourMissionImage-picture :is(.ourMissionImage-one, .ourMissionImage-two) {
+  grid-column: 1;
+  grid-row: 1;
+  max-width: 85%;
+  position: relative;
+
+  @media (min-width: 63.75rem) {
+    max-width: 90%;
+  }
+}
+
+.ourMissionImage-one::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    269deg,
+    rgb(52, 152, 219) 0%,
+    rgb(23, 253, 184) 100%
+  );
+  border-radius: 24px;
+  opacity: 0.85;
+}
+
+.ourMissionImage-two {
+  justify-self: end;
+  align-self: end;
+  bottom: -3.75em;
+  box-shadow: 0px 3px 35px 0px rgba(0 0 0/0.15);
+  filter: brightness(1.2);
+
+  @media (min-width: 63.75rem) {
+    justify-self: unset;
+    right: -3.75em;
+  }
+}
+
+.ourMissionImage-one img,
+.ourMissionImage-two img {
+  border-radius: 24px;
+}

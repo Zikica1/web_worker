@@ -1,12 +1,15 @@
 import './hero.css';
 import HeroCard from './HeroCard';
 import { useState, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 import { hero } from '../../../data/db';
 
 const Hero = () => {
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
   // const [activeIndex, setActiveIndex] = useState(0);
+
+  const location = useLocation();
 
   const refSlider = useRef(null);
   const refItems = useRef([]);
@@ -94,7 +97,7 @@ const Hero = () => {
   };
 
   return (
-    <section className='hero'>
+    <section className='hero' key={location.pathname}>
       <div className='hero-wrapper'>
         <ul
           className='heroSlides'

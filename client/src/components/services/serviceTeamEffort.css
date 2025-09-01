@@ -1,0 +1,168 @@
+.teamEffort {
+  color: var(--clr-text-light);
+  background: url('/assets/pictures/services/service-panorama.webp') no-repeat
+    right center/cover;
+  margin-block-start: 220px;
+  padding: 48px 35px;
+  text-align: center;
+  position: relative;
+  isolation: isolate;
+
+  @media (min-width: 63.75rem) {
+    padding: 48px 0;
+    text-align: left;
+    padding: 200px 35px;
+  }
+}
+
+.teamEffort::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background-color: rgba(37 44 47/1);
+
+  @media (min-width: 63.75rem) {
+    background-color: rgba(37 44 47/0.9);
+  }
+}
+
+.teamEffortWrapper {
+  @media (min-width: 65rem) {
+    display: grid;
+    grid-template-columns:
+      minmax(2.187rem, 1fr)
+      minmax(0, 22.45rem)
+      minmax(0, 62.91rem)
+      minmax(2.187rem, 1fr);
+  }
+}
+
+.teamEffortHeader {
+  @media (min-width: 63.75rem) {
+    grid-column: 2;
+  }
+}
+
+.teamEffortHeader-title {
+  font-size: 33px;
+  margin-block: 88px 20px;
+
+  @media (min-width: 768px) {
+    font-size: 45px;
+  }
+
+  @media (min-width: 63.75rem) {
+    text-align: left;
+    font-size: 55px;
+    margin-block: 50px 20px;
+  }
+}
+
+.teamEffortHeader-divider {
+  display: flex;
+  justify-content: center;
+  height: 5px;
+  gap: 1em;
+
+  @media (min-width: 63.75rem) {
+    justify-content: flex-start;
+  }
+}
+
+.teamEffortHeader-divider::before {
+  content: '';
+  display: block;
+  background-color: rgba(255 255 255/0.5);
+  border-radius: 2px;
+  width: 9px;
+  height: 5px;
+}
+
+.teamEffortHeader-divider::after {
+  content: '';
+  display: block;
+  background-color: rgba(255 255 255/0.5);
+  border-radius: 2px;
+  width: 48px;
+  height: 5px;
+}
+
+.teamEffortHeader-text {
+  color: rgba(255 255 255/0.7);
+  margin-block: 62px;
+}
+
+.teamEffortList {
+  color: rgba(57 57 57/0.7);
+  background-color: var(--clr-bg-light);
+  border-radius: 16px;
+  padding: 15px;
+
+  @media (min-width: 63.75rem) {
+    grid-column: 3;
+    padding: 0px 70px;
+  }
+}
+
+.teamEffortList ul {
+  @media (min-width: 768px) {
+    gap: 2.5em;
+  }
+}
+
+.teamEffortList-item {
+  margin-block: 62px;
+
+  @media (min-width: 768px) {
+    margin-block: 42px;
+  }
+}
+
+.teamEffortList-num {
+  color: rgb(32 32 32);
+  font-size: 21px;
+  font-weight: 500;
+  margin-block: 16px 28px;
+
+  @media (min-width: 1020px) {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+  }
+}
+
+.teamEffortList-num::before {
+  content: '';
+  display: block;
+  background-image: linear-gradient(
+    257deg,
+    rgb(15, 55, 85) 0%,
+    rgb(41, 128, 185) 50%,
+    rgb(52, 152, 219) 100%
+  );
+  border-radius: 2px;
+  width: 100px;
+  height: 2px;
+  margin-inline: auto;
+  margin-block-end: 20px;
+
+  @media (min-width: 1020px) {
+    margin-inline: unset;
+    width: 20px;
+    margin-block-end: -10px;
+  }
+}
+
+.teamEffortList-title {
+  color: var(--clr-text-pri);
+  font-size: 29px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-block: 20px;
+}
+
+.teamEffortList-text {
+  max-width: 40ch;
+  margin-inline: auto;
+}

@@ -23,6 +23,10 @@
       "description": "Transformisanje ideja u izvanredna digitalna iskustva"
     }
   },
+  "ourMission": {
+    "title": "Saznaj više o naštoj <span>misiji</span>",
+    "text": "Od vizuelno zapanjujućeg dizajna do intuitivnih korisničkih interfejsa, idemo korak dalje kako bismo osigurali da svaki veb sajt koji napravimo bude pravi odraz idetiteta brenda i vrednosti naših klijenata. Pridružite nam se na ovom putovanju dok redefinišemo mogućnosti veb dizajna i usmeravamo vaše poslovanje ka digitalnom uspehu."
+  },
   "service": {
     "top": {
       "title": "Ko smo mi &<br/> šta <span>radimo</span>",
@@ -135,6 +139,28 @@
         "typesTitle": "Vrste hostinga",
         "typesText": "Postoje različite vrste hostinga koje se razlikuju po nivou performansi, sigurnosti i načinu upravljanja. Tako možete odabrati opciju koja najbolje odgovara vašim potrebama – bilo da je reč o jednostavnom blogu ili velikom korporativnom sajtu.",
         "sharedHosting": "Jedno od najčešćih rešenja je shared hosting. On je povoljan, jednostavan za upotrebu i odličan izbor za manje sajtove ili za početnike u svetu web hostinga."
+      }
+    },
+    "teamEffort": {
+      "sectionTitle": "Stručnost i posvećenost bez kompromisa.",
+      "sectionText": "Povezujemo dizajn i funkcionalnost, stvarajući web sajtove koji ističu vaš brend i pružaju nezaboravno korisničko iskustvo.",
+      "teamEffortCards": {
+        "1": {
+          "title": "istraživanje",
+          "text": "Analiziramo vaše potrebe i tržište kako bismo kreirali efikasnu strategiju veb rešenja."
+        },
+        "2": {
+          "title": "ui dizain",
+          "text": "Kreiramo moderan i intuitivan dizajn koji privlači pažnju i zadržava korisnike."
+        },
+        "3": {
+          "title": "razvoj",
+          "text": "Gradimo brze, pouzdane i prilagođene veb sajtove koji rastu zajedno sa višim biznisom."
+        },
+        "4": {
+          "title": "podrška",
+          "text": "Pružamo kontinuiranu tehničku podršku i održavanje radi sigurnog i stabilnog rada vašeg sajta."
+        }
       }
     }
   },

@@ -6,42 +6,42 @@
 }
 
 @font-face {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand';
   font-weight: 500;
   font-display: swap;
   src: url('/assets/fonts/quicksand/Quicksand-Medium.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand';
   font-weight: 600;
   font-display: swap;
   src: url('/assets/fonts/quicksand/Quicksand-SemiBold.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand';
   font-weight: 700;
   font-display: swap;
   src: url('/assets/fonts/quicksand/Quicksand-Bold.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu';
   font-weight: 400;
   font-display: swap;
   src: url('/assets/fonts/quicksand/Ubuntu-Regular.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu';
   font-weight: 500;
   font-display: swap;
   src: url('/assets/fonts/quicksand/Ubuntu-Medium.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu';
   font-weight: 700;
   font-display: swap;
   src: url('/assets/fonts/quicksand/Ubuntu-Bold.woff2') format('woff2');
@@ -63,7 +63,7 @@
   /*bg*/
   --clr-bg-light: rgb(255 255 255);
   --clr-menu: rgb(34 34 34);
-  --clr-body-bg: rgb(255 255 255);
+  --clr-body-bg: rgb(250, 250, 250);
   --clr-bg-img-ani: rgb(219 219 219);
   --clr-section-bg: #f9f9f9;
   --clr-ham-bg: #333333;

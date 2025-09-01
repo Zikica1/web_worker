@@ -6,6 +6,17 @@
   @media (min-width: 64rem) {
     display: grid;
     grid-template-columns: 35% 1fr;
+    gap: 1em;
+  }
+}
+
+.homeServiceCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 64rem) {
+    align-items: flex-start;
   }
 }
 
@@ -15,6 +26,12 @@
 
   @media (min-width: 64rem) {
     text-align: left;
+  }
+}
+
+.homeServicesHad h3 {
+  @media (min-width: 64rem) {
+    line-height: 1.45;
   }
 }
 

@@ -1,9 +1,11 @@
 import './hading.css';
-import { Trans } from 'react-i18next';
+import { useTranslation, Trans } from 'react-i18next';
 
-const Hading = ({ i18nKey }) => {
+const Hading = ({ i18nKey, sizeFont }) => {
+  useTranslation();
+
   return (
-    <h3 className='head-title'>
+    <h3 className='head-title' style={{ fontSize: `${sizeFont}px` }}>
       <Trans
         i18nKey={i18nKey}
         components={{

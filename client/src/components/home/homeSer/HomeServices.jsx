@@ -1,25 +1,68 @@
 import './homeServices.css';
 import Hading from '../../header/Hading';
 import ServicesCards from '../../services/ServicesCards';
-import { useTranslation } from 'react-i18next';
+import ButtonPrimary from '../../buttons/primaButton/ButtonPrimary';
+import { motion, useInView } from 'motion/react';
+import { useRef } from 'react';
+
+const homeServiceTitleVariants = {
+  hidden: {
+    x: 50,
+    opacity: 0,
+  },
+  visible: {
+    x: 0,
+    opacity: 1,
+    transition: { duration: 0.5 },
+  },
+};
 
 const HomeServices = () => {
-  const { i18n } = useTranslation();
-  console.log(i18n.language);
+  const refHead = useRef(null);
+  const isInView = useInView(refHead, {
+    once: true,
+    amount: 0.75,
+  });
 
   return (
     <section className='homeServices'>
       <div className='homeServiceWrapper'>
-        <div className='homeServicesHad'>
-          <Hading i18nKey='homeService.title' />
+        <div className='homeServiceCont'>
+          <div className='homeServicesHad'>
+            <motion.div
+              style={{ overflow: 'hidden' }}
+              ref={refHead}
+              variants={homeServiceTitleVariants}
+              initial='hidden'
+              animate={isInView ? 'visible' : 'hidden'}
+            >
+              <Hading i18nKey='homeService.title' />
+            </motion.div>
 
-          <img
-            className='homeServicesHad-divider'
-            src='/assets/pictures/services/divider.webp'
-            alt='divider'
-          />
+            <motion.img
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, amount: 1 }}
+              transition={{
+                duration: 0.5,
+              }}
+              className='homeServicesHad-divider'
+              src='/assets/pictures/services/divider.webp'
+              alt='divider'
+            />
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 1 }}
+            transition={{
+              duration: 0.5,
+            }}
+          >
+            <ButtonPrimary url='services' />
+          </motion.div>
         </div>
-
         <ServicesCards />
       </div>
     </section>

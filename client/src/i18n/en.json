@@ -23,6 +23,10 @@
       "description": "Transforming ideas into extraordinary digital experiences that captivate and convert."
     }
   },
+  "ourMission": {
+    "title": "Learn more about our <span>mission</span>",
+    "text": "From visually stunning designs to intuitive user interfaces, we go the extra mile to ensure that every website we build is a true reflection of our clients' brand identity and values. Join us on this journey as we redefine the possibilities of web design and steer your business towards digital success."
+  },
   "service": {
     "top": {
       "title": "Who We Are &<br/> What <span>We Do<span/>",
@@ -132,6 +136,28 @@
         "typesTitle": "Types of hosting",
         "typesText": "There are different types of hosting that vary in performance, security, and management. This allows you to choose a package that best fits your needs – from simple blogs to large corporate websites.",
         "sharedHosting": "One of the most common solutions is shared hosting. It is affordable, easy to use, and ideal for smaller websites or those just starting with web hosting."
+      }
+    },
+    "teamEffort": {
+      "sectionTitle": "Expertise and commitment without compromise.",
+      "sectionText": "We connect design and functionality, creating websites that highlight your brand and provide an unforgettable user experience.",
+      "teamEffortCards": {
+        "1": {
+          "title": "Research",
+          "text": "We analyze your needs and market to create an effective web development strategy."
+        },
+        "2": {
+          "title": "UI Design",
+          "text": "We craft modern, intuitive interfaces that engage visitors and deliver seamless user experiences."
+        },
+        "3": {
+          "title": "Development",
+          "text": "We build fast, reliable, and scalable websites tailored to grow with your business."
+        },
+        "4": {
+          "title": "Support",
+          "text": "We provide ongoing technical support and maintenance to keep your website secure and efficient."
+        }
       }
     }
   },
