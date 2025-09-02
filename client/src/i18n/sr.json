@@ -166,5 +166,9 @@
   },
   "homeService": {
     "title": "Tu smo da <br/> učinimo da vaš <span>Veb sajt</span> <br/>izgleda <span>elegantnije</span> i bolje!"
+  },
+  "portfolio": {
+    "title": "Naši nedavni <span>veb dizajni</span> i neki primeri prošlih <span>projekata</span>",
+    "text": "Ovde možete da pogledate neke od naših projekata koji su rađeni za klijente iz različitih oblasti poslovanja. Trudimo se da svakom klijentu pružimo jedinstveno i funkcionalno rešenje, u skladu sa brendom i potrebama."
   }
 }

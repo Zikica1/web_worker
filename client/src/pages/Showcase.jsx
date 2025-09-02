@@ -1,5 +1,11 @@
+import Portfolio from '../components/portfolio/Portfolio';
+
 const Showcase = () => {
-  return <main className='showcase'></main>;
+  return (
+    <main>
+      <Portfolio />
+    </main>
+  );
 };
 
 export default Showcase;

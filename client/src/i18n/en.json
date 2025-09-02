@@ -71,7 +71,10 @@
         ],
         "subtitle": "Why is it important to have a perfect website?",
         "parag2": "Choosing the right agency can save you from many problems in the future. Today, a quality website is the central place of everyone marketing, if you're not online, many potential customers won't even know you exist. Search engines are the first place customers look for solutions, and we know how to position you there. We understand where mistakes most often occur and how to avoid them. We do not create sites that quickly become outdated or lose functionality, we prepare each project in detail.",
-        "categories2": []
+        "categories2": [],
+        "typesTitle": "",
+        "typesText": "",
+        "sharedHosting": ""
       },
       "1": {
         "mainTitle": "Search Engine Optimization",
@@ -163,5 +166,9 @@
   },
   "homeService": {
     "title": "We are hero to <br/> make your <span>Website</span> <br/> look more <span>Elegant</span> and better!"
+  },
+  "portfolio": {
+    "title": "Our recent <span>web designs</span> and some examples of past <span>projects</span>",
+    "text": "Here you can view some of our projects that have been done for clients from different areas of business. We strive to provide each client with a unique and functional solution, in accordance with the brand and needs."
   }
 }

@@ -64,3 +64,31 @@ export const services = [
     imgDes: '/assets/pictures/serviceCardDet/serviceCardHost-img-1536px.webp',
   },
 ];
+
+export const portfolio = [
+  {
+    id: '1',
+    url: 'https://construction-group.netlify.app/',
+    img: '/assets/pictures/portfolio/construction-group.webp',
+  },
+  {
+    id: '2',
+    url: 'https://travelagencyyy.netlify.app/',
+    img: '/assets/pictures/portfolio/travelAgency.webp',
+  },
+  {
+    id: '3',
+    url: 'https://word-press.netlify.app/',
+    img: '/assets/pictures/portfolio/word-press.webp',
+  },
+  {
+    id: '4',
+    url: 'https://shop-confectionery.netlify.app/',
+    img: '/assets/pictures/portfolio/shop-confectionery.webp',
+  },
+  {
+    id: '5',
+    url: 'https://consalting-agency.netlify.app/',
+    img: '/assets/pictures/portfolio/consalting-agency.webp',
+  },
+];

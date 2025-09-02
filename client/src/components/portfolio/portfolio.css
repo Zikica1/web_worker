@@ -1,0 +1,23 @@
+.portfolio {
+  margin-block-start: 8.94em;
+  padding-block: 150px 210px;
+  padding-inline: 35px;
+}
+
+.portfolioContentWrapper {
+  overflow-x: clip;
+  @media (min-width: 1020px) {
+    display: grid;
+    grid-template-columns: 45% 1fr;
+    margin-block-end: 150px;
+    gap: 2.5em;
+  }
+}
+
+.portfolioPara {
+  margin-block: 20px 120px;
+
+  @media (min-width: 1020px) {
+    margin-block: 20px 0;
+  }
+}
