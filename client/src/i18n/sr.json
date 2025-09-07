@@ -170,5 +170,49 @@
   "portfolio": {
     "title": "Naši nedavni <span>veb dizajni</span> i neki primeri prošlih <span>projekata</span>",
     "text": "Ovde možete da pogledate neke od naših projekata koji su rađeni za klijente iz različitih oblasti poslovanja. Trudimo se da svakom klijentu pružimo jedinstveno i funkcionalno rešenje, u skladu sa brendom i potrebama."
+  },
+  "priceList": {
+    "title": "Naša <span>ponuda</span> <br/>cene <span>izrade web</span> sajta",
+    "text": "Cene izrade web sajta su okvirne i zavise od vaših potreba i zahteva. Kontaktirajte nas za tačne informacije i ponudu prilagođenu vašem projektu.",
+    "1": {
+      "package": "osnovni",
+      "price": "<span>od</span>399",
+      "services": [
+        "do pet stranica",
+        "responzivni dizain",
+        "kontakt forma",
+        "galerija slika",
+        "osnovin SEO",
+        "online ready"
+      ]
+    },
+    "2": {
+      "package": "napredni",
+      "price": "<span>od</span>499",
+      "services": [
+        "do deset stranica",
+        "premium dizain",
+        "responzivni dizain",
+        "kontakt forma",
+        "galerija slika",
+        "napredni SEO",
+        "animacije",
+        "online ready"
+      ]
+    },
+    "3": {
+      "package": "premium",
+      "price": "<span>od</span>899",
+      "services": [
+        "Neograničen broj stranica",
+        "premium dizain",
+        "responzivni dizain",
+        "kontakt forma",
+        "foto galerija",
+        "napredni SEO",
+        "online ready",
+        "animacije"
+      ]
+    }
   }
 }

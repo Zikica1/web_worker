@@ -1,0 +1,61 @@
+.packagesPri {
+  background-color: rgb(249, 249, 249);
+  padding: 6.25em 2.1875em 9.375em;
+}
+
+.packagesPriWrapper {
+  @media (min-width: 48rem) {
+    max-width: 70%;
+    margin-inline: auto;
+  }
+
+  @media (min-width: 65rem) {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: unset;
+    margin-inline: unset;
+    gap: 1em;
+  }
+}
+
+.packagesPriHead {
+  text-align: center;
+  margin-block-end: 4.125em;
+
+  @media (min-width: 65rem) {
+    text-align: left;
+  }
+}
+
+.packagesPriHead-title {
+  margin-block-end: 2.875em;
+}
+
+.packagesPriHead-divider {
+  margin-inline: auto;
+
+  @media (min-width: 65rem) {
+    margin-inline: unset;
+  }
+}
+
+.packagesPriHead-para {
+  @media (min-width: 65rem) {
+    max-width: 45ch;
+  }
+}
+
+.packageCards {
+  display: grid;
+  gap: 3.125em;
+
+  @media (min-width: 48rem) {
+    padding-inline: 3.125em;
+  }
+
+  @media (min-width: 65rem) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    padding-inline: unset;
+  }
+}

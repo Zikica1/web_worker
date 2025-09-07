@@ -170,5 +170,49 @@
   "portfolio": {
     "title": "Our recent <span>web designs</span> and some examples of past <span>projects</span>",
     "text": "Here you can view some of our projects that have been done for clients from different areas of business. We strive to provide each client with a unique and functional solution, in accordance with the brand and needs."
+  },
+  "priceList": {
+    "title": "Our <span>offer</span> <br/> website <span>development</span prices>",
+    "text": "Prices for creating a website are approximate and depend on your needs and requirements. Contact us for accurate information and an offer tailored to your project.",
+    "1": {
+      "package": "basic",
+      "price": "<span>from</span>399",
+      "services": [
+        "up to five pages",
+        "responsive design",
+        "contact form",
+        "image gallery",
+        "Basic SEO",
+        "online ready"
+      ]
+    },
+    "2": {
+      "package": "advanced",
+      "price": "<span>from</span>499",
+      "services": [
+        "up to ten pages",
+        "premium design",
+        "responsive design",
+        "contact form",
+        "image gallery",
+        "advanced SEO",
+        "animations",
+        "online ready"
+      ]
+    },
+    "3": {
+      "package": "premium",
+      "price": "<span>from</span>899",
+      "services": [
+        "Unlimited pages",
+        "premium design",
+        "responsive design",
+        "contact form",
+        "photo gallery",
+        "advanced SEO",
+        "online ready",
+        "animations"
+      ]
+    }
   }
 }

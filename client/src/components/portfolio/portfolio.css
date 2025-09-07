@@ -1,12 +1,12 @@
 .portfolio {
-  margin-block-start: 8.94em;
-  padding-block: 150px 210px;
-  padding-inline: 35px;
+  /* margin-block-start: 8.94em; */
+  padding-block: 6.25em 9.375em;
+  padding-inline: 2.1875em;
 }
 
 .portfolioContentWrapper {
   overflow-x: clip;
-  @media (min-width: 1020px) {
+  @media (min-width: 63.75rem) {
     display: grid;
     grid-template-columns: 45% 1fr;
     margin-block-end: 150px;
@@ -17,7 +17,7 @@
 .portfolioPara {
   margin-block: 20px 120px;
 
-  @media (min-width: 1020px) {
+  @media (min-width: 63.75rem) {
     margin-block: 20px 0;
   }
 }

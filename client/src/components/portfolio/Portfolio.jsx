@@ -4,13 +4,18 @@ import { useLocation } from 'react-router-dom';
 import { motion, useInView, useAnimate } from 'motion/react';
 import Hading from '../header/Hading';
 import { useTranslation } from 'react-i18next';
-import PortfolioCards from './PortfolioCards';
+import PortfolioCard from './PortfolioCard';
 import ButtonPrimary from '../buttons/primaButton/ButtonPrimary';
+import { portfolio } from '../../data/db';
 
 const Portfolio = () => {
   const { t } = useTranslation();
   const location = useLocation();
   const [scope, animate] = useAnimate();
+
+  const home = location.pathname === '/';
+
+  const portfolioFilter = home ? portfolio.slice(0, 3) : portfolio;
 
   const isInView = useInView(scope, {
     once: true,
@@ -26,10 +31,8 @@ const Portfolio = () => {
     }
   }, [isInView, animate]);
 
-  const home = location.pathname === '/';
-
   return (
-    <section className='portfolio'>
+    <section className='portfolio' key={location.pathname}>
       <div ref={scope} className='portfolioContentWrapper'>
         <motion.div
           className='portfolioHeader'
@@ -45,7 +48,11 @@ const Portfolio = () => {
           {t('portfolio.text')}
         </motion.p>
       </div>
-      <PortfolioCards />
+      <ul className='portfolioList'>
+        {portfolioFilter.map((p, index) => (
+          <PortfolioCard key={p.id} p={p} index={index} />
+        ))}
+      </ul>
       {home && (
         <div
           style={{

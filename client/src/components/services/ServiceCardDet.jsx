@@ -12,6 +12,7 @@ const ServiceCardDet = () => {
     t(`service.cardDet.${id}.categories`, {
       returnObjects: true,
     }) || [];
+
   const categories2 =
     t(`service.cardDet.${id}.categories2`, {
       returnObjects: true,
