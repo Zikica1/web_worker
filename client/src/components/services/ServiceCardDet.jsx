@@ -19,7 +19,7 @@ const ServiceCardDet = () => {
     }) || [];
 
   return (
-    <section className='serCardDet'>
+    <article className='serCardDet'>
       <h1 className='serCardDet-title'>
         {t(`service.cardDet.${id}.mainTitle`)}
       </h1>
@@ -132,7 +132,7 @@ const ServiceCardDet = () => {
           </div>
         </div>
       </div>
-    </section>
+    </article>
   );
 };
 

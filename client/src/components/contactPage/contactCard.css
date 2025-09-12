@@ -1,0 +1,23 @@
+.contactInfo {
+  color: var(--clr-text-light);
+  background-color: rgb(16 63 111);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 2.1875em 1.5em;
+
+  @media (min-width: 48rem) {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+  }
+}
+
+.contactInfo-item {
+  display: flex;
+  gap: 0.5em;
+  margin-block-end: 2em;
+}
+
+.contactInfo-icon {
+  min-width: 2.062em;
+}

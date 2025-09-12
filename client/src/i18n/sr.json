@@ -214,5 +214,29 @@
         "animacije"
       ]
     }
+  },
+  "contact": {
+    "title": "Kontaktirajte nas",
+    "sectionPara": "Za sva pitanja i dodatne informacije u vezi sa kreiranjem i dizajnom web sajta, možete nas kontaktirati u bilo kom trenutku.",
+    "form": {
+      "subtitle": "pošaljite nam poruku",
+      "name": "Vaše Ime",
+      "email": "Vaša Email Adresa",
+      "number": "Vaš Broj Telefona",
+      "subject": "Naslov",
+      "message": "Vaša Poruka"
+    },
+    "contactInfo": {
+      "title": "Kontakt Informacije",
+      "1": {
+        "text": "065/8158692"
+      },
+      "2": {
+        "text": "webworker@gmail.com"
+      },
+      "3": {
+        "text": "Ponedeljak-Nedelja 09.00-17.00"
+      }
+    }
   }
 }

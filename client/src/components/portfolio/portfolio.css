@@ -1,7 +1,10 @@
 .portfolio {
-  /* margin-block-start: 8.94em; */
   padding-block: 6.25em 9.375em;
   padding-inline: 2.1875em;
+
+  @media (min-width: 48rem) {
+    padding-block: 9.375em;
+  }
 }
 
 .portfolioContentWrapper {

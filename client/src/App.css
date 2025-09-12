@@ -123,6 +123,8 @@ h3 {
 
 p {
   text-wrap: pretty;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
 }
 
 ul {
@@ -139,6 +141,13 @@ svg {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+input,
+textarea,
+label {
+  font-family: inherit;
+  font-size: 100%;
 }
 
 /* grid */

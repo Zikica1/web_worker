@@ -4,6 +4,7 @@ import {
   MdPhoneIphone,
 } from 'react-icons/md';
 import { MdStorage } from 'react-icons/md';
+import { CiMobile1, CiMail, CiAlarmOn } from 'react-icons/ci';
 
 export const hero = [
   {
@@ -90,5 +91,20 @@ export const portfolio = [
     id: '5',
     url: 'https://consalting-agency.netlify.app/',
     img: '/assets/pictures/portfolio/consalting-agency.webp',
+  },
+];
+
+export const contact = [
+  {
+    id: '1',
+    Icon: CiMobile1,
+  },
+  {
+    id: '2',
+    Icon: CiMail,
+  },
+  {
+    id: '3',
+    Icon: CiAlarmOn,
   },
 ];

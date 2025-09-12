@@ -1,14 +1,44 @@
 import './packageCard.css';
+import { useRef } from 'react';
 import { useTranslation, Trans } from 'react-i18next';
+import { motion, useInView } from 'motion/react';
 import { MdCheck } from 'react-icons/md';
 
+const cardVar = {
+  hidden: {
+    opacity: 0,
+    x: 50,
+  },
+  visible: (index) => ({
+    opacity: 1,
+    x: 0,
+    transition: {
+      duration: 0.75,
+      delay: index * 0.2,
+    },
+  }),
+};
+
 const PackageCard = ({ index }) => {
+  const ref = useRef(null);
   const { t } = useTranslation();
   const services =
     t(`priceList.${index}.services`, { returnObjects: true }) || [];
 
+  const isInView = useInView(ref, {
+    once: true,
+    amount: 0.25,
+  });
+
   return (
-    <li className='packageCard'>
+    <motion.li
+      ref={ref}
+      className='packageCard'
+      initial='hidden'
+      variants={cardVar}
+      animate={isInView ? 'visible' : 'hidden'}
+      custom={index}
+    >
       <div className='packageCard-top'>
         <div className='packageCard-head'>
           <h3 className='packageCard-title'>
@@ -35,7 +65,7 @@ const PackageCard = ({ index }) => {
           ))}
         </ul>
       </div>
-    </li>
+    </motion.li>
   );
 };
 

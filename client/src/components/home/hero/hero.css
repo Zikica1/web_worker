@@ -1,6 +1,5 @@
 .hero {
   background-color: var(--clr-bg-light);
-  /* background-color: rgb(249 249 249); */
   margin-top: 8.94rem;
   padding-block-start: 2em;
 }
@@ -88,6 +87,10 @@
   font-size: 0.875rem;
   margin-block: 1.142em;
   max-width: 55ch;
+
+  @media (min-width: 63.75rem) {
+    font-size: 1rem;
+  }
 }
 
 .heroSlides-buttonWrap {

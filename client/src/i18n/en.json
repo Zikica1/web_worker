@@ -214,5 +214,29 @@
         "animations"
       ]
     }
+  },
+  "contact": {
+    "title": "Get in touch",
+    "sectionPara": "For all questions and additional information regarding the creation and design of the website, you can contact us at any time.",
+    "form": {
+      "subtitle": "Send us a Message",
+      "name": "Your Name",
+      "email": "Your email address",
+      "number": "Your Phone number",
+      "subject": "Subject",
+      "message": "Your Message"
+    },
+    "contactInfo": {
+      "title": "Contact Information",
+      "1": {
+        "text": "065/8158692"
+      },
+      "2": {
+        "text": "webworker@gmail.com"
+      },
+      "3": {
+        "text": "Monday-Sunday 09.00-17.00"
+      }
+    }
   }
 }

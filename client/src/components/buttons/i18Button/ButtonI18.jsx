@@ -11,7 +11,6 @@ const ButtonI18 = () => {
 
   return (
     <button className='buttonLen' onClick={toggleLanguage}>
-      {/* <FaGlobeEurope className='buttonLen-globeIco' /> */}
       <MdLanguage className='buttonLen-globeIco' />
       {i18n.language === 'sr' ? ' English' : 'Srpski'}
     </button>

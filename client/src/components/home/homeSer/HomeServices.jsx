@@ -28,9 +28,8 @@ const HomeServices = () => {
     <section className='homeServices'>
       <div className='homeServiceWrapper'>
         <div className='homeServiceCont'>
-          <div className='homeServicesHad'>
+          <div className='homeServicesHad' style={{ overflow: 'hidden' }}>
             <motion.div
-              style={{ overflow: 'hidden' }}
               ref={refHead}
               variants={homeServiceTitleVariants}
               initial='hidden'

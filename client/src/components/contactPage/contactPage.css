@@ -1,0 +1,201 @@
+.contactPag {
+  margin-block-start: 8.971em;
+
+  @media (min-width: 48rem) {
+    margin-block-start: 12.57em;
+  }
+  @media (min-width: 65rem) {
+    margin-block-start: 8.971em;
+  }
+}
+
+.contactWrapper {
+  background: url('/assets/pictures/contact/map5.png') no-repeat center
+    center/cover;
+  padding-inline: 2.1875em;
+  min-height: 25em;
+  isolation: isolate;
+  position: relative;
+
+  @media (min-width: 65rem) {
+    min-height: 31.25em;
+    align-content: center;
+    padding-inline: 4.6875em 2.1875em;
+  }
+}
+
+.contactPageOverlay {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+
+  background: linear-gradient(
+      to right,
+      rgba(89, 173, 232, 1) 0%,
+      rgba(89, 173, 232, 1) 35%,
+      rgba(89, 173, 232, 0.2) 55%,
+      rgba(89, 173, 232, 0.1) 75%,
+      rgba(89, 173, 232, 0.9) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(89, 173, 232) 0%,
+      rgba(89, 173, 232) 10%,
+      rgba(89 173 232/0.1) 45%,
+      rgba(89, 173, 232, 0.1) 60%,
+      rgba(89, 173, 232, 0.9) 80%,
+      rgba(89, 173, 232, 1) 100%
+    );
+
+  @media (min-width: 31.25em) {
+    background: linear-gradient(
+        to right,
+        rgba(89, 173, 232, 1) 0%,
+        rgba(89, 173, 232, 0.8) 35%,
+        rgba(89, 173, 232, 0.1) 65%,
+        rgba(89, 173, 232, 0) 80%,
+        rgba(89, 173, 232, 1) 100%
+      ),
+      linear-gradient(
+        to bottom,
+        rgba(89 173 232) 0%,
+        rgba(89 173 232/0.2) 30%,
+        rgba(89, 173, 232, 0) 65%,
+        rgba(89, 173, 232, 1) 100%
+      );
+  }
+}
+
+.contactWrapper-title {
+  color: var(--clr-text-light);
+  font-size: 2.25rem;
+  text-transform: capitalize;
+  line-height: 1.1;
+  padding-block: 1em;
+
+  @media (min-width: 48rem) {
+    font-size: 2.8125rem;
+  }
+}
+
+.contactWrapper-para {
+  color: rgb(230, 230, 230);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  max-width: 45ch;
+}
+
+.contactIconLetter {
+  fill: rgb(89 173 232);
+  width: 1.5em;
+}
+
+.contactPageFormContainer {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: white;
+  box-shadow: 0 0 40px 2px rgba(0 0 0/0.2);
+  max-width: 90%;
+  margin-inline: auto;
+  display: grid;
+  transform: translateY(-8%);
+
+  @media (min-width: 48rem) {
+    grid-template-columns: 2fr 1fr;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    column-gap: 1em;
+  }
+}
+
+.contactPageForm-wrapper {
+  padding: 2.1875em 1.5em;
+}
+
+.contactPageFormContainer-head {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 2em;
+}
+
+.contactFormContainer-title {
+  color: rgb(16 63 111);
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.contactPageForm label {
+  display: block;
+  width: 100%;
+  margin-block-end: 2.1875em;
+}
+
+.contactPageForm input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(0 0 0/0.15);
+  border-radius: 4px;
+  padding: 0.625em 0.25em;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.contactPageForm input::placeholder {
+  font-size: 0.875rem;
+}
+
+.contactPageForm input:focus-visible,
+.contactPageForm textarea:focus-visible {
+  outline: 1px solid rgba(0 0 0/0.2);
+}
+
+.contactPageForm textarea {
+  width: 100%;
+  min-height: 12.5em;
+  border: 1px solid rgba(0 0 0/0.2);
+  border-radius: 4px;
+  padding: 1.25em 0.625em 0.25em;
+}
+
+.contactForm-button {
+  width: 2.8125em;
+  height: 2.8125em;
+  border-radius: 50%;
+  border: none;
+  background: rgb(89, 173, 232);
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+  margin-inline-start: auto;
+
+  @media (min-width: 48rem) {
+    width: 3.4375em;
+    height: 3.4375em;
+  }
+}
+
+.contactForm-icon {
+  width: 1.25em;
+  height: 1.25em;
+  fill: rgb(255 255 255);
+}
+
+.contactInfo-title {
+  font-size: 1.5rem;
+  margin-block: 1.33em;
+}
+
+.contactPageForm-column {
+  @media (min-width: 48rem) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3em;
+  }
+}
+
+.offscreen {
+  position: absolute;
+  left: -1000px;
+}
