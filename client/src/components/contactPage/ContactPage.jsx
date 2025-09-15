@@ -29,7 +29,7 @@ const ContactPage = () => {
   };
 
   useEffect(() => {
-    if (status === 'success') {
+    if (status === 'sent') {
       timeoutRef.current = setTimeout(() => {
         setStatus('typing');
         sendingRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -59,6 +59,7 @@ const ContactPage = () => {
         phone: '',
         text: '',
       });
+      setStatus('sent');
     } catch (err) {
       if (!err.response) {
         setMsgErr('No server response');
@@ -124,7 +125,7 @@ const ContactPage = () => {
                 <input
                   type='email'
                   id='email'
-                  name='email'
+                  name='mail'
                   placeholder={t('contact.form.email')}
                   autoComplete='off'
                   required
