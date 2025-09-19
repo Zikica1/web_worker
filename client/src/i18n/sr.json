@@ -238,5 +238,29 @@
         "text": "Ponedeljak-Nedelja 09.00-17.00"
       }
     }
+  },
+  "about": {
+    "mainTitle": "O nama",
+    "aboutUs": {
+      "title": "Zašto izabrati nas?",
+      "list": {
+        "0": {
+          "title": "Moderan dizain",
+          "text": "Svaki biznis zaslužuje jedinstven i profesionalan web sajt, koji obezbeđuje poverenje i povećava šanse za uspeh."
+        },
+        "1": {
+          "title": "Prilagođena rešenja",
+          "text": "Web sajt predstavlja ličnu kartu vaše firme. Naš cilj je da vam obezbedimo online prisustvo koje će vas izdvojiti od vaše konkurencije."
+        },
+        "2": {
+          "title": "Sajt sa rezultatima",
+          "text": "Strateški osmišljen da privuče prave posetioce i unapredi poslovanje."
+        }
+      }
+    },
+    "ourVision": {
+      "title": "Naša misija i ciljevi",
+      "text": "Naša misija je da pravimo web sajtove koji grade povernje i donose rezultate. Cilj je jednstavan, zadovoljni klijenti, kvalitetna rešenja i dugoročna saradnja kao ključ uspeha naših klijenata na online tržištu. Verujemo da svaki projekat zaslužuje poseban pristup, zato nudimo rešenja prilagođena potrebama klijenata."
+    }
   }
 }

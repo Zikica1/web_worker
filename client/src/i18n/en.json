@@ -238,5 +238,29 @@
         "text": "Monday-Sunday 09.00-17.00"
       }
     }
+  },
+  "about": {
+    "mainTitle": "About Us",
+    "aboutUs": {
+      "title": "Why choose us?",
+      "list": {
+        "0": {
+          "title": "Modern design",
+          "text": "Every business deserves a unique and professional website, which ensures trust and increases the chances of success."
+        },
+        "1": {
+          "title": "Customized solutions",
+          "text": "The website is your company's identity card. Our goal is to provide you with an online presence that will set you apart from your competition."
+        },
+        "2": {
+          "title": "Results website",
+          "text": "Strategically designed to attract the right visitors and improve business."
+        }
+      }
+    },
+    "ourVision": {
+      "title": "Our mission and goals",
+      "text": "Our mission is to create websites that build trust and deliver results. The goal is simple, satisfied clients, quality solutions and long-term cooperation as the key to the success of our clients on the online market. We believe that every project deserves a special approach, that's why we offer solutions adapted to the needs of clients."
+    }
   }
 }

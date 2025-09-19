@@ -5,6 +5,7 @@ import {
 } from 'react-icons/md';
 import { MdStorage } from 'react-icons/md';
 import { CiMobile1, CiMail, CiAlarmOn } from 'react-icons/ci';
+import { LuPalette, LuSettings, LuRocket } from 'react-icons/lu';
 
 export const hero = [
   {
@@ -106,5 +107,20 @@ export const contact = [
   {
     id: '3',
     Icon: CiAlarmOn,
+  },
+];
+
+export const about = [
+  {
+    id: '0',
+    img: '/assets/pictures/about/icon-palete.svg',
+  },
+  {
+    id: '1',
+    img: '/assets/pictures/about/icon-gear.svg',
+  },
+  {
+    id: '2',
+    img: '/assets/pictures/about/icon-rocket.svg',
   },
 ];

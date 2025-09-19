@@ -1,0 +1,44 @@
+.aboutUsItem {
+  @media (min-width: 63.75rem) {
+    display: grid;
+    grid-template-columns: 69px 1fr;
+    align-items: center;
+    gap: 1.5em;
+  }
+}
+
+.aboutUsItem-icon {
+  margin-inline: auto;
+
+  @media (min-width: 63.75rem) {
+    margin-block-start: 0.75em;
+  }
+}
+
+.aboutUsItem-title {
+  color: rgb(20 20 20);
+  font-size: 1.25rem;
+  margin-block: 0.75em;
+
+  @media (min-width: 63.75rem) {
+    font-size: 1.75rem;
+    margin-block: 0.5em;
+  }
+}
+
+.aboutUsItem-text {
+  color: rgba(20 20 20/0.6);
+  font-size: 0.937rem;
+  letter-spacing: 0.2px;
+  max-width: 35ch;
+  margin-inline: auto;
+
+  @media (min-width: 500px) {
+    font-size: 1rem;
+  }
+
+  @media (min-width: 48rem) {
+    max-width: unset;
+    max-width: 65ch;
+  }
+}
