@@ -261,6 +261,11 @@
     "ourVision": {
       "title": "Our mission and goals",
       "text": "Our mission is to create websites that build trust and deliver results. The goal is simple, satisfied clients, quality solutions and long-term cooperation as the key to the success of our clients on the online market. We believe that every project deserves a special approach, that's why we offer solutions adapted to the needs of clients."
+    },
+    "ourSkills": {
+      "title": "The programming languages ​​we use most often",
+      "subtitle": "<span>Our</span> skills",
+      "text": "We use modern programming languages, which ensure website stability, contribute to its speed, better SEO optimization and greater online visibility. We combine creativity and functionality in one place."
     }
   }
 }

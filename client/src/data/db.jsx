@@ -124,3 +124,31 @@ export const about = [
     img: '/assets/pictures/about/icon-rocket.svg',
   },
 ];
+
+export const skills = [
+  {
+    id: '0',
+    language: 'React',
+    utilization: 95,
+  },
+  {
+    id: '1',
+    language: 'JavaScript',
+    utilization: 85,
+  },
+  {
+    id: '2',
+    language: 'Html',
+    utilization: 50,
+  },
+  {
+    id: '3',
+    language: 'Css',
+    utilization: 85,
+  },
+  {
+    id: '4',
+    language: 'Node',
+    utilization: 75,
+  },
+];

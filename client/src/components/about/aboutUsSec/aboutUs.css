@@ -73,4 +73,11 @@
 
 .aboutUs-img {
   border-radius: 24px;
+  clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+  transition: clip-path 0.8s ease-in-out;
+  will-change: clip-path;
+}
+
+.aboutUs-img.visible {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }

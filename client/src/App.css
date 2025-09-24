@@ -80,6 +80,7 @@
     rgb(41, 128, 185) 50%,
     rgb(15, 55, 85) 100%
   );
+
   --gradient-1: linear-gradient(257deg, #0c0c0c 0%, #474747 100%);
   --gradient-2: linear-gradient(
     269deg,

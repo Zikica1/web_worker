@@ -10,10 +10,18 @@
 }
 
 .ourVision-img {
+  clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+  transition: clip-path 0.8s ease-in-out;
+  will-change: clip-path;
+
   @media (min-width: 48rem) {
     height: 100%;
     object-fit: cover;
   }
+}
+
+.ourVision-img.visible {
+  clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
 }
 
 .ourVision-content {
@@ -39,6 +47,7 @@
   content: '';
   display: block;
   background-color: rgb(204, 204, 204);
+  border-radius: 8px;
   width: 95px;
   height: 5px;
   margin-inline: auto;
