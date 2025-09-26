@@ -28,14 +28,14 @@
   color: var(--clr-text-light);
   background-color: rgb(39, 39, 39);
   text-align: center;
-  padding: 10px 20px;
+  padding: 0.625em 1.25em;
 
   @media (min-width: 48rem) {
     text-align: left;
   }
 
   @media (min-width: 65rem) {
-    padding: 0px 100px 0px 140px;
+    padding: 0px 6.25em 0px 8.75em;
   }
 }
 
@@ -48,8 +48,8 @@
   display: block;
   background-color: rgb(204, 204, 204);
   border-radius: 8px;
-  width: 95px;
-  height: 5px;
+  width: 5.9375em;
+  height: 0.3125em;
   margin-inline: auto;
   margin-block: 1.5em;
 
@@ -64,12 +64,11 @@
   text-transform: capitalize;
 
   @media (min-width: 65rem) {
-    font-size: 50px;
+    font-size: 3.125rem;
   }
 }
 
 .ourVision-text {
   color: rgba(255 255 255/0.6);
-  letter-spacing: 0.2px;
-  margin-block-end: 14px;
+  margin-block-end: 0.875em;
 }

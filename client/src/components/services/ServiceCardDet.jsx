@@ -36,6 +36,9 @@ const ServiceCardDet = () => {
               src={`${cardDet.imgDes}`}
               alt='image that describes the title'
               fetchPriority='high'
+              decoding='async'
+              width='1536'
+              height='1024'
             />
           </picture>
         </div>

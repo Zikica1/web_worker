@@ -193,6 +193,9 @@ const OurMissions = () => {
                 src='/assets/pictures/home/ourMission/ourMission2-img-1024px.webp'
                 alt='a man works at a desk'
                 loading='lazy'
+                decoding='async'
+                width='1024'
+                height='872'
               />
             </motion.picture>
 
@@ -216,6 +219,9 @@ const OurMissions = () => {
                 src='/assets/pictures/home/ourMission/ourMission-img-1024px.webp'
                 alt='The girl is sitting at the table'
                 loading='lazy'
+                decoding='async'
+                width='1024'
+                height='820'
               />
             </motion.picture>
           </div>

@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import axiosMain from '../../api/axios';
 import { FaRegPaperPlane, FaRegEnvelope, FaCheck } from 'react-icons/fa';
+import { useAnimate, useInView } from 'motion/react';
 import { contact } from '../../data/db';
 import ContactCard from './contactCard';
 
@@ -17,6 +18,7 @@ const ContactPage = () => {
   });
   const [status, setStatus] = useState('typing');
   const [msgErr, setMsgErr] = useState(null);
+  const [scope, animate] = useAnimate();
   const refErr = useRef(null);
   const timeoutRef = useRef(null);
   const sendingRef = useRef(null);
@@ -76,8 +78,27 @@ const ContactPage = () => {
     }
   };
 
+  const isInView = useInView(scope, {
+    once: true,
+    amount: 0,
+  });
+
+  useEffect(() => {
+    if (isInView) {
+      animate([
+        ['.contactWrapper-title', { opacity: 1, y: 0 }, { duration: 0.8 }],
+        ['.contactWrapper-para', { opacity: 1, x: 0 }, { duration: 0.8 }],
+        [
+          '.contactPageFormContainer',
+          { opacity: 1, y: '-15%' },
+          { duration: 0.5 },
+        ],
+      ]);
+    }
+  }, [isInView, animate]);
+
   return (
-    <section className='contactPag'>
+    <section ref={scope} className='contactPag'>
       <div className='contactWrapper'>
         <div className='contactPageOverlay'></div>
         <h1 className='contactWrapper-title'>{t('contact.title')}</h1>

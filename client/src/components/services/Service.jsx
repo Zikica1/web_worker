@@ -8,14 +8,12 @@ import { useTranslation } from 'react-i18next';
 
 const imageVar = {
   hidden: {
-    scaleX: 0.1,
-    opacity: 0,
+    clipPath: 'polygon(0 0, 0 0, 0 100%, 0% 100%)',
   },
   visible: {
-    scaleX: 1,
-    opacity: 1,
+    clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
     transition: {
-      duration: 0.8,
+      duration: 1,
       ease: 'easeInOut',
     },
   },
@@ -23,14 +21,12 @@ const imageVar = {
 
 const titleVar = {
   hidden: {
-    opacity: 0,
-    scaleX: 0.25,
+    clipPath: 'polygon(0 0, 0 0, 0 100%, 0% 100%)',
   },
   visible: {
-    opacity: 1,
-    scaleX: 1,
+    clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
     transition: {
-      duration: 0.5,
+      duration: 0.85,
       ease: 'easeInOut',
     },
   },
@@ -77,11 +73,11 @@ const Service = () => {
 
   const isInView = useInView(refImg, {
     once: true,
-    amount: 0.25,
+    amount: 0,
   });
   const isInView2 = useInView(refTitle, {
     once: true,
-    amount: 0.25,
+    amount: 0,
   });
   const isInView3 = useInView(refDiv, {
     once: true,
@@ -114,7 +110,15 @@ const Service = () => {
 
   return (
     <section className='service' key={location.pathname}>
-      <h1 className='serviceTitle'>Service</h1>
+      <motion.h1
+        className='serviceTitle'
+        initial={{ opacity: 0, scale: 1.2 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true, amount: 0 }}
+        transition={{ duration: 0.8 }}
+      >
+        Service
+      </motion.h1>
       <div className='serviceWrapper'>
         <div className='serviceImg'>
           <picture>
@@ -136,7 +140,6 @@ const Service = () => {
               srcSet='/assets/pictures/services/services-img-821px.webp'
             />
             <motion.img
-              style={{ transformOrigin: 'right' }}
               ref={refImg}
               variants={imageVar}
               initial='hidden'
@@ -144,6 +147,9 @@ const Service = () => {
               src='/assets/pictures/services/services-img-821px.webp'
               alt='girl looking at laptop'
               fetchPriority='high'
+              decoding='async'
+              width='821px'
+              height='547px'
             />
           </picture>
         </div>

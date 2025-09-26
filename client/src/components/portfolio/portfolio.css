@@ -1,6 +1,16 @@
 .portfolio {
-  padding-block: 6.25em 9.375em;
+  margin-block-start: 9em;
+  padding-block: 2em 9.375em;
   padding-inline: 2.1875em;
+
+  @media (min-width: 48rem) {
+    margin-block-start: 12.562em;
+  }
+}
+
+.portfolioHome {
+  padding-inline: 2.1875em;
+  padding-block: 6.25em;
 
   @media (min-width: 48rem) {
     padding-block: 9.375em;
@@ -12,15 +22,17 @@
   @media (min-width: 63.75rem) {
     display: grid;
     grid-template-columns: 45% 1fr;
-    margin-block-end: 150px;
+    margin-block-end: 9.375em;
     gap: 2.5em;
   }
 }
 
 .portfolioPara {
-  margin-block: 20px 120px;
+  margin-block: 1.25em 7.5em;
+  min-width: 0;
+  overflow-wrap: break-word;
 
   @media (min-width: 63.75rem) {
-    margin-block: 20px 0;
+    margin-block: 1.25em 0;
   }
 }

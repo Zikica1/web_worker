@@ -1,6 +1,6 @@
 .aboutUs {
   margin-block-start: 9em;
-  padding-inline: 35px;
+  padding-inline: 2.1875em;
   text-align: center;
 
   @media (min-width: 48rem) {
@@ -14,7 +14,7 @@
   padding-block: 0.86em;
 
   @media (min-width: 48rem) {
-    padding-block: 50px;
+    padding-block: 1.162em;
   }
 }
 
@@ -47,8 +47,8 @@
 .aboutUsContent-divider::before {
   content: '';
   display: inline-block;
-  width: 95px;
-  height: 5px;
+  width: 5.9375em;
+  height: 0.312em;
   background-color: rgba(20 20 20/0.25);
   border-radius: 8px;
 }

@@ -15,7 +15,7 @@ const PortfolioCard = ({ p, index }) => {
         }
       },
       {
-        threshold: 0.3,
+        threshold: 0.2,
       }
     );
     if (refCard.current) observer.observe(refCard.current);

@@ -2,16 +2,17 @@
   color: var(--clr-text-light);
   background: url('/assets/pictures/services/service-panorama.webp') no-repeat
     right center/cover;
-  margin-block-start: 220px;
-  padding: 48px 35px;
+  margin-block-start: 13.75em;
+  padding: 3em 2.1875em;
   text-align: center;
   position: relative;
   isolation: isolate;
+  overflow-x: clip;
 
   @media (min-width: 63.75rem) {
-    padding: 48px 0;
+    /* padding: 3em 0; */
     text-align: left;
-    padding: 200px 35px;
+    padding: 12.5em 2.1875em;
   }
 }
 
@@ -45,25 +46,29 @@
 }
 
 .teamEffortHeader-title {
-  font-size: 33px;
-  margin-block: 88px 20px;
+  font-size: 2.0625rem;
+  margin-block: 2.66em 0.606em;
+  opacity: 0;
+  transform: translateY(50px);
 
-  @media (min-width: 768px) {
-    font-size: 45px;
+  @media (min-width: 48rem) {
+    font-size: 2.8125rem;
   }
 
   @media (min-width: 63.75rem) {
     text-align: left;
-    font-size: 55px;
-    margin-block: 50px 20px;
+    font-size: 3.4375rem;
+    margin-block: 0.909em 0.363em;
   }
 }
 
 .teamEffortHeader-divider {
   display: flex;
   justify-content: center;
-  height: 5px;
+  height: 0.3125em;
   gap: 1em;
+  opacity: 0;
+  transform: translateX(50px);
 
   @media (min-width: 63.75rem) {
     justify-content: flex-start;
@@ -75,8 +80,8 @@
   display: block;
   background-color: rgba(255 255 255/0.5);
   border-radius: 2px;
-  width: 9px;
-  height: 5px;
+  width: 0.5625em;
+  height: 0.3125em;
 }
 
 .teamEffortHeader-divider::after {
@@ -84,48 +89,52 @@
   display: block;
   background-color: rgba(255 255 255/0.5);
   border-radius: 2px;
-  width: 48px;
-  height: 5px;
+  width: 3em;
+  height: 0.3125em;
 }
 
 .teamEffortHeader-text {
   color: rgba(255 255 255/0.7);
-  margin-block: 62px;
+  margin-block: 3.875em;
+  opacity: 0;
+  transform: translateY(50px);
 }
 
 .teamEffortList {
   color: rgba(57 57 57/0.7);
   background-color: var(--clr-bg-light);
   border-radius: 16px;
-  padding: 15px;
+  padding: 0.9375em;
+  /* opacity: 0;
+  transform: translateX(40px); */
 
   @media (min-width: 63.75rem) {
     grid-column: 3;
-    padding: 0px 70px;
+    padding: 0px 4.375em;
   }
 }
 
 .teamEffortList ul {
-  @media (min-width: 768px) {
+  @media (min-width: 48rem) {
     gap: 2.5em;
   }
 }
 
 .teamEffortList-item {
-  margin-block: 62px;
+  margin-block: 3.875em;
 
-  @media (min-width: 768px) {
-    margin-block: 42px;
+  @media (min-width: 48rem) {
+    margin-block: 2.625em;
   }
 }
 
 .teamEffortList-num {
   color: rgb(32 32 32);
-  font-size: 21px;
+  font-size: 1.3125rem;
   font-weight: 500;
-  margin-block: 16px 28px;
+  margin-block: 0.761em 1.333em;
 
-  @media (min-width: 1020px) {
+  @media (min-width: 63.75rem) {
     display: flex;
     align-items: center;
     gap: 0.5em;
@@ -142,24 +151,24 @@
     rgb(52, 152, 219) 100%
   );
   border-radius: 2px;
-  width: 100px;
-  height: 2px;
+  width: 4.761em;
+  height: 0.095em;
   margin-inline: auto;
-  margin-block-end: 20px;
+  margin-block-end: 0.952em;
 
-  @media (min-width: 1020px) {
+  @media (min-width: 63.75rem) {
     margin-inline: unset;
-    width: 20px;
-    margin-block-end: -10px;
+    width: 0.952em;
+    margin-block-end: -0.476em;
   }
 }
 
 .teamEffortList-title {
   color: var(--clr-text-pri);
-  font-size: 29px;
+  font-size: 1.8125rem;
   text-transform: uppercase;
   font-weight: 500;
-  margin-block: 20px;
+  margin-block: 0.689em;
 }
 
 .teamEffortList-text {

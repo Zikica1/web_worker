@@ -32,7 +32,10 @@ const Portfolio = () => {
   }, [isInView, animate]);
 
   return (
-    <section className='portfolio' key={location.pathname}>
+    <section
+      className={`${home ? 'portfolioHome' : 'portfolio'}`}
+      key={location.pathname}
+    >
       <div ref={scope} className='portfolioContentWrapper'>
         <motion.div
           className='portfolioHeader'
