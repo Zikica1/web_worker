@@ -16,6 +16,7 @@
   min-height: 25em;
   isolation: isolate;
   position: relative;
+  overflow-x: clip;
 
   @media (min-width: 65rem) {
     min-height: 31.25em;

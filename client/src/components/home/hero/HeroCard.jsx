@@ -2,6 +2,7 @@ import { useRef, useEffect } from 'react';
 import { easeIn, motion, useInView, useAnimate } from 'motion/react';
 import { MdPlayArrow } from 'react-icons/md';
 import { useTranslation, Trans } from 'react-i18next';
+import ButtonPrimary from '../../buttons/primaButton/ButtonPrimary';
 
 const cardImgVar = {
   hidden: { opacity: 0, scale: 1.2 },
@@ -38,7 +39,7 @@ const HeroCard = ({ item, refItem, handleNext, handlePrevious }) => {
 
   const isInView = useInView(cardImgRef, {
     once: false,
-    amount: 0.25,
+    amount: 0.1,
   });
 
   const isInView2 = useInView(scope, {
@@ -98,23 +99,26 @@ const HeroCard = ({ item, refItem, handleNext, handlePrevious }) => {
           </motion.p>
         </div>
 
-        <div className='heroSlides-buttonWrap'>
-          <button
-            onClick={() => {
-              handlePrevious();
-            }}
-            className='heroSlides-button heroSlides-button--rotate'
-          >
-            <MdPlayArrow />
-          </button>
-          <button
-            onClick={() => {
-              handleNext();
-            }}
-            className='heroSlides-button'
-          >
-            <MdPlayArrow />
-          </button>
+        <div className='heroSlices-buttonsContainer'>
+          <ButtonPrimary url='about' heroButton='heroButton' />
+          <div className='heroSlides-buttonWrap'>
+            <button
+              onClick={() => {
+                handlePrevious();
+              }}
+              className='heroSlides-button heroSlides-button--rotate'
+            >
+              <MdPlayArrow />
+            </button>
+            <button
+              onClick={() => {
+                handleNext();
+              }}
+              className='heroSlides-button'
+            >
+              <MdPlayArrow />
+            </button>
+          </div>
         </div>
       </div>
       <div className='heroSlides-rightCol'>

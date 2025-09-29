@@ -88,15 +88,30 @@
   margin-block: 1.142em;
   max-width: 55ch;
 
+  @media (min-width: 48rem) {
+    margin-block: 1.142em 1.5em;
+  }
+
   @media (min-width: 63.75rem) {
     font-size: 1rem;
+  }
+}
+
+.heroSlices-buttonsContainer {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  padding-inline-end: 2em;
+  margin-block-end: 0.5em;
+
+  @media (min-width: 48rem) {
+    justify-content: space-between;
   }
 }
 
 .heroSlides-buttonWrap {
   display: inline-flex;
   gap: 0.5em;
-  margin-block: 1em;
 }
 
 .heroSlides-button {

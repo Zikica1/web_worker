@@ -10,7 +10,7 @@
     "0": {
       "title": "Mi smo Agencija za Veb <span>Dizajn</span>",
       "subtitle": "6 godina iskustva",
-      "description": "Kreiramo zapanjujuće vizualne elemente i intuitivan interfejs, kako bi smo stvorili nezaboravna onlajn putovanja. Kreiramo jedinstven, moderan i funkcionalan veb sajt za vas koji  prenosi poruku vašeg brenda jasno, samouvereno i sa stilom."
+      "description": "Stvaramo vizuelne elemente i prilagodljiv interfejs. Pravimo za vas moderan i funkcionalan web sajt koji prenosi poruku vašeg brenda."
     },
     "1": {
       "title": "Grupa Stručnih <span>Planera</span>",
@@ -267,5 +267,15 @@
       "subtitle": "<span>Naše</span> veštine",
       "text": "Koristimo moderne programske jezike, koji obezbeđuju stabilnost web sajta, doprinose njegovoj brzini, boljoj SEO optimizaciji i većoj online vidljivosti. Spajamo kreativnost i funkcionalnost na jednom mestu."
     }
+  },
+  "footer": {
+    "title": "Imate ideju ili projekat? Hajde da razgovaramo",
+    "subtitle": "Agencija-linkovi",
+    "contact": "Kontaktirajte nas",
+    "rights": "Sva prava rezervisana",
+    "subtitleContact": "Kontakt",
+    "openHoursTitle": "Radno vreme",
+    "open": "Pon-Sub: 9.00 - 17.00",
+    "close": "Nedelja: ZATVORENO"
   }
 }

@@ -205,6 +205,7 @@ const OurMissions = () => {
               initial='hidden'
               animate={isInView6 || isMobile ? 'visible' : 'hidden'}
               className='ourMissionImage-two'
+              style={{ borderRadius: '24px' }}
             >
               <source
                 media='(max-width: 480px'

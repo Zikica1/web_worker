@@ -10,7 +10,7 @@
     "0": {
       "title": "We Are a Web Design <span>Agency</span>",
       "subtitle": "6 years of experience",
-      "description": "We create stunning visuals and an intuitive interface to create unforgettable online journeys. We create a unique, modern and functional website for you that conveys your brand message clearly, confidently and with style."
+      "description": "We create visual elements and a customizable interface. We create for you a modern and functional website that conveys the message of your brand."
     },
     "1": {
       "title": "A Group of Expert <span>Planners</span>",
@@ -267,5 +267,15 @@
       "subtitle": "<span>Our</span> skills",
       "text": "We use modern programming languages, which ensure website stability, contribute to its speed, better SEO optimization and greater online visibility. We combine creativity and functionality in one place."
     }
+  },
+  "footer": {
+    "title": "Have an idea or a project? Let's talk",
+    "subtitle": "Agency-links",
+    "contact": "Contact us",
+    "rights": "All Rights Reserved",
+    "subtitleContact": "Contact",
+    "openHoursTitle": "Open hours",
+    "open": "Mon-Sat: 9 am - 5 pm",
+    "close": "Sunday: CLOSED"
   }
 }
