@@ -5,7 +5,6 @@ import {
 } from 'react-icons/md';
 import { MdStorage } from 'react-icons/md';
 import { CiMobile1, CiMail, CiAlarmOn } from 'react-icons/ci';
-import { LuPalette, LuSettings, LuRocket } from 'react-icons/lu';
 
 export const hero = [
   {

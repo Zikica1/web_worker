@@ -1,5 +1,5 @@
 import './serviceCardDet.css';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { useTranslation, Trans } from 'react-i18next';
 import { services } from '../../data/db';
 

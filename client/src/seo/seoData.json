@@ -1,0 +1,170 @@
+{
+  "home": {
+    "sr": {
+      "title": "Izrada web sajta - Profesionalni dizajn i optimizacija za vas",
+      "description": "Izrada web sajta cena prilagođena vašem budžetu. Kreiramo funkcionalne i optimizovane sajtove koji privlače klijente. Kontaktirajte nas odmah!",
+      "url": "https://www.webworker.rs/sr/",
+      "image": "https://www.webworker.rs/assets/pictures/SEO/home-webWorker-web-design-agency.jpg",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.webworker.rs/sr/#webpage",
+            "url": "https://www.webworker.rs/sr/",
+            "name": "Izrada web sajta - Profesionalni dizajn i optimizacija za vas",
+            "inLanguage": "sr",
+            "isPartOf": {
+              "@id": "https://www.webworker.rs/#website"
+            },
+            "about": {
+              "@id": "https://www.webworker.rs/#organization"
+            },
+            "description": "Izrada web sajta cena prilagođena vašem budžetu. Kreiramo funkcionalne i optimizovane sajtove koji privlače klijente. Kontaktirajte nas odmah!",
+            "mainEntityOfPage": {
+              "@id": "https://www.webworker.rs/sr/"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.webworker.rs/#website",
+            "url": "https://www.webworker.rs/",
+            "name": "WebWorker",
+            "inLanguage": "sr",
+            "publisher": {
+              "@id": "https://www.webworker.rs/#organization"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.webworker.rs/#organization",
+            "name": "WebWorker",
+            "url": "https://www.webworker.rs/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.webworker.rs/assets/pictures/SEO/logo-webWorker-web-design-agency.png"
+            },
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "telephone": "+381658158692",
+                "contactType": "customer service",
+                "areaServed": "RS",
+                "availableLanguage": ["sr", "en"]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "en": {
+      "title": "Website development - Professional design and optimization for you",
+      "description": "Web site development at a price adjusted to your budget. We create functional and optimized websites that attract customers. Contact us now!",
+      "url": "https://www.webworker.rs/en/",
+      "image": "https://webworker.rs/assets/pictures/SEO/home-webWorker-web-design-agency.jpg",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.webworker.rs/en/#webpage",
+            "url": "https://www.webworker.rs/en/",
+            "name": "Website development - Professional design and optimization for you",
+            "inLanguage": "en",
+            "isPartOf": {
+              "@id": "https://www.webworker.rs/#website"
+            },
+            "about": {
+              "@id": "https://www.webworker.rs/#organization"
+            },
+            "description": "Web site development at a price adjusted to your budget. We create functional and optimized websites that attract customers. Contact us now!",
+            "mainEntityOfPage": {
+              "@id": "https://www.webworker.rs/en/"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.webworker.rs/#website",
+            "url": "https://www.webworker.rs/",
+            "name": "WebWorker",
+            "inLanguage": "en",
+            "publisher": {
+              "@id": "https://www.webworker.rs/#organization"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.webworker.rs/#organization",
+            "name": "WebWorker",
+            "url": "https://www.webworker.rs/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.webworker.rs/assets/pictures/SEO/logo-webWorker-web-design-agency.png"
+            },
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "telephone": "+381658158692",
+                "contactType": "customer service",
+                "areaServed": "RS",
+                "availableLanguage": ["sr", "en"]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "about": {
+    "sr": {
+      "title": "O nama | Web Worker - Web dizajn i izrada sajtova i SEO",
+      "description": "Upoznajte Web Worker - agenciju specijalizovanu za web dizajn, izradu sajtova i SEO. Saznajte više o nama, iskustvu i vrednostima koje nas izdvajaju.",
+      "url": "https://www.webworker.rs/sr/about",
+      "image": "https://www.webworker.rs/assets/pictures/SEO/about-us-webWorker-web-design-agency.jpg",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.webworker.rs/sr/about/#webpage",
+            "url": "https://www.webworker.rs/sr/about/",
+            "name": "O nama | Web Worker - Web dizajn i izrada sajtova i SEO",
+            "inLanguage": "sr",
+            "isPartOf": {
+              "@id": "https://www.webworker.rs/#website"
+            },
+            "about": {
+              "@id": "https://www.webworker.rs/#organization"
+            },
+            "description": "Upoznajte Web Worker - agenciju specijalizovanu za web dizajn, izradu sajtova i SEO. Saznajte više o nama, iskustvu i vrednostima koje nas izdvajaju."
+          }
+        ]
+      }
+    },
+    "en": {
+      "title": "About us | Web Worker - Web design, development and SEO",
+      "description": "Meet Web Worker - an agency specialized in web design, website development and SEO. Learn more about us, our experience and the values that set us apart.",
+      "url": "https://www.webworker.rs/en/about",
+      "image": "https://www.webworker.rs/assets/pictures/SEO/about-us-webWorker-web-design-agency.jpg",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.webworker.rs/en/about/#webpage",
+            "url": "https://www.webworker.rs/en/about/",
+            "name": "About us | Web Worker - Web design, development and SEO",
+            "inLanguage": "en",
+            "isPartOf": {
+              "@id": "https://www.webworker.rs/#website"
+            },
+            "about": {
+              "@id": "https://www.webworker.rs/#organization"
+            },
+            "description": "Meet Web Worker - an agency specialized in web design, website development and SEO. Learn more about us, our experience and the values that set us apart."
+          }
+        ]
+      }
+    }
+  }
+}
