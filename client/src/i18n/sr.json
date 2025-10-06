@@ -58,7 +58,7 @@
       }
     },
     "cardDet": {
-      "0": {
+      "development-card": {
         "mainTitle": "Izrada web sajtova",
         "title": "Izrada web sajtova koji povećavaju vaš profit",
         "parag": "Naš cilj je da svaki projekat dobije snažan i kvalitetan početak. Zajedno sa vama definišemo ključne pokazatelje uspeha (KPI - Key Performance Indicators), jet tek nakon toga pristupamo izradi strukture sajta. Prilikom kreiranja arhitekture vodimo računa o kategorizaciji i podkategorijama, kako bi svaki deo sajta imao jasno svrhu i doprinosio boljoj organizaciji. Da biste zauzeli mesto u top 10 rezltata na Google-u, vaš sadržaj mora biti originalan i visokog kvaliteta. Bez kvalitetnog sadržaja, ni najbolji dizajn neće doneti rezultat. Zato posebnu pažnju posvećujemo optimizaciji svake stranice, uz korišćenje profesionalnih alata koji nam pomažu u izboru pravih kljčnih reći za vaš sajt.<br/>",
@@ -76,7 +76,7 @@
         "typesText": "",
         "sharedHosting": ""
       },
-      "1": {
+      "SEO-card": {
         "mainTitle": "Optimizacija za pretraživače",
         "title": "Šta je SEO optimizacija?",
         "parag": "SEO (Search Engine Optimization) predstavlja skup strategija i tehnika koje se primenjuju kako bi se web sajt prilagodio pravilima i preporukama pretraživača. Cilj SEO-a je da poveća vidljivost vašeg sajta u organskoj pretrazi, rezultatima koji se pojavljuju prirodno, bez plaćenih oglasa. Kada korisnik unese određenu ključnu reč ili frazu u Google ili drugi pretraživač, algoritam prikazuje web stranice koje najbolje odgovaraju tom upitu. Da bi vaš sajt bio među tim rezultatima, neophodno je da sadrži kvalitetan i relevantan sadržaj, optimizovan pravim ključnim rečima. SEO ne obuhvata samo tekst - tu su i optimizovane slike, pravilno postavljeni tagovi, interna i eksterna povezanost stranica, integracija sa društvenim mrežama,registracija sajta u alatima poput Google Search Console, upis u relevantne direktorijume i redovno dodavanje svežeg sadržaja (blog postovi, novisti i sl.).<br/> U praksi se razlikuju dve glavne vrste optimizacije:",
@@ -93,7 +93,7 @@
         "typesText": "",
         "sharedHosting": ""
       },
-      "2": {
+      "design-card": {
         "mainTitle": "Responzivni web dizain",
         "title": "Šta je responzivni web dizajn?",
         "parag": "Responzive web dizajn (RWD) podrazumeva izradu web sajta koji se <bold>automatski prilagođava ekranu i uređaju na kojem se prikazuje</bold>, bilo da korisnik gleda vaš sajt na telefonu, tabletu, laptopu ili velikom monitoru. Cilj je da sadržaj uvek bude pregledan, funkcionalan i privlačan, bez obzira na veličinu ekrana ili orijentaciju uređaja.<br/> Ovakav pristup omogućava:",
@@ -117,7 +117,7 @@
         "typesText": "",
         "sharedHosting": ""
       },
-      "3": {
+      "hosting-card": {
         "mainTitle": "Web Hosting",
         "title": "Šta je web hosting",
         "parag": "Web hosting je usluga koja omogućava da vaš sajt ili aplikacija budu dostupni na internetu. Funkcioniše tako što hosting kompanije iznajmljuju prostor na svojim serverima za čuvanje svih datoteka vašeg sajta – tekstova, slika, video zapisa i drugih podataka.<br/> Najlakše je zamisliti hosting kao zakup prostora na internetu: provajder je vlasnik servera, dok je vaš domen adresa tog prostora. Kada neko ukuca vaš domen u pretraživač, server obrađuje zahtev i prikazuje sadržaj vašeg sajta.",

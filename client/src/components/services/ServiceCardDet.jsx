@@ -5,7 +5,7 @@ import { services } from '../../data/db';
 
 const ServiceCardDet = () => {
   const { id } = useParams();
-  const cardDet = services.find((s) => s.id === Number(id));
+  const cardDet = services.find((s) => s.category === id);
 
   const { t } = useTranslation();
   const categories =

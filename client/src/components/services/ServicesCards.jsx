@@ -53,7 +53,7 @@ const ServiceCard = ({ service, index }) => {
         <h3 className='card-title'>{t(`service.cards.${service.id}.title`)}</h3>
         <div className='cardSubtitle'>
           {isService ? (
-            <Link to={`${service.id}`} className='cardSubtitle-link'>
+            <Link to={`${service.category}`} className='cardSubtitle-link'>
               {t(`service.cards.${service.id}.subtitle`)}
             </Link>
           ) : (

@@ -33,6 +33,7 @@ export const hero = [
 export const services = [
   {
     id: 0,
+    category: 'development-card',
     Icon: MdOutlineDesktopWindows,
     imgMob: '/assets/pictures/serviceCardDet/serviceCardWeb-img-480px.webp',
     imgMob2: '/assets/pictures/serviceCardDet/serviceCardWeb-img-480px@2x.webp',
@@ -41,6 +42,7 @@ export const services = [
   },
   {
     id: 1,
+    category: 'SEO-card',
     Icon: MdSpeed,
     imgMob: '/assets/pictures/serviceCardDet/serviceCardSeo-img-480px.webp',
     imgMob2: '/assets/pictures/serviceCardDet/serviceCardSeo-img-480px@2x.webp',
@@ -49,6 +51,7 @@ export const services = [
   },
   {
     id: 2,
+    category: 'design-card',
     Icon: MdPhoneIphone,
     imgMob: '/assets/pictures/serviceCardDet/serviceCardRes-img-480px.webp',
     imgMob2: '/assets/pictures/serviceCardDet/serviceCardRes-img-480px@2x.webp',
@@ -57,6 +60,7 @@ export const services = [
   },
   {
     id: 3,
+    category: 'hosting-card',
     Icon: MdStorage,
     imgMob: '/assets/pictures/serviceCardDet/serviceCardHost-img-480px.webp',
     imgMob2:

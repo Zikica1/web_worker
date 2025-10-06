@@ -52,7 +52,13 @@
                 "areaServed": "RS",
                 "availableLanguage": ["sr", "en"]
               }
-            ]
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Sombor",
+              "postalCode": "25000",
+              "addressCountry": "RS"
+            }
           }
         ]
       }
@@ -109,7 +115,13 @@
                 "areaServed": "RS",
                 "availableLanguage": ["sr", "en"]
               }
-            ]
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Sombor",
+              "postalCode": "25000",
+              "addressCountry": "RS"
+            }
           }
         ]
       }
@@ -136,7 +148,10 @@
             "about": {
               "@id": "https://www.webworker.rs/#organization"
             },
-            "description": "Upoznajte Web Worker - agenciju specijalizovanu za web dizajn, izradu sajtova i SEO. Saznajte više o nama, iskustvu i vrednostima koje nas izdvajaju."
+            "description": "Upoznajte Web Worker - agenciju specijalizovanu za web dizajn, izradu sajtova i SEO. Saznajte više o nama, iskustvu i vrednostima koje nas izdvajaju.",
+            "mainEntityOfPage": {
+              "@id": "https://www.webworker.rs/sr/about/"
+            }
           }
         ]
       }
@@ -161,7 +176,68 @@
             "about": {
               "@id": "https://www.webworker.rs/#organization"
             },
-            "description": "Meet Web Worker - an agency specialized in web design, website development and SEO. Learn more about us, our experience and the values that set us apart."
+            "description": "Meet Web Worker - an agency specialized in web design, website development and SEO. Learn more about us, our experience and the values that set us apart.",
+            "mainEntityOfPage": {
+              "@id": "https://www.webworker.rs/en/about/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "services": {
+    "sr": {
+      "title": "Web dizajn, izrada sajtova i SEO optimizacija | WebWorker",
+      "description": "Profesionalne usluge izrade sajtova, web dizajna i SEO optimizacije. Unapredite online prisustvo i izdvojite se na tržištu.",
+      "url": "https://www.webworker.rs/sr/services",
+      "image": "https://www.webworker.rs/assets/pictures/SEO/services-webWorker-web-design-agency.jpg",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.webworker.rs/sr/services/#webpage",
+            "url": "https://www.webworker.rs/sr/services/",
+            "name": "Web dizajn, izrada sajtova i SEO optimizacija | WebWorker",
+            "inLanguage": "sr",
+            "isPartOf": {
+              "@id": "https://www.webworker.rs/#website"
+            },
+            "about": {
+              "@id": "https://www.webworker.rs/#organization"
+            },
+            "description": "Profesionalne usluge izrade sajtova, web dizajna i SEO optimizacije. Unapredite online prisustvo i izdvojite se na tržištu.",
+            "mainEntityOfPage": {
+              "@id": "https://www.webworker.rs/sr/services"
+            }
+          }
+        ]
+      }
+    },
+    "en": {
+      "title": "Web Design, Development & SEO Agency | WebWorker",
+      "description": "Professional web design, development, and SEO services. Stand out online and attract more clients with our tailored solutions.",
+      "url": "https://www.webworker.rs/en/services",
+      "image": "https://www.webworker.rs/assets/pictures/SEO/services-webWorker-web-design-agency.jpg",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.webworker.rs/en/services/#webpage",
+            "url": "https://www.webworker.rs/en/services/",
+            "name": "Web Design, Development & SEO Agency | WebWorker",
+            "inLanguage": "en",
+            "isPartOf": {
+              "@id": "https://www.webworker.rs/#website"
+            },
+            "about": {
+              "@id": "https://www.webworker.rs/#organization"
+            },
+            "description": "Professional web design, development, and SEO services. Stand out online and attract more clients with our tailored solutions.",
+            "mainEntityOfPage": {
+              "@id": "https://www.webworker.rs/en/services"
+            }
           }
         ]
       }
