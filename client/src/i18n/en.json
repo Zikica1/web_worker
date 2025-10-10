@@ -58,7 +58,7 @@
       }
     },
     "cardDet": {
-      "development-card": {
+      "web-development": {
         "mainTitle": "Website development",
         "title": "Creating websites that increase your profits",
         "parag": "Our goal is for every project to get off to a strong and high-quality start. Together with you, we define the key indicators of success (KPI - Key Performance Indicators), and only after that we approach the creation of the site structure. When creating the architecture, we take care of categorization and subcategories, so that each part of the site has a clear purpose and contributes to a better organization. To rank in the top 10 results on Google, your content must be original and of high quality. Without quality content, even the best design will not bring results. That's why we pay special attention to the optimization of each page, using professional tools that help us choose the right keywords for your site.<br/>",
@@ -76,7 +76,7 @@
         "typesText": "",
         "sharedHosting": ""
       },
-      "SEO-card": {
+      "seo-optimization": {
         "mainTitle": "Search Engine Optimization",
         "title": "What is SEO optimization?",
         "parag": "SEO (Search Engine Optimization) represents a set of strategies and techniques that are applied in order to adapt the website to the rules and recommendations of search engines. The goal of SEO is to increase the visibility of your site in organic search, the results that appear naturally, without paid ads. When a user enters a specific keyword or phrase into Google or another search engine, the algorithm displays the web pages that best match that query. In order for your site to be among those results, it is necessary to contain quality and relevant content, optimized with the right keywords. SEO does not only include text - there are also optimized images, properly placed tags, internal and external connection of pages, integration with social networks, site registration in tools such as Google Search Console, registration in relevant directories and regular addition of fresh content (blog posts, news, etc.).<br/> In practice, two main types of optimization are distinguished:",
@@ -93,7 +93,7 @@
         "typesText": "",
         "sharedHosting": ""
       },
-      "design-card": {
+      "web-design": {
         "mainTitle": "responsive web design",
         "title": "What is Responsive Web Design?",
         "parag": "Responsive web design (RWD) means creating a website that <strong>automatically adapts to the screen and device on which it is displayed</strong>, whether the user is viewing your site on a phone, tablet, laptop or large monitor. The goal is for the content to always be viewed, functional and attractive, regardless of screen size or device orientation.<br/> This approach enables:",
@@ -117,7 +117,7 @@
         "typesText": "",
         "sharedHosting": ""
       },
-      "hosting-card": {
+      "hosting": {
         "mainTitle": "Web Hosting",
         "title": "What is Web Hosting?",
         "parag": "Web hosting is a service that allows your website or application to be available on the internet. It works by hosting companies renting out space on their servers to store all your website files – including text, images, videos, and other content.<br/>The easiest way to imagine hosting is like renting space online: the provider owns the server, while your domain is the address of that space. When someone enters your domain into a browser, the server processes the request and displays your site.",
