@@ -9,20 +9,17 @@ const ServiceCardDet = () => {
   const { id } = useParams();
   const { i18n } = useTranslation();
   const lang = i18n.language;
-  const {
-    title,
-    description,
-    url,
-    image,
-    headline,
-  } = `${seoData}.${id}.${lang}`;
+  // const { title, description, url, image, headline } =
+  //   seoData.serviceCardDet[id][lang];
+  const { title, description, url, image, headline } =
+    seoData?.serviceCardDet?.[id]?.[lang] || {};
 
   const jsonLd = {
     '@context': 'https://schema.org',
-    graph: [
+    '@graph': [
       {
         '@type': 'WebPage',
-        '@id': `https://www.webworker.rs/${lang}/services/${id}`,
+        '@id': `https://www.webworker.rs/${lang}/services/${id}/#webpage`,
         url: url,
         name: title,
         inLanguage: lang,
@@ -44,7 +41,7 @@ const ServiceCardDet = () => {
         description: description,
         inLanguage: lang,
         author: {
-          type: 'Organization',
+          '@type': 'Organization',
           '@id': 'https://www.webworker.rs/#organization',
         },
         publisher: {
