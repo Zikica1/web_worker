@@ -33,7 +33,11 @@ export const hero = [
 export const services = [
   {
     id: 0,
-    category: 'web-development',
+    category: 'website',
+    slugs: {
+      en: 'website-development',
+      sr: 'izrada-web-sajta',
+    },
     Icon: MdOutlineDesktopWindows,
     imgMob: '/assets/pictures/serviceCardDet/serviceCardWeb-img-480px.webp',
     imgMob2: '/assets/pictures/serviceCardDet/serviceCardWeb-img-480px@2x.webp',
@@ -42,7 +46,11 @@ export const services = [
   },
   {
     id: 1,
-    category: 'seo-optimization',
+    category: 'seo',
+    slugs: {
+      en: 'seo-optimization',
+      sr: 'seo-optimizacija',
+    },
     Icon: MdSpeed,
     imgMob: '/assets/pictures/serviceCardDet/serviceCardSeo-img-480px.webp',
     imgMob2: '/assets/pictures/serviceCardDet/serviceCardSeo-img-480px@2x.webp',
@@ -51,7 +59,11 @@ export const services = [
   },
   {
     id: 2,
-    category: 'web-design',
+    category: 'design',
+    slugs: {
+      en: 'design',
+      sr: 'dizajin',
+    },
     Icon: MdPhoneIphone,
     imgMob: '/assets/pictures/serviceCardDet/serviceCardRes-img-480px.webp',
     imgMob2: '/assets/pictures/serviceCardDet/serviceCardRes-img-480px@2x.webp',
@@ -61,6 +73,10 @@ export const services = [
   {
     id: 3,
     category: 'hosting',
+    slugs: {
+      en: 'hosting',
+      sr: 'hosting',
+    },
     Icon: MdStorage,
     imgMob: '/assets/pictures/serviceCardDet/serviceCardHost-img-480px.webp',
     imgMob2:

@@ -92,13 +92,15 @@ const imgTwoVariant = {
 };
 
 const OurMissions = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const refTitle = useRef(null);
   const refDivider = useRef(null);
   const refPara = useRef(null);
   const refButton = useRef(null);
   const refImgOne = useRef(null);
   const refImgTwo = useRef(null);
+
+  const lang = i18n.language;
 
   const isMobile = useIsMobile(1020);
 
@@ -168,7 +170,7 @@ const OurMissions = () => {
             initial='hidden'
             animate={isInView4 ? 'visible' : 'hidden'}
           >
-            <ButtonPrimary url='about' />
+            <ButtonPrimary url={lang === 'sr' ? 'o-nama' : 'about'} />
           </motion.div>
         </div>
         <div className='ourMissionImage'>

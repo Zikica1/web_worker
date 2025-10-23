@@ -1,55 +1,69 @@
 {
   "nav": {
-    "home": "Početna",
-    "about": "O nama",
-    "services": "Usluge",
-    "showcase": "Istaknuto",
-    "contact": "Kontakti"
+    "home": "početna",
+    "about": "o-nama",
+    "services": "usluge",
+    "showcase": "istaknuto",
+    "contact": "kontakt"
+  },
+  "routes": {
+    "home": "",
+    "about": "o-nama",
+    "services": "usluge",
+    "showcase": "istaknuto",
+    "contact": "kontakt"
+  },
+  "buttons": {
+    "heroText": "pozvite nas",
+    "baseText": "saznajte više",
+    "priceText": "zatražite ponudu",
+    "showcaseText": "pogledajte primer"
   },
   "hero": {
     "0": {
-      "title": "Mi smo Agencija za Veb <span>Dizajn</span>",
-      "subtitle": "6 godina iskustva",
-      "description": "Stvaramo vizuelne elemente i prilagodljiv interfejs. Pravimo za vas moderan i funkcionalan web sajt koji prenosi poruku vašeg brenda."
+      "title": "Profesionalna <span>web</span> sajt izrada",
+      "subtitle": "Web sajt po meri vašeg brenda",
+      "description": "Pravimo za vas moderne i funkcionalne sajtove koji prenose poruku vašeg brenda. Krenite sa izradom vašeg sajta već danas!"
     },
     "1": {
       "title": "Grupa Stručnih <span>Planera</span>",
-      "subtitle": "6 godina iskustva",
-      "description": "Kreiranje vizuelno zapanjujućih veb stranica koje angažuju, inspirišu i podižu onlajn prisustvo vešeg brenda."
+      "subtitle": "Poverite svoj projekat nama",
+      "description": "Sa više od 6 godina iskustva, kreiramo sajtove koji podižu vaš brend online. Kontaktirajte nas i započnite projekat danas."
     },
     "2": {
       "title": "Fokus na Vaš <span>Posao</span>",
-      "subtitle": "6 godina iskustva",
-      "description": "Transformisanje ideja u izvanredna digitalna iskustva"
+      "subtitle": "Mi gradimo vaš digitalni identitet",
+      "description": "Transformisanje ideja u izvanredna digitalna iskustva.Fokusirajte se na ono što volite — mi ćemo se pobrinuti da to izgleda i funkcioniše savršeno"
     }
   },
   "ourMission": {
-    "title": "Saznaj više o naštoj <span>misiji</span>",
-    "text": "Od vizuelno zapanjujućeg dizajna do intuitivnih korisničkih interfejsa, idemo korak dalje kako bismo osigurali da svaki veb sajt koji napravimo bude pravi odraz idetiteta brenda i vrednosti naših klijenata. Pridružite nam se na ovom putovanju dok redefinišemo mogućnosti veb dizajna i usmeravamo vaše poslovanje ka digitalnom uspehu."
+    "title": "O nama i našoj misiji u <span>web</span> dizajnu",
+    "text": "Od unikatnog dizajna do kreativnog interfejsa — naš prioritet je da svaki web sajt bude autentičan odraz vašeg brenda i podrška vašem digitalnom rastu. Pridružite nam se i saznajte više o našem pristupu modernom web dizajnu."
   },
   "service": {
     "top": {
-      "title": "Ko smo mi &<br/> šta <span>radimo</span>",
-      "description": "Sa preko šest godina iskustva u dizajnu korisničkog interfejsa, kombinujemo inovacije i umetnost kako bi smo stvorili besprekorna digitalna iskustva. Unapredite svoj, brend uz našu stručnost u vez dizajnu, razvoju, SEO optimaizaciji i još mnogo čemu. Otkrijte naš identitet koji je stvoren višegodišnjim iskustvom u dizajnu korisničkog interfejsa."
+      "title": "Ko smo mi i šta <span>radimo</span> u oblasti web dizajna i <span>razvoja</span>",
+      "description": "Sa više od šest godina iskustva u dizajnu korisničkog interfejsa, spajamo inovaciju i kreativnost kako bismo kreirali besprekorna digitalna iskustva. Unapredite svoj brend uz našu stručnost u web dizajnu, razvoju web sajtova, SEO optimizaciji i drugim ključnim digitalnim uslugama.",
+      "alt": "Tim agencije diskutuje ideje za izradu web sajta i SEO strategiju"
     },
     "bottom": {
-      "title": "Imamo <span>sve</span> štovama<br/>  je <span>potrebno</span>"
+      "title": "Sve što vam je <span>potrebno</span> za moderan i optimizovan <span>web sajt</span>"
     },
     "cards": {
       "0": {
-        "title": "Izrada veb sajtova",
+        "title": "Izrada web sajta",
         "subtitle": "Vidi Još",
         "description": "Kreiramo web stranice koje kombinuju dizajn i funkcionalnost. Dizajn sajta prezentuje vašu kompaniju i uliva poverenje budućih klijenta, stvarajući vizuelno iskustvo koje daje rezultate."
       },
       "1": {
-        "title": "SEO",
+        "title": "SEO-optimizacija",
         "subtitle": "Vidi Još",
         "description": "SEO (Search engine optimization) optimizacija predstavlja unapređenje kvaliteta koda sajta, a sve u cilju povećavanja kvaliteta saobraćaja, odnosno broja poseta korisnika ka vašem web sajtu."
       },
       "2": {
         "title": "Prilagodljiv Dizain",
         "subtitle": "Vidi Još",
-        "description": "Prilagodljiv dizain veb strane predstavlja web dizain koji omogućava optimizovano prikazivanje, jednostavno korišćenje, čitanje i kretanje kroz veb sajt koji će biti pregledan na različitim uređajima."
+        "description": "Prilagodljiv dizain web stranice predstavlja dizain koji omogućava optimizovano prikazivanje, jednostavno korišćenje, čitanje i kretanje kroz sajt koji će biti pregledan na različitim uređajima."
       },
       "3": {
         "title": "Web Hositng",
@@ -58,87 +72,110 @@
       }
     },
     "cardDet": {
-      "web-development": {
-        "mainTitle": "Izrada web sajtova",
-        "title": "Izrada web sajtova koji povećavaju vaš profit",
-        "parag": "Naš cilj je da svaki projekat dobije snažan i kvalitetan početak. Zajedno sa vama definišemo ključne pokazatelje uspeha (KPI - Key Performance Indicators), jet tek nakon toga pristupamo izradi strukture sajta. Prilikom kreiranja arhitekture vodimo računa o kategorizaciji i podkategorijama, kako bi svaki deo sajta imao jasno svrhu i doprinosio boljoj organizaciji. Da biste zauzeli mesto u top 10 rezltata na Google-u, vaš sadržaj mora biti originalan i visokog kvaliteta. Bez kvalitetnog sadržaja, ni najbolji dizajn neće doneti rezultat. Zato posebnu pažnju posvećujemo optimizaciji svake stranice, uz korišćenje profesionalnih alata koji nam pomažu u izboru pravih kljčnih reći za vaš sajt.<br/>",
-        "sectionTitle": "Tipovi web sajtova koje izrađujemo",
+      "website": {
+        "mainTitle": "Izrada web sajta",
+        "title": "Kako pravimo sajt koji povećava vaš profit",
+        "parag": "Naša usluga izrade web sajta počinje definisanjem ključnih pokazatelja uspeha (KPI). Tek nakon toga projektujemo strukturu sajta i informacionu arhitekturu, vodeći računa o kategorizaciji i korisničkom putu, kako bi svaki deo stranice imao jasnu svrhu i doprinosio konverzijama. Da biste zauzeli mesto u top 10 rezultata na Google-u, vaš sadržaj mora biti originalan i visokog kvaliteta — bez kvalitetnog sadržaja ni najbolji dizajn neće doneti rezultate. Zato svaku stranicu optimizujemo uz pomoć profesionalnih alata i istraživanja ključnih reči.<br/>",
+        "sectionTitle": "Vrste sajtova koje izrađujemo",
         "sectionPara": "Na našem tržištu, najčešće realizujemo tri glavne vrste web sajtova:",
         "categories": [
-          "<bold>Mali biznis web sajtovi</bold><br/> Obično sadrže od 7 do 15 stranica i namenjeni su malim peduzećima koji žele da predstave i prodaju svoje proizvode ili usluge online. Profesionalno izrađen sajt može vas izdvojiti od konkurencije i privući nove kupce koji do sada nisu znali za vas.",
-          "<bold>Veliki biznis web sajtovi</bold><br/>Sa opsegom od 20 do 50 stranica, ovi sajtovi su namenjeni zahtevnijim klijentima - srednjim i velikim kompanijama. Pored onsvonih informacija, mogu sadržati napredne funkcionalnosti i personalizovana rešenja koja prate potrebe korisnika.",
-          "<bold>E-commerce web sajtovi</bold><br/>Mog sadžati od desetak do nekoliko hiljada proizvoda. Namenjena su onima koji žele da prodaju robu, usluge ili digitalne proizvode putem interneta. E-trgovina omogućava obradu porudžbina, više opcija plaćanja, praćenje isporuka i podršku kupcima - bilo da je reč o B2B ili B2C modelu."
+          "<headline>Mali biznis web sajtovi</headline> Obično sadrže od 7 do 15 stranica i namenjeni su malim peduzećima koji žele da predstave i prodaju svoje proizvode ili usluge online. Profesionalno izrađen sajt može vas izdvojiti od konkurencije i privući nove kupce koji do sada nisu znali za vas.",
+          "<headline>Veliki biznis web sajtovi</headline>Sa opsegom od 20 do 50 stranica, ovi sajtovi su namenjeni zahtevnijim klijentima - srednjim i velikim kompanijama. Pored osnovnih informacija, mogu sadržati napredne funkcionalnosti i personalizovana rešenja koja prate potrebe korisnika.",
+          "<headline>E-commerce web sajtovi</headline>Mog sadžati od desetak do nekoliko hiljada proizvoda. Namenjena su onima koji žele da prodaju robu, usluge ili digitalne proizvode putem interneta. E-trgovina omogućava obradu porudžbina, više opcija plaćanja, praćenje isporuka i podršku kupcima - bilo da je reč o B2B ili B2C modelu."
         ],
-        "subtitle": "Zašto je važno imati savršen web sajt?",
+        "subtitle": "Zašto je kvalitetan web sajt važan za vaš biznis",
         "parag2": "Pravilan izbor agencije može vas poštedeti brojnih problema u budućnosti. Danas je kvalitetan web sajt centralno mesto svakog marketinga, ako vas nema na internetu, mnogi potencijalni kupci neće ni znati da postojite. Pretraživači su prvo mesto gde klijenti traže rešenja, a mi znamo kako tamo da vas pozicioniramo. Razumemo gde najčešće nastaju greške i kako da ih izbegnemo. Ne izrađujemo sajtove koji brzo zastarevaju ili gube funkcionalnost, svaki projekat detaljno pripremamo.",
-        "categories2": [],
+        "categories2": [
+          "Povećana vidljivost u pretragama",
+          "Veće poverenje korisnika",
+          "Veći broj konverzija",
+          "Bolja komunikacija brenda"
+        ],
         "typesTitle": "",
+        "typesTitle2": "Naš proces izrade web sajta",
         "typesText": "",
-        "sharedHosting": ""
+        "sharedHosting": "",
+        "categories3": [
+          "Analiza i KPI",
+          "Wireframe / arhitektura",
+          "Dizajn UI/UX",
+          "Razvoj i testiranje",
+          "SEO optimizacija i lansiranje",
+          "Održavanje i rast"
+        ]
       },
-      "seo-optimization": {
-        "mainTitle": "Optimizacija za pretraživače",
-        "title": "Šta je SEO optimizacija?",
-        "parag": "SEO (Search Engine Optimization) predstavlja skup strategija i tehnika koje se primenjuju kako bi se web sajt prilagodio pravilima i preporukama pretraživača. Cilj SEO-a je da poveća vidljivost vašeg sajta u organskoj pretrazi, rezultatima koji se pojavljuju prirodno, bez plaćenih oglasa. Kada korisnik unese određenu ključnu reč ili frazu u Google ili drugi pretraživač, algoritam prikazuje web stranice koje najbolje odgovaraju tom upitu. Da bi vaš sajt bio među tim rezultatima, neophodno je da sadrži kvalitetan i relevantan sadržaj, optimizovan pravim ključnim rečima. SEO ne obuhvata samo tekst - tu su i optimizovane slike, pravilno postavljeni tagovi, interna i eksterna povezanost stranica, integracija sa društvenim mrežama,registracija sajta u alatima poput Google Search Console, upis u relevantne direktorijume i redovno dodavanje svežeg sadržaja (blog postovi, novisti i sl.).<br/> U praksi se razlikuju dve glavne vrste optimizacije:",
-        "sectionTitle": "",
+      "seo": {
+        "mainTitle": "SEO-optimizacija sajta",
+        "title": "Šta je SEO optimizacija i zašto je važna za vaš web sajt?",
+        "parag": "SEO optimizacija (Search Engine Optimization) predstavlja proces poboljšanja vidljivosti web sajta u rezultatima organske pretrage na Google-u i drugim pretraživačima.Kada korisnik unese ključne reči kao što su izrada web sajta ili web dizajn Srbija, algoritam prikazuje stranice koje najbolje odgovaraju njegovom upitu. Da bi se vaš sajt našao među tim rezultatima, neophodno je da sadrži kvalitetan, relevantan i tehnički optimizovan sadržaj.<br/><br/> SEO ne podrazumeva samo optimizaciju teksta, on obuhvata i brzinu učitavanja sajta, mobilnu prilagođenost, pravilno korišćenje tagova (title, meta description, alt), kao i optimizaciju slika i linkova. Kombinacijom strategije ključnih reči, analize konkurencije i redovnog dodavanja novog sadržaja (blogovi, novosti, studije slučaja), vaš sajt može dostići bolju poziciju i privući veći broj posetilaca.",
+        "sectionTitle": "Vrste SEO optimizacije",
         "sectionPara": "",
         "categories": [
-          "On-site SEO - sve aktivnosti na samom sajtu (struktura, sadržaj, tehnička optimizacija).",
-          "Off-site SEO - aktivnosti van sajta koje utiču na njegov autoritet i rang(link building, prisutnost na mrežama itd)"
+          "On-site SEO - Obuhvata sve aktivnosti unutar samog sajta, kao što su tehnička optimizacija, struktura stranica, linkovi, naslovi i kvalitet sadržaja. Cilj je da Google što bolje razume o čemu se vaš sajt radi i da ga nagradi višim rangom.",
+          "Off-site SEO - uključuje aktivnosti van vašeg sajta, poput izgradnje autoriteta putem backlinkova, prisustva na društvenim mrežama i registracije u relevantnim direktorijumima. Sve ove aktivnosti zajedno jačaju reputaciju i kredibilitet vašeg web sajta."
         ],
         "subtitle": "Zašto je SEO važan?",
-        "parag2": "Ako poslujete u okruženju bez konkurencije, možda vam SEO i nije potreban. Međutim, u realnosti, gotovo svaka delatnost ima konkurente na internetu, i upravo tada SEO postaje ključan. Kvalitetna optimizacija vam omogućava da se rangirate visoko u pretrazi i zadržite tu poziciju. To znači više poseta, veću prodaju, prepoznatljiv brend i jasnu prednost nad konkurencijom. Bilo da koristite custom rešenje ili open-source platforme poput WordPress-aili Joomla-e, za svaku vrstu sajta postoji prilagođena SEO strategija koja daje najbolje rezultate.",
+        "parag2": "Ako poslujete u okruženju bez konkurencije, možda vam SEO i nije presudan. Međutim, u stvarnosti, gotovo svaka delatnost danas ima konkurente na internetu — i tu SEO optimizacija sajta postaje ključna. <br/><br/>Kvalitetno sprovedena optimizacija omogućava da se vaš web sajt pozicionira visoko u Google pretrazi i da tu poziciju zadrži dugoročno. To donosi više poseta, veći broj klijenata, prepoznatljiv brend i jasnu prednost nad konkurencijom.<br/><br/>Bilo da koristite custom rešenje ili open-source platforme poput WordPress-a ili Joomle, za svaku vrstu sajta može se razviti prilagođena SEO strategija koja daje najbolje rezultate i maksimalno koristi potencijal vašeg poslovanja.",
         "categories2": [],
         "typesTitle": "",
+        "typesTitle2": "",
         "typesText": "",
-        "sharedHosting": ""
+        "sharedHosting": "",
+        "categories3": []
       },
-      "web-design": {
+      "design": {
         "mainTitle": "Responzivni web dizain",
         "title": "Šta je responzivni web dizajn?",
-        "parag": "Responzive web dizajn (RWD) podrazumeva izradu web sajta koji se <bold>automatski prilagođava ekranu i uređaju na kojem se prikazuje</bold>, bilo da korisnik gleda vaš sajt na telefonu, tabletu, laptopu ili velikom monitoru. Cilj je da sadržaj uvek bude pregledan, funkcionalan i privlačan, bez obzira na veličinu ekrana ili orijentaciju uređaja.<br/> Ovakav pristup omogućava:",
+        "parag": "Responzivni web dizajn (RWD) predstavlja pristup izradi web sajtova koji se automatski prilagođavaju svim uređajima i veličinama ekrana — od mobilnih telefona i tableta, do laptopova i velikih monitora. Cilj responzivnog sajta je da sadržaj uvek bude pregledan, funkcionalan i estetski privlačan, bez obzira na rezoluciju ili orijentaciju uređaja.<br/><br/>Dobro implementiran responzivni web dizajn donosi brojne prednosti, kao što su:",
         "sectionTitle": "",
         "sectionPara": "",
         "categories": [
-          "prilagođavanje različitim rezolucijama i rasporedima",
-          "korišćenje fleksibilnih mreža i elemenata",
-          "optimizovane slike i grafiku",
-          "brže učitavanje stranica"
+          "prilagođavanje različitim rezolucijama i rasporedima elemenata",
+          "Korišćenje fleksibilnih mreža (fluid grids) i responzivnih komponenti",
+          "Optimizovane slike i grafika za brže učitavanje",
+          "Bolje korisničko iskustvo (UX) i manji bounce rate",
+          "SEO prednosti, jer Google favorizuje mobilno prilagođene sajtove"
         ],
         "subtitle": "Zašto je responzivni web dizajn važan za vaš biznis?",
-        "parag2": "Danas većina korisnika internet pretražuje putem mobilnih telefona. Prema istraživanju iz 2025. godine, <bold>čak 68% maloprodajnih kupovina širom sveta obavljeno je putem pametnih telefona.</bold> To znači da ako vaš sajt nije prilagođen mobilnim uređajima, gubite velik broj potencijalnih kupaca.<br/>Predonst responzivnog dizajna:<br/>",
+        "parag2": "Danas većina korisnika internet pretražuje putem mobilnih telefona.Prema istraživanju iz 2025. godine, čak <bold>68% online kupovina</bold> širom sveta obavljeno je preko pametanih telefona.To znači da, ako vaš sajt nije responzivan i nije prilagođen mobilnim uređajima, gubite veliki broj potencijalnih kupaca.<br/><br/>Responzivni web dizajn donosi brojne prednosti koje direktno utiču na uspeh vašeg poslovanja:",
         "categories2": [
-          "<bold>Jedan sajt za sve uređaje</bold> - nema potrebe praviti odvojene verzije za desktop i mobilni prikaz",
-          "<bold>Bolje korisničko iskustvo</bold> - posetioci duže ostaju na sajtu i lakše pronalaze ono što im treba",
-          "<bold>SEO prednost</bold> - Google favorizuje mobilno prilagođene sajtove, što znači bolji rang u pretrazi",
-          "<bold>Veća konverzija</bold> - sajt koji izgleda profesionalno i radi besprekorno povećava poverenje kupaca i šanse za prodaju"
+          "<bold>Jedan sajt za sve uređaje</bold> - nema potrebe za odvojenim verzijama za desktop i mobilni prikaz.",
+          "<bold>Bolje korisničko iskustvo(UX)</bold> - posetioci duže ostaju na sajtu i lakše pronalaze informacije koje traže.",
+          "<bold>SEO prednost</bold> - Google favorizuje mobilno prilagođene web sajtove, što znači bolji rang u rezultatima pretrage.",
+          "<bold>Veća konverzija i poverenje kupaca</bold> - profesionalno dizajniran i tehnički optimizovan sajt povećava verovatnoću da posetilac postane kupac."
         ],
         "typesTitle": "",
+        "typesTitle2": "",
         "typesText": "",
-        "sharedHosting": ""
+        "sharedHosting": "",
+        "categories3": []
       },
       "hosting": {
         "mainTitle": "Web Hosting",
         "title": "Šta je web hosting",
-        "parag": "Web hosting je usluga koja omogućava da vaš sajt ili aplikacija budu dostupni na internetu. Funkcioniše tako što hosting kompanije iznajmljuju prostor na svojim serverima za čuvanje svih datoteka vašeg sajta – tekstova, slika, video zapisa i drugih podataka.<br/> Najlakše je zamisliti hosting kao zakup prostora na internetu: provajder je vlasnik servera, dok je vaš domen adresa tog prostora. Kada neko ukuca vaš domen u pretraživač, server obrađuje zahtev i prikazuje sadržaj vašeg sajta.",
+        "parag": "Web hosting je usluga koja omogućava da vaš web sajt ili aplikacija budu dostupni 24/7 na internetu i predstavlja nezaobilazan korak u <aLink>procesu izrade web sajta</aLink>. Funkcioniše tako što hosting provajder iznajmljuje prostor na svom serveru gde se čuvaju sve datoteke vašeg sajta — tekstovi, slike, video zapisi, baze podataka i druge komponente koje čine vašu web stranicu.<br/><br/>Najlakše je zamisliti hosting kao zakup prostora na internetu: vaš domen je adresa tog prostora, dok je server fizičko mesto gde se podaci nalaze.Kada korisnik unese vaš domen u pretraživač, server obrađuje zahtev i prikazuje sadržaj vašeg sajta.",
         "sectionTitle": "Ključni elementi web hostina",
-        "sectionPara": "Da bi vaš sajt pravilno funkcionisao na internetu, potrebno je razumeti osnovne komponente koje web hosting čine mogućim. Svaki od ovih elemenata ima svoju ulogu u tome da vaša stranica bude dostupna i stabilna.",
+        "sectionPara": "Da bi vaš sajt ispravno funkcionisao i bio stalno dostupan korisnicima, važno je razumeti osnovne komponente koje čine web hosting mogućim. Svaka od njih ima svoju ulogu u tome da vaš sajt bude stabilan, brz i siguran.",
         "categories": [
           "<bold>Server</bold> - snažan računar povezan na internet koji hostuje sve datoteke vašeg sajta.",
           "<bold>Prostor na serveru</bold> - deo diska koji vam se iznajmljuje za skladištenje podataka.",
           "<bold>Propusni opseg</bold> - količia podataka koja se prenosti sa servera do posetilaca.",
-          "<bold>Domen</bold> - adresa vašeg sajta na internetu, npr www.vaš-sajt.rs"
+          "<bold>Domen</bold> - adresa vašeg sajta na internetu, npr www.vaš-sajt.rs",
+          "<bold>SSL sertifikat</bold> - digitalna potvrda koja omogućava sigurnu HTTPS konekciju, štiti podatke korisnika i doprinosi boljem rangiranju u Google pretrazi.",
+          "<bold>Tehnička podrška i backup</bold> - redovno održavanje, praćenje performansi i pravovremeno rešavanje problema ključni su za stabilan rad vašeg sajta."
         ],
         "subtitle": "Zašto vam je potreban web hostin?",
-        "parag2": "",
+        "parag2": "Bez web hostinga, vaš sajt ne bi mogao da bude dostupan na internetu. Hosting je osnova svakog online prisustva, jer omogućava da se sadržaj vašeg sajta prikazuje korisnicima širom sveta u svakom trenutku. Evo nekoliko ključnih razloga zašto vam je potreban:",
         "categories2": [
-          "<bold>Dostupnost</bold> - omogućava da vaš sajt bude vidljiv i dostupan posetiocima širom sveta u bilo kom trenutku",
-          "<bold>Skladištnje</bold> - pruža prostor za čuvanje svih fajlova (tekst, slike, video) na jednom mestu.",
-          "<bold>Tehnička podrška</bold> - hosting kompanije se brinu o održavanju servera, sigurnosti i drugih tehničkim aspektima koje bi samostalno bilo teško i skupo rešavati"
+          "<bold>Dostupnost</bold> - kvalitetan web hosting obezbeđuje da vaš sajt bude stalno online i vidljiv posetiocima, bez prekida u radu. Pouzdani serveri i stabilna infrastruktura garantuju visok procenat dostupnosti (99,9% uptime).",
+          "<bold>Skladištnje</bold> - hosting pruža siguran prostor za čuvanje svih fajlova vašeg sajta — tekstova, slika, video zapisa i baza podataka. Bilo da koristite shared, VPS ili cloud hosting, dobijate optimalan balans između brzine, sigurnosti i troškova.",
+          "<bold>Tehnička podrška</bold> - profesionalne hosting kompanije nude 24/7 tehničku podršku, redovno održavanje servera, sigurnosne kopije (backup) i zaštitu od napada (DDoS, malware). To znači da ne morate sami brinuti o tehničkim detaljima i sigurnosti sajta."
         ],
         "typesTitle": "Vrste hostinga",
-        "typesText": "Postoje različite vrste hostinga koje se razlikuju po nivou performansi, sigurnosti i načinu upravljanja. Tako možete odabrati opciju koja najbolje odgovara vašim potrebama – bilo da je reč o jednostavnom blogu ili velikom korporativnom sajtu.",
-        "sharedHosting": "Jedno od najčešćih rešenja je shared hosting. On je povoljan, jednostavan za upotrebu i odličan izbor za manje sajtove ili za početnike u svetu web hostinga."
+        "typesTitle2": "",
+        "typesText": "Postoje različite vrste web hostinga koje se razlikuju po nivou performansi, sigurnosti i načinu upravljanja. Odabir odgovarajućeg tipa hostinga zavisi od veličine vašeg sajta, količine saobraćaja i tehničkih potreba.Bez obzira da li pokrećete jednostavan blog, portfolio sajt ili veliku korporativnu platformu, pravi izbor hostinga utiče na brzinu učitavanja, stabilnost i poziciju sajta u rezultatima pretrage.",
+        "sharedHosting": "Jedno od najčešćih rešenja je shared hosting. On je povoljan, jednostavan za upotrebu i odličan izbor za manje sajtove ili za početnike u svetu web hostinga.",
+        "categories3": []
       }
     },
     "teamEffort": {
@@ -164,16 +201,22 @@
       }
     }
   },
+  "serviceIds": {
+    "website": "izrada-web-sajta",
+    "seo": "seo-optimizacija",
+    "design": "dizajin",
+    "hosting": "hosting"
+  },
   "homeService": {
-    "title": "Tu smo da <br/> učinimo da vaš <span>Veb sajt</span> <br/>izgleda <span>elegantnije</span> i bolje!"
+    "title": "Profesionalne usluge <br/> za  <span>moderan</span> <br/>i funkcionalan <span>web sajt</span>"
   },
   "portfolio": {
-    "title": "Naši nedavni <span>veb dizajni</span> i neki primeri prošlih <span>projekata</span>",
-    "text": "Ovde možete da pogledate neke od naših projekata koji su rađeni za klijente iz različitih oblasti poslovanja. Trudimo se da svakom klijentu pružimo jedinstveno i funkcionalno rešenje, u skladu sa brendom i potrebama."
+    "title": "Naši istaknuti <span>projekti</span> web dizajna",
+    "text": "Pogledajte primere naših projekata kreiranih za klijente iz različitih industrija.Za svaki projekat stvaramo univerzalno i moderno rešenje koje odražava identitet brenda i potrebe klijenta."
   },
   "priceList": {
-    "title": "Naša <span>ponuda</span> <br/>cene <span>izrade web</span> sajta",
-    "text": "Cene izrade web sajta su okvirne i zavise od vaših potreba i zahteva. Kontaktirajte nas za tačne informacije i ponudu prilagođenu vašem projektu.",
+    "title": "Cene i paketi <span>izrade</span> web <span>sajta</span>",
+    "text": "Cene izrade web sajta su okvirne i zavise od vaših potreba i zahteva. Kontaktirajte nas za personalizovanu ponudu i tačne informacije za vaš projekat.",
     "1": {
       "package": "osnovni",
       "price": "<span>od</span>399",
@@ -242,11 +285,11 @@
   "about": {
     "mainTitle": "O nama",
     "aboutUs": {
-      "title": "Zašto izabrati nas?",
+      "title": "Zašto izabrati nas za izradu vašeg web sajta",
       "list": {
         "0": {
           "title": "Moderan dizain",
-          "text": "Svaki biznis zaslužuje jedinstven i profesionalan web sajt, koji obezbeđuje poverenje i povećava šanse za uspeh."
+          "text": "Svaki biznis zaslužuje jedinstven i moderan web dizajn, koji obezbeđuje poverenje i povećava šanse za uspeh."
         },
         "1": {
           "title": "Prilagođena rešenja",
@@ -256,16 +299,18 @@
           "title": "Sajt sa rezultatima",
           "text": "Strateški osmišljen da privuče prave posetioce i unapredi poslovanje."
         }
-      }
+      },
+      "alt": "Klijent na laptopu gleda svoj novokreirani web sajt"
     },
     "ourVision": {
       "title": "Naša misija i ciljevi",
-      "text": "Naša misija je da pravimo web sajtove koji grade povernje i donose rezultate. Cilj je jednstavan, zadovoljni klijenti, kvalitetna rešenja i dugoročna saradnja kao ključ uspeha naših klijenata na online tržištu. Verujemo da svaki projekat zaslužuje poseban pristup, zato nudimo rešenja prilagođena potrebama klijenata."
+      "text": "Naša misija je da kreiramo web sajtove koji grade poverenje i donose rezultate. Naš cilj je jednostavan, zadovoljni klijenti, kvalitetna rešenja i dugoročna saradnja kao ključ uspeha naših klijenata na online tržištu. Verujemo da svaki projekat zaslužuje poseban pristup, zato nudimo rešenja prilagođena jedinstvenim potrebama svakog klijenta.",
+      "alt": "Tim agencije planira SEO strategiju i ciljeve izrade web sajtova"
     },
     "ourSkills": {
-      "title": "Programski jezici koje najčešće koristimo",
+      "title": "Programski jezici koje koristimo za razvoj web sajta",
       "subtitle": "<span>Naše</span> veštine",
-      "text": "Koristimo moderne programske jezike, koji obezbeđuju stabilnost web sajta, doprinose njegovoj brzini, boljoj SEO optimizaciji i većoj online vidljivosti. Spajamo kreativnost i funkcionalnost na jednom mestu."
+      "text": "Koristimo moderne programske jezike i tehnologije, koji obezbeđuju stabilnost web sajta, doprinose njegovoj brzini, boljoj SEO optimizaciji i većoj online vidljivosti. Spajamo kreativnost i funkcionalnost na jednom mestu."
     }
   },
   "footer": {

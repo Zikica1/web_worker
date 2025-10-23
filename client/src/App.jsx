@@ -4,6 +4,7 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
   Route,
+  Navigate,
 } from 'react-router-dom';
 import LayoutMain from './components/LayoutMain';
 import Home from './pages/Home';
@@ -12,17 +13,30 @@ import Services from './pages/Services';
 import ServiceCardDet from './components/services/ServiceCardDet';
 import Showcase from './pages/Showcase';
 import Contact from './pages/Contact';
+
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='/' element={<LayoutMain />}>
-        <Route index element={<Home />} />
-        <Route path='about' element={<About />} />
-        <Route path='services' element={<Services />} />
-        <Route path='services/:id' element={<ServiceCardDet />} />
-        <Route path='showcase' element={<Showcase />} />
-        <Route path='contact' element={<Contact />} />
-      </Route>
+      <>
+        <Route path='/' element={<Navigate to='/sr' replace />} />
+        <Route path='/en' element={<LayoutMain />}>
+          <Route index element={<Home />} />
+          <Route path='about' element={<About />} />
+          <Route path='services' element={<Services />} />
+          <Route path='services/:id' element={<ServiceCardDet />} />
+          <Route path='showcase' element={<Showcase />} />
+          <Route path='contact' element={<Contact />} />
+        </Route>
+
+        <Route path='/sr' element={<LayoutMain />}>
+          <Route index element={<Home />} />
+          <Route path='o-nama' element={<About />} />
+          <Route path='usluge' element={<Services />} />
+          <Route path='usluge/:id' element={<ServiceCardDet />} />
+          <Route path='istaknuto' element={<Showcase />} />
+          <Route path='kontakt' element={<Contact />} />
+        </Route>
+      </>
     )
   );
   return <RouterProvider router={router} />;

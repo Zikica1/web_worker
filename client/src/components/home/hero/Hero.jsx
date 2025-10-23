@@ -114,8 +114,7 @@ const Hero = () => {
               refItem={(el) => (refItems.current[index] = el)}
               handleNext={() => handleNext(index)}
               handlePrevious={() => handlePrevious(index)}
-              index={index}
-              // activeIndex={activeIndex}
+              index={item.id}
             />
           ))}
         </ul>

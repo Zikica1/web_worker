@@ -1,8 +1,8 @@
 {
   "home": {
     "sr": {
-      "title": "Izrada web sajta - Profesionalni dizajn i optimizacija za vas",
-      "description": "Izrada web sajta cena prilagođena vašem budžetu. Kreiramo funkcionalne i optimizovane sajtove koji privlače klijente. Kontaktirajte nas odmah!",
+      "title": "Profesionalna web sajt izrada | Agencija za moderne sajtove",
+      "description": "Nudimo profesionalnu web sajt izradu za male i srednje biznise. Kreiramo optimizovane sajtove koji prenose poruku vašeg brenda i privlače klijente",
       "url": "https://www.webworker.rs/sr",
       "image": "https://www.webworker.rs/assets/pictures/SEO/home-webWorker-web-design-agency.jpg",
       "jsonLd": {
@@ -12,7 +12,7 @@
             "@type": "WebPage",
             "@id": "https://www.webworker.rs/sr/#webpage",
             "url": "https://www.webworker.rs/sr",
-            "name": "Izrada web sajta - Profesionalni dizajn i optimizacija za vas",
+            "name": "Profesionalna web sajt izrada | Agencija za moderne sajtove",
             "inLanguage": "sr",
             "isPartOf": {
               "@id": "https://www.webworker.rs/#website"
@@ -20,7 +20,7 @@
             "about": {
               "@id": "https://www.webworker.rs/#organization"
             },
-            "description": "Izrada web sajta cena prilagođena vašem budžetu. Kreiramo funkcionalne i optimizovane sajtove koji privlače klijente. Kontaktirajte nas odmah!",
+            "description": "Nudimo profesionalnu web sajt izradu za male i srednje biznise. Kreiramo optimizovane sajtove koji prenose poruku vašeg brenda i privlače klijente",
             "mainEntityOfPage": {
               "@id": "https://www.webworker.rs/sr"
             }
@@ -64,8 +64,8 @@
       }
     },
     "en": {
-      "title": "Website development - Professional design and optimization for you",
-      "description": "Web site development at a price adjusted to your budget. We create functional and optimized websites that attract customers. Contact us now!",
+      "title": "Professional website creation | Agency for modern websites",
+      "description": "We offer professional website development for small and medium businesses. We create optimized websites that convey your brand message and attract customers",
       "url": "https://www.webworker.rs/en",
       "image": "https://webworker.rs/assets/pictures/SEO/home-webWorker-web-design-agency.jpg",
       "jsonLd": {
@@ -75,7 +75,7 @@
             "@type": "WebPage",
             "@id": "https://www.webworker.rs/en/#webpage",
             "url": "https://www.webworker.rs/en",
-            "name": "Website development - Professional design and optimization for you",
+            "name": "Professional website creation | Agency for modern websites",
             "inLanguage": "en",
             "isPartOf": {
               "@id": "https://www.webworker.rs/#website"
@@ -83,7 +83,7 @@
             "about": {
               "@id": "https://www.webworker.rs/#organization"
             },
-            "description": "Web site development at a price adjusted to your budget. We create functional and optimized websites that attract customers. Contact us now!",
+            "description": "We offer professional website development for small and medium businesses. We create optimized websites that convey your brand message and attract customers",
             "mainEntityOfPage": {
               "@id": "https://www.webworker.rs/en"
             }
@@ -187,8 +187,8 @@
   },
   "services": {
     "sr": {
-      "title": "Web dizajn, izrada sajtova i SEO optimizacija | WebWorker",
-      "description": "Profesionalne usluge izrade sajtova, web dizajna i SEO optimizacije. Unapredite online prisustvo i izdvojite se na tržištu.",
+      "title": "Web dizajn i izrada sajtova | SEO optimizacija Srbija",
+      "description": "Profesionalne usluge izrade sajtova, web dizajna i SEO optimizacije u Srbiji. Unapredite online prisustvo i privucite više klijenata uz naš tim",
       "url": "https://www.webworker.rs/sr/services",
       "image": "https://www.webworker.rs/assets/pictures/SEO/services-webWorker-web-design-agency.jpg",
       "jsonLd": {
@@ -198,7 +198,7 @@
             "@type": "WebPage",
             "@id": "https://www.webworker.rs/sr/services/#webpage",
             "url": "https://www.webworker.rs/sr/services",
-            "name": "Web dizajn, izrada sajtova i SEO optimizacija | WebWorker",
+            "name": "Web dizajn i izrada sajtova | SEO optimizacija Srbija",
             "inLanguage": "sr",
             "isPartOf": {
               "@id": "https://www.webworker.rs/#website"
@@ -206,7 +206,7 @@
             "about": {
               "@id": "https://www.webworker.rs/#organization"
             },
-            "description": "Profesionalne usluge izrade sajtova, web dizajna i SEO optimizacije. Unapredite online prisustvo i izdvojite se na tržištu.",
+            "description": "Profesionalne usluge izrade sajtova, web dizajna i SEO optimizacije u Srbiji. Unapredite online prisustvo i privucite više klijenata uz naš tim",
             "mainEntityOfPage": {
               "@id": "https://www.webworker.rs/sr/services"
             }
@@ -215,8 +215,8 @@
       }
     },
     "en": {
-      "title": "Web Design, Development & SEO Agency | WebWorker",
-      "description": "Professional web design, development, and SEO services. Stand out online and attract more clients with our tailored solutions.",
+      "title": "Web design and website creation | SEO optimization Serbia",
+      "description": "Professional website development, web design and SEO optimization services in Serbia. Improve your online presence and attract more clients with our team",
       "url": "https://www.webworker.rs/en/services",
       "image": "https://www.webworker.rs/assets/pictures/SEO/services-webWorker-web-design-agency.jpg",
       "jsonLd": {
@@ -226,7 +226,7 @@
             "@type": "WebPage",
             "@id": "https://www.webworker.rs/en/services/#webpage",
             "url": "https://www.webworker.rs/en/services",
-            "name": "Web Design, Development & SEO Agency | WebWorker",
+            "name": "Web design and website creation | SEO optimization Serbia",
             "inLanguage": "en",
             "isPartOf": {
               "@id": "https://www.webworker.rs/#website"
@@ -234,7 +234,7 @@
             "about": {
               "@id": "https://www.webworker.rs/#organization"
             },
-            "description": "Professional web design, development, and SEO services. Stand out online and attract more clients with our tailored solutions.",
+            "description": "Professional website development, web design and SEO optimization services in Serbia. Improve your online presence and attract more clients with our team",
             "mainEntityOfPage": {
               "@id": "https://www.webworker.rs/en/services"
             }
@@ -244,49 +244,49 @@
     }
   },
   "serviceCardDet": {
-    "web-development": {
+    "website": {
       "sr": {
-        "title": "Izrada web sajtova | Profesionalna rešenja za vaš biznis",
-        "description": "Izrađujemo moderne, brze i prilagođene web sajtove koji jačaju vaš online identitet i pomažu rast vašeg biznisa.",
+        "title": "Izrada web sajtova i dizajn | WebWorker Srbija",
+        "description": "Izrađujemo moderne, brze i prilagođene web sajtove koji jačaju vaš online identitet i pomažu rast vašeg biznisa u Srbiji.",
         "url": "https://www.webworker.rs/sr/services/web-development",
         "image": "https://www.webworker.rs/assets/pictures/SEO/serviceCardWebDew-webWorker-web-design-agency.jpg",
         "headline": "Izrada web sajtova — ključno za uspešan nastup na internetu"
       },
       "en": {
-        "title": "Website dewelopment | Professional solutions for your business",
-        "description": "We create modern, fast and customized websites that strengthen your online identity and help your business grow.",
+        "title": "Creation of web sites and design | WebWorker Serbia",
+        "description": "We create modern, fast and customized websites that strengthen your online identity and help your business grow in Serbia.",
         "url": "https://www.webworker.rs/en/services/web-development",
         "image": "https://www.webworker.rs/assets/pictures/SEO/serviceCardWebDew-webWorker-web-design-agency.jpg",
         "headline": "Creating web sites — key to a successful appearance on the Internet"
       }
     },
-    "seo-optimization": {
+    "seo": {
       "sr": {
-        "title": "Profesionalna SEO optimizacija | Webworker",
-        "description": "Povećajte posetu i prodaju uz SEO usluge -  optimizacija sajta za pretraživače po najnovijim standardima.",
+        "title": "SEO optimizacija sajta | Profesionalne SEO usluge | Webworker",
+        "description": "Povećajte vidljivost, posetu i prodaju uz profesionalnu SEO optimizaciju web sajta. Optimizacija sajta za Google po najnovijim SEO standardima.",
         "url": "https://www.webworker.rs/sr/services/seo-optimization",
         "image": "https://www.webworker.rs/assets/pictures/SEO/serviceCardSeo-webWorker-web-design-agency.jpg",
         "headline": "Šta je SEO? Optimizacija sajta za pretraživače"
       },
       "en": {
-        "title": "Professional SEO Optimization | Webworker",
-        "description": "Increase traffic and sales with expert SEO services - search engine optimization tailored to your goals.",
+        "title": "SEO site optimization | Professional SEO Services | Web worker",
+        "description": "Increase visibility, traffic and sales with professional SEO website optimization. Site optimization for Google according to the latest SEO standards.",
         "url": "https://www.webworker.rs/en/services/seo-optimization",
         "image": "https://www.webworker.rs/assets/pictures/SEO/serviceCardSeo-webWorker-web-design-agency.jpg",
         "headline": "What is SEO? Site optimization for search engines"
       }
     },
-    "web-design": {
+    "design": {
       "sr": {
-        "title": "Responzivni web dizajn | Moderni i prilagodljivi sajtovi",
-        "description": "Izrada responzivnih web sajtova koji izgledaju savršeno na svim uređajima - mobilnim, tabletima i desktop računarima.",
+        "title": "Responzivni web dizajn | Moderni i prilagodljivi web sajtovi",
+        "description": "Povećajte vidljivost i konverzije uz responzivni web dizajn — optimizovani sajtovi koji se automatski prilagođavaju svakom uređaju i ekranu.",
         "url": "https://www.webworker.rs/sr/services/web-design",
         "image": "https://www.webworker.rs/assets/pictures/SEO/serviceCardResponse-webWorker-web-design-agency.jpg",
         "headline": "Responzivni web dizajn - zašto je važan i kako funkcioniše"
       },
       "en": {
-        "title": "Responsive web design | Modern and responsive websites",
-        "description": "Creation of responsive websites that look perfect on all devices - mobile, tablet and desktop computers.",
+        "title": "Responsive web design | Modern and responsive web websites",
+        "description": "Increase visibility and conversions with responsive web design — optimized sites that automatically adapt to every device and screen.",
         "url": "https://www.webworker.rs/en/services/web-design",
         "image": "https://www.webworker.rs/assets/pictures/SEO/serviceCardResponse-webWorker-web-design-agency.jpg",
         "headline": "Responsive web design - why it's important and how it works"

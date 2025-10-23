@@ -1,10 +1,11 @@
 import './servicesCards.css';
 import { useRef } from 'react';
+import { Link } from 'react-router-dom';
 import { motion, useInView } from 'motion/react';
-import { useLocation, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { FaLongArrowAltRight } from 'react-icons/fa';
 import { services } from '../../data/db';
+import useMatchUrl from '../../hook/useMatchUrl';
 
 const listItemVariant = {
   hidden: {
@@ -23,10 +24,11 @@ const listItemVariant = {
 
 const ServiceCard = ({ service, index }) => {
   const { t } = useTranslation();
-  const location = useLocation();
   const ref = useRef(null);
 
-  const isService = location.pathname === '/services';
+  // const lang = i18n.language;
+
+  const isService = useMatchUrl('/sr/usluge', '/en/services');
 
   const Icon = service.Icon;
 
@@ -53,7 +55,11 @@ const ServiceCard = ({ service, index }) => {
         <h3 className='card-title'>{t(`service.cards.${service.id}.title`)}</h3>
         <div className='cardSubtitle'>
           {isService ? (
-            <Link to={`${service.category}`} className='cardSubtitle-link'>
+            <Link
+              to={t(`serviceIds.${service.category}`)}
+              // to={`/${lang}/services/${t(`serviceIds.${service.category}`)}`}
+              className='cardSubtitle-link'
+            >
               {t(`service.cards.${service.id}.subtitle`)}
             </Link>
           ) : (

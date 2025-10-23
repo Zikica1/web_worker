@@ -1,16 +1,31 @@
 import './serviceCardDet.css';
-import { useParams } from 'react-router-dom';
-import { useTranslation, Trans } from 'react-i18next';
+import { useParams, Link } from 'react-router-dom';
+import { Trans } from 'react-i18next';
 import { services } from '../../data/db';
 import Seo from '../SEO/Seo';
 import seoData from '../../seo/seoData.json';
+import { useLangT } from '../../hook/useLangT';
+import ButtonPrim from '../buttons/primaButton/ButtonPrimary';
+import useMatchUrl from '../../hook/useMatchUrl';
 
 const ServiceCardDet = () => {
-  const { id } = useParams();
-  const { i18n } = useTranslation();
-  const lang = i18n.language;
-  // const { title, description, url, image, headline } =
-  //   seoData.serviceCardDet[id][lang];
+  const { id: slugFromUrl } = useParams();
+  const { t, lang } = useLangT();
+
+  const cardDet = services.find((item) => item.slugs[lang] === slugFromUrl);
+
+  const isWebDevPage = useMatchUrl(
+    '/sr/usluge/izrada-web-sajta',
+    '/en/services/website-development'
+  );
+
+  if (!cardDet) {
+    console.error('Service not found for slug:', slugFromUrl, 'in lang:', lang);
+    return <p>Service not found.</p>;
+  }
+
+  const id = cardDet.category;
+
   const { title, description, url, image, headline } =
     seoData?.serviceCardDet?.[id]?.[lang] || {};
 
@@ -66,16 +81,19 @@ const ServiceCardDet = () => {
     ],
   };
 
-  const cardDet = services.find((s) => s.category === id);
-
-  const { t } = useTranslation();
   const categories =
-    t(`service.cardDet.${id}.categories`, {
-      returnObjects: true,
-    }) || [];
+    t(`service.cardDet.${id}.categories`, { lng: lang, returnObjects: true }) ||
+    [];
 
   const categories2 =
     t(`service.cardDet.${id}.categories2`, {
+      lng: lang,
+      returnObjects: true,
+    }) || [];
+
+  const categories3 =
+    t(`service.cardDet.${id}.categories3`, {
+      lng: lang,
       returnObjects: true,
     }) || [];
 
@@ -109,7 +127,9 @@ const ServiceCardDet = () => {
               />
               <img
                 src={`${cardDet.imgDes}`}
-                alt='image that describes the title'
+                alt={`${t(
+                  `service.cardDet.${id}.mainTitle`
+                )} - WebWorker Srbija`}
                 fetchPriority='high'
                 decoding='async'
                 width='1536'
@@ -120,9 +140,9 @@ const ServiceCardDet = () => {
 
           <div className='cardDetDes'>
             <div className='cardDetSecOne'>
-              <h3 className='cardDetSecOne-head'>
+              <h2 className='cardDetSecOne-head'>
                 {t(`service.cardDet.${id}.title`)}
-              </h3>
+              </h2>
 
               <p className='cardDetDes-para cardDetSecOne-para'>
                 <Trans
@@ -130,13 +150,50 @@ const ServiceCardDet = () => {
                   components={{
                     br: <br />,
                     bold: <strong />,
+                    aLink: (
+                      <Link
+                        style={{ color: '#3498db' }}
+                        to={`/${lang}/${t('routes.services')}/${t(
+                          'serviceIds.website'
+                        )}`}
+                      ></Link>
+                    ),
                   }}
+                  t={t}
                 />
               </p>
+
+              {isWebDevPage && (
+                <ButtonPrim
+                  url={`/${lang}/${lang === 'sr' ? 'kontakt' : 'contact'}`}
+                  text={'buttons.priceText'}
+                  classButton='buttonService'
+                />
+              )}
+
+              {t(`service.cardDet.${id}.typesTitle2`).length > 0 && (
+                <h2 className='cardDetSecOne-head'>
+                  {t(`service.cardDet.${id}.typesTitle2`)}
+                </h2>
+              )}
+
+              {categories3.length > 0 && (
+                <ul className='cardDetSecThreeList-item'>
+                  {categories3.map((item, id) => (
+                    <li
+                      className='cardDetSecThreeList-item cardDetSecThreeList--margin'
+                      key={id}
+                    >
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              )}
+
               {t(`service.cardDet.${id}.sectionTitle`).length > 0 && (
-                <h4 className='cardDetSecOne-subhead'>
+                <h2 className='cardDetSecOne-subhead'>
                   {t(`service.cardDet.${id}.sectionTitle`)}
-                </h4>
+                </h2>
               )}
 
               {t(`service.cardDet.${id}.sectionPara`).length > 0 && (
@@ -151,47 +208,70 @@ const ServiceCardDet = () => {
                   <li className='cardDetSecTwo-item' key={index}>
                     <Trans
                       i18nKey={`service.cardDet.${id}.categories.${index}`}
-                      components={{ bold: <strong />, br: <br /> }}
+                      components={{
+                        headline: <h3 />,
+                        br: <br />,
+                        bold: <strong />,
+                      }}
+                      t={t}
                     />
                   </li>
                 ))}
               </ul>
+
+              {isWebDevPage && (
+                <ButtonPrim
+                  url={`/${lang}/${lang === 'sr' ? 'istaknuto' : 'showcase'}`}
+                  text={'buttons.showcaseText'}
+                  classButton='buttonService buttonService-m-x'
+                />
+              )}
             </div>
             <div className='cardDetSecThree'>
-              <h3 className='cardDetSecThree-head'>
+              <h2 className='cardDetSecThree-head'>
                 {t(`service.cardDet.${id}.subtitle`)}
-              </h3>
-              {t(`service.cardDet.${id}.parag2`).length > 0 && (
-                <p className='cardDetDes-para cardDetSecThree-para'>
-                  <Trans
-                    i18nKey={`service.cardDet.${id}.parag2`}
-                    components={{
-                      br: <br />,
-                      bold: <strong />,
-                    }}
-                  />
-                </p>
-              )}
+              </h2>
+              <div className={isWebDevPage ? 'cardDEtSecThree-flex' : ''}>
+                {t(`service.cardDet.${id}.parag2`).length > 0 && (
+                  <p className='cardDetDes-para cardDetSecThree-para'>
+                    <Trans
+                      i18nKey={`service.cardDet.${id}.parag2`}
+                      components={{
+                        br: <br />,
+                        bold: <strong />,
+                      }}
+                      t={t}
+                    />
+                  </p>
+                )}
 
-              {categories2.length > 0 && (
-                <ul className='cardDetSecThreeList'>
-                  {categories2.map((_, index) => (
-                    <li className='cardDetSecThreeList-item' key={index}>
-                      <Trans
-                        i18nKey={`service.cardDet.${id}.categories2.${index}`}
-                        components={{
-                          bold: <strong />,
+                {categories2.length > 0 && (
+                  <ul className='cardDetSecThreeList'>
+                    {categories2.map((_, index) => (
+                      <li
+                        className='cardDetSecThreeList-item'
+                        key={index}
+                        style={{
+                          listStyle: isWebDevPage && 'disc',
                         }}
-                      />
-                    </li>
-                  ))}
-                </ul>
-              )}
+                      >
+                        <Trans
+                          i18nKey={`service.cardDet.${id}.categories2.${index}`}
+                          components={{
+                            bold: <strong />,
+                          }}
+                          t={t}
+                        />
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
 
               {t(`service.cardDet.${id}.typesTitle`).length > 0 && (
-                <h3 className='cardDetSecThree-head'>
+                <h2 className='cardDetSecThree-head'>
                   {t(`service.cardDet.${id}.typesTitle`)}
-                </h3>
+                </h2>
               )}
 
               {t(`service.cardDet.${id}.typesText`).length > 0 && (

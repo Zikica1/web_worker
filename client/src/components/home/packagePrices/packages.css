@@ -45,6 +45,7 @@
 }
 
 .packagesPriHead-para {
+  margin-block-end: 2.875em;
   @media (min-width: 65rem) {
     max-width: 45ch;
   }

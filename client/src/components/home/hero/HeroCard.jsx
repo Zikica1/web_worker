@@ -32,18 +32,20 @@ const cardItemsVar = {
   },
 };
 
-const HeroCard = ({ item, refItem, handleNext, handlePrevious }) => {
+const HeroCard = ({ item, refItem, handleNext, handlePrevious, index }) => {
   const cardImgRef = useRef(null);
   const [scope, animate] = useAnimate();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const lang = i18n.language;
 
   const isInView = useInView(cardImgRef, {
-    once: false,
+    once: true,
     amount: 0.1,
   });
 
   const isInView2 = useInView(scope, {
-    once: false,
+    once: true,
     amount: 0.25,
   });
 
@@ -79,28 +81,46 @@ const HeroCard = ({ item, refItem, handleNext, handlePrevious }) => {
     >
       <div className='heroSlides-leftCol'>
         <div ref={scope}>
-          <motion.h2
+          <motion.p
             initial={{ opacity: 0, x: -100 }}
             className='heroSlides-subtitle'
           >
             {t(`hero.${item.id}.subtitle`)}
-          </motion.h2>
-          <motion.h1
-            className='heroSlides-title'
-            initial={{ opacity: 0, x: 100 }}
-          >
-            <Trans
-              i18nKey={`hero.${item.id}.title`}
-              components={{ span: <span className='heroSlides-span' /> }}
-            />
-          </motion.h1>
+          </motion.p>
+          {index === 0 ? (
+            <motion.h1
+              className='heroSlides-title'
+              initial={{ opacity: 0, x: 100 }}
+            >
+              <Trans
+                i18nKey={`hero.${item.id}.title`}
+                components={{ span: <span className='heroSlides-span' /> }}
+              />
+            </motion.h1>
+          ) : (
+            <motion.h2
+              className='heroSlides-title'
+              initial={{ opacity: 0, x: 100 }}
+            >
+              <Trans
+                i18nKey={`hero.${item.id}.title`}
+                components={{ span: <span className='heroSlides-span' /> }}
+              />
+            </motion.h2>
+          )}
+
           <motion.p className='heroSlides-des' initial={{ opacity: 0 }}>
             {t(`hero.${item.id}.description`)}
           </motion.p>
         </div>
 
         <div className='heroSlices-buttonsContainer'>
-          <ButtonPrimary url='about' heroButton='heroButton' />
+          <ButtonPrimary
+            url={lang === 'sr' ? 'kontakt' : 'contact'}
+            classButton='heroButton'
+            text='buttons.heroText'
+          />
+
           <div className='heroSlides-buttonWrap'>
             <button
               onClick={() => {

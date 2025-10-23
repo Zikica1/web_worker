@@ -1,6 +1,7 @@
 .serCardDet {
   margin-block-start: 9em;
   padding-inline: 2.187em;
+  padding-block-end: 9.375em;
   overflow-x: clip;
 }
 
@@ -43,7 +44,7 @@ picture img {
 }
 
 .cardDetDes {
-  padding-block: 3.125em;
+  padding-block-start: 3.125em;
   max-width: 60em;
   margin-inline: auto;
 }
@@ -55,7 +56,7 @@ picture img {
 }
 
 .cardDetSecOne-para {
-  margin-block-end: 1em;
+  margin-block-end: 1.65em;
 }
 
 .cardDetSecOne-subhead {
@@ -81,6 +82,12 @@ picture img {
   margin-block-end: 1em;
 }
 
+.cardDEtSecThree-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .cardDetSecThree-head {
   color: var(--clr-text-2);
   font-size: 2.062rem;
@@ -90,10 +97,23 @@ picture img {
 
 .cardDetSecThree-para {
   margin-block-end: 1em;
+  order: 1;
+}
+
+.cardDetSecThreeList {
+  margin-block-end: 2.06em;
+  margin-inline-start: 3em;
 }
 
 .cardDetSecThreeList-item {
   color: rgba(7 12 31/0.9);
   font-size: 1.25rem;
-  margin-block-end: 1em;
+  font-weight: 400;
+  margin-block-end: 0.56em;
+  order: 2;
+  list-style: disc;
+}
+
+.cardDetSecThreeList--margin {
+  margin-inline-start: 1.75em;
 }

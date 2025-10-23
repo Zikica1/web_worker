@@ -3,6 +3,7 @@ import Hading from '../../header/Hading';
 import ServicesCards from '../../services/ServicesCards';
 import ButtonPrimary from '../../buttons/primaButton/ButtonPrimary';
 import { motion, useInView } from 'motion/react';
+import { useTranslation } from 'react-i18next';
 import { useRef } from 'react';
 
 const homeServiceTitleVariants = {
@@ -23,6 +24,9 @@ const HomeServices = () => {
     once: true,
     amount: 0.75,
   });
+
+  const { i18n } = useTranslation();
+  const lang = i18n.language;
 
   return (
     <section className='homeServices'>
@@ -59,7 +63,7 @@ const HomeServices = () => {
               duration: 0.5,
             }}
           >
-            <ButtonPrimary url='services' />
+            <ButtonPrimary url={lang === 'sr' ? 'usluge' : 'services'} />
           </motion.div>
         </div>
         <ServicesCards />

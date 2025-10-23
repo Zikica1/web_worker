@@ -1,23 +1,10 @@
 import './service.css';
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { motion, useInView, useAnimate } from 'motion/react';
 import Hading from '../header/Hading';
 import ServicesCards from './ServicesCards';
 import { useTranslation } from 'react-i18next';
-
-const imageVar = {
-  hidden: {
-    clipPath: 'polygon(0 0, 0 0, 0 100%, 0% 100%)',
-  },
-  visible: {
-    clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
-    transition: {
-      duration: 1,
-      ease: 'easeInOut',
-    },
-  },
-};
 
 const titleVar = {
   hidden: {
@@ -63,6 +50,7 @@ const paraVar = {
 };
 
 const Service = () => {
+  const [isVisible, setIsVisible] = useState(false);
   const { t } = useTranslation();
   const location = useLocation();
   const refImg = useRef(null);
@@ -71,10 +59,24 @@ const Service = () => {
   const refPar = useRef(null);
   const [scope, animate] = useAnimate();
 
-  const isInView = useInView(refImg, {
-    once: true,
-    amount: 0,
-  });
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect();
+        }
+      },
+      {
+        threshold: 0,
+      }
+    );
+
+    if (refImg.current) observer.observe(refImg.current);
+
+    return () => observer.disconnect();
+  }, []);
+
   const isInView2 = useInView(refTitle, {
     once: true,
     amount: 0,
@@ -124,32 +126,22 @@ const Service = () => {
           <picture>
             <source
               media='(max-width: 480px)'
-              srcSet='/assets/pictures/services/services-img-480px.webp 1x,
-            /assets/pictures/services/services-img-480px@2x.webp 2x'
+              srcSet='/assets/pictures/services/web-design-team-office-img-480px.webp 1x,
+            /assets/pictures/services/web-design-team-office-img-480px@2x.webp 2x'
             />
             <source
               media='(max-width: 768px)'
-              srcSet='/assets/pictures/services/services-img-768px.webp'
-            />
-            <source
-              media='(max-width: 1020px)'
-              srcSet='/assets/pictures/services/services-img-1024px.webp'
-            />
-            <source
-              media='(min-width: 1021px)'
-              srcSet='/assets/pictures/services/services-img-821px.webp'
+              srcSet='/assets/pictures/services/web-design-team-office-img-768px.webp'
             />
             <motion.img
               ref={refImg}
-              variants={imageVar}
-              initial='hidden'
-              animate={isInView ? 'visible' : 'hidden'}
-              src='/assets/pictures/services/services-img-821px.webp'
-              alt='girl looking at laptop'
+              className={`img-service ${isVisible ? 'visible' : ''}`}
+              src='/assets/pictures/services/web-design-team-office-img-1024px.webp'
+              alt={t('service.top.alt')}
               fetchPriority='high'
               decoding='async'
-              width='821px'
-              height='547px'
+              width='1024px'
+              height='683px'
             />
           </picture>
         </div>

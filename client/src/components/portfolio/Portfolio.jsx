@@ -7,19 +7,22 @@ import { useTranslation } from 'react-i18next';
 import PortfolioCard from './PortfolioCard';
 import ButtonPrimary from '../buttons/primaButton/ButtonPrimary';
 import { portfolio } from '../../data/db';
+import useMatchUrl from '../../hook/useMatchUrl';
 
 const Portfolio = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const location = useLocation();
   const [scope, animate] = useAnimate();
 
-  const home = location.pathname === '/';
+  const home = useMatchUrl();
+
+  const lang = i18n.language;
 
   const portfolioFilter = home ? portfolio.slice(0, 3) : portfolio;
 
   const isInView = useInView(scope, {
     once: true,
-    amount: 0.5,
+    amount: 0.4,
   });
 
   useEffect(() => {
@@ -64,7 +67,7 @@ const Portfolio = () => {
             marginBlockStart: '7.5em',
           }}
         >
-          <ButtonPrimary url='showcase' />
+          <ButtonPrimary url={lang === 'sr' ? 'istaknuto' : 'showcase'} />
         </div>
       )}
     </section>

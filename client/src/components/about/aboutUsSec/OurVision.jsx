@@ -90,7 +90,7 @@ const OurVision = () => {
               width='1373'
               height='1031'
               src='/assets/pictures/about/ourVision-img-1373px.webp'
-              alt='a team of people at a meeting'
+              alt={t('about.ourVision.alt')}
             />
           </picture>
         </div>

@@ -118,7 +118,7 @@ const AboutUs = () => {
               ref={imageRef}
               className={`aboutUs-img ${isVisible ? 'visible' : ''}`}
               src='/assets/pictures/about/aboutUs-img-1024px.webp'
-              alt='girl looking at a website on a laptop'
+              alt={t('about.aboutUs.alt')}
               height='1024'
               width='1024'
               decoding='async'

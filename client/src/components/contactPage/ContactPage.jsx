@@ -146,7 +146,7 @@ const ContactPage = () => {
                 <input
                   type='email'
                   id='email'
-                  name='mail'
+                  name='email'
                   placeholder={t('contact.form.email')}
                   autoComplete='off'
                   required

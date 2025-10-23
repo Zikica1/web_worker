@@ -1,6 +1,7 @@
 import './packages.css';
 import Hading from '../../header/Hading';
 import PackageCard from './PackageCard';
+import ButtonPrimary from '../../buttons/primaButton/ButtonPrimary';
 import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, useInView } from 'motion/react';
@@ -20,9 +21,11 @@ const headVar = {
 };
 
 const Packages = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const refTitle = useRef(null);
   const refPara = useRef(null);
+
+  const lang = i18n.language;
 
   const isInView = useInView(refTitle, {
     once: true,
@@ -61,6 +64,11 @@ const Packages = () => {
           >
             {t('priceList.text')}
           </motion.p>
+
+          <ButtonPrimary
+            url={lang === 'sr' ? 'kontakt' : 'contact'}
+            text='buttons.priceText'
+          />
         </div>
         <div className='packagePriBody'>
           <ul className='packageCards' style={{ overflowX: 'clip' }}>

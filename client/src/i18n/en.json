@@ -1,50 +1,64 @@
 {
   "nav": {
-    "home": "Home",
-    "about": "About",
-    "services": "Services",
-    "showcase": "Showcase",
-    "contact": "Contact"
+    "home": "home",
+    "about": "about",
+    "services": "services",
+    "showcase": "showcase",
+    "contact": "contact"
+  },
+  "routes": {
+    "home": "",
+    "about": "about",
+    "services": "services",
+    "showcase": "showcase",
+    "contact": "contact"
+  },
+  "buttons": {
+    "heroText": "call us",
+    "baseText": "lear more",
+    "priceText": "request a quote",
+    "showcaseText": "see example"
   },
   "hero": {
     "0": {
-      "title": "We Are a Web Design <span>Agency</span>",
-      "subtitle": "6 years of experience",
-      "description": "We create visual elements and a customizable interface. We create for you a modern and functional website that conveys the message of your brand."
+      "title": "Professional <span>website</span> creation",
+      "subtitle": "A website tailored to your brand",
+      "description": "We create for you modern and functional websites that convey the message of your brand. Start building your site today!"
     },
     "1": {
-      "title": "A Group of Expert <span>Planners</span>",
-      "subtitle": "6 years of experience",
-      "description": "Crafting visually stunning websites that engage, inspire, and elevate your brand's online presence."
+      "title": "Group of Expert <span>Planners</span>",
+      "subtitle": "Entrust your project to us",
+      "description": "With more than 6 years of experience, we create websites that elevate your brand online. Contact us and start your project today."
     },
     "2": {
       "title": "Focus on Your <span>Business</span>",
-      "subtitle": "6 years of experience",
-      "description": "Transforming ideas into extraordinary digital experiences that captivate and convert."
+      "subtitle": "We build your digital identity",
+      "description": "Transforming ideas into extraordinary digital experiences. Focus on what you love — we'll make it look and work perfectly."
     }
   },
   "ourMission": {
-    "title": "Learn more about our <span>mission</span>",
-    "text": "From visually stunning designs to intuitive user interfaces, we go the extra mile to ensure that every website we build is a true reflection of our clients' brand identity and values. Join us on this journey as we redefine the possibilities of web design and steer your business towards digital success."
+    "title": "About us and our mission in <span>web</span> design",
+    "text": "From unique design to creative interface — our priority is that each website is an authentic reflection of your brand and supports your digital growth. Join us and learn more about our approach to modern web design."
   },
   "service": {
     "top": {
-      "title": "Who We Are &<br/> What <span>We Do<span/>",
-      "description": "With over six years of experience in user interface design, we combine innovation and artistry to create seamless digital experiences. Enhance your brand with our expertise in web design, development, SEO optimization and more. Discover our identity, which was created by years of experience in user interface design"
+      "title": "Who we are and what we do in the field of web design and development",
+      "description": "With over six years of experience in user interface design, we combine innovation and creativity to create seamless digital experiences. Enhance your brand with our expertise in web design, website development, SEO optimization and other key digital services.",
+      "alt": "The agency team discusses ideas for creating a website and SEO strategy"
     },
     "bottom": {
-      "title": "We have <span>everything<span> <br/> you <span>need</span>"
+      "title": "Everything you <span>need</span> for a modern and optimized <span>website</span>"
     },
     "cards": {
       "0": {
         "title": "WebSite Development",
         "subtitle": "See More",
-        "description": "We create websites that combine design and functionality. Site design showcases your company and instills confidence in prospective clients, creating a visual experience that delivers results"
+        "description": "We create websites that combine design and functionality. Site design showcases your company and instills confidence in prospective clients, creating a visual experience that delivers results."
       },
       "1": {
-        "title": "SEO",
+        "title": "SEO-optimization",
         "subtitle": "See More",
-        "description": "SEO (Search engine optimization) optimization represents the improvement of the quality of the site's code, all with the aim of increasing the quality of traffic, i.e. the number of user visits to your website."
+        "description": "SEO (Search engine optimization) optimization represents the improvement of the quality of the site's code, all with the aim of increasing the quality of traffic, that is, the number of user visits to your website."
       },
       "2": {
         "title": "Responsive design",
@@ -58,87 +72,110 @@
       }
     },
     "cardDet": {
-      "web-development": {
-        "mainTitle": "Website development",
-        "title": "Creating websites that increase your profits",
-        "parag": "Our goal is for every project to get off to a strong and high-quality start. Together with you, we define the key indicators of success (KPI - Key Performance Indicators), and only after that we approach the creation of the site structure. When creating the architecture, we take care of categorization and subcategories, so that each part of the site has a clear purpose and contributes to a better organization. To rank in the top 10 results on Google, your content must be original and of high quality. Without quality content, even the best design will not bring results. That's why we pay special attention to the optimization of each page, using professional tools that help us choose the right keywords for your site.<br/>",
-        "sectionTitle": "Types of websites we create",
+      "website": {
+        "mainTitle": "Website creation",
+        "title": "How we build a site that increases your profits",
+        "parag": "Our web site development service begins with defining key success indicators (KPI). Only after that, we design the structure of the site and the information architecture, taking into account categorization and the user journey, so that every part of the page has a clear purpose and contributes to conversions. To rank in the top 10 results on Google, your content must be original and of high quality — without quality content, even the best design won't deliver results. That's why we optimize each page with the help of professional tools and keyword research.<br/>",
+        "sectionTitle": "The types of sites we build",
         "sectionPara": "In our market, we most often realize three main types of websites:",
         "categories": [
-          "<strong>Small business websites</strong><br/> Usually contain from 7 to 15 pages and are intended for small businesses that want to present and sell their products or services online. A professionally designed website can set you apart from your competition and attract new customers who didn't know about you until now.",
-          "<strong>Large business web sites</strong><br/>With a range of 20 to 50 pages, these sites are intended for more demanding clients - medium and large companies. In addition to external information, they can contain advanced functionalities and personalized solutions that follow the needs of users.",
-          "<strong>E-commerce websites</strong><br/>Can consist of ten to several thousand products. They are intended for those who want to sell goods, services or digital products via the Internet. E-commerce enables order processing, multiple payment options, delivery tracking and customer support - whether it is a B2B or B2C model."
+          "<headline>Small business websites</headline> Usually contain from 7 to 15 pages and are intended for small businesses that want to present and sell their products or services online. A professionally designed website can set you apart from your competition and attract new customers who didn't know about you until now.",
+          "<headline>Large business web sites</headline>With a range of 20 to 50 pages, these sites are intended for more demanding clients - medium and large companies. In addition to basic information, they can contain advanced functionalities and personalized solutions that follow the needs of users.",
+          "<headline>E-commerce websites</headline>Can consist of ten to several thousand products. They are intended for those who want to sell goods, services or digital products via the Internet. E-commerce enables order processing, multiple payment options, delivery tracking and customer support - whether it is a B2B or B2C model."
         ],
-        "subtitle": "Why is it important to have a perfect website?",
+        "subtitle": "Why a quality website is important for your business",
         "parag2": "Choosing the right agency can save you from many problems in the future. Today, a quality website is the central place of everyone marketing, if you're not online, many potential customers won't even know you exist. Search engines are the first place customers look for solutions, and we know how to position you there. We understand where mistakes most often occur and how to avoid them. We do not create sites that quickly become outdated or lose functionality, we prepare each project in detail.",
-        "categories2": [],
+        "categories2": [
+          "Increased search visibility",
+          "Greater user trust",
+          "More conversions",
+          "Better brand communication"
+        ],
         "typesTitle": "",
+        "typesTitle2": "Our website development process",
         "typesText": "",
-        "sharedHosting": ""
+        "sharedHosting": "",
+        "categories3": [
+          "Analysis and KPI",
+          "Wireframe / Architecture",
+          "UI/UX Design",
+          "Development and Testing",
+          "SEO Optimization and Launch",
+          "Maintenance and Growth"
+        ]
       },
-      "seo-optimization": {
-        "mainTitle": "Search Engine Optimization",
-        "title": "What is SEO optimization?",
-        "parag": "SEO (Search Engine Optimization) represents a set of strategies and techniques that are applied in order to adapt the website to the rules and recommendations of search engines. The goal of SEO is to increase the visibility of your site in organic search, the results that appear naturally, without paid ads. When a user enters a specific keyword or phrase into Google or another search engine, the algorithm displays the web pages that best match that query. In order for your site to be among those results, it is necessary to contain quality and relevant content, optimized with the right keywords. SEO does not only include text - there are also optimized images, properly placed tags, internal and external connection of pages, integration with social networks, site registration in tools such as Google Search Console, registration in relevant directories and regular addition of fresh content (blog posts, news, etc.).<br/> In practice, two main types of optimization are distinguished:",
-        "sectionTitle": "",
+      "seo": {
+        "mainTitle": "SEO-website optimization",
+        "title": "What is SEO optimization and why is it important for your website?",
+        "parag": "SEO optimization (Search Engine Optimization) is the process of improving the visibility of a website in organic search results on Google and other search engines. When a user enters keywords such as website development or web design Serbia, the algorithm displays the pages that best match his query. In order for your site to be among those results, it is necessary to contain high-quality, relevant and technically optimized content.<br/><br/> SEO does not only mean text optimization, it also includes site loading speed, mobile adaptability, proper use of tags (title, meta description, alt), as well as image and link optimization. By combining keyword strategy, competitive analysis and regularly adding new content (blogs, news, case studies), your site can reach a better position and attract more visitors.",
+        "sectionTitle": "Types of SEO optimization",
         "sectionPara": "",
         "categories": [
-          "On-site SEO - all activities on the site itself (structure, content, technical optimization).",
-          "Off-site SEO - activities outside the site that affect its authority and ranking (link building, presence on networks, etc.)"
+          "On-site SEO - includes all activities within the site itself, such as technical optimization, page structure, links, titles and content quality.The goal is for Google to better understand what your site is about and to reward it with a higher ranking.",
+          "Off-site SEO - it includes activities outside of your site, such as building authority through backlinks, social media presence, and registering with relevant directories. All these activities together strengthen the reputation and credibility of your website."
         ],
         "subtitle": "Why is SEO important?",
-        "parag2": "If you operate in an environment without competition, you may not need SEO. However, in reality, almost every business has competitors on the Internet, and that's when SEO becomes crucial. Quality optimization allows you to rank high in search and maintain that position. This means more visits, more sales, a recognizable brand and a clear advantage over the competition. Whether you use a custom solution or an open-source platform like WordPress or Joomla, for every type of site there is a customized SEO strategy that delivers the best results.",
+        "parag2": "If you operate in an environment without competition, SEO may not be crucial to you. However, in reality, almost every business today has competitors on the Internet — and that's where SEO site optimization becomes crucial. <br/><br/>Highly implemented optimization allows your website to be positioned high in Google search and to maintain that position in the long term. This brings more visits, a larger number of clients, a recognizable brand and a clear advantage over the competition.<br/><br/>Whether you use a custom solution or open-source platforms like WordPress or Joomla, for each type of site a customized SEO strategy can be developed that gives the best results and makes the most of the potential of your business.",
         "categories2": [],
         "typesTitle": "",
+        "typesTitle2": "",
         "typesText": "",
-        "sharedHosting": ""
+        "sharedHosting": "",
+        "categories3": []
       },
-      "web-design": {
+      "design": {
         "mainTitle": "responsive web design",
         "title": "What is Responsive Web Design?",
-        "parag": "Responsive web design (RWD) means creating a website that <strong>automatically adapts to the screen and device on which it is displayed</strong>, whether the user is viewing your site on a phone, tablet, laptop or large monitor. The goal is for the content to always be viewed, functional and attractive, regardless of screen size or device orientation.<br/> This approach enables:",
+        "parag": "Responsive web design (RWD) is an approach to creating websites that automatically adapt to all devices and screen sizes — from mobile phones and tablets, to laptops and large monitors. The goal of a responsive website is for the content to always be viewed, functional and aesthetically appealing, regardless of device resolution or orientation.<br/><br/>A well-implemented responsive web design brings numerous advantages, such as:",
         "sectionTitle": "",
         "sectionPara": "",
         "categories": [
-          "adapting to different resolutions and layouts",
-          "use of flexible networks and elements",
-          "optimized images and graphics",
-          "faster page loading"
+          "adapting to different resolutions and layouts of elements",
+          "The use of flexible networks (fluid grids) and responsive components",
+          "Optimized images and graphics for faster loading",
+          "Better user experience (UX) and lower bounce rate",
+          "SEO benefits, because Google favors mobile-friendly sites"
         ],
         "subtitle": "Why is responsive web design important for your business?",
-        "parag2": "Today, most users browse the Internet via mobile phones. According to research from 2025, <strong>as many as 68% of retail purchases worldwide will be made via smartphones.</strong> This means that if your site is not mobile-friendly, you are missing out on a large number of potential customers.<br/>Advantages of Responsive Design:<br/>",
+        "parag2": "Today, most users search the Internet via mobile phones. According to research from 2025, as many as <bold>68% of online purchases</bold> worldwide will be made via smartphones. This means that if your site is not responsive and not adapted to mobile devices, you are losing a large number of potential customers.<br/><br/>Responsive web design brings numerous advantages that directly affect the success of your business:",
         "categories2": [
-          "<strong>One site for all devices</strong> - no need to create separate versions for desktop and mobile view",
-          "<strong>Better user experience</strong> - visitors stay on the site longer and find what they need more easily",
-          "<strong>SEO advantage</strong> - Google favors mobile-friendly sites, which means better search rankings",
-          "<strong>Higher conversion</strong> - a site that looks professional and works flawlessly increases customer trust and chances of making a sale"
+          "<bold>One site for all devices</bold> - no need for separate desktop and mobile versions.",
+          "<bold>Better user experience (UX)</bold> - visitors stay on the site longer and find the information they are looking for more easily.",
+          "<bold>SEO advantage</bold> - Google favors mobile-friendly websites, which means better rankings in search results.",
+          "<bold>Higher conversion and customer trust</bold> - a professionally designed and technically optimized site increases the likelihood that a visitor will become a customer."
         ],
         "typesTitle": "",
+        "typesTitle2": "",
         "typesText": "",
-        "sharedHosting": ""
+        "sharedHosting": "",
+        "categories3": []
       },
       "hosting": {
         "mainTitle": "Web Hosting",
         "title": "What is Web Hosting?",
-        "parag": "Web hosting is a service that allows your website or application to be available on the internet. It works by hosting companies renting out space on their servers to store all your website files – including text, images, videos, and other content.<br/>The easiest way to imagine hosting is like renting space online: the provider owns the server, while your domain is the address of that space. When someone enters your domain into a browser, the server processes the request and displays your site.",
+        "parag": "Web hosting is a service that allows your website or application to be available 24/7 on the Internet and is an unavoidable step in the <aLink>website creation process</aLink>. It works by the hosting provider renting space on their server where all your site's files are stored — texts, images, videos, databases and other components that make up your website.<br/><br/>The easiest way to think of hosting is as renting space on the Internet: your domain is the address of that space, while the server is the physical place where the data is located. When a user types your domain into a browser, the server processes the request and displays the content of your site.",
         "sectionTitle": "Key elements of web hosting",
-        "sectionPara": "For your website to function properly online, it is important to understand the basic components that make web hosting possible. Each of these elements plays a key role in keeping your site accessible and reliable.",
+        "sectionPara": "In order for your site to function properly and be constantly available to users, it is important to understand the basic components that make web hosting possible. Each of them has its own role in making your site stable, fast and secure.",
         "categories": [
-          "<bold>Server</bold> - a powerful computer connected to the internet that stores all your website files.",
-          "<bold>Server space</bold> - the portion of disk space rented to you for storing data.",
-          "<bold>Bandwidth</bold> - the amount of data transferred from the server to visitors.",
-          "<bold>Domain</bold> - your website’s address on the internet, e.g. www.your-site.com."
+          "<bold>Server</bold> - a powerful computer connected to the Internet that hosts all your site files.",
+          "<bold>Server space</bold> - part of the disk that is rented to you for data storage.",
+          "<bold>Bandwidth</bold> - amount of data transferred from server to visitors.",
+          "<bold>Domain</bold> - the address of your website on the Internet, for example www.vaš-sajt.rs",
+          "<bold>SSL certificate</bold> - a digital certificate that enables a secure HTTPS connection, protects user data and contributes to a better ranking in Google search.",
+          "<bold>Technical support and backup</bold> - regular maintenance, performance monitoring and timely troubleshooting are key to the stable operation of your site."
         ],
         "subtitle": "Why do you need web hosting",
-        "parag2": "",
+        "parag2": "Without web hosting, your site would not be available on the internet. Hosting is the basis of any online presence, as it allows the content of your site to be displayed to users around the world at all times. Here are some key reasons why you need one:",
         "categories2": [
-          "<bold>Availability</bold> - makes your site visible and accessible to visitors worldwide at any time.",
-          "<bold>Storage</bold> - allows you to keep all your website data (text, images, video) in one place.",
-          "<bold>Technical support</bold> - hosting companies take care of server maintenance, security, and technical needs, which would otherwise be costly and complex to manage on your own."
+          "<bold>Availability</bold> - quality web hosting ensures that your site is constantly online and visible to visitors, without interruptions. Reliable servers and stable infrastructure guarantee a high percentage of availability (99.9% uptime).",
+          "<bold>Storage</bold> - hosting provides a safe place to store all your site files — texts, images, videos and databases. Whether you use shared, VPS or cloud hosting, you get the optimal balance between speed, security and cost.",
+          "<bold>Technical support</bold> - professional hosting companies offer 24/7 technical support, regular server maintenance, backups and protection against attacks (DDoS, malware). This means that you don't have to worry about technical details and site security yourself."
         ],
         "typesTitle": "Types of hosting",
-        "typesText": "There are different types of hosting that vary in performance, security, and management. This allows you to choose a package that best fits your needs – from simple blogs to large corporate websites.",
-        "sharedHosting": "One of the most common solutions is shared hosting. It is affordable, easy to use, and ideal for smaller websites or those just starting with web hosting."
+        "typesTitle2": "",
+        "typesText": "There are different types of web hosting that differ in terms of performance, security and management. Choosing the right type of hosting depends on the size of your site, the amount of traffic and technical needs. Regardless of whether you are running a simple blog, a portfolio site or a large corporate platform, the right choice of hosting affects the loading speed, stability and position of the site in search results.",
+        "sharedHosting": "One of the most common solutions is shared hosting. It is affordable, easy to use, and ideal for smaller websites or those just starting with web hosting.",
+        "categories3": []
       }
     },
     "teamEffort": {
@@ -164,16 +201,22 @@
       }
     }
   },
+  "serviceIds": {
+    "website": "website-development",
+    "seo": "seo-optimization",
+    "design": "design",
+    "hosting": "hosting"
+  },
   "homeService": {
-    "title": "We are hero to <br/> make your <span>Website</span> <br/> look more <span>Elegant</span> and better!"
+    "title": "Professional services<br/> for a  <span>modern</span> <br/>and functional <span>website</span>"
   },
   "portfolio": {
-    "title": "Our recent <span>web designs</span> and some examples of past <span>projects</span>",
-    "text": "Here you can view some of our projects that have been done for clients from different areas of business. We strive to provide each client with a unique and functional solution, in accordance with the brand and needs."
+    "title": "Our featured web design <span>projects</span>",
+    "text": "See examples of our projects created for clients from various industries. For each project, we create a universal and modern solution that reflects the brand identity and the client's needs."
   },
   "priceList": {
-    "title": "Our <span>offer</span> <br/> website <span>development</span prices>",
-    "text": "Prices for creating a website are approximate and depend on your needs and requirements. Contact us for accurate information and an offer tailored to your project.",
+    "title": "Prices and packages of <span>build</span> web <span>site</span>",
+    "text": "Prices for creating a website are approximate and depend on your needs and requirements. Contact us for a personalized offer and accurate information for your project.",
     "1": {
       "package": "basic",
       "price": "<span>from</span>399",
@@ -242,11 +285,11 @@
   "about": {
     "mainTitle": "About Us",
     "aboutUs": {
-      "title": "Why choose us?",
+      "title": "Why choose us to create your website",
       "list": {
         "0": {
           "title": "Modern design",
-          "text": "Every business deserves a unique and professional website, which ensures trust and increases the chances of success."
+          "text": "Every business deserves a unique and modern web design, which ensures trust and increases the chances of success."
         },
         "1": {
           "title": "Customized solutions",
@@ -256,16 +299,18 @@
           "title": "Results website",
           "text": "Strategically designed to attract the right visitors and improve business."
         }
-      }
+      },
+      "alt": "A client looks at his newly created website on a laptop"
     },
     "ourVision": {
       "title": "Our mission and goals",
-      "text": "Our mission is to create websites that build trust and deliver results. The goal is simple, satisfied clients, quality solutions and long-term cooperation as the key to the success of our clients on the online market. We believe that every project deserves a special approach, that's why we offer solutions adapted to the needs of clients."
+      "text": "Our mission is to create websites that build trust and deliver results. Our goal is simple, satisfied clients, quality solutions and long-term cooperation as the key to our clients' success in the online market. We believe that every project deserves a special approach, that's why we offer solutions tailored to the unique needs of each client.",
+      "alt": "The agency team is planning the SEO strategy and website creation goals"
     },
     "ourSkills": {
-      "title": "The programming languages ​​we use most often",
+      "title": "Programming languages that we use for website development",
       "subtitle": "<span>Our</span> skills",
-      "text": "We use modern programming languages, which ensure website stability, contribute to its speed, better SEO optimization and greater online visibility. We combine creativity and functionality in one place."
+      "text": "We use modern programming languages and technologies, which ensure website stability, contribute to its speed, better SEO optimization and greater online visibility. We combine creativity and functionality in one place."
     }
   },
   "footer": {

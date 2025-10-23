@@ -1,7 +1,7 @@
 import './header.css';
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 import {
   FaPhoneVolume,
   FaFacebook,
@@ -13,12 +13,20 @@ import useIsMobile from '../../hook/useIsMobile';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const lang = i18n.language;
+  const location = useLocation();
+
   const isMobile = useIsMobile();
 
   const activeStyle = {
     color: 'rgb(52, 152, 219)',
   };
+
+  useEffect(() => {
+    // svaki put kad se promeni ruta, zatvori meni
+    setIsOpen(false);
+  }, [location.pathname]);
 
   useEffect(() => {
     if (isOpen) {
@@ -78,7 +86,7 @@ const Header = () => {
           <ul className='nav-body'>
             <li className='nav-item'>
               <NavLink
-                to='.'
+                to={`/${lang}`}
                 className='nav-link'
                 style={({ isActive }) => (isActive ? activeStyle : null)}
               >
@@ -87,7 +95,7 @@ const Header = () => {
             </li>
             <li className='nav-item'>
               <NavLink
-                to='about'
+                to={`/${lang}/${t('routes.about')}`}
                 className='nav-link'
                 style={({ isActive }) => (isActive ? activeStyle : null)}
               >
@@ -96,7 +104,7 @@ const Header = () => {
             </li>
             <li className='nav-item'>
               <NavLink
-                to='services'
+                to={`/${lang}/${t('routes.services')}`}
                 className='nav-link'
                 style={({ isActive }) => (isActive ? activeStyle : null)}
               >
@@ -105,7 +113,7 @@ const Header = () => {
             </li>
             <li className='nav-item'>
               <NavLink
-                to='showcase'
+                to={`/${lang}/${t('routes.showcase')}`}
                 className='nav-link'
                 style={({ isActive }) => (isActive ? activeStyle : null)}
               >
@@ -114,7 +122,7 @@ const Header = () => {
             </li>
             <li className='nav-item'>
               <NavLink
-                to='contact'
+                to={`/${lang}/${t('routes.contact')}`}
                 className='nav-link'
                 style={({ isActive }) => (isActive ? activeStyle : null)}
               >

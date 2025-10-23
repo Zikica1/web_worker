@@ -5,7 +5,7 @@ const Hading = ({ i18nKey, sizeFont }) => {
   useTranslation();
 
   return (
-    <h3 className='head-title' style={{ fontSize: `${sizeFont}px` }}>
+    <h2 className='head-title' style={{ fontSize: `${sizeFont}px` }}>
       <Trans
         i18nKey={i18nKey}
         components={{
@@ -13,7 +13,7 @@ const Hading = ({ i18nKey, sizeFont }) => {
           br: <br />,
         }}
       />
-    </h3>
+    </h2>
   );
 };
 

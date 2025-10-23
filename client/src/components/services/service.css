@@ -51,6 +51,15 @@
   grid-area: img;
 }
 
+.img-service {
+  clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  transition: all 1s ease;
+}
+
+.img-service.visible {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
 .serviceHead {
   text-align: center;
   margin-block: 3.125em;

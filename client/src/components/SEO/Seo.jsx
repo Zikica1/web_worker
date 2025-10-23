@@ -1,4 +1,5 @@
 import { Title, Meta } from 'react-head';
+import AlternateLinks from './AlternateLinks';
 
 const Seo = ({ title, description, image, url, jsonLd }) => {
   return (
@@ -15,6 +16,7 @@ const Seo = ({ title, description, image, url, jsonLd }) => {
       <Meta name='twitter:title' content={title} />
       <Meta name='twitter:description' content={description} />
       {image && <Meta name='twitter:image' content={image} />}
+      <AlternateLinks />
       {jsonLd && (
         <script type='application/ld+json'>{JSON.stringify(jsonLd)}</script>
       )}
