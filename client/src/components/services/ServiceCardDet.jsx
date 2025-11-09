@@ -239,6 +239,14 @@ const ServiceCardDet = () => {
                       components={{
                         br: <br />,
                         bold: <strong />,
+                        aLink: (
+                          <Link
+                            style={{ color: '#3498db' }}
+                            to={`/${lang}/${t('routes.services')}/${t(
+                              'serviceIds.website'
+                            )}`}
+                          ></Link>
+                        ),
                       }}
                       t={t}
                     />

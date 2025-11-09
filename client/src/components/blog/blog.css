@@ -1,0 +1,30 @@
+.blog {
+  margin-top: 9em;
+  padding-inline: 2.1875em;
+
+  @media (min-width: 48rem) {
+    margin-block: 12.562em;
+  }
+}
+
+.blog-mainTitle {
+  color: var(--clr-text-pri);
+  font-size: 2.6875rem;
+  padding-block: 0.86em;
+  text-align: center;
+
+  @media (min-width: 48rem) {
+    padding-block: 1.162em;
+  }
+}
+
+.blog-des {
+  text-align: center;
+  margin-block-start: 9.37em;
+}
+
+.blog-desPara {
+  max-width: 75%;
+  margin-inline: auto;
+  margin-block: 2em;
+}

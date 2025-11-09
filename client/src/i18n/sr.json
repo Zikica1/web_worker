@@ -4,6 +4,7 @@
     "about": "o-nama",
     "services": "usluge",
     "showcase": "istaknuto",
+    "blog": "blogs",
     "contact": "kontakt"
   },
   "routes": {
@@ -11,13 +12,15 @@
     "about": "o-nama",
     "services": "usluge",
     "showcase": "istaknuto",
+    "blog": "blogs",
     "contact": "kontakt"
   },
   "buttons": {
     "heroText": "pozvite nas",
     "baseText": "saznajte više",
     "priceText": "zatražite ponudu",
-    "showcaseText": "pogledajte primer"
+    "showcaseText": "pogledajte primer",
+    "blogHomeText": "poseti naš blog"
   },
   "hero": {
     "0": {
@@ -115,7 +118,7 @@
           "Off-site SEO - uključuje aktivnosti van vašeg sajta, poput izgradnje autoriteta putem backlinkova, prisustva na društvenim mrežama i registracije u relevantnim direktorijumima. Sve ove aktivnosti zajedno jačaju reputaciju i kredibilitet vašeg web sajta."
         ],
         "subtitle": "Zašto je SEO važan?",
-        "parag2": "Ako poslujete u okruženju bez konkurencije, možda vam SEO i nije presudan. Međutim, u stvarnosti, gotovo svaka delatnost danas ima konkurente na internetu — i tu SEO optimizacija sajta postaje ključna. <br/><br/>Kvalitetno sprovedena optimizacija omogućava da se vaš web sajt pozicionira visoko u Google pretrazi i da tu poziciju zadrži dugoročno. To donosi više poseta, veći broj klijenata, prepoznatljiv brend i jasnu prednost nad konkurencijom.<br/><br/>Bilo da koristite custom rešenje ili open-source platforme poput WordPress-a ili Joomle, za svaku vrstu sajta može se razviti prilagođena SEO strategija koja daje najbolje rezultate i maksimalno koristi potencijal vašeg poslovanja.",
+        "parag2": "Ako poslujete u okruženju bez konkurencije, možda vam SEO i nije presudan. Međutim, u stvarnosti, gotovo svaka delatnost danas ima konkurente na internetu — i tu SEO optimizacija sajta postaje ključna. <br/><br/>Efikasna SEO optimizacija počinje već <aLink>tokom izrade web sajta</aLink>, jer način na koji je sajt strukturisan, brzina učitavanja i tehnička optimizacija direktno utiču na rangiranje u pretraživačima. Kvalitetno sprovedena optimizacija omogućava da se vaš web sajt pozicionira visoko u Google pretrazi i da tu poziciju zadrži dugoročno. To donosi više poseta, veći broj klijenata, prepoznatljiv brend i jasnu prednost nad konkurencijom.<br/><br/>Bilo da koristite custom rešenje ili open-source platforme poput WordPress-a ili Joomle, za svaku vrstu sajta može se razviti prilagođena SEO strategija koja daje najbolje rezultate i maksimalno koristi potencijal vašeg poslovanja.",
         "categories2": [],
         "typesTitle": "",
         "typesTitle2": "",
@@ -126,7 +129,7 @@
       "design": {
         "mainTitle": "Responzivni web dizain",
         "title": "Šta je responzivni web dizajn?",
-        "parag": "Responzivni web dizajn (RWD) predstavlja pristup izradi web sajtova koji se automatski prilagođavaju svim uređajima i veličinama ekrana — od mobilnih telefona i tableta, do laptopova i velikih monitora. Cilj responzivnog sajta je da sadržaj uvek bude pregledan, funkcionalan i estetski privlačan, bez obzira na rezoluciju ili orijentaciju uređaja.<br/><br/>Dobro implementiran responzivni web dizajn donosi brojne prednosti, kao što su:",
+        "parag": "Responzivni web dizajn (RWD) predstavlja <aLink>pristup izradi web sajtova</aLink> koji se automatski prilagođavaju svim uređajima i veličinama ekrana — od mobilnih telefona i tableta, do laptopova i velikih monitora. Cilj responzivnog sajta je da sadržaj uvek bude pregledan, funkcionalan i estetski privlačan, bez obzira na rezoluciju ili orijentaciju uređaja.<br/><br/>Dobro implementiran responzivni web dizajn donosi brojne prednosti, kao što su:",
         "sectionTitle": "",
         "sectionPara": "",
         "categories": [
@@ -258,6 +261,9 @@
       ]
     }
   },
+  "blogHome": {
+    "title": "Najnovije sa <span>bloga</span>"
+  },
   "contact": {
     "title": "Kontaktirajte nas",
     "sectionPara": "Za sva pitanja i dodatne informacije u vezi sa kreiranjem i dizajnom web sajta, možete nas kontaktirati u bilo kom trenutku.",
@@ -322,5 +328,294 @@
     "openHoursTitle": "Radno vreme",
     "open": "Pon-Sub: 9.00 - 17.00",
     "close": "Nedelja: ZATVORENO"
+  },
+  "blogs": {
+    "titleMain": "Blog",
+    "title": "Blog o izradi web sajtova",
+    "description": "Dobrodošli na našu blog stranicu, gde delimo znanje i iskustvo iz oblasti izrade web sajtova, web dizajna i SEO optimizacije. Ovde ćete pronaći savete, vodiče i aktuelne trendove koji vam pomažu da napravite uspešan i vidljiv web sajt na internetu.",
+    "blogCards": {
+      "posts": [
+        {
+          "title": "Geške u razvoju web sajtova",
+          "data": "02.11.2025",
+          "author": "WebWorker Tim",
+          "alt": "Diskusija o izbegavanju grešaka u izradi veb sajta, tim u radu na laptopu"
+        },
+        {
+          "title": "Vodič: web sajt za mali biznis",
+          "data": "01.11.2025",
+          "author": "WebWorker Tim",
+          "alt": "Preduzetnik radi na laptopu u kafiću dok uči kako da napravi web sajt za mali biznis — vodič za početnike"
+        },
+        {
+          "title": "Elementi modernog web sajta",
+          "data": "25.10.2025",
+          "author": "WebWorker Tim",
+          "alt": "Tim stručnjaka analizira UX/UI, SEO i dizajn kao ključne elemente modernog web sajta"
+        },
+        {
+          "title": "Zašto vam je potreban web sajt",
+          "data": "26.10.2025",
+          "author": "WebWorker Tim",
+          "alt": "Poslovni sastanak u kancelariji — diskusija o razlozima zašto je web sajt važan za svaki biznis"
+        }
+      ],
+      "blogIds": {
+        "dev errors": "greške-u-razvoju-web-sajtova",
+        "small business website": "vodič-web-sajt-za-mali-biznis",
+        "key elements for the site": "elementi-modernog-web-sajta",
+        "reasons for the website": "zašto-vam-je-potreban-web-sajt"
+      }
+    },
+    "blogCardDet": {
+      "dev errors": {
+        "title": "5 Uobičajenih grešaka u razvoju veb sajtova koje treba izbegavati",
+        "description": "Samo zamislite ulaganje vremena, novca i resursa u <aLink>razvoj veb stranice</aLink>, samo da biste otkrili da ona koristi korisnike umesto da ih angažuje. Da li vam ovo deluje frustrirajuće? Pa, jeste. Razvoj veb stranice je sastavni deo razvoja onlajn prisustva. Ali čak i najmanje greške mogu da ugroze njegovu efikasnost.<br/><br/>Hajde da detaljno pogledamo najčešćih grešaka koje firme prave u razvoju veb stranica i kako ih efikasno izbeći.",
+        "data": "02.11.2025",
+        "author": "WebWorker Tim",
+        "sections": [
+          {
+            "heading": "1. Zanemarivanje optimizacije za mobilne uređaje",
+            "paragraph": "Čak i u današnjem svetu u kojem su mobilni uređaji na prvom mestu, ignorisanje optimizacije za mobilne uređaje je česta greška. Studije pokazuju da više od polovine celokupnog saobraćaja na veb-sajtovima širom sveta dolazi sa mobilnih uređaja, tako da je responzivni dizajn neophodan.",
+            "headingH3": "Do čega može dovesti zanemarivanje toga?",
+            "list": [
+              "Visoke stope napuštanja",
+              "Gubitak potencijalnih klijenata",
+              "Loše SEO rangiranje"
+            ],
+            "paragraphSec": "<strong>Rešenje: </strong>Sarađujte sa renomiranom agencijom za veb razvoj, koja daje prioritet dizajnu prilagođenom mobilnim uređajima. Ovo ne samo da poboljšava korisničko iskustvo već i osigurava bolju vidljivost na pretraživačima."
+          },
+          {
+            "heading": "2. Ignorisanje brzine veb stranice",
+            "paragraph": "Da li ste svesni da stope konverzije mogu pasti za 7% sa kašnjenjem od 1 sekunde u vremenu učitavanja stranice? Korisnici postaju frustrirani sporim učitavanjem veb stranica i mogu se odlučiti da posete veb stranice vaše konkurencije.<br/><br/><strong>Najčešći uzroci:</strong>",
+            "list": [
+              "Loše usluge hostinga",
+              "Teške slike",
+              "Prekomerni skriptovi trećih strana"
+            ],
+            "paragraphSec": "<strong>Rešenje:</strong> Redovno sprovodite testove brzine i optimizujte elemente veb stranice kao što su slike, CSS i JavaScript."
+          },
+          {
+            "heading": "3. Slaba navigacija i struktura",
+            "paragraph": "Veb sajt koji nema jasnu navigaciju je kao lavirint bez puta za bekstvo. To odbija ljude. Prema istraživanjima tržišta, 94% prvih utisaka je pod uticajem dizajna i upotrebljivosti vašeg veb sajta.",
+            "headingH3": "Znaci loše navigacije:",
+            "list": [
+              "Pretrpani meniji",
+              "Nema jasnih poziva na akciju (CTA)",
+              "Nebitne ili suvišne veze"
+            ]
+          },
+          {
+            "heading": "4. Zanemarivanje SEO-a tokom razvoja",
+            "paragraph": "Mnoge kompanije prave skupu grešku da <aLink>pristupaju SEO-u</aLink> kao naknadnoj misli. Čak i ako je veb sajt vizuelno privlačan, teško će se rangirati ako nema strukturu prilagođenu SEO-u.<br/><br/><strong>Ključni SEO faktori koje treba uzeti u obzir:</strong>",
+            "linkTo": "seo-optimizacija",
+            "list": [
+              "Korišćenje odgovarajućih oznaka zaglavlja (H1, H2, itd.)",
+              "Poboljšanje alternativnih tekstova i meta opisa",
+              "Održavanje brzog vremena učitavanja"
+            ],
+            "paragraphSec": "Ako želite da osigurate da vaš veb sajt bude dobro rangiran, konsultujte se sa pouzdanom SEO kompanijom. Uskladite razvoj veb sajtova sa najboljim SEO praksama za dugoročni uspeh."
+          },
+          {
+            "heading": "5. Dizajnerski nered",
+            "paragraph": "Efikasan onlajn dizajn se u velikoj meri oslanja na minimalizam, što nije samo prolazni trend. Pretrpane stranice sa prekomernim animacijama, slikama ili tekstom imaju tendenciju da zbune posetioce i razvodne celu vašu poruku!<br/><br/><strong>Zašto je jednostavnost važna:</strong>",
+            "list": [
+              "Povećava čitljivost",
+              "Povećava pažnju na važne komponente",
+              "Povećava angažovanost korisnika"
+            ],
+            "paragraphSec": "<strong>Rešenje:</strong> Važno je osigurati da vaš veb sajt bez napora postigne ravnotežu između estetike i funkcionalnosti."
+          },
+          {
+            "heading": "6. Neintegracija analitike",
+            "paragraph": "Bez analitike, krećete se u mraku. Veb stranice kojima nedostaju alati za praćenje ne uspevaju da prikupe bitne podatke o ponašanju korisnika, što često ograničava njihove mogućnosti rasta.<br/><br/><strong>Ključne metrike za praćenje:</strong>",
+            "list": [
+              "Stopa odbijanja",
+              "Prosečno trajanje sesije",
+              "Stope konverzije"
+            ],
+            "paragraphSec": "<strong>Rešenje</strong>: Ne zaboravite da koristite alate kao što su Google Analytics kako biste stekli dubinski uvid u performanse vašeg sajta. "
+          },
+          {
+            "heading": "7. Zanemarivanje rutinskog održavanja",
+            "paragraph": "Razvoj veb stranice je kontinuirani napor, a ne jednokratni događaj. Neispravni linkovi, bezbednosni propusti ili zastareli dodaci često mogu da ugroze bezbednost korisnika i oštete vašu reputaciju.<br/><br/><strong>Posledice zanemarivanja:</strong>",
+            "listSec": [
+              "Gubitak poverenja klijenata",
+              "Sniženi plasman na pretraživačima",
+              "Kršenje bezbednosti"
+            ]
+          }
+        ]
+      },
+      "small business website": {
+        "title": "Web sajt za mali biznis — vodič za početnike",
+        "description": "U današnjem digitalnom svetu, web sajt više nije luksuz rezervisan za velike kompanije — to je osnovni alat za rast i prepoznatljivost svakog malog biznisa.<br/><br/>U ovom vodiču za početnike naučićeš kako da napraviš web sajt za mali biznis - korak po korak, bez suvišnih tehničkih termina.",
+        "data": "01.11.2025",
+        "author": "WebWorker Tim",
+        "sections": [
+          {
+            "heading": "1. Definiši cilj svog web sajta",
+            "paragraph": "Pre nego što kreneš u <aLink>izradu web sajta</aLink>, zapitaj se: šta želim da postignem sa svojim sajtom? Da li želiš da prezentuješ svoje usluge, da prodaješ proizvode online ili da jednostavno informišeš kupce? Od odgovora zavisi izgled sajta, tip sadržaja i način na koji ćeš optimizovati stranice za SEO (Search Engine Optimization).",
+            "linkTo": "izrada-web-sajta"
+          },
+          {
+            "heading": "2. Odaberi idealno ime domena",
+            "paragraph": "Domen je adresa tvog sajta na internetu - tvoj digitalni potpis. Biraj jednostavno, kratko i lako pamtljivo ime, najbolje sa nastavkom .com ili .rs.Ako je glavno ime zauzeto, ne žuri da napraviš kompromis. Napravi listu od 10-15 mogućih varijanti, jer dobra domen strategija čini razliku u prepoznatljivosti."
+          },
+          {
+            "heading": "3. Izaberi pouzdan hosting i platformu",
+            "paragraph": "Hosting je kuća u kojoj tvoj sajt živi.Za male biznise, dovoljno je početi sa deljenim <aLink>hostingom</aLink> (shared hosting) kod renomiranih provajdera.",
+            "linkTo": "hosting"
+          },
+          {
+            "heading": "4. Isplaniraj strukturu i sadržaj sajta",
+            "paragraph": "Planiranje unapred štedi vreme i sprečava greške.Za mali biznis preporučuje se da sajt sadrži najmanje sledeće stranice:",
+            "list": [
+              "<strong>Početna stranica</strong> - pregled onoga što radiš",
+              "<strong>O nama</strong> - tvoja priča i vrednosti",
+              "<strong>Usluge / Proizvodi</strong> - jasno prikazano šta nudiš",
+              "<strong>Kontakt stranica</strong> - forma, email, mapa lokacije",
+              "<strong>Blog</strong> - saveti, novosti i korisni tekstovi koji pomažu SEO"
+            ]
+          },
+          {
+            "heading": "5. Kreiraj privlačan dizajn u skladu sa brendom",
+            "paragraph": "Vizuelni identitet je ono što stvara prvi utisak.Koristi boje, fontove i stil koji odražavaju tvoj brend.Bez obzira da li koristiš gotov šablon (template) ili angažuješ web dizajn agenciju, obrati pažnju na sledeće:",
+            "list": [
+              "Boje treba da budu konzistentne sa logotipom",
+              "Font mora biti čitljiv i profesionalan",
+              "Navigacija (meni) jednostavna i intuitivna",
+              "Stranice treba brzo da se učitavaju"
+            ],
+            "paragraphSec": "<strong>Mobilna verzija</strong> sajta je danas obavezna - više od 60% korisnika pretražuje internet putem mobilnog telefona, pa tvoj sajt mora izgledati savršeno i na manjim ekranima."
+          },
+          {
+            "heading": "6. Dodaj sadržaj koji prodaje",
+            "paragraph": "Kvalitetan sadržaj gradi poverenje. Koristi jasan i direktan jezik, bez suvišnih tehničkih izraza. Na svakoj stranici treba da bude jasno šta korisnik može da uradi - kontaktira te, naruči uslugu, ili zakaže sastanak",
+            "headingH3": "Saveti za sadržaj:",
+            "list": [
+              "Piši za ljude, ne samo za Google",
+              "Uključi prave ključne reči u prve pasuse",
+              "Dodaj alt tekst za slike",
+              "Ubaci pozive na akciju (CTA), npr. Kontaktiraj nas već danas"
+            ]
+          },
+          {
+            "heading": "7. Optimizuj sajt za SEO i performanse",
+            "paragraph": "Bez dobre SEO strategije, ni najbolji dizajn ne vredi. Osnovne SEO prakse koje svaki mali biznis treba da primeni:",
+            "list": [
+              "Unesi meta title i meta description na svakoj stranici",
+              "Koristi H1, H2, H3 strukturu naslova",
+              "Linkuj svoje stranice interno",
+              "Učitaj sajt preko HTTPS protokola",
+              "Optimizuj slike (manja veličina, brže učitavanje)"
+            ]
+          },
+          {
+            "heading": "8. Testiraj sve pre objave",
+            "paragraph": "Pre nego što klikneš Objavi, proveri sve funkcionalnosti:",
+            "list": [
+              "Da li svi linkovi rade?",
+              "Da li kontakt forma ispravno šalje poruke?",
+              "Kako sajt izgleda na mobilnim uređajima i različitim pretraživačima?"
+            ],
+            "paragraphSec": "Preporučuje se i <strong>meko lansiranje<strong> - objavi sajt, testiraj ga nekoliko dana, a tek zatim kreni sa promovisanjem."
+          },
+          {
+            "heading": "9. Promoviši svoj sajt i gradi online prisustvo",
+            "paragraph": "Kada tvoj sajt postane aktivan, sledeći korak je da ga predstaviš svetu.Dodaj link ka sajtu u bio sekcije na društvenim mrežama, e-mail potpisima i vizit kartama.Objavljuj sadržaj na blogu i deli ga na mrežama da bi povećao organski saobraćaj.",
+            "headingH3": "Dodatni kanali:",
+            "list": [
+              "Google Business profil",
+              "Facebook i Instagram oglasi",
+              "Newsletter kampanje"
+            ]
+          },
+          {
+            "heading": "10. Održavaj svoj sajt redovno",
+            "paragraph": "Izrada sajta nije kraj, već početak.Redovno ažuriraj sadržaj, proveravaj bezbednost i osvežavaj dizajn svake 1-2 godine.Uključi analitiku (npr. Google Analytics) da bi pratio broj poseta i najposećenije stranice.Održavanjem aktivnog sajta pokazuješ da tvoj biznis živi i raste."
+          }
+        ],
+        "conclusion": "Web sajt za mali biznis je više od obične digitalne posetnice - on je tvoj alat za rast, poverenje i prodaju.Uz dobru strategiju, kvalitetan dizajn i pravilnu SEO optimizaciju, čak i mali biznis može izgledati profesionalno i takmičiti se sa velikim igračima.<br/><br/>Uloži vreme u planiranje, prati ovaj vodič i tvoj sajt će postati <strong>najbolji ambasador tvog brenda na internetu.</strong>"
+      },
+      "key elements for the site": {
+        "title": "7 ključnih elemenata koje svaki moderan web sajt mora da ima",
+        "description": "Sa stalnim rastom digitalizacije u društvu, ključni aspect svakog online prisustva predstavlja kvalitetna <aLink>izrada web sajta</aLink>. U današnje vreme moderan sajt ne podrazumeva samo dobro urađen dizajn, već I funkcionalnost, brzina sajta, UX, SEO optimizacija itd. Moderne karakteristike web sajta su temelj uspešnog online prisustva, jer pomaže u razvoju Brenda. U nastavku je navedeno 7 najboljih karakteristika sajta, koje moraju biti uključene za sajt sa visokom konverzijom za svaki brend.",
+        "data": "25.10.2025",
+        "author": "WebWorker Tim",
+        "sections": [
+          {
+            "heading": "1. Struktura web sajta",
+            "paragraph": "Struktura web sajta ili arhitektura, je organizacioni dizajn stranice vašeg sajta. Struktura podrazumeva kategorizaciju sadržaja u raspored koji je razumljiv, pristupačan I predvidljiv, takođe predstavlja process vođenja korisnika kroz sajt, organizvanjem I rspoređivanjem svih relevatnih sadržaja na jasan, I intuitivan način (IA). Navigacija treba da bude intuitivna, a to podrazumeva da navigacija deluje kao vodič koji pomaže korisnicima da lako pristupe različitim dugmadima I funkcijama na vašem sajtu. Zamislite svoj navigacioni meni kao mapu, ako  nije dobro struktuirana, ljudi se izgube I napuste vaš sajt."
+          },
+          {
+            "heading": "2. Oprimizacija brzine  stranice",
+            "paragraph": "Brzina učitavanja stranice je vreme potrebno da web stranica u poptpunosti prikaže svoj sadržaj. Brzina sajta je od izuzetne važnosti. Sajt koji se učitava za manje od 3 sekunde je ključ za zadržavanje korisničkog interesovanja. Stranice koje se loše učitavaju I sporo prikazuju znaju biti frustrirajuće za mnoge korisnike, često ih teraju da napuste sajt. Brzina sajta predstavlja ključni factor u SEO rangiranju, koji određuje Koliko visoko se sajt ranigra na stranicama rezultata pretraživača. Postoji široka paleta tehnika za poboljšavanje brzine sajta, neke od njih su kompresija slika, minimiziranog koda I efikasnog vremena odziva servera osiguravaju brže učitavanje sajta."
+          },
+          {
+            "heading": "3. Responzivni web dizajn",
+            "paragraph": "Web stranice koje se lako prilagođavaju različitim veličinama ekrana, od velikih desktop monitora do pametnih uređaja sada je inperativ za svaki brend. Umesto kreiranja odvojenih verzija za svaki uređaj, responzivni dizajn osigurava da jedna web stranica pravilno funkcioniše u svim formatima, održavajući performance, upotrebljivost I vizualnu konzistentnost. Responzivni dizajn koristi fleksibilne mreže, medijske upite I skalabilni sadržaj kako bi osigurao da sajt izgleda I funkcioniše na svim tipovima uređaja. Prilagodljiv sajt poboljšava SEO, poboljšava upotrebljivost I osigurava budućnost vašeg dizajna na različitim veličinama ekrana."
+          },
+          {
+            "heading": "4. SEO optimizovan sadržaj",
+            "paragraph": "SEO je skraćenica za Search Engine Optimization (optimizacija za pretraživače), pomaže pretraživaču da razumeju sadržaj vašeg web-sajta I povežu ga sa korisnicima, pružajući relevantne rezultate na osnovu njihovih upita za pretragu. Pomaže I poboljšava vidljivost vaseg sajta na pretraživačima kao što su Google I drugi. Što je bolja vidljivost vase stranice u rezultatima pretrage, veća je verovatnoća da će vas pronaći I posetiti. Neki ob bitniji koraka u SEO optimizaciju su:",
+            "seoList": [
+              "Započnite s istraživanjem ključnih reči - To su termini koje će vaši idealni posetioci web stranice verovatno ukucati u Google ili druge pretraživače, a svaka stranica na vašem sajtu treba da cilja različitu grupu ključnih reči kako se ne bi međusobno takmičile.",
+              "Postavite svoje ključne riči - Pored toga što će biti prirodno ugrađene u sadržaj vašeg teksta, trebalo bi da postavite ključne reči na određena mesta na stranici kako bi ste Google ukazali na to za šta želite da se rangirate.",
+              "Optimizirajte svoje naslove - Svaka stranica na vašem sajtu ima dva naslova. Oznaka title je naslov koji se pojavljuje na stranici sa rezultatima pretrage i predstavlja najuticajnije mesto gde možete da postavite ključu reč. Oznaka H1 je naslov koji se pojavljuje na stranici i predstavlja najuticajnije mesto za postavljanje ključnih reči.",
+              "Optimizirajte svoje meta opise - Meta opis je opis koji se pojavljuje u SERP-u ispod oznake title. Google ne prikazuje uvek onaj koji ste naveli u SERP-u, često postavi svoj sopstveni na osnovu upita, ali je i dalje važno optimizovati za SEO. Pretraživač čita ovaj opis kada pretražuje stranicu kako bi razumeo o čemu se na stranici radi."
+            ]
+          },
+          {
+            "heading": "5. Sigurnost sajta (SSL sertifikat)",
+            "paragraph": "Sigurnost je jedan od najvažnijih, a često zapostavljenih elemenata modernog web sajta. SSL sertifikat (Secure Sockets Layer) omogućava da komunikacija između tvog sajta i posetioca bude šifrovana i bezbedna. Kada sajt koristi HTTPS protokol (umesto HTTP), svi podaci koje korisnici unose — kao što su forme, lozinke ili lični podaci — ostaju zaštićeni od zloupotreba. Pored same zaštite, HTTPS uliva poverenje korisnicima. Posetioci odmah prepoznaju da je sajt bezbedan zahvaljujući ikoni katanca u adresnoj liniji, što povećava njihovu spremnost da stupe u interakciju ili izvrše kupovinu. Takođe, Google daje prednost sigurnim sajtovima u rezultatima pretrage. Drugim rečima, posedovanje SSL sertifikata ne samo da štiti tvoje korisnike, već direktno utiče na SEO rangiranje i vidljivost sajta. Ako tvoj sajt još uvek nije prešao na HTTPS, to bi trebalo da bude jedan od prvih koraka u optimizaciji."
+          },
+          {
+            "heading": "6. Profesionalan vizuelni identitet",
+            "paragraph": "Prvi utisak koji korisnik stekne o vašem sajtu presudan je — i često traje svega nekoliko sekundi. Profesionalan vizuelni identitet zato igra ključnu ulogu u stvaranju poverenja i kredibiliteta. Elementi poput boja, tipografije i logotipa moraju biti usklađeni sa vrednostima i stilom vašeg brenda. Boje prenose emocije (na primer, plava asocira na poverenje i sigurnost), dok tipografija utiče na čitljivost i profesionalni izgled. Jednostavan, ali dosledan dizajn doprinosi pozitivnom korisničkom iskustvu (UX) — posetioci lakše pronalaze informacije, duže ostaju na sajtu i češće se vraćaju. Profesionalan dizajn ne znači samo lepotu, već jasnu komunikaciju i poverenje između vas i vaših korisnika."
+          },
+          {
+            "heading": "7. Kvalitetan web hosting",
+            "paragraph": "Bez obzira koliko je vaš sajt dobro dizajniran, njegova stabilnost i brzina u velikoj meri zavise od kvaliteta web hostinga. Pouzdan hosting osigurava da je vaš sajt dostupan 24/7, sa brzim vremenom učitavanja i minimalnim prekidima u radu.Postoji više vrsta hostinga:",
+            "hostList": [
+              "Shared hosting — najpovoljnija opcija gde više sajtova deli isti server. Dobar je za male projekte i blogove.",
+              "VPS hosting (Virtual Private Server) — nudi više resursa i kontrolu, idealan za sajtove srednje veličine.",
+              "Dedicated hosting — ceo server je rezervisan samo za vaš sajt, što donosi maksimalne performanse i sigurnost, ali i veću cenu.Odabir pravog rešenja zavisi od potreba vašeg projekta — ali uvek vredi investirati u pouzdan hosting provajder koji garantuje brzinu, sigurnost i tehničku podršku.Saznajte više u našem vodiču o Web hostingu."
+            ],
+            "conclusion": "Izrada modernog web sajta danas prevazilazi sam vizuelni izgled — ona predstavlja spojeve funkcionalnosti, brzine, sigurnosti i korisničkog iskustva. Svaki od navedenih elemenata ima svoju ulogu u stvaranju sajta koji ne samo da privlači pažnju, već i ostvaruje rezultate. Kada su dizajn, SEO, hosting i sigurnost međusobno usklađeni, vaš sajt postaje moćan alat za izgradnju online prisustva i poverenja kod korisnika. Ako želite sajt koji je prilagođen vašim potrebama, brzo se učitava, lepo izgleda na svim uređajima i donosi konkretne rezultate — vreme je da napravite sledeći korak. Saznajte više o tome kako kreiramo uspešne sajtove na našoj stranici <aLink>Izrada web sajta</aLink>."
+          }
+        ]
+      },
+      "reasons for the website": {
+        "title": "5 razloga zašto vam je potreban web sajt",
+        "description": "U današnje vreme, <aLink>izrada web sajta</aLink> nije luksuz, već nužnost.Bez obzira na to da li vodite malu firmu, lokalni biznis ili veliku kompaniju, <strong>profesionalni web sajt</strong> je osnova vašeg digitalnog prisustva i kredibiliteta.Ako još uvek razmišljate da li vam je potreban sajt — evo pet ključnih razloga koji dokazuju da bez njega gubite prilike za rast i prodaju.",
+        "data": "26.10.2025",
+        "author": "WebWorker Tim",
+        "sections": [
+          {
+            "heading": "1. Povećavate kredibilitet i poverenje kupaca",
+            "paragraph": "Kupci danas očekuju da svako ozbiljno preduzeće ima svoj web sajt.Bez njega, delujete manje profesionalno i teško ulivate poverenje.Kroz moderan i funkcionalan dizajn, <strong>web sajt prikazuje vaš brend u najboljem svetlu</strong>, dok posetiocima jasno komunicira da ste ozbiljna i pouzdana kompanija.<br/><br/>Dobar sajt nije samo reklama — on je <strong>digitalno lice vašeg biznisa</strong> i prvi utisak koji kupci stiču o vama."
+          },
+          {
+            "heading": "2. Vaš biznis radi 24 sata dnevno",
+            "paragraph": "Dok vaša kancelarija ili prodavnica miruje, vaš sajt nastavlja da radi.<strong>Web sajt je otvoren 24/7</strong>, što znači da kupci mogu da saznaju sve o vašim proizvodima i uslugama u bilo koje vreme.Tako uvećavate vidljivost, gradite poverenje i dobijate nove potencijalne klijente čak i dok spavate."
+          },
+          {
+            "heading": "3. SEO optimizacija donosi nove klijente",
+            "paragraph": "Bez obzira koliko kvalitetno radite, ako vas nema na Google-u, kao da ne postojite.Uz <aLink>SEO optimizaciju</aLink>, vaš sajt može da se pojavi u rezultatima pretrage kada neko traži pojmove poput „izrada web sajta“, „dizajn sajta“ ili „web dizajn agencija“.Tako vas kupci pronalaze u trenutku kada traže upravo ono što nudite.<br/><br/>Dobar SEO sajt znači više poseta, više upita i dugoročno — veći profit bez dodatnih troškova oglašavanja.",
+            "linkTo": "seo-optimizacija"
+          },
+          {
+            "heading": "4. Jačate brend i ostajete ispred konkurencije",
+            "paragraph": "Web sajt vam omogućava da <strong>predstavite svoj brend</strong> na autentičan način — kroz ton komunikacije, boje, slike i sadržaj.Na taj način gradite prepoznatljiv identitet i zadržavate pažnju posetilaca.<br/><br/>Bez sajta, gubite mogućnost da kontrolišete kako vas tržište vidi.A ako vaša konkurencija već ima sajt, svaki dan bez vašeg sajta znači — <strong>izgubljene prilike.</strong>"
+          },
+          {
+            "heading": "5. Štedite vreme i poboljšavate komunikaciju",
+            "paragraph": "Web sajt može da sadrži sve važne informacije: radno vreme, adresu, ponude, često postavljana pitanja i kontakt formu.To smanjuje broj poziva i upita, a klijentima omogućava da <strong>brzo pronađu ono što im treba.<strong><br/><br/>Uz blog sekciju možete deliti savete, novosti i korisne vodiče — čime dodatno gradite poverenje i stručni autoritet u svojoj oblasti."
+          }
+        ],
+        "conclusion": "Investicija u izradu web sajta donosi višestruke koristi — od jačanja kredibiliteta i brenda do povećanja prodaje i boljeg SEO pozicioniranja.Profesionalno izrađen web sajt je temelj svakog uspešnog digitalnog nastupa i ključni korak ka modernom poslovanju.<br/><br/>Ako želite da vaš biznis raste, <strong>sada je pravo vreme da napravite svoj web sajt</strong>."
+      }
+    }
   }
 }

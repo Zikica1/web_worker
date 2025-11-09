@@ -1,0 +1,80 @@
+.blogCardDet {
+  margin-block-start: 9em;
+  padding-inline: 2.1875em;
+  padding-block-end: 150px;
+
+  @media (min-width: 48rem) {
+    margin-block: 12.562em;
+  }
+}
+
+.blogCardDet-img {
+  margin-block-end: 3.56em;
+}
+
+.blogCardDet-img img {
+  border-radius: 0;
+}
+
+.blogCardDet-container {
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+.blogCardDet-title {
+  color: var(--clr-text-pri);
+  font-size: 2.25rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.blogCardDet-entryInfo {
+  color: rgb(170 170 170);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 22px;
+}
+
+.blogCardDet-entryAuthor {
+  position: relative;
+  margin-inline-start: 10px;
+  padding-inline-start: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.blogCardDet-entryAuthor::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  background-color: rgb(187 187 187);
+  width: 1px;
+  height: 10px;
+}
+
+.blogCardDet-list {
+  margin-block: 1em;
+}
+
+.blogCardDet-item:not(:first-child) {
+  margin-block-start: 1em;
+}
+
+.blogCardDet-secTitle {
+  font-size: 22px;
+  margin-block-end: 0.5em;
+}
+
+.blogCardDet-subTitle {
+  font-size: 18px;
+  font-weight: 700;
+  margin-block: 1em 0.25em;
+}
+
+.blogCardDet-subList {
+  margin-block: 0.5em 1em;
+  list-style-type: disc;
+  padding-inline-start: 1.5em;
+}

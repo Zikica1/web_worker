@@ -2,7 +2,7 @@ const translatePath = (pathname, fromLang, toLang, routeMap, t) => {
   const segments = pathname.split('/').filter(Boolean);
 
   const slug = segments[1] || '';
-  const dynamicId = segments[2] || '';
+  const dynamicId = decodeURIComponent(segments[2] || '');
 
   const matchedKey =
     Object.keys(routeMap[fromLang]).find(
@@ -13,13 +13,31 @@ const translatePath = (pathname, fromLang, toLang, routeMap, t) => {
 
   let translatedId = dynamicId;
   if (dynamicId) {
-    const idMap = t('serviceIds', { lng: fromLang, returnObjects: true });
-    const reverseKey = Object.keys(idMap).find(
-      (key) => idMap[key] === dynamicId
+    const serviceIdMap = t('serviceIds', {
+      lng: fromLang,
+      returnObjects: true,
+    });
+    const serviceKey = Object.keys(serviceIdMap).find(
+      (key) => serviceIdMap[key] === dynamicId
     );
 
-    if (reverseKey) {
-      translatedId = t(`serviceIds.${reverseKey}`, { lng: toLang });
+    if (serviceKey) {
+      translatedId = t(`serviceIds.${serviceKey}`, { lng: toLang });
+    } else {
+      const blogIdMap = t('blogs.blogCards.blogIds', {
+        lng: fromLang,
+        returnObjects: true,
+      });
+
+      const blogKey = Object.keys(blogIdMap).find(
+        (key) => blogIdMap[key] === dynamicId
+      );
+
+      if (blogKey) {
+        translatedId = t(`blogs.blogCards.blogIds.${blogKey}`, { lng: toLang });
+      } else {
+        console.warn('blogKey not found for dynamicId:', dynamicId);
+      }
     }
   }
 

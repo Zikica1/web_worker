@@ -26,8 +26,6 @@ const ServiceCard = ({ service, index }) => {
   const { t } = useTranslation();
   const ref = useRef(null);
 
-  // const lang = i18n.language;
-
   const isService = useMatchUrl('/sr/usluge', '/en/services');
 
   const Icon = service.Icon;
@@ -57,7 +55,6 @@ const ServiceCard = ({ service, index }) => {
           {isService ? (
             <Link
               to={t(`serviceIds.${service.category}`)}
-              // to={`/${lang}/services/${t(`serviceIds.${service.category}`)}`}
               className='cardSubtitle-link'
             >
               {t(`service.cards.${service.id}.subtitle`)}

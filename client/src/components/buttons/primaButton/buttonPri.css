@@ -81,3 +81,7 @@
 .btnPrimary:hover .buttonText {
   color: #fff;
 }
+
+.buttonPriCenter {
+  margin-inline: auto;
+}

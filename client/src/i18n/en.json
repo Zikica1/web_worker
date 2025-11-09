@@ -4,6 +4,7 @@
     "about": "about",
     "services": "services",
     "showcase": "showcase",
+    "blog": "blogs",
     "contact": "contact"
   },
   "routes": {
@@ -11,13 +12,15 @@
     "about": "about",
     "services": "services",
     "showcase": "showcase",
+    "blog": "blogs",
     "contact": "contact"
   },
   "buttons": {
     "heroText": "call us",
     "baseText": "lear more",
     "priceText": "request a quote",
-    "showcaseText": "see example"
+    "showcaseText": "see example",
+    "blogHomeText": "visit our blog"
   },
   "hero": {
     "0": {
@@ -115,7 +118,7 @@
           "Off-site SEO - it includes activities outside of your site, such as building authority through backlinks, social media presence, and registering with relevant directories. All these activities together strengthen the reputation and credibility of your website."
         ],
         "subtitle": "Why is SEO important?",
-        "parag2": "If you operate in an environment without competition, SEO may not be crucial to you. However, in reality, almost every business today has competitors on the Internet — and that's where SEO site optimization becomes crucial. <br/><br/>Highly implemented optimization allows your website to be positioned high in Google search and to maintain that position in the long term. This brings more visits, a larger number of clients, a recognizable brand and a clear advantage over the competition.<br/><br/>Whether you use a custom solution or open-source platforms like WordPress or Joomla, for each type of site a customized SEO strategy can be developed that gives the best results and makes the most of the potential of your business.",
+        "parag2": "If you operate in an environment without competition, SEO may not be crucial to you. However, in reality, almost every business today has competitors on the Internet — and that's where SEO site optimization becomes crucial. <br/><br/>Highly implemented optimization allows your website to be positioned high in Google search and to maintain that position in the long term. This brings more visits, a larger number of clients, a recognizable brand and a clear advantage over the competition.<br/><br/>Effective SEO optimization it starts already <aLink>during the creation of the website</aLink>, because the way the site is structured, loading speed and technical optimization directly affect the ranking in search engines. Whether you use a custom solution or open-source platforms like WordPress or Joomla, for each type of site a customized SEO strategy can be developed that gives the best results and makes the most of the potential of your business.",
         "categories2": [],
         "typesTitle": "",
         "typesTitle2": "",
@@ -126,7 +129,7 @@
       "design": {
         "mainTitle": "responsive web design",
         "title": "What is Responsive Web Design?",
-        "parag": "Responsive web design (RWD) is an approach to creating websites that automatically adapt to all devices and screen sizes — from mobile phones and tablets, to laptops and large monitors. The goal of a responsive website is for the content to always be viewed, functional and aesthetically appealing, regardless of device resolution or orientation.<br/><br/>A well-implemented responsive web design brings numerous advantages, such as:",
+        "parag": "Responsive web design (RWD) is an <aLink>approach to creating websites</aLink> that automatically adapt to all devices and screen sizes — from mobile phones and tablets, to laptops and large monitors. The goal of a responsive website is for the content to always be viewed, functional and aesthetically appealing, regardless of device resolution or orientation.<br/><br/>A well-implemented responsive web design brings numerous advantages, such as:",
         "sectionTitle": "",
         "sectionPara": "",
         "categories": [
@@ -258,6 +261,9 @@
       ]
     }
   },
+  "blogHome": {
+    "title": "Latest from the <span>blog</span>"
+  },
   "contact": {
     "title": "Get in touch",
     "sectionPara": "For all questions and additional information regarding the creation and design of the website, you can contact us at any time.",
@@ -322,5 +328,294 @@
     "openHoursTitle": "Open hours",
     "open": "Mon-Sat: 9 am - 5 pm",
     "close": "Sunday: CLOSED"
+  },
+  "blogs": {
+    "titleMain": "Blog",
+    "title": "Blog about creating websites",
+    "description": "Welcome to our blog page, where we share knowledge and experience in the field of website development, web design and SEO optimization. Here you will find tips, guides and current trends to help you create a successful and visible website on the Internet.",
+    "blogCards": {
+      "posts": [
+        {
+          "title": "The most common mistakes in web site development",
+          "data": "02/11/2025",
+          "author": "WebWorker Team",
+          "alt": "Discussion on avoiding website design mistakes, team working on a laptop"
+        },
+        {
+          "title": "Small Business Website - A Beginner's Guide",
+          "data": "01/11/2025",
+          "author": "WebWorker Team",
+          "alt": "An entrepreneur works on a laptop in a coffee shop while learning how to create a small business website - a beginner's guide"
+        },
+        {
+          "title": "7 key elements of a modern website",
+          "data": "25/10/2025",
+          "author": "WebWorker Team",
+          "alt": "A team of experts analyzes UX/UI, SEO and design as key elements of a modern website"
+        },
+        {
+          "title": "5 reasons why you need a website",
+          "data": "26/10/2025",
+          "author": "WebWorker Team",
+          "alt": "Business meeting in the office — a discussion about the reasons why a website is important for every business"
+        }
+      ],
+      "blogIds": {
+        "dev errors": "website-development-errors",
+        "small business website": "small-business-website-guide",
+        "key elements for the site": "elements-of-a-modern-website",
+        "reasons for the website": "why-you-need-a-website"
+      }
+    },
+    "blogCardDet": {
+      "dev errors": {
+        "title": "Common website development mistakes to avoid",
+        "description": "Just imagine investing time, money and resources into <aLink>developing a website</aLink>, only to find that it uses users instead of engaging them. Does this seem frustrating to you? Well, it is. Website development is an integral part of developing an online presence. But even the smallest mistakes can jeopardize its effectiveness.<br/><br/>Let's take a detailed look at the most common mistakes that companies make in website development and how to effectively avoid them.",
+        "data": "02/11/2025",
+        "author": "WebWorker Team",
+        "sections": [
+          {
+            "heading": "1. Neglecting to optimize for mobile devices",
+            "paragraph": "Even in today's mobile-first world, ignoring mobile optimization is a common mistake. Studies show that more than half of all website traffic worldwide comes from mobile devices, so responsive design is essential.",
+            "headingH3": "What can neglecting it lead to?",
+            "list": [
+              "High dropout rates",
+              "Loss of potential clients",
+              "Poor SEO Ranking"
+            ],
+            "paragraphSec": "<strong>Solution:</strong> Work with a reputable web development agency that prioritizes mobile-friendly design. This not only improves user experience but also ensures better search engine visibility."
+          },
+          {
+            "heading": "2. Ignoring website speed",
+            "paragraph": "Are you aware that conversion rates can drop by 7% with a 1 second delay in page load time? Users become frustrated with slow loading web pages and may decide to visit your competitor's web pages.<br/><br/><strong>Most common causes:</strong>",
+            "list": [
+              "Bad hosting services",
+              "Difficult Pictures",
+              "Excessive third-party scripts"
+            ],
+            "paragraphSec": "<strong>Solution:</strong> Conduct regular speed tests and optimize website elements such as images, CSS and JavaScript."
+          },
+          {
+            "heading": "3. Weak navigation and structure",
+            "paragraph": "A website without clear navigation is like a maze with no escape route. It turns people off. According to market research, 94% of first impressions are influenced by the design and usability of your website.",
+            "headingH3": "Signs of poor navigation:",
+            "list": [
+              "Crowded Menus",
+              "No clear calls to action (CTA)",
+              "Irrelevant or redundant links"
+            ]
+          },
+          {
+            "heading": "4. Neglecting SEO during development",
+            "paragraph": "Many companies make the costly mistake of <aLink>approaching SEO</aLink> as an afterthought. Even if a website is visually appealing, it will struggle to rank if it doesn't have an SEO-friendly structure.<br/><br/><strong>Key SEO factors to consider:</strong>",
+            "linkTo": "seo-optimization",
+            "list": [
+              "Using appropriate header tags (H1, H2, etc.)",
+              "Improving alt texts and meta descriptions",
+              "Maintaining Fast Load Times"
+            ],
+            "paragraphSec": "If you want to ensure that your website ranks well, consult with a reliable SEO company. Align website development with SEO best practices for long-term success."
+          },
+          {
+            "heading": "5. Designer mess",
+            "paragraph": "Effective online design relies heavily on minimalism, which is not just a passing trend. Cluttered pages with excessive animations, images or text tend to confuse visitors and dilute your entire message!<br/><br/><strong>Why simplicity is important:</strong>",
+            "list": [
+              "Increases readability",
+              "Increases attention to important components",
+              "Increases user engagement"
+            ],
+            "paragraphSec": "<strong>Solution:</strong> It is important to ensure that your website effortlessly strikes a balance between aesthetics and functionality."
+          },
+          {
+            "heading": "6. Lack of analytics integration",
+            "paragraph": "Without analytics, you're moving in the dark. Websites that lack tracking tools fail to collect essential data about user behavior, which often limits their growth opportunities.<br/><br/><strong>Key metrics to monitor:</strong>",
+            "list": [
+              "Bounce Rate",
+              "Average Session Duration",
+              "Conversion Rates"
+            ],
+            "paragraphSec": "<strong>Solution</strong>: Don't forget to use tools like Google Analytics to gain in-depth insight into your site's performance."
+          },
+          {
+            "heading": "7. Neglecting routine maintenance",
+            "paragraph": "Website development is an ongoing effort, not a one-time event. Broken links, security flaws, or outdated plugins can often compromise user security and damage your reputation.<br/><br/><strong>Consequences of neglect:</strong>",
+            "listSec": [
+              "Loss of customer trust",
+              "Reduced search engine ranking",
+              "Security Breach"
+            ]
+          }
+        ]
+      },
+      "small business website": {
+        "title": "Small Business Website - A Beginner's Guide",
+        "description": "In today's digital world, a website is no longer a luxury reserved for large companies — it is a basic tool for the growth and recognition of any small business.<br/><br/>In this guide for beginners, you will learn how to create a website for a small business - step by step, without unnecessary technical terms.",
+        "data": "01/11/2025",
+        "author": "WebWorker Team",
+        "sections": [
+          {
+            "heading": "1. Define the goal of your website",
+            "paragraph": "Before you start <aLink>creating a website</aLink>, ask yourself: what do I want to achieve with my website? Do you want to present your services, sell products online or simply inform customers? The appearance of the site, the type of content and the way you will optimize the pages for SEO (Search Engine Optimization) depends on the answer.",
+            "linkTo": "website-development"
+          },
+          {
+            "heading": "2. Choose the ideal domain name",
+            "paragraph": "The domain is the address of your website on the Internet - your digital signature. Choose a simple, short and easy-to-remember name, preferably with the extension .com or .rs. If the main name is taken, don't rush to make a compromise. Make a list of 10-15 possible variants, because a good domain strategy makes a difference in recognition."
+          },
+          {
+            "heading": "3. Choose a reliable hosting and platform",
+            "paragraph": "Hosting is the house in which your website lives. For small businesses, it is enough to start with shared <aLink>hosting</aLink> (shared hosting) with renowned providers.",
+            "linkTo": "hosting"
+          },
+          {
+            "heading": "4. Plan the structure and content of the site",
+            "paragraph": "Planning in advance saves time and prevents mistakes. For a small business, it is recommended that the website contains at least the following pages:",
+            "list": [
+              "<strong>Home</strong> - an overview of what you're doing",
+              "<strong>About us</strong> - your story and values",
+              "<strong>Services / Products</strong> - clearly showing what you offer",
+              "<strong>Contact page</strong> - form, email, location map",
+              "<strong>Blog</strong> - tips, news and useful articles to help SEO"
+            ]
+          },
+          {
+            "heading": "5. Create an attractive design in line with the brand",
+            "paragraph": "Visual identity is what creates the first impression. Use colors, fonts and style that reflect your brand. Regardless of whether you use a ready-made template or hire a web design agency, pay attention to the following:",
+            "list": [
+              "The colors should be consistent with the logo",
+              "The font must be legible and professional",
+              "Navigation (menu) simple and intuitive",
+              "Pages should load quickly"
+            ],
+            "paragraphSec": "A <strong>Mobile version</strong> of a website is mandatory today - more than 60% of users search the internet via mobile phone, so your website must look perfect even on smaller screens."
+          },
+          {
+            "heading": "6. Add content that sells",
+            "paragraph": "Quality content builds trust. Uses clear and direct language, without unnecessary technical expressions. Each page should make it clear what the user can do - contact you, order a service, or make an appointment.",
+            "headingH3": "Content tips:",
+            "list": [
+              "Write for people, not just Google",
+              "Include the right keywords in the first paragraphs",
+              "Add alt text for images",
+              "Insert calls to action (CTA), eg Contact us today"
+            ]
+          },
+          {
+            "heading": "7. Optimize the site for SEO and performance",
+            "paragraph": "Without a good SEO strategy, even the best design is worthless. Basic SEO practices every small business should implement:",
+            "list": [
+              "Enter meta title and meta description on each page",
+              "Use H1, H2, H3 heading structure",
+              "Link your pages internally",
+              "Load site via HTTPS protocol",
+              "Optimize images (smaller size, faster loading)"
+            ]
+          },
+          {
+            "heading": "8. Test everything before publishing",
+            "paragraph": "Before you click Publish, check all the functionalities:",
+            "list": [
+              "Are all the links working?",
+              "Is the contact form sending messages correctly?",
+              "How does the site look on mobile devices and different browsers?"
+            ],
+            "paragraphSec": "A <strong>soft launch<strong> is also recommended - publish the site, test it for a few days, and only then start promoting it."
+          },
+          {
+            "heading": "9. Promote your site and build an online presence",
+            "paragraph": "Once your site is live, the next step is to present it to the world. Add a link to your site in your social media bio sections, email signatures, and business cards. Publish content on your blog and share it on social networks to increase organic traffic.",
+            "headingH3": "Additional channels:",
+            "list": [
+              "Google Business Profile",
+              "Facebook and Instagram Ads",
+              "Campaign Newsletter"
+            ]
+          },
+          {
+            "heading": "10. Maintain your site regularly",
+            "paragraph": "Creating a website is not the end, but the beginning. Regularly update the content, check security and refresh the design every 1-2 years. Turn on analytics (e.g. Google Analytics) to monitor the number of visits and the most visited pages. By maintaining an active website, you show that your business is alive and growing."
+          }
+        ],
+        "conclusion": "A website for a small business is more than just a digital business card - it is your tool for growth, trust and sales. With a good strategy, quality design and proper SEO optimization, even a small business can look professional and compete with the big players.<br/><br/>Invest time in planning, follow this guide and your website will become the <strong>best ambassador of your brand on the Internet.</strong>"
+      },
+      "key elements for the site": {
+        "title": "7 key elements that every modern website must have",
+        "description": "With the constant growth of digitalization in society, a key aspect of any online presence is the quality of <aLink>website development</aLink>. Nowadays, a modern website does not only imply a well-done design, but also functionality, site speed, UX, SEO optimization, etc. Modern website features are the foundation of a successful online presence, as it helps in the development of the brand. Below are the top 7 site features, which must be included for a high-converting site for each brand.",
+        "data": "25/10/2025",
+        "author": "WebWorker Team",
+        "sections": [
+          {
+            "heading": "1. Structure of the website",
+            "paragraph": "Website structure, or architecture, is the organizational design of your website's pages. Structure involves categorizing content into a schedule that is understandable, accessible, and predictable, and is the process of guiding users through the site, organizing and comparing all relevant content in a clear, and intuitive (IA) way. Navigation should be intuitive, which means that the navigation acts as a guide that helps users easily access the various buttons and features on your site. Think of your navigation menu as a map, if it's not well structured, people get lost and leave your site."
+          },
+          {
+            "heading": "2. Page speed optimization",
+            "paragraph": "Page load speed is the time it takes for a website to fully display its content. The speed of the site is of utmost importance. A website that loads in less than 3 seconds is the key to retaining user interest. Pages that load poorly and display slowly can be frustrating for many users, often forcing them to leave the site. Site speed is a key factor in SEO rankings, which determines how high a site ranks in search engine results pages. There is a wide variety of techniques for improving site speed, some of which are image compression, minimized code, and efficient server response time to ensure faster site loading."
+          },
+          {
+            "heading": "3. Responsive web design",
+            "paragraph": "Websites that easily adapt to different screen sizes, from large desktop monitors to smart devices, are now the go-to for every brand. Instead of creating separate versions for each device, responsive design ensures that a single website functions properly across all formats, maintaining performance, usability, and visual consistency. Responsive design uses flexible networks, media queries, and scalable content to ensure that the site looks and works on all types of devices. A customizable website improves SEO, improves usability, and ensures the future of your design on different screen sizes."
+          },
+          {
+            "heading": "4. SEO Optimized Content",
+            "paragraph": "SEO stands for Search Engine Optimization, which helps search engines understand your website's content and connect it with users, providing relevant results based on their search queries. It helps and improves the visibility of your website on search engines such as Google and others. The better your site's visibility in search results, the more likely it is that it will find and visit you. Some of the most important steps in SEO optimization are:",
+            "seoList": [
+              "Start with keyword research - These are terms that your ideal website visitors are likely to type into Google or other search engines, and each page on your site should target a different group of keywords so that they don't compete with each other.",
+              "Place your keywords - In addition to being naturally embedded in the content of your text, you should place keywords in specific places on the page to let Google point out what you want to rank for.",
+              "Optimize Your Headlines - Every page on your site has two headings. The title tag is the title that appears on the search results page and is the most influential place where you can place the keyword. The H1 tag is the title that appears on the page and is the most influential place to place keywords.",
+              "Optimize Your Meta Descriptions - A meta description is a description that appears in the SERP under the title tag. Google doesn't always display the one you've listed in the SERP, often setting up its own based on the query, but it's still important to optimize for SEO. The search engine reads this description when it searches the page to understand what the page is about."
+            ]
+          },
+          {
+            "heading": "5. Site Security (SSL Certificate)",
+            "paragraph": "Security is one of the most important and often neglected elements of a modern website. An SSL (Secure Sockets Layer) certificate allows communication between your website and your visitor to be encrypted and secure. When a site uses the HTTPS protocol (instead of HTTP), all data that users enter — such as forms, passwords, or personal information — remains protected from misuse. In addition to protection, HTTPS instills confidence in users. Visitors immediately recognize that the site is secure thanks to the padlock icon in the address bar, which increases their willingness to interact or make a purchase. Google also prioritizes safe sites in search results. In other words, having an SSL certificate not only protects your users, but also directly  affects your site's SEO rankings and visibility. If your website hasn't migrated to HTTPS yet, this should be one of the first steps in optimization."
+          },
+          {
+            "heading": "6. Professional visual identity",
+            "paragraph": "A user's first impression of your site is crucial — and it often only lasts a few seconds. A professional visual identity therefore plays a key role in creating trust and credibility. Elements such as colors, typography, and logos must align with your brand's values and style. Colors convey emotions (for example, blue is associated with trust and security), while typography affects readability and a professional look. A simple yet consistent design contributes to a positive user experience (UX) — visitors find information more easily, stay on the site longer, and come back more often. Professional design doesn't just mean beauty, but clear communication and trust between you and your users."
+          },
+          {
+            "heading": "7. Quality web hosting",
+            "paragraph": "No matter how well-designed your website is, its stability and speed largely depend on the quality of your web hosting. Reliable hosting ensures that your site is available 24/7, with fast loading times and minimal downtime. There are several types of hosting:",
+            "hostList": [
+              "Shared hosting — the most affordable option where multiple sites share the same server. It's great for small projects and blogs.",
+              "VPS hosting (Virtual Private Server) — offers more resources and control, ideal for medium-sized sites",
+              "Dedicated hosting — the entire server is reserved just for your site, which brings maximum performance and security, but also a higher price.Choosing the right solution depends on the needs of your project but it's always worth investing in a reliable hosting provider that guarantees speed, security, and technical support. Learn more in our Web hosting guide."
+            ],
+            "conclusion": "Creating a modern website today goes beyond just visuals — it's a blend of functionality, speed, security, and user experience. Each of these elements has its own role in creating a website that not only attracts attention, but also achieves results. When design, SEO, hosting, and security are  aligned with each other, your website becomes a powerful tool for building an online presence and trust with users. If you want a website that's tailored to your needs, loads quickly, looks great on all devices, and delivers concrete results — it's time to take the next step. Find out more about how we create successful websites on our website development page."
+          }
+        ]
+      },
+      "reasons for the website": {
+        "title": "5 reasons why you need a website",
+        "description": "Nowadays, <aLink>creating a website</aLink> is not a luxury, but a necessity. Regardless of whether you run a small company, a local business or a large company, a <strong>professional website</strong> is the basis of your digital presence and credibility. If you are still thinking about whether you need a website — here are five key reasons that prove that without it you are losing opportunities for growth and sales.",
+        "data": "26/10/2025",
+        "author": "WebWorker Team",
+        "sections": [
+          {
+            "heading": "1. You increase the credibility and trust of customers",
+            "paragraph": "Today's customers expect every serious company to have its own website. Without it, you appear less professional and find it difficult to inspire trust. Through a modern and functional design, the website <strong>shows your brand in the best light</strong>, while clearly communicating to visitors that you are a serious and reliable company.<br/><br/>A good website is not just an advertisement — it is the <strong>digital face of your business</strong> and the first impression customers get about you."
+          },
+          {
+            "heading": "2. Your business works 24 hours a day",
+            "paragraph": "While your office or store is idle, your website continues to work.<strong>The website is open 24/7</strong>, which means that customers can find out everything about your products and services at any time. This way you increase visibility, build trust and get new potential customers even while you sleep."
+          },
+          {
+            "heading": "3. SEO optimization brings new clients",
+            "paragraph": "No matter how well you work, if you're not on Google, it's as if you don't exist. With <aLink>SEO optimization</aLink>, your site can appear in the search results when someone searches for terms like website development, site design or web design agency. This way, customers find you at the moment when they are looking for exactly what you offer.<br/><br/>A good SEO site means more visits, more inquiries and in the long run — more profit without additional advertising costs.",
+            "linkTo": "seo-optimization"
+          },
+          {
+            "heading": "4. You strengthen the brand and stay ahead of the competition",
+            "paragraph": "A website allows you to <strong>present your brand</strong> in an authentic way — through the tone of communication, colors, images and content. That way you build a recognizable identity and retain the attention of visitors.<br/><br/>Without a website, you lose the ability to control how the market sees you. And if your competition already has a website, every day without your website means — <strong>lost opportunities.</strong>"
+          },
+          {
+            "heading": "5. Save time and improve communication",
+            "paragraph": "The website can contain all the important information: opening hours, address, offers, frequently asked questions and contact form. This reduces the number of calls and inquiries, and allows customers to <strong>quickly find what they need.<strong><br/><br/>With the blog section, you can share tips, news and useful guides — thereby further building trust and professional authority in your field."
+          }
+        ],
+        "conclusion": "Investing in creating a website brings multiple benefits — from strengthening credibility and brand to increasing sales and better SEO positioning. A professionally created website is the foundation of any successful digital presence and a key step towards modern business.<br/><br/>If you want your business to grow, <strong>now is the right time to create your website</strong>."
+      }
+    }
   }
 }

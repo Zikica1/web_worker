@@ -24,7 +24,6 @@ const Header = () => {
   };
 
   useEffect(() => {
-    // svaki put kad se promeni ruta, zatvori meni
     setIsOpen(false);
   }, [location.pathname]);
 
@@ -118,6 +117,15 @@ const Header = () => {
                 style={({ isActive }) => (isActive ? activeStyle : null)}
               >
                 {t('nav.showcase')}
+              </NavLink>
+            </li>
+            <li className='nav-item'>
+              <NavLink
+                to={`/${lang}/${t('routes.blog')}`}
+                className='nav-link'
+                style={({ isActive }) => (isActive ? activeStyle : null)}
+              >
+                {t('nav.blog')}
               </NavLink>
             </li>
             <li className='nav-item'>

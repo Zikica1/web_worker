@@ -171,3 +171,78 @@ export const skills = [
     utilization: 75,
   },
 ];
+
+export const blogs = [
+  {
+    id: 0,
+    key: 'dev errors',
+    slugs: {
+      en: 'website-development-errors',
+      sr: 'greške-u-razvoju-web-sajtova',
+    },
+    imgCard: '/assets/pictures/blogs/greška-u-web-razvoju-636px.webp',
+    imgMob: '/assets/pictures/blogs/greška-u-web-razvoju-450px.webp',
+    imgMob2: '/assets/pictures/blogs/greška-u-web-razvoju-450px@2x.webp',
+    imgTab: '/assets/pictures/blogs/greška-u-web-razvoju-768px.webp',
+    imgDes: '/assets/pictures/blogs/greška-u-web-razvoju-1366px.webp',
+    imgDesLar: '/assets/pictures/blogs/greška-u-web-razvoju-1536px.webp',
+  },
+  {
+    id: 1,
+    key: 'small business website',
+    slugs: {
+      en: 'small-business-website-guide',
+      sr: 'vodič-web-sajt-za-mali-biznis',
+    },
+    imgCard:
+      '/assets/pictures/blogs/izrada-web-sajta-za-mali-biznis-636px.webp',
+    imgMob: '/assets/pictures/blogs/izrada-web-sajta-za-mali-biznis-450px.webp',
+    imgMob2:
+      '/assets/pictures/blogs/izrada-web-sajta-za-mali-biznis-450px@2x.webp',
+    imgTab: '/assets/pictures/blogs/izrada-web-sajta-za-mali-biznis-768px.webp',
+    imgDes:
+      '/assets/pictures/blogs/izrada-web-sajta-za-mali-biznis-1366px.webp',
+    imgDesLar:
+      '/assets/pictures/blogs/izrada-web-sajta-za-mali-biznis-1536px.webp',
+  },
+  {
+    id: 2,
+    key: 'key elements for the site',
+    slugs: {
+      en: 'elements-of-a-modern-website',
+      sr: 'elementi-modernog-web-sajta',
+    },
+    imgCard:
+      '/assets/pictures/blogs/izrada-web-sajta-ključni-elementi-636px.webp',
+    imgMob:
+      '/assets/pictures/blogs/izrada-web-sajta-ključni-elementi-450px.webp',
+    imgMob2:
+      '/assets/pictures/blogs/izrada-web-sajta-ključni-elementi-450px@2x.webp',
+    imgTab:
+      '/assets/pictures/blogs/izrada-web-sajta-ključni-elementi-768px.webp',
+    imgDes:
+      '/assets/pictures/blogs/izrada-web-sajta-ključni-elementi-1366px.webp',
+    imgDesLar:
+      '/assets/pictures/blogs/izrada-web-sajta-ključni-elementi-1536px.webp',
+  },
+  {
+    id: 3,
+    slugs: {
+      en: 'why-you-need-a-website',
+      sr: 'zašto-vam-je-potreban-web-sajt',
+    },
+    key: 'reasons for the website',
+    imgCard:
+      '/assets/pictures/blogs/izrada-web-sajta-zašto-je-potrebna-636px.webp',
+    imgMob:
+      '/assets/pictures/blogs/izrada-web-sajta-zašto-je-potrebna-450px.webp',
+    imgMob2:
+      '/assets/pictures/blogs/izrada-web-sajta-zašto-je-potrebna-450px@2x.webp',
+    imgTab:
+      '/assets/pictures/blogs/izrada-web-sajta-zašto-je-potrebna-768px.webp',
+    imgDes:
+      '/assets/pictures/blogs/izrada-web-sajta-zašto-je-potrebna-1366px.webp',
+    imgDesLar:
+      '/assets/pictures/blogs/izrada-web-sajta-zašto-je-potrebna-1536px.webp',
+  },
+];

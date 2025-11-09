@@ -3,6 +3,7 @@ import HomeServices from '../components/home/homeSer/HomeServices';
 import OurMissions from '../components/home/missions/OurMissions';
 import Portfolio from '../components/portfolio/Portfolio';
 import Packages from '../components/home/packagePrices/Packages';
+import BlogHome from '../components/home/blog/BlogHome';
 import Seo from '../components/SEO/Seo';
 import seoData from '../seo/seoData.json';
 import { useTranslation } from 'react-i18next';
@@ -27,6 +28,7 @@ const Home = () => {
         <OurMissions />
         <Portfolio />
         <Packages />
+        <BlogHome />
       </main>
     </>
   );
