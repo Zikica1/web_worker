@@ -32,6 +32,7 @@ const Seo = ({
           href={preloadImage}
           type='image/webp'
           media='(min-width:1025px)'
+          fetchpriority='high'
         />
       )}
       {jsonLd && (
