@@ -1,6 +1,6 @@
 import AboutUs from '../components/about/aboutUsSec/AboutUs';
 import OurVision from '../components/about/aboutUsSec/OurVision';
-import OurSkills from '../components/about/aboutUsSec/ourSkills';
+import OurSkills from '../components/about/aboutUsSec/OurSkills';
 import Seo from '../components/SEO/Seo';
 import seoData from '../seo/seoData.json';
 import { useTranslation } from 'react-i18next';
