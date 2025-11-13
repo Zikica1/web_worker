@@ -5,7 +5,7 @@ import axiosMain from '../../api/axios';
 import { FaRegPaperPlane, FaRegEnvelope, FaCheck } from 'react-icons/fa';
 import { useAnimate, useInView } from 'motion/react';
 import { contact } from '../../data/db';
-import ContactCard from './contactCard';
+import ContactCard from './ContactCard';
 
 const ContactPage = () => {
   const { t } = useTranslation();
