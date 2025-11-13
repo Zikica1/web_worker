@@ -559,7 +559,7 @@
           {
             "heading": "4. SEO optimizovan sadržaj",
             "paragraph": "SEO je skraćenica za Search Engine Optimization (optimizacija za pretraživače), pomaže pretraživaču da razumeju sadržaj vašeg web-sajta I povežu ga sa korisnicima, pružajući relevantne rezultate na osnovu njihovih upita za pretragu. Pomaže I poboljšava vidljivost vaseg sajta na pretraživačima kao što su Google I drugi. Što je bolja vidljivost vase stranice u rezultatima pretrage, veća je verovatnoća da će vas pronaći I posetiti. Neki ob bitniji koraka u SEO optimizaciju su:",
-            "seoList": [
+            "list": [
               "Započnite s istraživanjem ključnih reči - To su termini koje će vaši idealni posetioci web stranice verovatno ukucati u Google ili druge pretraživače, a svaka stranica na vašem sajtu treba da cilja različitu grupu ključnih reči kako se ne bi međusobno takmičile.",
               "Postavite svoje ključne riči - Pored toga što će biti prirodno ugrađene u sadržaj vašeg teksta, trebalo bi da postavite ključne reči na određena mesta na stranici kako bi ste Google ukazali na to za šta želite da se rangirate.",
               "Optimizirajte svoje naslove - Svaka stranica na vašem sajtu ima dva naslova. Oznaka title je naslov koji se pojavljuje na stranici sa rezultatima pretrage i predstavlja najuticajnije mesto gde možete da postavite ključu reč. Oznaka H1 je naslov koji se pojavljuje na stranici i predstavlja najuticajnije mesto za postavljanje ključnih reči.",
@@ -577,14 +577,14 @@
           {
             "heading": "7. Kvalitetan web hosting",
             "paragraph": "Bez obzira koliko je vaš sajt dobro dizajniran, njegova stabilnost i brzina u velikoj meri zavise od kvaliteta web hostinga. Pouzdan hosting osigurava da je vaš sajt dostupan 24/7, sa brzim vremenom učitavanja i minimalnim prekidima u radu.Postoji više vrsta hostinga:",
-            "hostList": [
+            "list": [
               "Shared hosting — najpovoljnija opcija gde više sajtova deli isti server. Dobar je za male projekte i blogove.",
               "VPS hosting (Virtual Private Server) — nudi više resursa i kontrolu, idealan za sajtove srednje veličine.",
               "Dedicated hosting — ceo server je rezervisan samo za vaš sajt, što donosi maksimalne performanse i sigurnost, ali i veću cenu.Odabir pravog rešenja zavisi od potreba vašeg projekta — ali uvek vredi investirati u pouzdan hosting provajder koji garantuje brzinu, sigurnost i tehničku podršku.Saznajte više u našem vodiču o Web hostingu."
-            ],
-            "conclusion": "Izrada modernog web sajta danas prevazilazi sam vizuelni izgled — ona predstavlja spojeve funkcionalnosti, brzine, sigurnosti i korisničkog iskustva. Svaki od navedenih elemenata ima svoju ulogu u stvaranju sajta koji ne samo da privlači pažnju, već i ostvaruje rezultate. Kada su dizajn, SEO, hosting i sigurnost međusobno usklađeni, vaš sajt postaje moćan alat za izgradnju online prisustva i poverenja kod korisnika. Ako želite sajt koji je prilagođen vašim potrebama, brzo se učitava, lepo izgleda na svim uređajima i donosi konkretne rezultate — vreme je da napravite sledeći korak. Saznajte više o tome kako kreiramo uspešne sajtove na našoj stranici <aLink>Izrada web sajta</aLink>."
+            ]
           }
-        ]
+        ],
+        "conclusion": "Izrada modernog web sajta danas prevazilazi sam vizuelni izgled — ona predstavlja spojeve funkcionalnosti, brzine, sigurnosti i korisničkog iskustva. Svaki od navedenih elemenata ima svoju ulogu u stvaranju sajta koji ne samo da privlači pažnju, već i ostvaruje rezultate. Kada su dizajn, SEO, hosting i sigurnost međusobno usklađeni, vaš sajt postaje moćan alat za izgradnju online prisustva i poverenja kod korisnika. Ako želite sajt koji je prilagođen vašim potrebama, brzo se učitava, lepo izgleda na svim uređajima i donosi konkretne rezultate — vreme je da napravite sledeći korak. Saznajte više o tome kako kreiramo uspešne sajtove na našoj stranici izrada web sajta."
       },
       "reasons for the website": {
         "title": "5 razloga zašto vam je potreban web sajt",

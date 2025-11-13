@@ -1,5 +1,5 @@
 import './serviceCardDet.css';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useLocation } from 'react-router-dom';
 import { Trans } from 'react-i18next';
 import { services } from '../../data/db';
 import Seo from '../SEO/Seo';
@@ -11,6 +11,10 @@ import useMatchUrl from '../../hook/useMatchUrl';
 const ServiceCardDet = () => {
   const { id: slugFromUrl } = useParams();
   const { t, lang } = useLangT();
+
+  const { pathname } = useLocation();
+  const pathParts = pathname.split('/');
+  const serviceSegment = pathParts[2];
 
   const cardDet = services.find((item) => item.slugs[lang] === slugFromUrl);
 
@@ -34,7 +38,7 @@ const ServiceCardDet = () => {
     '@graph': [
       {
         '@type': 'WebPage',
-        '@id': `https://www.webworker.rs/${lang}/services/${id}/#webpage`,
+        '@id': `https://www.webworker.rs/${lang}/${serviceSegment}/${slugFromUrl}/#webpage`,
         url: url,
         name: title,
         inLanguage: lang,
@@ -46,12 +50,12 @@ const ServiceCardDet = () => {
         },
         description: description,
         mainEntityOfPage: {
-          '@id': `https://www.webworker.rs/${lang}/services/${id}`,
+          '@id': `https://www.webworker.rs/${lang}/${serviceSegment}/${slugFromUrl}`,
         },
       },
       {
         '@type': 'Article',
-        '@id': `https://www.webworker.rs/${lang}/services/${id}/#article`,
+        '@id': `https://www.webworker.rs/${lang}/${serviceSegment}/${slugFromUrl}/#article`,
         headline: headline,
         description: description,
         inLanguage: lang,
@@ -65,12 +69,12 @@ const ServiceCardDet = () => {
         },
         mainEntityOfPage: {
           '@type': 'WebPage',
-          '@id': `https://www.webworker.rs/${lang}/services/${id}/#webpage`,
+          '@id': `https://www.webworker.rs/${lang}/${serviceSegment}/${slugFromUrl}/#webpage`,
         },
       },
       {
         '@type': 'Service',
-        '@id': `https://www.webworker.rs/${lang}/services/${id}/#service`,
+        '@id': `https://www.webworker.rs/${lang}/${serviceSegment}/${slugFromUrl}/#service`,
         name: title,
         description: description,
         provider: {

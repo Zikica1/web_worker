@@ -1,7 +1,15 @@
-import { Title, Meta } from 'react-head';
+import { Title, Meta, Link } from 'react-head';
 import AlternateLinks from './AlternateLinks';
 
-const Seo = ({ title, description, image, url, jsonLd }) => {
+const Seo = ({
+  title,
+  description,
+  image,
+  url,
+  jsonLd,
+  type,
+  preloadImage,
+}) => {
   return (
     <>
       <Title>{title}</Title>
@@ -11,12 +19,21 @@ const Seo = ({ title, description, image, url, jsonLd }) => {
       <Meta property='og:description' content={description} />
       {image && <Meta property='og:image' content={image} />}
       {url && <Meta property='og:url' content={url} />}
-      <Meta property='og:type' content='website' />
+      <Meta property='og:type' content={type || 'website'} />
       <Meta name='twitter:card' content='summary_large_image' />
       <Meta name='twitter:title' content={title} />
       <Meta name='twitter:description' content={description} />
       {image && <Meta name='twitter:image' content={image} />}
       <AlternateLinks />
+      {preloadImage && (
+        <Link
+          rel='preload'
+          as='image'
+          href={preloadImage}
+          type='image/webp'
+          media='(min-width:1025px)'
+        />
+      )}
       {jsonLd && (
         <script type='application/ld+json'>{JSON.stringify(jsonLd)}</script>
       )}

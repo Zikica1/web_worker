@@ -157,7 +157,8 @@ const HeroCard = ({ item, refItem, handleNext, handlePrevious, index }) => {
             src={item.imgDes}
             alt='hero-slide-img'
             draggable={false}
-            fetchPriority='high'
+            loading={index === 0 ? undefined : 'lazy'}
+            fetchPriority={index === 0 ? 'high' : undefined}
             decoding='async'
           />
           {[1, 2, 3, 4].map((num) => (

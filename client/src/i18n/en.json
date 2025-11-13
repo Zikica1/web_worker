@@ -559,7 +559,7 @@
           {
             "heading": "4. SEO Optimized Content",
             "paragraph": "SEO stands for Search Engine Optimization, which helps search engines understand your website's content and connect it with users, providing relevant results based on their search queries. It helps and improves the visibility of your website on search engines such as Google and others. The better your site's visibility in search results, the more likely it is that it will find and visit you. Some of the most important steps in SEO optimization are:",
-            "seoList": [
+            "list": [
               "Start with keyword research - These are terms that your ideal website visitors are likely to type into Google or other search engines, and each page on your site should target a different group of keywords so that they don't compete with each other.",
               "Place your keywords - In addition to being naturally embedded in the content of your text, you should place keywords in specific places on the page to let Google point out what you want to rank for.",
               "Optimize Your Headlines - Every page on your site has two headings. The title tag is the title that appears on the search results page and is the most influential place where you can place the keyword. The H1 tag is the title that appears on the page and is the most influential place to place keywords.",
@@ -577,14 +577,14 @@
           {
             "heading": "7. Quality web hosting",
             "paragraph": "No matter how well-designed your website is, its stability and speed largely depend on the quality of your web hosting. Reliable hosting ensures that your site is available 24/7, with fast loading times and minimal downtime. There are several types of hosting:",
-            "hostList": [
+            "list": [
               "Shared hosting — the most affordable option where multiple sites share the same server. It's great for small projects and blogs.",
               "VPS hosting (Virtual Private Server) — offers more resources and control, ideal for medium-sized sites",
               "Dedicated hosting — the entire server is reserved just for your site, which brings maximum performance and security, but also a higher price.Choosing the right solution depends on the needs of your project but it's always worth investing in a reliable hosting provider that guarantees speed, security, and technical support. Learn more in our Web hosting guide."
-            ],
-            "conclusion": "Creating a modern website today goes beyond just visuals — it's a blend of functionality, speed, security, and user experience. Each of these elements has its own role in creating a website that not only attracts attention, but also achieves results. When design, SEO, hosting, and security are  aligned with each other, your website becomes a powerful tool for building an online presence and trust with users. If you want a website that's tailored to your needs, loads quickly, looks great on all devices, and delivers concrete results — it's time to take the next step. Find out more about how we create successful websites on our website development page."
+            ]
           }
-        ]
+        ],
+        "conclusion": "Creating a modern website today goes beyond just visuals — it's a blend of functionality, speed, security, and user experience. Each of these elements has its own role in creating a website that not only attracts attention, but also achieves results. When design, SEO, hosting, and security are  aligned with each other, your website becomes a powerful tool for building an online presence and trust with users. If you want a website that's tailored to your needs, loads quickly, looks great on all devices, and delivers concrete results — it's time to take the next step. Find out more about how we create successful websites on our website development page."
       },
       "reasons for the website": {
         "title": "5 reasons why you need a website",

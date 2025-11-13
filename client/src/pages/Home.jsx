@@ -7,6 +7,7 @@ import BlogHome from '../components/home/blog/BlogHome';
 import Seo from '../components/SEO/Seo';
 import seoData from '../seo/seoData.json';
 import { useTranslation } from 'react-i18next';
+import { hero } from '../data/db';
 
 const Home = () => {
   const { i18n } = useTranslation();
@@ -21,6 +22,7 @@ const Home = () => {
         url={url}
         image={image}
         jsonLd={jsonLd}
+        preloadImage={hero[0].imgDes}
       />
       <main className='home'>
         <Hero />

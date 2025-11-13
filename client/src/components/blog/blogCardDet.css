@@ -1,7 +1,7 @@
 .blogCardDet {
   margin-block-start: 9em;
   padding-inline: 2.1875em;
-  padding-block-end: 150px;
+  padding-block-end: 9.375em;
 
   @media (min-width: 48rem) {
     margin-block: 12.562em;
@@ -17,7 +17,7 @@
 }
 
 .blogCardDet-container {
-  max-width: 900px;
+  max-width: 56.25em;
   margin-inline: auto;
 }
 
@@ -34,13 +34,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-block: 22px;
+  margin-block: 1.375em;
 }
 
 .blogCardDet-entryAuthor {
   position: relative;
-  margin-inline-start: 10px;
-  padding-inline-start: 10px;
+  margin-inline-start: 0.625em;
+  padding-inline-start: 0.625em;
   display: flex;
   align-items: center;
 }
@@ -63,12 +63,12 @@
 }
 
 .blogCardDet-secTitle {
-  font-size: 22px;
+  font-size: 1.375rem;
   margin-block-end: 0.5em;
 }
 
 .blogCardDet-subTitle {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   margin-block: 1em 0.25em;
 }
@@ -76,5 +76,5 @@
 .blogCardDet-subList {
   margin-block: 0.5em 1em;
   list-style-type: disc;
-  padding-inline-start: 1.5em;
+  padding-inline-start: 2em;
 }

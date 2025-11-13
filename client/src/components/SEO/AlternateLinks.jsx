@@ -3,7 +3,13 @@ import { useLocation } from 'react-router-dom';
 const AlternateLinks = () => {
   const { pathname } = useLocation();
 
-  const cleanPath = pathname.replace(/^\/(sr|en)/, '');
+  // const cleanPath = decodeURIComponent(pathname.replace(/^\/(sr|en)/, ''));
+
+  const cleanPath = decodeURIComponent(
+    pathname.startsWith('/sr') || pathname.startsWith('/en')
+      ? pathname.replace(/^\/(sr|en)/, '')
+      : pathname
+  );
 
   return (
     <>
