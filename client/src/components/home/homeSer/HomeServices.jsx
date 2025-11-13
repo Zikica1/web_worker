@@ -52,6 +52,10 @@ const HomeServices = () => {
               className='homeServicesHad-divider'
               src='/assets/pictures/services/divider.webp'
               alt='divider'
+              width='84px'
+              height='8px'
+              loading='lazy'
+              decoding='async'
             />
           </div>
 
