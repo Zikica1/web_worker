@@ -46,7 +46,12 @@ const Portfolio = () => {
         >
           <Hading i18nKey={'portfolio.title'} />
           <div className='portfolioImage' initial={{ opacity: 0, x: 100 }}>
-            <img src='/assets/pictures/services/divider.webp' alt='divider' />
+            <img
+              src='/assets/pictures/services/divider.webp'
+              alt='divider'
+              width='84'
+              height='8'
+            />
           </div>
         </motion.div>
 

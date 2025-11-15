@@ -37,6 +37,11 @@
       "title": "Focus on Your <span>Business</span>",
       "subtitle": "We build your digital identity",
       "description": "Transforming ideas into extraordinary digital experiences. Focus on what you love — we'll make it look and work perfectly."
+    },
+    "heroAlt": {
+      "0": "Business woman working on a laptop - professional website development",
+      "1": "Web project experts meeting, exchanging documents and planning strategy",
+      "2": "Expert focused on work and analysis of projects on the computer"
     }
   },
   "ourMission": {
@@ -215,7 +220,14 @@
   },
   "portfolio": {
     "title": "Our featured web design <span>projects</span>",
-    "text": "See examples of our projects created for clients from various industries. For each project, we create a universal and modern solution that reflects the brand identity and the client's needs."
+    "text": "See examples of our projects created for clients from various industries. For each project, we create a universal and modern solution that reflects the brand identity and the client's needs.",
+    "portfolioAlt": {
+      "1": "Construction company homepage - portfolio project",
+      "2": "Travel agency homepage - portfolio project",
+      "3": "Web design agency homepage - portfolio project",
+      "4": "Confectionery shop homepage - portfolio project",
+      "5": "Consulting agency homepage - portfolio project"
+    }
   },
   "priceList": {
     "title": "Prices and packages of <span>build</span> web <span>site</span>",

@@ -9,24 +9,36 @@ import { CiMobile1, CiMail, CiAlarmOn } from 'react-icons/ci';
 export const hero = [
   {
     id: 0,
-    imgMob: '/assets/pictures/home/hero/hero-1-325px.webp',
-    imgMob2: '/assets/pictures/home/hero/hero-1-325px@2x.webp',
-    imgTab: '/assets/pictures/home/hero/hero-1-586px.webp',
-    imgDes: '/assets/pictures/home/hero/hero-1-822px.webp',
+    imgMob:
+      '/assets/pictures/home/hero/izrada-web-sajta-poslovna-zena-na-laptopu-325px.webp',
+    imgMob2:
+      '/assets/pictures/home/hero/izrada-web-sajta-poslovna-zena-na-laptopu-325px@2x.webp',
+    imgTab:
+      '/assets/pictures/home/hero/izrada-web-sajta-poslovna-zena-na-laptopu-586px.webp',
+    imgDes:
+      '/assets/pictures/home/hero/izrada-web-sajta-poslovna-zena-na-laptopu-822px.webp',
   },
   {
     id: 1,
-    imgMob: '/assets/pictures/home/hero/hero-2-325px.webp',
-    imgMob2: '/assets/pictures/home/hero/hero-2-325px@2x.webp',
-    imgTab: '/assets/pictures/home/hero/hero-2-586px.webp',
-    imgDes: '/assets/pictures/home/hero/hero-2-822px.webp',
+    imgMob:
+      '/assets/pictures/home/hero/izrada-web-sajta-strucni-tim-planiranje-325px.webp',
+    imgMob2:
+      '/assets/pictures/home/hero/izrada-web-sajta-strucni-tim-planiranje-325px@2x.webp',
+    imgTab:
+      '/assets/pictures/home/hero/izrada-web-sajta-strucni-tim-planiranje-586px.webp',
+    imgDes:
+      '/assets/pictures/home/hero/izrada-web-sajta-strucni-tim-planiranje-822px.webp',
   },
   {
     id: 2,
-    imgMob: '/assets/pictures/home/hero/hero-3-325px.webp',
-    imgMob2: '/assets/pictures/home/hero/hero-3-325px@2x.webp',
-    imgTab: '/assets/pictures/home/hero/hero-3-586px.webp',
-    imgDes: '/assets/pictures/home/hero/hero-3-822px.webp',
+    imgMob:
+      '/assets/pictures/home/hero/izrada-web-sajta-fokusirani-developer-325px.webp',
+    imgMob2:
+      '/assets/pictures/home/hero/izrada-web-sajta-fokusirani-developer-325px@2x.webp',
+    imgTab:
+      '/assets/pictures/home/hero/izrada-web-sajta-fokusirani-developer-586px.webp',
+    imgDes:
+      '/assets/pictures/home/hero/izrada-web-sajta-fokusirani-developer-822px.webp',
   },
 ];
 
@@ -90,27 +102,57 @@ export const portfolio = [
   {
     id: '1',
     url: 'https://construction-group.netlify.app/',
-    img: '/assets/pictures/portfolio/construction-group.webp',
+    imgMob:
+      '/assets/pictures/portfolio/kompanija-za-gradjevinske-radove-pocetna-stranica-450x2818.webp',
+    imgMob2:
+      '/assets/pictures/portfolio/kompanija-za-gradjevinske-radove-pocetna-stranica-900x5637.webp',
+    imgDes:
+      '/assets/pictures/portfolio/kompanija-za-gradjevinske-radove-pocetna-stranica-768x4810.webp',
+    height: '4695',
   },
   {
     id: '2',
     url: 'https://travelagencyyy.netlify.app/',
-    img: '/assets/pictures/portfolio/travelAgency.webp',
+    imgMob:
+      '/assets/pictures/portfolio/agencija-za-putovanje-pocetna-stranica-450x1497.webp',
+    imgMob2:
+      '/assets/pictures/portfolio/agencija-za-putovanje-pocetna-stranica-900x2995.webp',
+    imgDes:
+      '/assets/pictures/portfolio/agencija-za-putovanje-pocetna-stranica-768x2555.webp',
+    height: '2555',
   },
   {
     id: '3',
     url: 'https://word-press.netlify.app/',
-    img: '/assets/pictures/portfolio/word-press.webp',
+    imgMob:
+      '/assets/pictures/portfolio/agencija-za-veb-dizajin-pocetna-stranica-450x2751.webp',
+    imgMob2:
+      '/assets/pictures/portfolio/agencija-za-veb-dizajin-pocetna-stranica-900x5502.webp',
+    imgDes:
+      '/assets/pictures/portfolio/agencija-za-veb-dizajin-pocetna-stranica-768x4695.webp',
+    height: '4695',
   },
   {
     id: '4',
     url: 'https://shop-confectionery.netlify.app/',
-    img: '/assets/pictures/portfolio/shop-confectionery.webp',
+    imgMob:
+      '/assets/pictures/portfolio/prodavnica-za-slatkise-pocetna-stranica-450x2262.webp',
+    imgMob2:
+      '/assets/pictures/portfolio/prodavnica-za-slatkise-pocetna-stranica-900x4523.webp',
+    imgDes:
+      '/assets/pictures/portfolio/prodavnica-za-slatkise-pocetna-stranica-768x3860.webp',
+    height: '3860',
   },
   {
     id: '5',
     url: 'https://consalting-agency.netlify.app/',
-    img: '/assets/pictures/portfolio/consalting-agency.webp',
+    imgMob:
+      '/assets/pictures/portfolio/agencija-za-savetovanje-pocetna-stranica-450x2607.webp',
+    imgMob2:
+      '/assets/pictures/portfolio/agencija-za-savetovanje-pocetna-stranica-900x5214.webp',
+    imgDes:
+      '/assets/pictures/portfolio/agencija-za-savetovanje-pocetna-stranica-768x4449.webp',
+    height: '4449',
   },
 ];
 

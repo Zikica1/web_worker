@@ -140,8 +140,8 @@ const Service = () => {
               alt={t('service.top.alt')}
               fetchPriority='high'
               decoding='async'
-              width='1024px'
-              height='683px'
+              width='1024'
+              height='683'
             />
           </picture>
         </div>
@@ -165,6 +165,10 @@ const Service = () => {
               className='serviceHead-image'
               src='/assets/pictures/services/divider.webp'
               alt='divider'
+              width='84'
+              height='8'
+              loading='lazy'
+              decoding='async'
             />
           </div>
 

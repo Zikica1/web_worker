@@ -75,12 +75,12 @@ const OurVision = () => {
           <picture>
             <source
               media='(max-width: 480px)'
-              srcSet='/assets/pictures/about/ourVision-img-450px.webp 1x,
-              /assets/pictures/about/ourVision-img-450px@2x.webp 2x'
+              srcSet='/assets/pictures/about/strategija-razvoja-web-sajta-nasa-misija-450px.webp 1x,
+              /assets/pictures/about/strategija-razvoja-web-sajta-nasa-misija-450px@2x.webp 2x'
             />
             <source
               media='(max-width: 768px)'
-              srcSet='/assets/pictures/about/ourVision-img-768px.webp'
+              srcSet='/assets/pictures/about/strategija-razvoja-web-sajta-nasa-misija-768px.webp'
             />
             <img
               ref={refPicture}
@@ -89,7 +89,7 @@ const OurVision = () => {
               decoding='async'
               width='1373'
               height='1031'
-              src='/assets/pictures/about/ourVision-img-1373px.webp'
+              src='/assets/pictures/about/strategija-razvoja-web-sajta-nasa-misija-1373px.webp'
               alt={t('about.ourVision.alt')}
             />
           </picture>

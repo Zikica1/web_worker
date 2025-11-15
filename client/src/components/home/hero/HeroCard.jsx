@@ -155,7 +155,7 @@ const HeroCard = ({ item, refItem, handleNext, handlePrevious, index }) => {
             srcSet={`${item.imgMob} 325w,${item.imgMob2} 650w,${item.imgTab} 586w,${item.imgDes} 822w`}
             sizes='(max-width: 768px) 325px,(max-width: 1024px) 440px,(min-width: 1025px) 625px'
             src={item.imgDes}
-            alt='hero-slide-img'
+            alt={t(`hero.heroAlt.${item.id}`)}
             draggable={false}
             loading={index === 0 ? undefined : 'lazy'}
             fetchPriority={index === 0 ? 'high' : undefined}

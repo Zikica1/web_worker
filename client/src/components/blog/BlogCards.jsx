@@ -46,8 +46,8 @@ const BlogCard = ({ blog, index }) => {
             className='blog-itemImg'
             src={blog.imgCard}
             alt={t(`blogs.blogCards.posts.${index}.alt`)}
-            width='636px'
-            height='478px'
+            width='636'
+            height='478'
             loading='lazy'
             decoding='async'
           />

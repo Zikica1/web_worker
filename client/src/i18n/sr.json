@@ -37,6 +37,11 @@
       "title": "Fokus na Vaš <span>Posao</span>",
       "subtitle": "Mi gradimo vaš digitalni identitet",
       "description": "Transformisanje ideja u izvanredna digitalna iskustva.Fokusirajte se na ono što volite — mi ćemo se pobrinuti da to izgleda i funkcioniše savršeno"
+    },
+    "heroAlt": {
+      "0": "Profesionalna web dizajn usluga - žena radi na laptopu u modernom poslovnom prostoru",
+      "1": "Stručnjaci za web projekte na sastanku, razmenjuju dokumente i planiraju strategiju",
+      "2": "Stručnjak fokusiran na posao i analizu projekata na računaru"
     }
   },
   "ourMission": {
@@ -215,7 +220,14 @@
   },
   "portfolio": {
     "title": "Naši istaknuti <span>projekti</span> web dizajna",
-    "text": "Pogledajte primere naših projekata kreiranih za klijente iz različitih industrija.Za svaki projekat stvaramo univerzalno i moderno rešenje koje odražava identitet brenda i potrebe klijenta."
+    "text": "Pogledajte primere naših projekata kreiranih za klijente iz različitih industrija.Za svaki projekat stvaramo univerzalno i moderno rešenje koje odražava identitet brenda i potrebe klijenta.",
+    "portfolioAlt": {
+      "1": "Početna stranica kompanije za građevinske radove - portfolio projekat",
+      "2": "Početna stranica turističke agencije - portfolio projekat",
+      "3": "Početna stranica agencije za web dizajn - portfolio projekat",
+      "4": "Početna stranica prodavnice slatkiša - portfolio projekat",
+      "5": "Početna stranica agencije za savetovanje - portfolio projekat"
+    }
   },
   "priceList": {
     "title": "Cene i paketi <span>izrade</span> web <span>sajta</span>",

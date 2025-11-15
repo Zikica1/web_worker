@@ -106,18 +106,18 @@ const AboutUs = () => {
           <picture>
             <source
               media='(max-width:480px)'
-              srcSet='/assets/pictures/about/aboutUs-img-450px.webp 1x,
-              /assets/pictures/about/aboutUs-img-450px@2x.webp 2x'
+              srcSet='/assets/pictures/about/kreiranje-web-sajta-zadovoljna-klijentkinja-450px-450px@2x.webp 1x,
+              /assets/pictures/about/kreiranje-web-sajta-zadovoljna-klijentkinja-450px-450px@2x.webp 2x'
             />
             <source
               media='(max-width:768px)'
-              srcSet='/assets/pictures/about/aboutUs-img-768px.webp'
+              srcSet='/assets/pictures/about/kreiranje-web-sajta-zadovoljna-klijentkinja-450px-450px@2x.webp'
             />
 
             <img
               ref={imageRef}
               className={`aboutUs-img ${isVisible ? 'visible' : ''}`}
-              src='/assets/pictures/about/aboutUs-img-1024px.webp'
+              src='/assets/pictures/about/kreiranje-web-sajta-zadovoljna-klijentkinja-1024px.webp'
               alt={t('about.aboutUs.alt')}
               height='1024'
               width='1024'

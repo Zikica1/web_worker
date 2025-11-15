@@ -96,9 +96,9 @@ const BlogCardDet = () => {
             <source media='(max-width: 1366px)' srcSet={blogDet.imgDes} />
             <img
               src={blogDet.imgDesLar}
-              alt={`${t(`blogs.blogCardDet.${id}.title`)} | WebWorker Srbija`}
-              width='1536px'
-              height='868px'
+              alt={t(`blogs.blogCards.posts.${blogDet.id}.alt`)}
+              width='1536'
+              height='868'
               decoding='async'
               fetchPriority='high'
             />

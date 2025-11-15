@@ -1,10 +1,16 @@
 import './portfolioCard.css';
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
+import useMatchUrl from '../../hook/useMatchUrl';
+import { useTranslation } from 'react-i18next';
 
 const PortfolioCard = ({ p, index }) => {
   const refCard = useRef();
   const [visible, setVisible] = useState(false);
+
+  const { t } = useTranslation();
+
+  const isHome = useMatchUrl();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -38,12 +44,22 @@ const PortfolioCard = ({ p, index }) => {
         rel='noopener noreferrer'
       >
         <div className='portfolioCardImg-wrap'>
-          <img
-            className='portfolioCard-img'
-            src={p.img}
-            alt='screenshot site'
-            loading='lazy'
-          />
+          <picture>
+            <source
+              media='(max-width:480px)'
+              srcSet={`${p.imgMob} 1x,${p.imgMob2} 2x`}
+            />
+            <img
+              className='portfolioCard-img'
+              src={p.imgDes}
+              alt={t(`portfolio.portfolioAlt.${p.id}`)}
+              width='768'
+              height={p.height}
+              decoding='async'
+              loading={isHome ? 'lazy' : undefined}
+              fetchPriority={isHome ? undefined : 'high'}
+            />
+          </picture>
         </div>
       </Link>
     </li>
