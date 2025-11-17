@@ -126,17 +126,17 @@ const Service = () => {
           <picture>
             <source
               media='(max-width: 480px)'
-              srcSet='/assets/pictures/services/web-design-team-office-img-480px.webp 1x,
-            /assets/pictures/services/web-design-team-office-img-480px@2x.webp 2x'
+              srcSet='/assets/pictures/services/web-dizajn-i-razvoj-kreiranje-sajta-tim-480px.webp 1x,
+            /assets/pictures/services/web-dizajn-i-razvoj-kreiranje-sajta-tim-480px@2x.webp 2x'
             />
             <source
               media='(max-width: 768px)'
-              srcSet='/assets/pictures/services/web-design-team-office-img-768px.webp'
+              srcSet='/assets/pictures/services/web-dizajn-i-razvoj-kreiranje-sajta-tim-768px.webp'
             />
             <motion.img
               ref={refImg}
               className={`img-service ${isVisible ? 'visible' : ''}`}
-              src='/assets/pictures/services/web-design-team-office-img-1024px.webp'
+              src='/assets/pictures/services/web-dizajn-i-razvoj-kreiranje-sajta-tim-1024px.webp'
               alt={t('service.top.alt')}
               fetchPriority='high'
               decoding='async'

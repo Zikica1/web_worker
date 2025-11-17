@@ -51,10 +51,13 @@ export const services = [
       sr: 'izrada-web-sajta',
     },
     Icon: MdOutlineDesktopWindows,
-    imgMob: '/assets/pictures/serviceCardDet/serviceCardWeb-img-480px.webp',
-    imgMob2: '/assets/pictures/serviceCardDet/serviceCardWeb-img-480px@2x.webp',
-    imgTab: '/assets/pictures/serviceCardDet/serviceCardWeb-img-1024px.webp',
-    imgDes: '/assets/pictures/serviceCardDet/serviceCardWeb-img-1536px.webp',
+    imgMob: '/assets/pictures/izrada-web-sajta-hero-slika-ui-dizajn-480px.webp',
+    imgMob2:
+      '/assets/pictures/serviceCardDet/izrada-web-sajta-hero-slika-ui-dizajn-480px@2x.webp',
+    imgTab:
+      '/assets/pictures/serviceCardDet/izrada-web-sajta-hero-slika-ui-dizajn-1024px.webp',
+    imgDes:
+      '/assets/pictures/serviceCardDet/izrada-web-sajta-hero-slika-ui-dizajn-1536px.webp',
   },
   {
     id: 1,
@@ -64,10 +67,14 @@ export const services = [
       sr: 'seo-optimizacija',
     },
     Icon: MdSpeed,
-    imgMob: '/assets/pictures/serviceCardDet/serviceCardSeo-img-480px.webp',
-    imgMob2: '/assets/pictures/serviceCardDet/serviceCardSeo-img-480px@2x.webp',
-    imgTab: '/assets/pictures/serviceCardDet/serviceCardSeo-img-1024px.webp',
-    imgDes: '/assets/pictures/serviceCardDet/serviceCardSeo-img-1536px.webp',
+    imgMob:
+      '/assets/pictures/serviceCardDet/kreiranje-web-sajta-hero-slika-seo-optimizacija-480px.webp',
+    imgMob2:
+      '/assets/pictures/serviceCardDet/kreiranje-web-sajta-hero-slika-seo-optimizacija-480px@2x.webp',
+    imgTab:
+      '/assets/pictures/serviceCardDet/kreiranje-web-sajta-hero-slika-seo-optimizacija-1024px.webp',
+    imgDes:
+      '/assets/pictures/serviceCardDet/kreiranje-web-sajta-hero-slika-seo-optimizacija-1536px.webp',
   },
   {
     id: 2,
@@ -77,10 +84,14 @@ export const services = [
       sr: 'dizajin',
     },
     Icon: MdPhoneIphone,
-    imgMob: '/assets/pictures/serviceCardDet/serviceCardRes-img-480px.webp',
-    imgMob2: '/assets/pictures/serviceCardDet/serviceCardRes-img-480px@2x.webp',
-    imgTab: '/assets/pictures/serviceCardDet/serviceCardRes-img-1024px.webp',
-    imgDes: '/assets/pictures/serviceCardDet/serviceCardRes-img-1536px.webp',
+    imgMob:
+      '/assets/pictures/serviceCardDet/izdrada-web-sajta-responzivni-web-dizajin-480px.webp',
+    imgMob2:
+      '/assets/pictures/serviceCardDet/izdrada-web-sajta-responzivni-web-dizajin-480px@2x.webp',
+    imgTab:
+      '/assets/pictures/serviceCardDet/izdrada-web-sajta-responzivni-web-dizajin-1024px.webp',
+    imgDes:
+      '/assets/pictures/serviceCardDet/izdrada-web-sajta-responzivni-web-dizajin-1536px.webp',
   },
   {
     id: 3,
@@ -90,11 +101,14 @@ export const services = [
       sr: 'hosting',
     },
     Icon: MdStorage,
-    imgMob: '/assets/pictures/serviceCardDet/serviceCardHost-img-480px.webp',
+    imgMob:
+      '/assets/pictures/serviceCardDet/kreiranje-web-sajta-web-hosting-480px.webp',
     imgMob2:
-      '/assets/pictures/serviceCardDet/serviceCardHost-img-480px@2x.webp',
-    imgTab: '/assets/pictures/serviceCardDet/serviceCardHost-img-1024px.webp',
-    imgDes: '/assets/pictures/serviceCardDet/serviceCardHost-img-1536px.webp',
+      '/assets/pictures/serviceCardDet/kreiranje-web-sajta-web-hosting-480px@2x.webp',
+    imgTab:
+      '/assets/pictures/serviceCardDet/kreiranje-web-sajta-web-hosting-1024px.webp',
+    imgDes:
+      '/assets/pictures/serviceCardDet/kreiranje-web-sajta-web-hosting-1536px.webp',
   },
 ];
 
@@ -222,12 +236,12 @@ export const blogs = [
       en: 'website-development-errors',
       sr: 'greške-u-razvoju-web-sajtova',
     },
-    imgCard: '/assets/pictures/blogs/greška-u-web-razvoju-636px.webp',
-    imgMob: '/assets/pictures/blogs/greška-u-web-razvoju-450px.webp',
-    imgMob2: '/assets/pictures/blogs/greška-u-web-razvoju-450px@2x.webp',
-    imgTab: '/assets/pictures/blogs/greška-u-web-razvoju-768px.webp',
-    imgDes: '/assets/pictures/blogs/greška-u-web-razvoju-1366px.webp',
-    imgDesLar: '/assets/pictures/blogs/greška-u-web-razvoju-1536px.webp',
+    imgCard: '/assets/pictures/blogs/greska-u-web-razvoju-636px.webp',
+    imgMob: '/assets/pictures/blogs/greska-u-web-razvoju-450px.webp',
+    imgMob2: '/assets/pictures/blogs/greska-u-web-razvoju-450px@2x.webp',
+    imgTab: '/assets/pictures/blogs/greska-u-web-razvoju-768px.webp',
+    imgDes: '/assets/pictures/blogs/greska-u-web-razvoju-1366px.webp',
+    imgDesLar: '/assets/pictures/blogs/greska-u-web-razvoju-1536px.webp',
   },
   {
     id: 1,
@@ -255,17 +269,17 @@ export const blogs = [
       sr: 'elementi-modernog-web-sajta',
     },
     imgCard:
-      '/assets/pictures/blogs/izrada-web-sajta-ključni-elementi-636px.webp',
+      '/assets/pictures/blogs/izrada-web-sajta-kljucni-elementi-636px.webp',
     imgMob:
-      '/assets/pictures/blogs/izrada-web-sajta-ključni-elementi-450px.webp',
+      '/assets/pictures/blogs/izrada-web-sajta-kljucni-elementi-450px.webp',
     imgMob2:
-      '/assets/pictures/blogs/izrada-web-sajta-ključni-elementi-450px@2x.webp',
+      '/assets/pictures/blogs/izrada-web-sajta-kljucni-elementi-450px@2x.webp',
     imgTab:
-      '/assets/pictures/blogs/izrada-web-sajta-ključni-elementi-768px.webp',
+      '/assets/pictures/blogs/izrada-web-sajta-kljucni-elementi-768px.webp',
     imgDes:
-      '/assets/pictures/blogs/izrada-web-sajta-ključni-elementi-1366px.webp',
+      '/assets/pictures/blogs/izrada-web-sajta-kljucni-elementi-1366px.webp',
     imgDesLar:
-      '/assets/pictures/blogs/izrada-web-sajta-ključni-elementi-1536px.webp',
+      '/assets/pictures/blogs/izrada-web-sajta-kljucni-elementi-1536px.webp',
   },
   {
     id: 3,
@@ -275,16 +289,16 @@ export const blogs = [
     },
     key: 'reasons for the website',
     imgCard:
-      '/assets/pictures/blogs/izrada-web-sajta-zašto-je-potrebna-636px.webp',
+      '/assets/pictures/blogs/izrada-web-sajta-zasto-je-potrebna-636px.webp',
     imgMob:
-      '/assets/pictures/blogs/izrada-web-sajta-zašto-je-potrebna-450px.webp',
+      '/assets/pictures/blogs/izrada-web-sajta-zasto-je-potrebna-450px.webp',
     imgMob2:
-      '/assets/pictures/blogs/izrada-web-sajta-zašto-je-potrebna-450px@2x.webp',
+      '/assets/pictures/blogs/izrada-web-sajta-zasto-je-potrebna-450px@2x.webp',
     imgTab:
-      '/assets/pictures/blogs/izrada-web-sajta-zašto-je-potrebna-768px.webp',
+      '/assets/pictures/blogs/izrada-web-sajta-zasto-je-potrebna-768px.webp',
     imgDes:
-      '/assets/pictures/blogs/izrada-web-sajta-zašto-je-potrebna-1366px.webp',
+      '/assets/pictures/blogs/izrada-web-sajta-zasto-je-potrebna-1366px.webp',
     imgDesLar:
-      '/assets/pictures/blogs/izrada-web-sajta-zašto-je-potrebna-1536px.webp',
+      '/assets/pictures/blogs/izrada-web-sajta-zasto-je-potrebna-1536px.webp',
   },
 ];
