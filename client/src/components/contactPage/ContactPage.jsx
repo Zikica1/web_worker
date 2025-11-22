@@ -1,7 +1,7 @@
 import './contactPage.css';
 import { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import axiosMain from '../../api/axios';
+import axios from 'axios';
 import { FaRegPaperPlane, FaRegEnvelope, FaCheck } from 'react-icons/fa';
 import { useAnimate, useInView } from 'motion/react';
 import { contact } from '../../data/db';
@@ -11,10 +11,11 @@ const ContactPage = () => {
   const { t } = useTranslation();
   const [message, setMessage] = useState({
     name: '',
-    mail: '',
+    email: '',
     subject: '',
     phone: '',
     text: '',
+    robotTrap: '',
   });
   const [status, setStatus] = useState('typing');
   const [msgErr, setMsgErr] = useState(null);
@@ -46,29 +47,37 @@ const ContactPage = () => {
     setStatus('sending');
 
     try {
-      await axiosMain.post('/contact', {
-        name: message.name,
-        mail: message.mail,
-        subject: message.subject,
-        phone: message.phone,
-        text: message.text,
-      });
+      await axios.post(
+        '/.netlify/functions/send-message',
+        {
+          name: message.name,
+          email: message.email,
+          subject: message.subject,
+          phone: message.phone,
+          text: message.text,
+          robotTrap: message.robotTrap, // ovo je honeypot
+        },
+        {
+          headers: {
+            Accept: 'application/json',
+          },
+        }
+      );
       setMsgErr(null);
       setMessage({
         name: '',
-        mail: '',
+        email: '',
         subject: '',
         phone: '',
         text: '',
+        robotTrap: '',
       });
       setStatus('sent');
     } catch (err) {
       if (!err.response) {
         setMsgErr('No server response');
       } else if (err.response.status === 400) {
-        setMsgErr(
-          'One of the fields name,email,subjects,phone,text is missing'
-        );
+        setMsgErr(err.response.data.error || 'Missing or invalid fields');
       } else {
         setMsgErr('Sending failed');
       }
@@ -128,6 +137,19 @@ const ContactPage = () => {
           </div>
 
           <form className='contactPageForm' action='' onSubmit={handleSubmit}>
+            <input
+              type='text'
+              name='robotTrap'
+              autoComplete='off'
+              tabIndex='-1'
+              id='robotTrap'
+              style={{ display: 'none' }}
+              value={message.robotTrap || ''}
+              onChange={(e) =>
+                setMessage({ ...message, robotTrap: e.target.value })
+              }
+            />
+
             <div className='contactPageForm-column'>
               <label htmlFor='name'>
                 <input
@@ -150,7 +172,7 @@ const ContactPage = () => {
                   placeholder={t('contact.form.email')}
                   autoComplete='off'
                   required
-                  value={message.mail}
+                  value={message.email}
                   onChange={(e) => handleChange(e)}
                 />
               </label>
