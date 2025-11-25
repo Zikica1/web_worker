@@ -27,6 +27,7 @@ const ServiceCard = ({ service, index }) => {
   const ref = useRef(null);
 
   const isService = useMatchUrl('/sr/usluge', '/en/services');
+  const isHome = useMatchUrl();
 
   const Icon = service.Icon;
 
@@ -41,6 +42,7 @@ const ServiceCard = ({ service, index }) => {
 
   return (
     <motion.li
+      onClick={isHome && handleClick}
       variants={listItemVariant}
       initial='hidden'
       animate={isInView ? 'visible' : 'hidden'}
@@ -48,39 +50,26 @@ const ServiceCard = ({ service, index }) => {
       ref={ref}
       className={`card ${isService && 'cardService'}`}
     >
-      <div className=' card-face card-face--front'>
+      <Link
+        to={isService ? t(`serviceIds.${service.category}`) : undefined}
+        className=' card-face card-face--front'
+      >
         <Icon className='card-icon' />
         <h3 className='card-title'>{t(`service.cards.${service.id}.title`)}</h3>
         <div className='cardSubtitle'>
-          {isService ? (
-            <Link
-              to={t(`serviceIds.${service.category}`)}
-              className='cardSubtitle-link'
-            >
-              {t(`service.cards.${service.id}.subtitle`)}
-            </Link>
-          ) : (
-            <button onClick={handleClick} className='cardSubtitle-button'>
-              {t(`service.cards.${service.id}.subtitle`)}
-            </button>
-          )}
+          <button className='cardSubtitle-button'>
+            {t(`service.cards.${service.id}.subtitle`)}
+          </button>
+
           <FaLongArrowAltRight className='cardSubtitle-icon' />
         </div>
-      </div>
+      </Link>
       <div className=' card-face card-face--back'>
         <Icon className='card-icon' />
         <h3 className='card-title'>{t(`service.cards.${service.id}.title`)}</h3>
         <p className='card-para'>
           {t(`service.cards.${service.id}.description`)}
         </p>
-
-        <div className='cardSubtitle'>
-          <button onClick={handleClick} className='cardSubtitle-button'>
-            {t(`service.cards.${service.id}.subtitle`)}
-          </button>
-
-          <FaLongArrowAltRight className='cardSubtitle-icon' />
-        </div>
       </div>
     </motion.li>
   );

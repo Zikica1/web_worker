@@ -23,6 +23,7 @@
 .card:hover {
   color: var(--clr-text-light);
   box-shadow: 0px 18px 45px 0px rgba(52 152 219/0.7);
+  cursor: pointer;
 }
 
 .card::before {
@@ -71,6 +72,8 @@
 
 .card-face--back {
   transform: rotateY(180deg);
+  display: grid;
+  place-content: center;
 }
 
 .card-icon {
@@ -132,6 +135,7 @@
 
 .card:hover .cardSubtitle-icon {
   transform: translateX(15px);
+  fill: var(--clr-text-light);
 }
 
 .card-par {

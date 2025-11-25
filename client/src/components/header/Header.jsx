@@ -47,7 +47,7 @@ const Header = () => {
         <div className='headerTop-leftCol'>
           <div className='headerTop-phone'>
             <FaPhoneVolume />
-            <p>tel: +381658158592</p>
+            <p>tel: +381658158692</p>
           </div>
           <ButtonI18 />
         </div>
