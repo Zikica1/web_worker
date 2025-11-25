@@ -15,6 +15,7 @@
   max-width: 34.375em;
   margin-inline: auto;
   position: relative;
+  touch-action: pan-y;
 
   @media (min-width: 48rem) {
     max-width: unset;

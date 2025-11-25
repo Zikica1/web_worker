@@ -7,7 +7,6 @@ import { hero } from '../../../data/db';
 const Hero = () => {
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
-  // const [activeIndex, setActiveIndex] = useState(0);
 
   const location = useLocation();
 
