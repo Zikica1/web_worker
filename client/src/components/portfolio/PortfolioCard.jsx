@@ -57,7 +57,7 @@ const PortfolioCard = ({ p, index }) => {
               height={p.height}
               decoding='async'
               loading={isHome ? 'lazy' : undefined}
-              fetchPriority={isHome ? undefined : 'high'}
+              // fetchPriority={isHome ? undefined : 'high'}
             />
           </picture>
         </div>
