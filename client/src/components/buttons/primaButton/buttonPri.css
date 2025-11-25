@@ -85,3 +85,11 @@
 .buttonPriCenter {
   margin-inline: auto;
 }
+
+.buttonPackages {
+  margin-inline: auto;
+
+  @media (min-width: 65rem) {
+    margin-inline: unset;
+  }
+}

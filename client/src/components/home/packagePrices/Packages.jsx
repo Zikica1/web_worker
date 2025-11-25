@@ -68,6 +68,7 @@ const Packages = () => {
           <ButtonPrimary
             url={lang === 'sr' ? 'kontakt' : 'contact'}
             text='buttons.priceText'
+            classButton='buttonPackages'
           />
         </div>
         <div className='packagePriBody'>
