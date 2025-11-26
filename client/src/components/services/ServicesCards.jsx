@@ -42,7 +42,7 @@ const ServiceCard = ({ service, index }) => {
 
   return (
     <motion.li
-      onClick={isHome && handleClick}
+      onClick={isHome ? handleClick : undefined}
       variants={listItemVariant}
       initial='hidden'
       animate={isInView ? 'visible' : 'hidden'}

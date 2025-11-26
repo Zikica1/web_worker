@@ -87,6 +87,7 @@ const Header = () => {
               <NavLink
                 to={`/${lang}`}
                 className='nav-link'
+                end
                 style={({ isActive }) => (isActive ? activeStyle : null)}
               >
                 {t('nav.home')}

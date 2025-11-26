@@ -119,7 +119,7 @@ const Service = () => {
         viewport={{ once: true, amount: 0 }}
         transition={{ duration: 0.8 }}
       >
-        Service
+        {t('service.title')}
       </motion.h1>
       <div className='serviceWrapper'>
         <div className='serviceImg'>
