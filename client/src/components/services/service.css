@@ -1,5 +1,6 @@
 .service {
   margin-top: 9em;
+  overflow-x: clip;
 
   @media (min-width: 48rem) {
     margin-block: 12.562em;
