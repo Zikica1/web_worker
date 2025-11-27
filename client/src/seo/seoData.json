@@ -59,6 +59,10 @@
                 "availableLanguage": ["sr", "en"]
               }
             ],
+            "sameAs": [
+              "https://www.facebook.com/webworkeragency",
+              "https://www.instagram.com/webworker.rs/"
+            ],
             "areaServed": [
               {
                 "@type": "City",
