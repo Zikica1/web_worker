@@ -21,10 +21,6 @@
     grid-template-columns: repeat(2, 1fr);
     padding-inline: 2.19em;
   }
-
-  /* @media (min-width: 65rem) {
-    padding-inline: 6.875em;
-  } */
 }
 
 .headerTop-leftCol {
@@ -36,7 +32,6 @@
     justify-content: unset;
     gap: 2em;
     margin-inline-end: 2em;
-    /* padding-inline-start: clamp(1em, 6vw, 10em); */
   }
 
   @media (min-width: 65rem) {
@@ -63,6 +58,7 @@
 }
 
 .headerTop-rightCol svg {
+  color: var(--clr-text-light);
   width: 1.375em;
   height: 1.375em;
 }

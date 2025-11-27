@@ -53,9 +53,21 @@ const Header = () => {
         </div>
         {!isMobile && (
           <div className='headerTop-rightCol'>
-            <FaFacebook />
-            <FaTwitter />
-            <FaInstagramSquare />
+            <Link
+              to='https://www.facebook.com/webworkeragency'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <FaFacebook className='link-icon' />
+            </Link>
+            <FaTwitter className='link-icon' />
+            <Link
+              to='https://www.instagram.com/webworker.rs/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <FaInstagramSquare className='link-icon' />
+            </Link>
           </div>
         )}
       </div>
