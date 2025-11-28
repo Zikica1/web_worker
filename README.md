@@ -1,4 +1,4 @@
-# 🌐 WebWorker — WordPress & Web Development Agency
+# 🌐 WebWorker — Web Development Agency
 
 [👉 Posetite naš zvanični sajt](https://www.webworker.rs)
 
