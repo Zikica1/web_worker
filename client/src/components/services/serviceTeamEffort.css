@@ -155,8 +155,10 @@
   height: 0.095em;
   margin-inline: auto;
   margin-block-end: 0.952em;
+}
 
-  @media (min-width: 63.75rem) {
+@media (min-width: 63.75rem) {
+  .teamEffortList-num::before {
     margin-inline: unset;
     width: 0.952em;
     margin-block-end: -0.476em;
