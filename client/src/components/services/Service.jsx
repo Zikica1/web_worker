@@ -187,7 +187,10 @@ const Service = () => {
       <div className='servicesList'>
         <div ref={scope} className='servicesListHead'>
           <motion.div className='aniSerBottom' initial={{ opacity: 0, y: 50 }}>
-            <Hading i18nKey='service.bottom.title' />
+            <Hading
+              i18nKey='service.bottom.title'
+              className='serviceListTitle'
+            />
           </motion.div>
 
           <motion.img

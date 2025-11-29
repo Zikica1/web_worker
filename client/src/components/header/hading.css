@@ -17,3 +17,8 @@
 .head-title-span {
   color: var(--clr-pri);
 }
+
+.serviceListTitle {
+  max-width: 90%;
+  margin-inline: auto;
+}
