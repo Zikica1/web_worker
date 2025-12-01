@@ -137,6 +137,10 @@
               "@type": "ImageObject",
               "url": "https://www.webworker.rs/assets/pictures/SEO/logo-webWorker-web-design-agency.png"
             },
+            "image": {
+              "@type": "ImageObject",
+              "url": "https://www.webworker.rs/assets/pictures/SEO/kontakt-izrada-web-sajtova-webworker.jpg"
+            },
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Sombor",

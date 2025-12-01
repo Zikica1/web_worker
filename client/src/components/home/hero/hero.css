@@ -139,6 +139,7 @@
 .heroSlides-rightCol {
   position: relative;
   height: 20.625em;
+  will-change: transform;
 
   @media (min-width: 48rem) {
     height: 43.75em;
