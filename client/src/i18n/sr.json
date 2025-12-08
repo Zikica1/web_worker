@@ -349,6 +349,12 @@
     "blogCards": {
       "posts": [
         {
+          "title": "Prilagodljiv Web Dizajn",
+          "data": "07.12.2025",
+          "author": "WebWorker Tim",
+          "alt": "Tim stručnjaka analizira UX/UI i mobilni dizajn web sajta kao kljčni elementi modernog web sajta"
+        },
+        {
           "title": "Geške u razvoju web sajtova",
           "data": "02.11.2025",
           "author": "WebWorker Tim",
@@ -374,6 +380,7 @@
         }
       ],
       "blogIds": {
+        "mobile design": "mobilni-web-dizajn",
         "dev errors": "greške-u-razvoju-web-sajtova",
         "small business website": "vodič-web-sajt-za-mali-biznis",
         "key elements for the site": "elementi-modernog-web-sajta",
@@ -381,6 +388,131 @@
       }
     },
     "blogCardDet": {
+      "mobile design": {
+        "title": "Koliko je bitan mobilni dizajn i zašto utiče na vašu prodaju",
+        "description": "U savremenom digitalnom okruženju, mobilni telefoni su postali glavni uređaj za pretraživanje interneta, kupovinu, komunikaciju i informisanje. Preko 70% ukupnog internet saobraćaja danas dolazi sa mobilnih uređaja, što znači da je mobilni dizajn - odnosno responsive dizajn - postao obavezni standard, a ne opcija. Bez sajta koji funkcioniše savršeno na telefonu, gubite ogromnu količinu potencijalnih kupaca, poziva, rezervacija i upita.<br/></br>Ovaj članak detaljno objašnjava zašto je mobilni dizajn ključan za svaku modernu kompaniju i kako direktno utiče na prodaju, reputaciju i vidljivost na Google-u. Ako se bavite biznisom i razmišljate o <aLink>izradi web sajta</aLink> ili unapređenju trenutnog, mobilna optimizacija je jedno od prvih pitanja koje treba da postavite.",
+        "data": "07.12.2025",
+        "author": "WebWorker Tim",
+        "sections": [
+          {
+            "heading": "Zašto je mobilni dizajn postao obavezan?",
+            "paragraph": "Korisnici danas ne žele samo lepo dizajniran sajt — oni žele sajt koji se brzo učitava, jednostavan je za korišćenje i intuitivno vodi do cilja. Kada posetilac uđe na vaš sajt sa telefona, imate nekoliko sekundi da ostavite dobar utisak. Ako se stranica polako učitava, tekst je premali, dugmad su preblizu ili navigacija nije prilagođena mobilnom ekranu, korisnik odlazi. I pritom - odlazi konkurenciji.<br/><br/><strong>Responsive dizajn obezbeđuje da se vaš sajt automatski prilagođava svakom ekranu:</strong> telefonu, tabletu, laptopu ili velikom monitoru. Kroz fleksibilne gridove, proporcionalne slike i intuitivnu navigaciju, korisničko iskustvo ostaje isto - brzo, jasno i jednostavno.<br/><br/>U eri kada korisnici žele instant pristup informacijama, dobro optimizovan mobilni dizajn više nije „lep dodatak“ - on je osnova svakog profesionalnog sajta."
+          },
+          {
+            "heading": "Mobilni dizajn direktno utiče na prodaju",
+            "headingH3": "1. Brži put do kupovine ili kontakt forme",
+            "paragraph": "Na mobilnom uređaju, korisnici žele da sve bude dostupno uz nekoliko dodira. Udobno i jednostavno. Ako korisnik traži restoran, frizerski salon, advokata ili prodavnicu, želi brz pristup:",
+            "list": [
+              "broju telefona",
+              "lokaciji",
+              "cenama",
+              "ponudama",
+              "online poručivanju"
+            ],
+            "paragraphSec": "Sajt koji je prilagođen mobilnom uređaju omogućava upravo to — korisnik bez frustracije dolazi do informacije koju traži."
+          },
+          {
+            "heading": "2. Više konverzija kroz jasne CTA elemente",
+            "paragraph": "Responsive dizajn podrazumeva da su pozivi na akciju (CTA dugmad) jasni, vidljivi i lako dostupni.<br/><br/>Primeri CTA-a koji dobro funkcionišu u mobilnom prikazu:",
+            "list": [
+              "Pozovi odmah",
+              "Pošalji upit",
+              "Poruči online",
+              "Zakaži termin",
+              "Preuzmi ponudu"
+            ],
+            "paragraphSec": "Ako je dugme malo, skriveno ili teško za klik, korisnik odustaje. Dobro optimizovan mobilni CTA može samostalno povećati prodaju za 20-40%."
+          },
+          {
+            "heading": "SEO faktor: Google rangira bolje mobilno optimizovane sajtove",
+            "paragraph": "Google je prešao na mobile-first indexing — što znači da Google prvo proverava <strong>mobilnu verziju vašeg sajta</strong>, pa tek onda desktop verziju. Ako vaš sajt nije optimizovan za mobilne uređaje, to direktno utiče na:",
+            "list": [
+              "lošije rangiranje",
+              "manji broj poseta",
+              "manje upita i prodaja"
+            ],
+            "paragraphSec": "Responsive dizajn je sada osnovni deo <strong>SEO optimizacije</strong>, jer utiče na:",
+            "listSec": [
+              "brzinu učitavanja (najbitniji faktor)",
+              "korisničko iskustvo",
+              "strukturu sadržaja",
+              "preglednost na malim ekranima",
+              "bounce rate (koliko korisnika odmah napusti sajt)"
+            ],
+            "paragraphThr": "Dakle, mobilni dizajn nije samo pitanje estetike — to je ozbiljan SEO faktor koji određuje da li će vas kupci uopšte pronaći."
+          },
+          {
+            "heading": "Brzina učitavanja: ključ koji odlučuje da li korisnik ostaje",
+            "paragraph": "Statistika kaže:",
+            "list": [
+              "53% korisnika napušta sajt ako se ne učita u roku od 3 sekunde",
+              "Na mobilnim uređajima tolerancija je još manja",
+              "Brži sajtovi ostvaruju i do 2x veće konverzije"
+            ],
+            "paragraphSec": "Responsive dizajn znatno utiče na brzinu jer optimizuje:",
+            "listSec": [
+              "slike",
+              "strukturu",
+              "skripte",
+              "elemente koji se prikazuju"
+            ],
+            "paragraphThr": "Spor sajt je izgubljen novac. Brz, optimizovan sajt je konkurentska prednost."
+          },
+          {
+            "heading": "Bolje korisničko iskustvo = veća prodaja",
+            "paragraph": "Dobar mobilni dizajn korisniku omogućava da se oseća sigurno, udobno i vođeno dok pregleda vaš sajt. Elementi koji najviše utiču na korisničko iskustvo:",
+            "list": [
+              "Jednostavna navigacija",
+              "Korisnik mora odmah da zna gde da klikne, kako da otvori meni i gde da pronađe informacije.",
+              "Veći fontovi i jasni naslovi",
+              "Tekst mora biti čitljiv bez zumiranja.",
+              "Optimizovane slike",
+              "Teške slike usporavaju sajt i zbunjuju korisnika.",
+              "Dovoljno razmaka između elemenata",
+              "Na mobilnom ekranu „klik“ mora biti precizan.",
+              "Logična struktura sadržaja",
+              "Korisnik treba da može da „skenira“ stranicu bez napora.",
+              "Što je iskustvo pozitivnije, veća je šansa da korisnik preduzme željenu akciju, kontaktira vas, poruči, rezerviše, pošalje upit ili kupi."
+            ]
+          },
+          {
+            "heading": "Prednost nad konkurencijom",
+            "paragraph": "Veliki broj firmi još uvek potcenjuje značaj mobilnog dizajna ili ima zastarele sajtove koji nisu prilagođeni savremenim standardima. To pruža ogromnu priliku za biznise koji žele da se istaknu.<br/><br/>Sajt sa kvalitetnim responsive dizajnom:",
+            "list": [
+              "deluje profesionalnije",
+              "uliva više poverenja",
+              "brže konvertuje posetioce u kupce",
+              "smanjuje troškove oglašavanja (zbog boljeg kvaliteta odredišne stranice)",
+              "poboljšava poziciju na Google-u"
+            ],
+            "paragraphSec": "U digitalnom svetu, profesionalan mobilni dizajn direktno predstavlja vašu kompaniju. On je vaš prvi utisak — i često jedina šansa da ga ostavite."
+          },
+          {
+            "heading": "Mobilni dizajn i brend identitet",
+            "paragraph": "Responsive dizajn ne znači samo da je sajt tehnički optimizovan. On takođe obuhvata i vizuelnu konzistentnost:",
+            "list": [
+              "boje",
+              "tipografiju",
+              "prepoznatljiv izgled",
+              "fotografije",
+              "stil komunikacije"
+            ],
+            "paragraphSec": "Ako korisnik vidi isti kvalitet iskustva na telefonu, laptopu i tabletu, vaš brend deluje ozbiljno, stabilno i profesionalno."
+          },
+          {
+            "heading": "Zaključak: Mobilni dizajn je ključ vaše digitalne prodaje",
+            "paragraph": "Mobilni dizajn nije samo tehnički dodatak — on je jedan od ključnih faktora uspeha svakog modernog biznisa. Uticaj responsivnog sajta direktno se vidi kroz:",
+            "list": [
+              "bolje rangiranje na Google-u",
+              "niži bounce rate",
+              "veće poverenje korisnika",
+              "brže donošenje odluka",
+              "više kontakata, rezervacija i kupovina"
+            ],
+            "paragraphSec": "Ako planirate izradu web sajta, mobilna optimizacija treba da bude jedna od prvih stavki koju ćete zahtevati. Ona je temelj dobre SEO optimizacije, ali i brenda koji želi da raste u digitalnom svetu.<br/><br/>Ulaganje u kvalitetan responsive dizajn nije trošak — to je investicija koja vam dugoročno povećava profit."
+          }
+        ]
+      },
       "dev errors": {
         "title": "5 Uobičajenih grešaka u razvoju veb sajtova koje treba izbegavati",
         "description": "Samo zamislite ulaganje vremena, novca i resursa u <aLink>razvoj veb stranice</aLink>, samo da biste otkrili da ona koristi korisnike umesto da ih angažuje. Da li vam ovo deluje frustrirajuće? Pa, jeste. Razvoj veb stranice je sastavni deo razvoja onlajn prisustva. Ali čak i najmanje greške mogu da ugroze njegovu efikasnost.<br/><br/>Hajde da detaljno pogledamo najčešćih grešaka koje firme prave u razvoju veb stranica i kako ih efikasno izbeći.",

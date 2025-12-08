@@ -349,6 +349,12 @@
     "blogCards": {
       "posts": [
         {
+          "title": "Responsive web design",
+          "data": "07/12/2025",
+          "author": "WebWorker Tim",
+          "alt": "A team of experts analyzes UX/UI and mobile website design as key elements of a modern website"
+        },
+        {
           "title": "The most common mistakes in web site development",
           "data": "02/11/2025",
           "author": "WebWorker Team",
@@ -374,6 +380,7 @@
         }
       ],
       "blogIds": {
+        "mobile design": "mobile-web-design",
         "dev errors": "website-development-errors",
         "small business website": "small-business-website-guide",
         "key elements for the site": "elements-of-a-modern-website",
@@ -381,6 +388,126 @@
       }
     },
     "blogCardDet": {
+      "mobile design": {
+        "title": "How important mobile design is and why it affects your sales",
+        "description": "In today's digital environment, mobile phones have become the main device for Internet browsing, shopping, communication and information. Over 70% of all internet traffic today comes from mobile devices, which means that mobile design - that is, responsive design - has become a mandatory standard, not an option. Without a site that works perfectly on a phone, you're missing out on a huge amount of leads, calls, bookings and enquiries.<br/></br>This article explains in detail why mobile design is crucial for every modern business and how it directly affects sales, reputation and visibility on Google. If you are running a business and thinking about <aLink>creating a website</aLink> or improving your current one, mobile optimization is one of the first questions you should ask.",
+        "data": "07.12.2025",
+        "author": "WebWorker Tim",
+        "sections": [
+          {
+            "heading": "Why has mobile design become a must?",
+            "paragraph": "Users today don't just want a beautifully designed site — they want a site that loads quickly, is easy to use, and intuitively leads to the goal. When a visitor lands on your site from a phone, you have seconds to make a good impression. If the page loads slowly, the text is too small, the buttons are too close or the navigation is not adapted to the mobile screen, the user leaves. And at the same time - it leaves the competition.<br/><br/><strong>Responsive design ensures that your site automatically adapts to any screen:</strong> phone, tablet, laptop or large monitor. Through flexible grids, proportional images and intuitive navigation, the user experience remains the same - fast, clear and simple.<br/><br/>In an era when users want instant access to information, a well-optimized mobile design is no longer a nice addition - it is the basis of every professional website."
+          },
+          {
+            "heading": "Mobile design directly affects sales",
+            "headingH3": "1. Faster way to purchase or contact form",
+            "paragraph": "On mobile, users want everything available with a few taps. Comfortable and simple. If a user is looking for a restaurant, hair salon, lawyer or store, they want quick access:",
+            "list": [
+              "phone number",
+              "location",
+              "prices",
+              "bids",
+              "online ordering"
+            ],
+            "paragraphSec": "A mobile-friendly site allows for just that—the user gets to the information they're looking for without frustration."
+          },
+          {
+            "heading": "2. More conversions through clear CTA elements",
+            "paragraph": "Responsive design means that calls to action (CTA buttons) are clear, visible and easily accessible.<br/><br/>CTA examples that work well in a mobile view:",
+            "list": [
+              "Call now",
+              "Send Inquiry",
+              "Order online",
+              "Make an appointment",
+              "Get Offer"
+            ],
+            "paragraphSec": "If the button is small, hidden or difficult to click, the user gives up. A well-optimized mobile CTA can increase sales by 20-40% on its own."
+          },
+          {
+            "heading": "SEO factor: Google ranks mobile optimized sites better",
+            "paragraph": "Google has moved to mobile-first indexing — which means that Google first checks the <strong>mobile version of your site</strong>, and only then the desktop version. If your site is not optimized for mobile devices, it directly affects:",
+            "list": [
+              "lower ranking",
+              "fewer visits",
+              "less inquiries and sales"
+            ],
+            "paragraphSec": "Responsive design is now a fundamental part of <strong>SEO optimization</strong>, because it affects:",
+            "listSec": [
+              "loading speed (most important factor)",
+              "user experience",
+              "content structure",
+              "viewability on small screens",
+              "bounce rate (how many users immediately leave the site)"
+            ],
+            "paragraphThr": "So mobile design isn't just a matter of aesthetics — it's a serious SEO factor that determines whether customers will find you at all."
+          },
+          {
+            "heading": "Load speed: the key to whether a user stays",
+            "paragraph": "Statistics say:",
+            "list": [
+              "53% of users leave a site if it doesn't load within 3 seconds",
+              "The tolerance is even lower on mobile devices",
+              "Faster sites achieve up to 2x higher conversions"
+            ],
+            "paragraphSec": "Responsive design significantly affects speed because it optimizes:",
+            "listSec": ["pictures", "structure", "scripts", "display elements"],
+            "paragraphThr": "A slow site is wasted money. A fast, optimized site is a competitive advantage."
+          },
+          {
+            "heading": "Better user experience = more sales",
+            "paragraph": "Good mobile design allows the user to feel safe, comfortable and guided while browsing your site. Elements that impact the user experience the most:",
+            "list": [
+              "Easy Navigation",
+              "The user must immediately know where to click, how to open a menu and where to find information.",
+              "Larger fonts and clear headings",
+              "Text must be readable without zooming in.",
+              "Optimized Images",
+              "Heavy images slow down the site and confuse the user.",
+              "Enough space between elements",
+              "On a mobile screen, the 'click' must be precise.",
+              "Logical Structure of Content",
+              "The user should be able to 'scan' the page effortlessly.",
+              "The more positive the experience, the greater the chance that the user will take the desired action, contact you, place an order, make a reservation, send an inquiry or buy."
+            ]
+          },
+          {
+            "heading": "Advantage over the competition",
+            "paragraph": "A large number of companies still underestimate the importance of mobile design or have outdated websites that are not adapted to modern standards. It provides a huge opportunity for businesses that want to stand out.<br/><br/>Site with quality responsive design:",
+            "list": [
+              "seems more professional",
+              "instills more confidence",
+              "converts visitors to customers faster",
+              "reduces advertising costs (due to better landing page quality)",
+              "improves position on Google"
+            ],
+            "paragraphSec": "In the digital world, a professional mobile design directly represents your company. It's your first impression—and often your only chance to make one."
+          },
+          {
+            "heading": "Mobilni dizajn i brend identitet",
+            "paragraph": "Responsive design does not mean only that the site is technically optimized. It also includes visual consistency:",
+            "list": [
+              "colors",
+              "typography",
+              "recognizable appearance",
+              "photos",
+              "communication style"
+            ],
+            "paragraphSec": "If the user sees the same quality of experience on phone, laptop and tablet, your brand seems serious, stable and professional."
+          },
+          {
+            "heading": "Bottom line: Mobile design is the key to your digital sales.",
+            "paragraph": "Mobile design isn't just a technical add-on — it's one of the key success factors for any modern business. The impact of a responsive website can be seen directly through:",
+            "list": [
+              "rank better on Google",
+              "lower bounce rate",
+              "greater user trust",
+              "faster decision-making",
+              "more contacts, reservations and purchases"
+            ],
+            "paragraphSec": "If you are planning to build a website, mobile optimization should be one of the first items you will require. It is the foundation of good SEO optimization, but also of a brand that wants to grow in the digital world.<br/><br/>Investing in quality responsive design is not an expense — it is an investment that increases your profits in the long term."
+          }
+        ]
+      },
       "dev errors": {
         "title": "Common website development mistakes to avoid",
         "description": "Just imagine investing time, money and resources into <aLink>developing a website</aLink>, only to find that it uses users instead of engaging them. Does this seem frustrating to you? Well, it is. Website development is an integral part of developing an online presence. But even the smallest mistakes can jeopardize its effectiveness.<br/><br/>Let's take a detailed look at the most common mistakes that companies make in website development and how to effectively avoid them.",

@@ -231,6 +231,26 @@ export const skills = [
 export const blogs = [
   {
     id: 0,
+    key: 'mobile design',
+    slugs: {
+      en: 'mobile-web-design',
+      sr: 'mobilni-web-dizajn',
+    },
+    imgCard:
+      '/assets/pictures/blogs/izrada-web-sajta-mobilna-verzija-636px.webp',
+    imgMob:
+      '/assets/pictures/blogs/izrada-web-sajta-mobilna-verzija-450px.webp',
+    imgMob2:
+      '/assets/pictures/blogs/izrada-web-sajta-mobilna-verzija-450px@2x.webp',
+    imgTab:
+      '/assets/pictures/blogs/izrada-web-sajta-mobilna-verzija-768px.webp',
+    imgDes:
+      '/assets/pictures/blogs/izrada-web-sajta-mobilna-verzija-1366px.webp',
+    imgDesLar:
+      '/assets/pictures/blogs/izrada-web-sajta-mobilna-verzija-1536px.webp',
+  },
+  {
+    id: 1,
     key: 'dev errors',
     slugs: {
       en: 'website-development-errors',
@@ -244,7 +264,7 @@ export const blogs = [
     imgDesLar: '/assets/pictures/blogs/greska-u-web-razvoju-1536px.webp',
   },
   {
-    id: 1,
+    id: 2,
     key: 'small business website',
     slugs: {
       en: 'small-business-website-guide',
@@ -262,7 +282,7 @@ export const blogs = [
       '/assets/pictures/blogs/izrada-web-sajta-za-mali-biznis-1536px.webp',
   },
   {
-    id: 2,
+    id: 3,
     key: 'key elements for the site',
     slugs: {
       en: 'elements-of-a-modern-website',
@@ -282,7 +302,7 @@ export const blogs = [
       '/assets/pictures/blogs/izrada-web-sajta-kljucni-elementi-1536px.webp',
   },
   {
-    id: 3,
+    id: 4,
     slugs: {
       en: 'why-you-need-a-website',
       sr: 'zašto-vam-je-potreban-web-sajt',

@@ -54,6 +54,15 @@
   height: 10px;
 }
 
+.blogCardDet-secTitle {
+  font-size: 1.75rem;
+}
+
+.blogCardDet-para {
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
 .blogCardDet-list {
   margin-block: 1em;
 }

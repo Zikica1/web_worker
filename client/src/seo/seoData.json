@@ -485,6 +485,70 @@
     }
   },
   "blogCardDet": {
+    "mobile web design": {
+      "sr": {
+        "title": "Zašto je mobilni dizajn bitan i kako utiče na prodaju",
+        "description": "Saznajte kako mobilni i responsive dizajn utiču na prodaju, korisničko iskustvo i SEO rezultate, i zašto su ključni za uspešan web sajt.",
+        "url": "https://www.webworker.rs/sr/blogs/mobilni-web-dizain",
+        "image": "https://www.webworker.rs/assets/pictures/blogs/izrada-web-sajta-mobilna-verzija-og-1200px.jpg",
+        "headline": "Zašto je mobilni dizajn bitan i kako utiče na prodaju",
+        "datePublished": "2025-12-07",
+        "dateModified": "2025-12-07",
+        "keywords": [
+          "mobilni dizajn",
+          "responsive dizajn",
+          "izrada web sajta",
+          "SEO optimizacija",
+          "web dizajn",
+          "brzina učitavanja sajta",
+          "korisničko iskustvo",
+          "mobilna optimizacija",
+          "mobile-first",
+          "mobilno rangiranje",
+          "Google mobile-first indexing",
+          "UX dizajn",
+          "digitalni marketing",
+          "moderni web sajtovi",
+          "optimizacija slika",
+          "navigacija na mobilnom uređaju",
+          "CTA dugmad",
+          "mobilni korisnici"
+        ],
+        "articleSection": "Izrada web sajtova",
+        "type": "article"
+      },
+      "en": {
+        "title": "Why mobile design matters and how it affects sales",
+        "description": "Learn how mobile and responsive design affects sales, user experience and SEO results, and why they are critical to a successful website.",
+        "url": "https://www.webworker.rs/en/blogs/mobile-web-design",
+        "image": "https://www.webworker.rs/assets/pictures/blogs/izrada-web-sajta-mobilna-verzija-og-1200px.jpg",
+        "headline": "Why mobile design matters and how it affects sales",
+        "datePublished": "2025-12-07",
+        "dateModified": "2025-12-07",
+        "keywords": [
+          "mobile design",
+          "responsive design",
+          "website creation",
+          "SEO optimization",
+          "web design",
+          "site loading speed",
+          "user experience",
+          "mobile optimization",
+          "mobile-first",
+          "mobile ranking",
+          "Google mobile-first indexing",
+          "UX design",
+          "digital marketing",
+          "modern websites",
+          "image optimization",
+          "mobile navigation",
+          "CTA buttons",
+          "mobile users"
+        ],
+        "articleSection": "Website development",
+        "type": "article"
+      }
+    },
     "dev errors": {
       "sr": {
         "title": "Uobičajne greške u razvoju veb sajta koje treba izbegavati",

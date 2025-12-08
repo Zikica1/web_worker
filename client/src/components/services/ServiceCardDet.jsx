@@ -144,7 +144,7 @@ const ServiceCardDet = () => {
 
           <div className='cardDetDes'>
             <div className='cardDetSecOne'>
-              <h2 className='cardDetSecOne-head'>
+              <h2 className='cardDetSec-head cardDetSecOne-head'>
                 {t(`service.cardDet.${id}.title`)}
               </h2>
 
@@ -176,7 +176,7 @@ const ServiceCardDet = () => {
               )}
 
               {t(`service.cardDet.${id}.typesTitle2`).length > 0 && (
-                <h2 className='cardDetSecOne-head'>
+                <h2 className='cardDetSec-head cardDetSecOne-head'>
                   {t(`service.cardDet.${id}.typesTitle2`)}
                 </h2>
               )}
@@ -195,7 +195,7 @@ const ServiceCardDet = () => {
               )}
 
               {t(`service.cardDet.${id}.sectionTitle`).length > 0 && (
-                <h2 className='cardDetSecOne-subhead'>
+                <h2 className='cardDetSec-head cardDetSecOne-subhead'>
                   {t(`service.cardDet.${id}.sectionTitle`)}
                 </h2>
               )}
@@ -232,7 +232,7 @@ const ServiceCardDet = () => {
               )}
             </div>
             <div className='cardDetSecThree'>
-              <h2 className='cardDetSecThree-head'>
+              <h2 className='cardDetSec-head cardDetSecThree-head'>
                 {t(`service.cardDet.${id}.subtitle`)}
               </h2>
               <div className={isWebDevPage ? 'cardDEtSecThree-flex' : ''}>
@@ -281,7 +281,7 @@ const ServiceCardDet = () => {
               </div>
 
               {t(`service.cardDet.${id}.typesTitle`).length > 0 && (
-                <h2 className='cardDetSecThree-head'>
+                <h2 className='cardDetSec-head cardDetSecThree-head'>
                   {t(`service.cardDet.${id}.typesTitle`)}
                 </h2>
               )}

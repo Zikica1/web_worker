@@ -122,7 +122,7 @@ const BlogCardDet = () => {
           </div>
 
           <div className='blogCardDet-content'>
-            <p>
+            <p className='blogCardDet-para'>
               <Trans
                 i18nKey={`blogs.blogCardDet.${id}.description`}
                 components={{
@@ -143,23 +143,25 @@ const BlogCardDet = () => {
               {blogContent.sections.map((section, id) => (
                 <li className='blogCardDet-item' key={id}>
                   <h2 className='blogCardDet-secTitle'>{section.heading}</h2>
-                  <p>
-                    <Trans
-                      i18nKey={section.paragraph}
-                      components={{
-                        aLink: (
-                          <Link
-                            to={`/${lang}/${t('routes.services')}/${
-                              section.linkTo
-                            }`}
-                            style={{ color: '#3498dbff', fontWeight: '500' }}
-                          ></Link>
-                        ),
-                        br: <br />,
-                        strong: <strong></strong>,
-                      }}
-                    />
-                  </p>
+                  {section.paragraph && (
+                    <p className='blogCardDet-para'>
+                      <Trans
+                        i18nKey={section.paragraph}
+                        components={{
+                          aLink: (
+                            <Link
+                              to={`/${lang}/${t('routes.services')}/${
+                                section.linkTo
+                              }`}
+                              style={{ color: '#3498dbff', fontWeight: '500' }}
+                            ></Link>
+                          ),
+                          br: <br />,
+                          strong: <strong></strong>,
+                        }}
+                      />
+                    </p>
+                  )}
 
                   {section.headingH3 && (
                     <h3 className='blogCardDet-subTitle'>
@@ -170,7 +172,7 @@ const BlogCardDet = () => {
                     <ul className='blogCardDet-subList'>
                       {section.list.map((item, id) => (
                         <li className='blogCardDet-subItem' key={id}>
-                          <p>
+                          <p className='blogCardDet-para'>
                             <Trans
                               i18nKey={item}
                               components={{
@@ -184,7 +186,7 @@ const BlogCardDet = () => {
                   )}
 
                   {section.paragraphSec && (
-                    <p>
+                    <p className='blogCardDet-para'>
                       <Trans
                         i18nKey={section.paragraphSec}
                         components={{
@@ -203,12 +205,16 @@ const BlogCardDet = () => {
                       ))}
                     </ul>
                   )}
+
+                  {section.paragraphThr && (
+                    <p className='blogCardDet-para'>{section.paragraphThr}</p>
+                  )}
                 </li>
               ))}
             </ul>
 
             {blogContent.conclusion && (
-              <p>
+              <p className='blogCardDet-para'>
                 <Trans
                   i18nKey={blogContent.conclusion}
                   components={{
