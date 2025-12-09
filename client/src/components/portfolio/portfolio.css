@@ -9,6 +9,7 @@
 }
 
 .portfolioHome {
+  background-color: var(--clr-bg-pri);
   padding-inline: 2.1875em;
   padding-block: 6.25em;
 

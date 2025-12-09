@@ -1,5 +1,5 @@
 .ourMission {
-  background-color: rgb(249, 249, 249);
+  background-color: var(--clr-bg-light);
   padding: 6.25em 2.1875em 13.125em;
   overflow-x: hidden;
 }
