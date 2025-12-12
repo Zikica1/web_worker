@@ -16,7 +16,7 @@
 }
 
 .aboutUsItem-title {
-  color: rgb(20 20 20);
+  color: var(--clr-text-2);
   font-size: 1.25rem;
   margin-block: 0.75em;
 
@@ -41,4 +41,8 @@
     max-width: unset;
     max-width: 65ch;
   }
+}
+
+.dark .aboutUsItem-text {
+  color: rgba(255 255 255/0.7);
 }

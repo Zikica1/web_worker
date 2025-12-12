@@ -67,6 +67,44 @@
   }
 }
 
+.dark .contactPageOverlay {
+  background: linear-gradient(
+      to right,
+      rgba(32, 90, 129, 0.9) 0%,
+      rgba(32, 90, 129, 0.64) 35%,
+      rgba(32, 90, 129, 0.15) 55%,
+      rgba(32, 90, 129, 0.08) 75%,
+      rgba(32, 90, 129, 0.9) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(32, 90, 129, 0.9) 10%,
+      rgba(32, 90, 129, 0.75) 16%,
+      rgba(32, 90, 129, 0.15) 45%,
+      rgba(32, 90, 129, 0.07) 60%,
+      rgba(32, 90, 129, 0.55) 80%,
+      rgba(32, 90, 129, 0.9) 100%
+    );
+
+  @media (min-width: 31.25em) {
+    background: linear-gradient(
+        to right,
+        rgba(32, 90, 129, 1) 0%,
+        rgba(32, 90, 129, 0.8) 35%,
+        rgba(32, 90, 129, 0.1) 65%,
+        rgba(32, 90, 129, 0) 80%,
+        rgba(32, 90, 129, 1) 100%
+      ),
+      linear-gradient(
+        to bottom,
+        rgba(89 173 232) 0%,
+        rgba(89 173 232/0.2) 30%,
+        rgba(32, 90, 129, 0) 65%,
+        rgba(32, 90, 129, 1) 100%
+      );
+  }
+}
+
 .contactWrapper-title {
   color: var(--clr-text-light);
   font-size: 2.25rem;
@@ -92,13 +130,19 @@
 }
 
 .contactIconLetter {
-  fill: rgb(89 173 232);
+  fill: var(--clr-pri);
   width: 1.5em;
+}
+
+.dark .contactIconLetter {
+  fill: rgba(255 255 255/0.9);
 }
 
 .contactPageFormContainer {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
   background-color: white;
   box-shadow: 0 0 40px 2px rgba(0 0 0/0.2);
   max-width: 90%;
@@ -114,8 +158,22 @@
   }
 }
 
+.dark .contactPageFormContainer {
+  column-gap: 0;
+}
+
 .contactPageForm-wrapper {
   padding: 2.1875em 1.5em;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+
+  @media (min-width: 48rem) {
+    border-top-right-radius: 0px;
+  }
+}
+
+.dark .contactPageForm-wrapper {
+  background-color: #0a192f;
 }
 
 .contactPageFormContainer-head {
@@ -129,6 +187,10 @@
   font-weight: 500;
   font-size: 1.5rem;
   text-transform: capitalize;
+}
+
+.dark .contactFormContainer-title {
+  color: rgba(255 255 255/0.9);
 }
 
 .contactPageForm label {
@@ -147,8 +209,20 @@
   font-family: inherit;
 }
 
-.contactPageForm input::placeholder {
+.dark .contactPageForm input {
+  color: #e6f1ff;
+  background-color: #1e293b;
+  border: 1px solid #233554;
+}
+
+.contactPageForm input::placeholder,
+.contactPageForm textarea::placeholder {
   font-size: 0.875rem;
+}
+
+.dark .contactPageForm input::placeholder,
+.dark .contactPageForm textarea::placeholder {
+  color: #8892b0;
 }
 
 .contactPageForm input:focus-visible,
@@ -162,6 +236,13 @@
   border: 1px solid rgba(0 0 0/0.2);
   border-radius: 4px;
   padding: 1.25em 0.625em 0.25em;
+  font-family: inherit;
+  font-size: 1.125rem;
+}
+
+.dark .contactPageForm textarea {
+  color: #e2e8f0;
+  background-color: #1e293b;
 }
 
 .contactForm-button {
@@ -169,7 +250,7 @@
   height: 2.8125em;
   border-radius: 50%;
   border: none;
-  background: rgb(89, 173, 232);
+  background: var(--clr-pri);
   display: grid;
   place-content: center;
   cursor: pointer;
@@ -184,12 +265,16 @@
 .contactForm-icon {
   width: 1.25em;
   height: 1.25em;
-  fill: rgb(255 255 255);
+  fill: rgba(255 255 255/0.9);
 }
 
 .contactInfo-title {
   font-size: 1.5rem;
   margin-block: 1.33em;
+}
+
+.dark .contactInfo-title {
+  color: rgba(255 255 255/0.9);
 }
 
 .contactPageForm-column {

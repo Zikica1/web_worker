@@ -3,7 +3,7 @@
   overflow-x: clip;
 
   @media (min-width: 48rem) {
-    margin-block: 12.562em;
+    /* margin-block: 12.562em; */
   }
 }
 
@@ -22,6 +22,7 @@
     'img'
     'content';
   padding-inline: 2.187em;
+  padding-block-end: 9.375em;
   min-width: 0;
   overflow-wrap: break-word;
 
@@ -93,8 +94,13 @@
 }
 
 .servicesList {
-  margin-block-start: 9.375em;
+  /* margin-block-start: 9.375em; */
+  padding-block: 9.375em;
   padding-inline: 2.187em;
+}
+
+.dark .servicesListClass {
+  background-color: #161d25;
 }
 
 .servicesListHead {

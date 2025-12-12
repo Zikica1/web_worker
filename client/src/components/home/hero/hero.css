@@ -1,5 +1,5 @@
 .hero {
-  background-color: rgb(255, 255, 255);
+  background-color: var(--clr-bg);
   margin-top: 8.94rem;
   padding-block-start: 2em;
 }
@@ -132,6 +132,15 @@
   }
 }
 
+.dark .heroSlides-button {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgb(44, 129, 184);
+
+  svg {
+    color: #ffffff;
+  }
+}
+
 .heroSlides-button--rotate svg {
   transform: rotate(180deg);
 }
@@ -181,6 +190,10 @@
   filter: drop-shadow(-2px -5px 12px rgba(0 0 0/0.1));
 }
 
+.dark .heroSlide-img {
+  filter: brightness(0.75);
+}
+
 .heroSlide-anim {
   position: absolute;
   background-color: var(--clr-bg-img-ani);
@@ -213,7 +226,7 @@
 }
 
 .heroSlide-anim--2 {
-  background-color: var(--clr-bg-light);
+  background-color: var(--clr-bg);
   top: 5.625em;
   left: -9.1875em;
   width: 11.875em;

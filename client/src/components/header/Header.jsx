@@ -7,15 +7,20 @@ import {
   FaFacebook,
   FaTwitter,
   FaInstagramSquare,
+  FaMoon,
+  FaSun,
 } from 'react-icons/fa';
 import ButtonI18 from '../buttons/i18Button/ButtonI18';
 import useIsMobile from '../../hook/useIsMobile';
+import useTheme from '../../hook/useTheme';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { t, i18n } = useTranslation();
   const lang = i18n.language;
   const location = useLocation();
+
+  const { theme, toggleTheme } = useTheme();
 
   const isMobile = useIsMobile();
 
@@ -49,7 +54,12 @@ const Header = () => {
             <FaPhoneVolume />
             <p>tel: +381658158692</p>
           </div>
-          <ButtonI18 />
+          <div className='headerButton-container'>
+            <ButtonI18 />
+            <button className='toggleTheme' onClick={toggleTheme}>
+              {theme === 'light' ? <FaSun /> : <FaMoon />}
+            </button>
+          </div>
         </div>
         {!isMobile && (
           <div className='headerTop-rightCol'>
@@ -76,7 +86,7 @@ const Header = () => {
           <Link className='logo-link'>
             <img
               className='logo-img'
-              src='/assets/pictures/header/web-worker-logo.webp'
+              src='/assets/pictures/header/web-worker-logo3.webp'
               alt='LogoImg'
             />
           </Link>

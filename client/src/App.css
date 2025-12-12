@@ -47,32 +47,27 @@
   src: url('/assets/fonts/ubuntu/Ubuntu-Bold.woff2') format('woff2');
 }
 
-:root {
+html {
   --clr-pri: rgb(52, 152, 219);
-  --clr-sec: rgb(52, 58, 64);
-  --clr-ter: rgb(23, 253, 184);
 
   /*text*/
+  --clr-text: rgb(68, 68, 68);
   --clr-text-light: rgb(255 255 255);
   --clr-text-pri: rgb(52, 152, 219);
-  --clr-text-sec: rgb(52, 58, 64);
-  --clr-text: rgb(68, 68, 68);
   --clr-text-2: rgba(20 20 20/0.95);
+  --clr-text-3: rgb(32 32 32);
+  --clr-text-card: rgb(32 32 32);
+  --clr-text-card-sec: rgb(32, 32, 32);
+  --clr-text-ser-card: rgba(7 12 31/0.9);
   --clr-text-4: rgb(61, 61, 61);
 
   /*bg*/
-  --clr-bg-pri: rgb(249 249 249);
-  --clr-bg-light: rgb(255 255 255);
+  --clr-bg: rgb(255 255 255);
+  --clr-bg-secondary: rgb(249, 249, 249);
   --clr-menu: rgb(34 34 34);
-  --clr-body-bg: rgb(255 255 255);
+  --clr-bg-card: rgb(255 255 255);
+  --clr-bg-header: rgb(255 255 255);
   --clr-bg-img-ani: rgb(219 219 219);
-  --clr-section-bg: #f9f9f9;
-  --clr-ham-bg: #333333;
-  --clr-modal-bg: #f4f4f4;
-  --clr-card: #ffffff;
-  --clr-card-service: #ffffff;
-  --clr-card-experts: #333333;
-  --clr-border: #3d3d3d;
 
   /* linear-gradient */
   --gradient-prim: linear-gradient(
@@ -82,21 +77,44 @@
     rgb(15, 55, 85) 100%
   );
 
-  --gradient-1: linear-gradient(257deg, #0c0c0c 0%, #474747 100%);
-  --gradient-2: linear-gradient(
-    269deg,
-    var(--clr-primary) 0%,
-    var(--clr-tertial) 100%
+  --gradient-sec: linear-gradient(
+    257deg,
+    rgb(15, 55, 85) 0%,
+    rgb(41, 128, 185) 50%,
+    rgb(52, 152, 219) 100%
   );
-  --gradient-3: linear-gradient(
-    24deg,
-    var(--clr-primary) 0%,
-    var(--clr-tertial) 100%
+}
+
+html.dark {
+  --clr-pri: #2c81b8;
+
+  --clr-text: #ffffff;
+  --clr-text-2: #ffffff;
+  --clr-text-3: rgb(255 255 255);
+  --clr-text-card: #d3d1d1;
+  --clr-text-card-sec: #2c81b8;
+  --clr-text-ser-card: rgba(255 255 255/0.9);
+  --clr-text-4: #ffffff;
+
+  --clr-bg: #0f141a;
+  --clr-bg-secondary: #161d25;
+  --clr-bg-img-ani: #1e2732;
+  --clr-bg-header: #1e2732;
+  --clr-bg-card: #1e2732;
+  --clr-menu: #ffffff;
+
+  --gradient-prim: linear-gradient(
+    257deg,
+    rgb(20, 42, 66) 0%,
+    rgb(17, 35, 55) 50%,
+    rgb(10, 20, 32) 100%
   );
-  --gradient-4: linear-gradient(
-    24deg,
-    var(--clr-tertial) 0%,
-    var(--clr-primary) 100%
+
+  --gradient-sec: linear-gradient(
+    135deg,
+    #3d9ad2 0%,
+    #2c81b8 40%,
+    #0f3348 100%
   );
 }
 
@@ -111,7 +129,7 @@
 
 body {
   color: var(--clr-text);
-  background-color: var(--clr-body-bg);
+  background-color: var(--clr-bg);
   font-family: 'Ubuntu', sans-serif;
   line-height: 1.6;
 }
@@ -144,6 +162,10 @@ svg {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.dark img {
+  filter: brightness(0.8);
 }
 
 input,

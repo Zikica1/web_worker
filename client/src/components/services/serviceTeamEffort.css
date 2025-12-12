@@ -28,6 +28,10 @@
   }
 }
 
+.dark .teamEffort {
+  margin-block-start: 0;
+}
+
 .teamEffortWrapper {
   @media (min-width: 65rem) {
     display: grid;
@@ -102,11 +106,9 @@
 
 .teamEffortList {
   color: rgba(57 57 57/0.7);
-  background-color: var(--clr-bg-light);
+  background-color: var(--clr-bg-secondary);
   border-radius: 16px;
   padding: 0.9375em;
-  /* opacity: 0;
-  transform: translateX(40px); */
 
   @media (min-width: 63.75rem) {
     grid-column: 3;
@@ -129,7 +131,8 @@
 }
 
 .teamEffortList-num {
-  color: rgb(32 32 32);
+  /* color: rgb(32 32 32); */
+  color: var(--clr-text-card-sec);
   font-size: 1.3125rem;
   font-weight: 500;
   margin-block: 0.761em 1.333em;
@@ -174,6 +177,7 @@
 }
 
 .teamEffortList-text {
+  color: var(--clr-text-card);
   max-width: 40ch;
   margin-inline: auto;
 }

@@ -1,5 +1,5 @@
 .packagesPri {
-  background-color: var(--clr-bg-light);
+  background-color: var(--clr-bg);
   padding: 6.25em 2.1875em 9.375em;
 
   @media (min-width: 48rem) {

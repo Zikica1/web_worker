@@ -38,7 +38,7 @@ picture img {
 }
 
 .cardDetDes-para {
-  color: rgba(7 12 31/0.9);
+  color: var(--clr-text-ser-card);
   font-size: 1.125rem;
   line-height: 1.6;
 }
@@ -75,7 +75,7 @@ picture img {
 }
 
 .cardDetSecTwo-item {
-  color: rgba(7 12 31/0.9);
+  color: var(--clr-text-ser-card);
   font-size: 1.125rem;
   line-height: 1.6;
   margin-block-end: 1em;
@@ -105,7 +105,8 @@ picture img {
 }
 
 .cardDetSecThreeList-item {
-  color: rgba(7 12 31/0.9);
+  /* color: rgba(7 12 31/0.9); */
+  color: var(--clr-text);
   font-size: 1.125rem;
   font-weight: 400;
   margin-block-end: 0.56em;

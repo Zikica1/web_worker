@@ -30,7 +30,7 @@
 }
 
 .aboutUsContent-subtitle {
-  color: rgb(20 20 20);
+  color: var(--clr-text-2);
   font-size: 2rem;
 
   @media (min-width: 63.75rem) {

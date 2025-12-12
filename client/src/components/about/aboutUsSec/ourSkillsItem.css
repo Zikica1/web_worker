@@ -69,6 +69,16 @@
   transform-origin: 0% 100%;
 }
 
+.dark .ourSkillsItem-barInner {
+  background: linear-gradient(
+    257deg,
+    rgb(80, 160, 230) 0%,
+    rgb(50, 140, 210) 45%,
+    rgb(18, 54, 84) 100%
+  );
+  /* background: linear-gradient(135deg, #2c81b8 0%, #36a9e1 35%, #1d4c6a 100%); */
+}
+
 .ourSkillsItem-bar--0 {
   width: 95%;
 }

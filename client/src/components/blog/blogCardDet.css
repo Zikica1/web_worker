@@ -54,6 +54,10 @@
   height: 10px;
 }
 
+.blogCardDet :is(.blogCardDet-secTitle, .blogCardDet-para) {
+  color: var(--clr-text-ser-card);
+}
+
 .blogCardDet-secTitle {
   font-size: 1.75rem;
 }

@@ -1,11 +1,6 @@
 .btnPrimary {
   color: var(--clr-text-light);
-  background-image: linear-gradient(
-    257deg,
-    rgb(15, 55, 85) 0%,
-    rgb(41, 128, 185) 50%,
-    rgb(52, 152, 219) 100%
-  );
+  background-image: var(--gradient-sec);
   display: block;
   position: relative;
   z-index: 1;
@@ -28,7 +23,6 @@
 .heroButton {
   margin-block-end: 0;
   padding-block: 0.8125em;
-  /* padding-inline: 2.375em; */
   padding-inline: 10px;
   max-width: 9em;
   text-align: center;

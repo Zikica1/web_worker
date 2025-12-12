@@ -1,7 +1,7 @@
 .ourSkills {
-  margin-block-start: 9.375em;
+  background-color: var(--clr-bg-secondary);
+  padding-block: 9.375em;
   padding-inline: 2.1875em;
-  padding-block-end: 9.375em;
 }
 
 .ourSkillsWrapper {
@@ -23,7 +23,7 @@
 }
 
 .ourSkillsContent-subtitle {
-  color: rgb(20 20 20);
+  color: var(--clr-text-2);
   font-size: 1.125rem;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -48,7 +48,7 @@
 }
 
 .ourSkillsContent-title {
-  color: rgb(20 20 20);
+  color: var(--clr-text-2);
   font-size: 1.625rem;
   text-transform: capitalize;
 
@@ -83,6 +83,10 @@
 .ourSkillsContent-para {
   color: rgb(120, 120, 120);
   margin-block-end: 0.9375em;
+}
+
+.dark .ourSkillsContent-para {
+  color: rgba(255 255 255/0.75);
 }
 
 .ourSkillsUl {

@@ -12,6 +12,10 @@
   }
 }
 
+.dark .contactInfo {
+  color: rgba(255 255 255/0.9);
+}
+
 .contactInfo-item {
   display: flex;
   gap: 0.5em;

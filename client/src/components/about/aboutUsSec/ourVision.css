@@ -40,6 +40,10 @@
   }
 }
 
+.dark .ourVision-content {
+  background-color: #1e2732;
+}
+
 .ourVision-head {
   position: relative;
 }

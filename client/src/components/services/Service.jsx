@@ -5,6 +5,7 @@ import { motion, useInView, useAnimate } from 'motion/react';
 import Hading from '../header/Hading';
 import ServicesCards from './ServicesCards';
 import { useTranslation } from 'react-i18next';
+import useMatchUrl from '../../hook/useMatchUrl';
 
 const titleVar = {
   hidden: {
@@ -58,6 +59,8 @@ const Service = () => {
   const refDiv = useRef(null);
   const refPar = useRef(null);
   const [scope, animate] = useAnimate();
+
+  const isHome = useMatchUrl();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -184,7 +187,9 @@ const Service = () => {
         </div>
       </div>
 
-      <div className='servicesList'>
+      <div
+        className={`servicesList ${!isHome ? 'servicesListClass' : undefined}`}
+      >
         <div ref={scope} className='servicesListHead'>
           <motion.div className='aniSerBottom' initial={{ opacity: 0, y: 50 }}>
             <Hading
