@@ -109,6 +109,7 @@
   background-color: var(--clr-bg-secondary);
   border-radius: 16px;
   padding: 0.9375em;
+  overflow-x: clip;
 
   @media (min-width: 63.75rem) {
     grid-column: 3;
@@ -117,7 +118,6 @@
 }
 
 .teamEffortList ul {
-  overflow-x: clip;
   @media (min-width: 48rem) {
     gap: 2.5em;
   }
