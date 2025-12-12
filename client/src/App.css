@@ -96,8 +96,8 @@ html.dark {
   --clr-text-ser-card: rgba(255 255 255/0.9);
   --clr-text-4: #ffffff;
 
-  --clr-bg: #0f141a;
-  --clr-bg-secondary: #161d25;
+  --clr-bg: #161d25;
+  --clr-bg-secondary: #0f141a;
   --clr-bg-img-ani: #1e2732;
   --clr-bg-header: #1e2732;
   --clr-bg-card: #1e2732;
