@@ -50,16 +50,15 @@ const Header = () => {
     <header className='header'>
       <div className='headerTop'>
         <div className='headerTop-leftCol'>
-          <div className='headerTop-phone'>
+          {/* <div className='headerTop-phone'>
             <FaPhoneVolume />
             <p>tel: +381658158692</p>
-          </div>
-          <div className='headerButton-container'>
-            <ButtonI18 />
-            <button className='toggleTheme' onClick={toggleTheme}>
-              {theme === 'light' ? <FaSun /> : <FaMoon />}
-            </button>
-          </div>
+          </div> */}
+
+          <ButtonI18 />
+          <button className='toggleTheme' onClick={toggleTheme}>
+            {theme === 'light' ? <FaSun /> : <FaMoon />}
+          </button>
         </div>
         {!isMobile && (
           <div className='headerTop-rightCol'>
