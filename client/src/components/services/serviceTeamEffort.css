@@ -117,6 +117,7 @@
 }
 
 .teamEffortList ul {
+  overflow-x: clip;
   @media (min-width: 48rem) {
     gap: 2.5em;
   }
