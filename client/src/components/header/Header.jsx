@@ -7,9 +7,8 @@ import {
   FaFacebook,
   FaTwitter,
   FaInstagramSquare,
-  FaMoon,
-  FaSun,
 } from 'react-icons/fa';
+import { BsMoonStars, BsSun } from 'react-icons/bs';
 import ButtonI18 from '../buttons/i18Button/ButtonI18';
 import useIsMobile from '../../hook/useIsMobile';
 import useTheme from '../../hook/useTheme';
@@ -50,15 +49,24 @@ const Header = () => {
     <header className='header'>
       <div className='headerTop'>
         <div className='headerTop-leftCol'>
-          {/* <div className='headerTop-phone'>
-            <FaPhoneVolume />
-            <p>tel: +381658158692</p>
-          </div> */}
-
           <ButtonI18 />
-          <button className='toggleTheme' onClick={toggleTheme}>
-            {theme === 'light' ? <FaSun /> : <FaMoon />}
-          </button>
+
+          <div className='theme-toggle'>
+            <label className='switch'>
+              <input
+                type='checkbox'
+                checked={theme === 'dark'}
+                onChange={toggleTheme}
+                aria-label='Toggle dark mode'
+              />
+
+              <span className='slider'>
+                <span className='thumb'>
+                  {theme === 'dark' ? <BsMoonStars /> : <BsSun />}
+                </span>
+              </span>
+            </label>
+          </div>
         </div>
         {!isMobile && (
           <div className='headerTop-rightCol'>

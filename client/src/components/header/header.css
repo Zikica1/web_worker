@@ -44,40 +44,56 @@
   }
 }
 
-.headerTop-phone svg {
-  transform: rotate3d(0, 0, 1, -25deg);
-}
-
 .headerButton-container {
   display: flex;
   align-items: center;
   gap: 2em;
 }
 
-.toggleTheme {
-  background: #f8fafc;
-  border: 1px solid #cbd5e1;
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
+/*them-toggle*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 4.5rem;
+  height: 2.125rem;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  inset: 0;
+  border: 1px solid #8bb1ff;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.thumb {
+  position: absolute;
+  top: 4px;
+  left: 2px;
+  width: 1.562rem;
+  height: 1.562rem;
   display: grid;
   place-content: center;
 
-  svg {
-    color: #1e293b;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-  }
+  background: white;
+  border-radius: 50%;
+  font-size: 1rem;
+  color: #1f2a44;
+  transition: transform 0.3s ease, opacity 0.3s;
 }
 
-.dark .toggleTheme {
-  background: #0a192f;
-  border: 1px solid #233554;
+.switch input:checked + .slider .thumb {
+  transform: translateX(38px);
+}
 
-  svg {
-    color: #facc15;
-  }
+/* opcionalno: boje ikone u dark modu */
+.dark .thumb {
+  color: #0f172a;
 }
 
 .headerTop-rightCol {
