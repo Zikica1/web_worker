@@ -63,7 +63,7 @@ const Footer = () => {
             </li>
             <li className='footerContactInf-item'>
               <LuMail className='footerContactInf-icon' />
-              webworker@gmail.com
+              webworker.office@gmail.com
             </li>
           </ul>
         </div>
