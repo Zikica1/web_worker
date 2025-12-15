@@ -339,8 +339,8 @@
     "rights": "All Rights Reserved",
     "subtitleContact": "Contact",
     "openHoursTitle": "Open hours",
-    "open": "Mon-Sat: 9 am - 5 pm",
-    "close": "Sunday: CLOSED"
+    "open": "Mon-Fri: 9 am - 5 pm",
+    "close": "Saturday-Sunday: CLOSED"
   },
   "blogs": {
     "titleMain": "Blog",

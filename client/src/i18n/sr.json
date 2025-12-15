@@ -339,8 +339,8 @@
     "rights": "Sva prava rezervisana",
     "subtitleContact": "Kontakt",
     "openHoursTitle": "Radno vreme",
-    "open": "Pon-Sub: 9.00 - 17.00",
-    "close": "Nedelja: ZATVORENO"
+    "open": "Pon-Pet: 9.00 - 17.00",
+    "close": "Subota-Nedelja: ZATVORENO"
   },
   "blogs": {
     "titleMain": "Blog",
