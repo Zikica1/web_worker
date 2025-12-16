@@ -65,3 +65,7 @@
     padding-inline: unset;
   }
 }
+
+.priceList-link {
+  color: var(--clr-pri);
+}

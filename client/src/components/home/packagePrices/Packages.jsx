@@ -1,9 +1,10 @@
 import './packages.css';
+import { Link } from 'react-router-dom';
 import Hading from '../../header/Hading';
 import PackageCard from './PackageCard';
 import ButtonPrimary from '../../buttons/primaButton/ButtonPrimary';
 import { useRef } from 'react';
-import { useTranslation } from 'react-i18next';
+import { useTranslation, Trans } from 'react-i18next';
 import { motion, useInView } from 'motion/react';
 
 const headVar = {
@@ -62,7 +63,20 @@ const Packages = () => {
             ref={refPara}
             className='packagesPriHead-para'
           >
-            {t('priceList.text')}
+            <Trans
+              i18nKey={'priceList.text'}
+              components={{
+                aLink: (
+                  <Link
+                    className='priceList-link'
+                    to={`/${lang}/${t('routes.services')}/${t(
+                      'serviceIds.website'
+                    )}`}
+                  ></Link>
+                ),
+              }}
+              t={t}
+            />
           </motion.p>
 
           <ButtonPrimary

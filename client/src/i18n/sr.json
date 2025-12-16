@@ -111,7 +111,30 @@
           "Razvoj i testiranje",
           "SEO optimizacija i lansiranje",
           "Održavanje i rast"
-        ]
+        ],
+        "relatedArticles": [
+          {
+            "title": "Prilagodljiv web dizajin",
+            "slug": "mobilni-web-dizajn"
+          },
+          {
+            "title": "Greške u razvoju web sajtova",
+            "slug": "greške-u-razvoju-web-sajtova"
+          },
+          {
+            "title": "Web sajt za mali biznis",
+            "slug": "vodič-web-sajt-za-mali-biznis"
+          },
+          {
+            "title": "Elementi modernog web sajta",
+            "slug": "elementi-modernog-web-sajta"
+          },
+          {
+            "title": "Zašto vam je potreban web sajt",
+            "slug": "zašto-vam-je-potreban-web-sajt"
+          }
+        ],
+        "relatedArtiTitle": "Povezani članci"
       },
       "seo": {
         "mainTitle": "SEO-optimizacija sajta",
@@ -232,7 +255,7 @@
   },
   "priceList": {
     "title": "Cene i paketi <span>izrade</span> web <span>sajta</span>",
-    "text": "Cene izrade web sajta su okvirne i zavise od vaših potreba i zahteva. Kontaktirajte nas za personalizovanu ponudu i tačne informacije za vaš projekat.",
+    "text": "Cene <aLink>izrade web sajta</aLink> su okvirne i zavise od vaših potreba i zahteva. Kontaktirajte nas za personalizovanu ponudu i tačne informacije za vaš projekat.",
     "1": {
       "package": "osnovni",
       "price": "<span>od</span>399",
@@ -733,7 +756,7 @@
       },
       "reasons for the website": {
         "title": "5 razloga zašto vam je potreban web sajt",
-        "description": "U današnje vreme, <aLink>izrada web sajta</aLink> nije luksuz, već nužnost.Bez obzira na to da li vodite malu firmu, lokalni biznis ili veliku kompaniju, <strong>profesionalni web sajt</strong> je osnova vašeg digitalnog prisustva i kredibiliteta.Ako još uvek razmišljate da li vam je potreban sajt — evo pet ključnih razloga koji dokazuju da bez njega gubite prilike za rast i prodaju.",
+        "description": "U današnje vreme, <aLink>izrada modernog web sajta</aLink> nije luksuz, već nužnost.Bez obzira na to da li vodite malu firmu, lokalni biznis ili veliku kompaniju, <strong>profesionalni web sajt</strong> je osnova vašeg digitalnog prisustva i kredibiliteta.Ako još uvek razmišljate da li vam je potreban sajt — evo pet ključnih razloga koji dokazuju da bez njega gubite prilike za rast i prodaju.",
         "data": "26.10.2025",
         "author": "WebWorker Tim",
         "sections": [

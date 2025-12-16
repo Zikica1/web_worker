@@ -111,7 +111,30 @@
           "Development and Testing",
           "SEO Optimization and Launch",
           "Maintenance and Growth"
-        ]
+        ],
+        "relatedArticles": [
+          {
+            "title": "Responsive web design",
+            "slug": "mobile-web-design"
+          },
+          {
+            "title": "Errors in website development",
+            "slug": "website-development-errors"
+          },
+          {
+            "title": "Small business website",
+            "slug": "small-business-website-guide"
+          },
+          {
+            "title": "Elements of a modern website",
+            "slug": "elements-of-a-modern-website"
+          },
+          {
+            "title": "Why you need a website",
+            "slug": "why-you-need-a-website"
+          }
+        ],
+        "relatedArtiTitle": "Related articles"
       },
       "seo": {
         "mainTitle": "SEO-website optimization",
@@ -232,7 +255,7 @@
   },
   "priceList": {
     "title": "Prices and packages of <span>build</span> web <span>site</span>",
-    "text": "Prices for creating a website are approximate and depend on your needs and requirements. Contact us for a personalized offer and accurate information for your project.",
+    "text": "Prices for <aLink>creating a website</aLink> are approximate and depend on your needs and requirements. Contact us for a personalized offer and accurate information for your project.",
     "1": {
       "package": "basic",
       "price": "<span>from</span>399",
@@ -728,7 +751,7 @@
       },
       "reasons for the website": {
         "title": "5 reasons why you need a website",
-        "description": "Nowadays, <aLink>creating a website</aLink> is not a luxury, but a necessity. Regardless of whether you run a small company, a local business or a large company, a <strong>professional website</strong> is the basis of your digital presence and credibility. If you are still thinking about whether you need a website — here are five key reasons that prove that without it you are losing opportunities for growth and sales.",
+        "description": "Nowadays, <aLink>creating a modern website</aLink> is not a luxury, but a necessity. Regardless of whether you run a small company, a local business or a large company, a <strong>professional website</strong> is the basis of your digital presence and credibility. If you are still thinking about whether you need a website — here are five key reasons that prove that without it you are losing opportunities for growth and sales.",
         "data": "26/10/2025",
         "author": "WebWorker Team",
         "sections": [

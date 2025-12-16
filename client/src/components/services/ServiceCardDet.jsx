@@ -101,6 +101,12 @@ const ServiceCardDet = () => {
       returnObjects: true,
     }) || [];
 
+  const relatedArticles =
+    t(`service.cardDet.${id}.relatedArticles`, {
+      lng: lang,
+      returnObjects: true,
+    }) || [];
+
   return (
     <>
       <Seo
@@ -300,6 +306,23 @@ const ServiceCardDet = () => {
                 </p>
               )}
             </div>
+
+            {isWebDevPage && (
+              <section className='relatedArticle'>
+                <h3 className='relatedSecTitle'>
+                  {t(`service.cardDet.${id}.relatedArtiTitle`)}
+                </h3>
+                <ul className='relatedArtiList'>
+                  {relatedArticles.map((item) => (
+                    <li className='relatedArtList-item' key={item.slug}>
+                      <Link to={`/${lang}/blogs/${item.slug}`}>
+                        {item.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
           </div>
         </div>
       </article>
