@@ -16,17 +16,17 @@ const AlternateLinks = () => {
       {' '}
       <link
         rel='alternate'
-        href={`https://www.webworker.rs/sr${cleanPath}`}
+        href={`https://www.webworker.rs/sr${cleanPath}/`}
         hrefLang='sr'
       />
       <link
         rel='alternate'
-        href={`https://www.webworker.rs/en${cleanPath}`}
+        href={`https://www.webworker.rs/en${cleanPath}/`}
         hrefLang='en'
       />
       <link
         rel='alternate'
-        href={`https://www.webworker.rs/sr${cleanPath}`}
+        href={`https://www.webworker.rs/sr${cleanPath}/`}
         hrefLang='x-default'
       />
     </>

@@ -38,7 +38,7 @@ const ServiceCardDet = () => {
     '@graph': [
       {
         '@type': 'WebPage',
-        '@id': `https://www.webworker.rs/${lang}/${serviceSegment}/${slugFromUrl}/#webpage`,
+        '@id': `https://www.webworker.rs/${lang}/${serviceSegment}/${slugFromUrl}/`,
         url: url,
         name: title,
         inLanguage: lang,
@@ -50,7 +50,7 @@ const ServiceCardDet = () => {
         },
         description: description,
         mainEntityOfPage: {
-          '@id': `https://www.webworker.rs/${lang}/${serviceSegment}/${slugFromUrl}`,
+          '@id': `https://www.webworker.rs/${lang}/${serviceSegment}/${slugFromUrl}/`,
         },
       },
       {
@@ -114,6 +114,7 @@ const ServiceCardDet = () => {
         description={description}
         image={image}
         url={url}
+        canonical={url}
         jsonLd={jsonLd}
       />
       <article className='serCardDet'>

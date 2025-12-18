@@ -15,6 +15,7 @@ const About = () => {
         title={title}
         description={description}
         url={url}
+        canonical={url}
         image={image}
         jsonLd={jsonLd}
       />

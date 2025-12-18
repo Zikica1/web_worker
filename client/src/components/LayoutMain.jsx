@@ -4,6 +4,7 @@ import { Outlet, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import ScrollToTop from './ScrollToTop';
 import Footer from './footerSec/Footer';
+import LanguageHtml from '../utility/LanguageHtml';
 
 const LayoutMain = () => {
   const location = useLocation();
@@ -19,6 +20,7 @@ const LayoutMain = () => {
 
   return (
     <>
+      <LanguageHtml />
       <ScrollToTop />
       <Header />
       <Outlet />

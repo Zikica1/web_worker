@@ -70,9 +70,9 @@
         "description": "SEO (Search engine optimization) optimizacija predstavlja unapređenje kvaliteta koda sajta, a sve u cilju povećavanja kvaliteta saobraćaja, odnosno broja poseta korisnika ka vašem web sajtu."
       },
       "2": {
-        "title": "Prilagodljiv Dizain",
+        "title": "Prilagodljiv Dizajn",
         "subtitle": "Vidi Još",
-        "description": "Prilagodljiv dizain web stranice predstavlja dizain koji omogućava optimizovano prikazivanje, jednostavno korišćenje, čitanje i kretanje kroz sajt koji će biti pregledan na različitim uređajima."
+        "description": "Prilagodljiv dizajn web stranice predstavlja dizajn koji omogućava optimizovano prikazivanje, jednostavno korišćenje, čitanje i kretanje kroz sajt koji će biti pregledan na različitim uređajima."
       },
       "3": {
         "title": "Web Hositng",
@@ -156,7 +156,7 @@
         "categories3": []
       },
       "design": {
-        "mainTitle": "Responzivni web dizain",
+        "mainTitle": "Responzivni web dizajn",
         "title": "Šta je responzivni web dizajn?",
         "parag": "Responzivni web dizajn (RWD) predstavlja <aLink>pristup izradi web sajtova</aLink> koji se automatski prilagođavaju svim uređajima i veličinama ekrana — od mobilnih telefona i tableta, do laptopova i velikih monitora. Cilj responzivnog sajta je da sadržaj uvek bude pregledan, funkcionalan i estetski privlačan, bez obzira na rezoluciju ili orijentaciju uređaja.<br/><br/>Dobro implementiran responzivni web dizajn donosi brojne prednosti, kao što su:",
         "sectionTitle": "",
@@ -219,7 +219,7 @@
           "text": "Analiziramo vaše potrebe i tržište kako bismo kreirali efikasnu strategiju veb rešenja."
         },
         "2": {
-          "title": "ui dizain",
+          "title": "ui dizajn",
           "text": "Kreiramo moderan i intuitivan dizajn koji privlači pažnju i zadržava korisnike."
         },
         "3": {
@@ -261,7 +261,7 @@
       "price": "<span>od</span>399",
       "services": [
         "do pet stranica",
-        "responzivni dizain",
+        "responzivni dizajn",
         "kontakt forma",
         "galerija slika",
         "osnovin SEO",
@@ -273,8 +273,8 @@
       "price": "<span>od</span>499",
       "services": [
         "do deset stranica",
-        "premium dizain",
-        "responzivni dizain",
+        "premium dizajn",
+        "responzivni dizajn",
         "kontakt forma",
         "galerija slika",
         "napredni SEO",
@@ -287,8 +287,8 @@
       "price": "<span>od</span>899",
       "services": [
         "Neograničen broj stranica",
-        "premium dizain",
-        "responzivni dizain",
+        "premium dizajn",
+        "responzivni dizajn",
         "kontakt forma",
         "foto galerija",
         "napredni SEO",
@@ -330,7 +330,7 @@
       "title": "Zašto izabrati nas za izradu vašeg web sajta",
       "list": {
         "0": {
-          "title": "Moderan dizain",
+          "title": "Moderan dizajn",
           "text": "Svaki biznis zaslužuje jedinstven i moderan web dizajn, koji obezbeđuje poverenje i povećava šanse za uspeh."
         },
         "1": {
@@ -372,6 +372,12 @@
     "blogCards": {
       "posts": [
         {
+          "title": "Web sajt i brend",
+          "data": "17.12.2025",
+          "author": "WebWorker Tim",
+          "alt": "Kako web sajt utiče na imidž brenda - profesionalni web dizajn i poverenje"
+        },
+        {
           "title": "Prilagodljiv Web Dizajn",
           "data": "07.12.2025",
           "author": "WebWorker Tim",
@@ -403,6 +409,7 @@
         }
       ],
       "blogIds": {
+        "website impact on brand": "uticaj-websajta-na-imidz-brenda",
         "mobile design": "mobilni-web-dizajn",
         "dev errors": "greške-u-razvoju-web-sajtova",
         "small business website": "vodič-web-sajt-za-mali-biznis",
@@ -411,6 +418,77 @@
       }
     },
     "blogCardDet": {
+      "website impact on brand": {
+        "title": "Kako web sajt utiče na imidž vašeg brenda",
+        "description": "U digitalnom dobu, web sajt je mnogo više od online vizit karte. On je centralna tačka vašeg digitalnog identiteta, prvi kontakt koji potencijalni klijenti imaju sa vašim brendom i jedan od ključnih faktora na osnovu kog se formira mišljenje o vašem poslovanju. Bez obzira da li se bavite uslugama, prodajom proizvoda ili gradnjom ličnog brenda, način na koji je vaš web sajt dizajniran, strukturiran i optimizovan direktno utiče na to kako vas publika doživljava.<br/><br/>U ovom članku objašnjavamo kako web sajt utiče na imidž brenda, zašto su dizajn, korisničko iskustvo i SEO neraskidivo povezani i kako profesionalna izrada web sajta može postati snažan alat za izgradnju poverenja i prepoznatljivosti.",
+        "data": "17.12.2025",
+        "author": "WebWorker Tim",
+        "sections": [
+          {
+            "heading": "Prvi utisak se stvara za nekoliko sekundi",
+            "paragraph": "Kada korisnik poseti vaš web sajt, potrebno je svega nekoliko sekundi da donese odluku - da li ostaje ili odlazi. Taj prvi utisak je gotovo u potpunosti vizuelan i emocionalan. Moderan, čist i profesionalan web dizajn šalje jasnu poruku: ovaj brend je ozbiljan, pouzdan i vredan pažnje.<br/><br/>Suprotno tome, zastareo dizajn, loša struktura stranica, nečitljivi fontovi ili spor sajt mogu stvoriti osećaj nesigurnosti i neprofesionalnosti. Bez obzira na kvalitet vaše usluge ili proizvoda, loš prvi utisak može odbiti potencijalnog klijenta pre nego što uopšte sazna šta nudite.<br/><br/>Profesionalna izrada web sajta upravo zato počinje razumevanjem brenda, ciljne publike i poruke koja treba da se prenese u prvih nekoliko sekundi."
+          },
+          {
+            "heading": "Web dizajn kao ogledalo identiteta brenda",
+            "paragraph": "Web sajt je digitalni produžetak vašeg brenda. Svaki vizuelni element - boje, tipografija, raspored, fotografije - ima ulogu u formiranju identiteta i emocije koju brend izaziva."
+          },
+          {
+            "heading": "Boje i psihologija percepcije",
+            "paragraph": "Boje imaju snažan psihološki efekat. One mogu prenositi poverenje, stabilnost, energiju ili kreativnost. Dosledna upotreba boja na web sajtu, u skladu sa vizuelnim identitetom brenda, doprinosi prepoznatljivosti i jača imidž."
+          },
+          {
+            "heading": "Tipografija i ton komunikacije",
+            "paragraph": "Izbor fontova utiče na to da li brend deluje moderno, tradicionalno, ozbiljno ili pristupačno. Dobra tipografija poboljšava čitljivost, ali i stvara osećaj reda i profesionalizma."
+          },
+          {
+            "heading": "Vizuelni elementi i autentičnost",
+            "paragraph": "Korišćenje kvalitetnih fotografija, originalnih ilustracija i prilagođene grafike značajno podiže percepciju vrednosti brenda. Autentični vizuali, poput fotografija tima ili realnih projekata, dodatno grade poverenje."
+          },
+          {
+            "heading": "Korisničko iskustvo (UX) i poverenje u brend",
+            "paragraph": "Dobar web dizajn nije samo estetika - on mora biti funkcionalan. Korisničko iskustvo (UX) ima direktan uticaj na to koliko korisnici veruju vašem brendu.<br/><br/>Ako je navigacija jasna, struktura logična, a informacije lako dostupne, korisnik stiče utisak da brend razmišlja o njegovim potrebama. To gradi poverenje i podstiče duže zadržavanje na sajtu."
+          },
+          {
+            "heading": "Brzina učitavanja",
+            "paragraph": "Spor web sajt frustrira korisnike i negativno utiče na imidž brenda. Brzina je danas i važan SEO faktor, ali i ključni element korisničkog iskustva."
+          },
+          {
+            "heading": "Mobilna optimizacija",
+            "paragraph": "Većina korisnika pristupa web sajtovima putem mobilnih uređaja. Responsive dizajn nije luksuz, već standard. Brend koji nema mobilno optimizovan web sajt deluje neozbiljno i zastarelo."
+          },
+          {
+            "heading": "Doslednost brenda na svim digitalnim tačkama",
+            "paragraph": "Jedan od najvažnijih faktora izgradnje snažnog imidža jeste doslednost. Web sajt mora biti u skladu sa ostalim digitalnim kanalima - društvenim mrežama, email komunikacijom, Google Business profilom.<br/><br/>Kada korisnik na svim kanalima prepoznaje isti vizuelni stil, ton komunikacije i poruku, brend postaje pouzdan i lako pamtljiv. Nedoslednost, s druge strane, stvara konfuziju i umanjuje kredibilitet."
+          },
+          {
+            "heading": "Uloga sadržaja u izgradnji autoriteta",
+            "paragraph": "Kvalitetan sadržaj je temelj snažnog imidža brenda. Tekstovi na web sajtu treba da budu jasni, informativni i prilagođeni ciljnoj publici. Edukativni blog tekstovi, vodiči i studije slučaja pozicioniraju brend kao stručnjaka u svojoj oblasti.<br/><br/>Kada web sajt nudi vredne informacije, korisnici ga doživljavaju kao pouzdan izvor, a ne samo kao prodajni kanal. Upravo tu se spajaju SEO strategija i brendiranje - kvalitetan sadržaj poboljšava vidljivost na Google-u i gradi autoritet brenda."
+          },
+          {
+            "heading": "SEO kao deo imidža brenda",
+            "paragraph": "SEO optimizacija nije samo tehnički proces, već i deo percepcije brenda. Web sajt koji se pojavljuje na prvim stranama Google pretrage automatski dobija veću dozu poverenja.<br/><br/>Dobra SEO strategija podrazumeva:",
+            "list": [
+              "tehnički ispravno izrađen web sajt",
+              "optimizovanu strukturu stranica",
+              "relevantne ključne reči",
+              "kvalitetan i redovno ažuriran sadržaj"
+            ],
+            "paragraphSec": "Kada je SEO pravilno implementiran, web sajt postaje vidljiv pravim korisnicima u pravom trenutku, što direktno utiče na jačanje brenda i povećanje broja upita."
+          },
+          {
+            "heading": "Transparentnost i društveni dokaz",
+            "paragraph": "Elementi poput jasno istaknutih kontakt informacija, stranice „O nama“, recenzija klijenata i studija slučaja dodatno učvršćuju imidž brenda. Oni pokazuju da iza web sajta stoji realno, pouzdano poslovanje.<br/><br/>Društveni dokaz ima snažan uticaj na donošenje odluka. Kada korisnici vide da su drugi imali pozitivno iskustvo sa vašim brendom, veća je verovatnoća da će vam ukazati poverenje."
+          },
+          {
+            "heading": "Web sajt kao alat za dugoročno pozicioniranje brenda",
+            "paragraph": "Imidž brenda se ne gradi preko noći. Profesionalna izrada web sajta je dugoročna investicija koja se vremenom višestruko isplati. Redovno ažuriran sadržaj, praćenje SEO trendova i kontinuirano unapređenje korisničkog iskustva omogućavaju brendu da ostane relevantan i konkurentan.<br/><br/>Web sajt koji se razvija zajedno sa brendom postaje snažan temelj digitalnog nastupa i ključni kanal komunikacije sa tržištem."
+          },
+          {
+            "heading": "Zaključak",
+            "paragraph": "Web sajt ima presudnu ulogu u oblikovanju imidža vašeg brenda. On utiče na prvi utisak, gradi poverenje, prenosi vrednosti i direktno utiče na odluke potencijalnih klijenata. Profesionalan web dizajn, kvalitetan sadržaj i pravilna SEO optimizacija zajedno čine osnovu snažnog i prepoznatljivog brenda.<br/><br/>Ulaganjem u kvalitetnu izradu web sajta, ne ulažete samo u dizajn - ulažete u percepciju, reputaciju i dugoročni rast vašeg poslovanja."
+          }
+        ]
+      },
       "mobile design": {
         "title": "Koliko je bitan mobilni dizajn i zašto utiče na vašu prodaju",
         "description": "U savremenom digitalnom okruženju, mobilni telefoni su postali glavni uređaj za pretraživanje interneta, kupovinu, komunikaciju i informisanje. Preko 70% ukupnog internet saobraćaja danas dolazi sa mobilnih uređaja, što znači da je mobilni dizajn - odnosno responsive dizajn - postao obavezni standard, a ne opcija. Bez sajta koji funkcioniše savršeno na telefonu, gubite ogromnu količinu potencijalnih kupaca, poziva, rezervacija i upita.<br/></br>Ovaj članak detaljno objašnjava zašto je mobilni dizajn ključan za svaku modernu kompaniju i kako direktno utiče na prodaju, reputaciju i vidljivost na Google-u. Ako se bavite biznisom i razmišljate o <aLink>izradi web sajta</aLink> ili unapređenju trenutnog, mobilna optimizacija je jedno od prvih pitanja koje treba da postavite.",

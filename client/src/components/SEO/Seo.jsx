@@ -6,6 +6,7 @@ const Seo = ({
   description,
   image,
   url,
+  canonical,
   jsonLd,
   type,
   preloadImage,
@@ -13,12 +14,15 @@ const Seo = ({
   return (
     <>
       <Title>{title}</Title>
+      {canonical && <Link rel='canonical' href={canonical} />}
       <Meta name='description' content={description} />
       <Meta name='robots' content='index, follow' />
       <Meta property='og:title' content={title} />
       <Meta property='og:description' content={description} />
       {image && <Meta property='og:image' content={image} />}
-      {url && <Meta property='og:url' content={url} />}
+      {(canonical || url) && (
+        <Meta property='og:url' content={canonical || url} />
+      )}
       <Meta property='og:type' content={type || 'website'} />
       <Meta name='twitter:card' content='summary_large_image' />
       <Meta name='twitter:title' content={title} />

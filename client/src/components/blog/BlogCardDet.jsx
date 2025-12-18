@@ -38,13 +38,13 @@ const BlogCardDet = () => {
     '@graph': [
       {
         '@type': ['WebPage', 'BlogPosting'],
-        '@id': `https://www.webworker.rs/${lang}/blogs/${slugFromUrl}/#webpage`,
+        '@id': `https://www.webworker.rs/${lang}/blogs/${slugFromUrl}/`,
         url: url,
         name: title,
         headline: headline,
         inLanguage: lang,
         isPartOf: {
-          '@id': `https://www.webworker.rs/${lang}/blogs/#webpage`,
+          '@id': `https://www.webworker.rs/${lang}/blogs/#website`,
         },
         about: {
           '@id': 'https://www.webworker.rs/#organization',
@@ -63,7 +63,7 @@ const BlogCardDet = () => {
         },
         mainEntityOfPage: {
           '@type': 'WebPage',
-          '@id': `https://www.webworker.rs/${lang}/blogs/${slugFromUrl}/#webpage`,
+          '@id': `https://www.webworker.rs/${lang}/blogs/${slugFromUrl}/`,
         },
         keywords: keywords,
         articleSection: articleSection,
@@ -82,6 +82,7 @@ const BlogCardDet = () => {
         description={description}
         image={image}
         url={url}
+        canonical={url}
         jsonLd={jsonLd}
         type={type}
       />

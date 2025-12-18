@@ -372,6 +372,12 @@
     "blogCards": {
       "posts": [
         {
+          "title": "website and brand",
+          "data": "17/12/2025",
+          "author": "WebWorker Tim",
+          "alt": "How a website affects brand image - professional web design and trust"
+        },
+        {
           "title": "Responsive web design",
           "data": "07/12/2025",
           "author": "WebWorker Tim",
@@ -403,6 +409,7 @@
         }
       ],
       "blogIds": {
+        "website impact on brand": "influence-of-website-on-brand-image",
         "mobile design": "mobile-web-design",
         "dev errors": "website-development-errors",
         "small business website": "small-business-website-guide",
@@ -411,6 +418,77 @@
       }
     },
     "blogCardDet": {
+      "website impact on brand": {
+        "title": "How a website affects your brand image",
+        "description": "In the digital age, a website is much more than an online business card. It is the central point of your digital identity, the first contact that potential clients have with your brand and one of the key factors on the basis of which an opinion is formed about your business. Regardless of whether you are dealing with services, selling products or building a personal brand, the way your website is designed, structured and optimized directly affects how your audience perceives you.<br/><br/>In this article, we explain how a website affects brand image, why design, user experience and SEO are inextricably linked and how a professional website design can become a powerful tool for building trust and recognition.",
+        "data": "17.12.2025",
+        "author": "WebWorker Tim",
+        "sections": [
+          {
+            "heading": "The first impression is made in a few seconds",
+            "paragraph": "When a user visits your website, it only takes a few seconds to make a decision - whether to stay or leave. That first impression is almost entirely visual and emotional. A modern, clean and professional web design sends a clear message: this brand is serious, reliable and worth paying attention to.<br/><br/>Conversely, an outdated design, poor page structure, unreadable fonts or a slow site can create a feeling of insecurity and unprofessionalism. Regardless of the quality of your service or product, a bad first impression can turn away a potential client before they even know what you offer.<br/><br/>Professional website design starts with understanding the brand, the target audience and the message that needs to be conveyed in the first few seconds."
+          },
+          {
+            "heading": "Web design as a mirror of brand identity",
+            "paragraph": "A website is a digital extension of your brand. Every visual element - colors, typography, layout, photos - has a role in forming the identity and emotion that the brand evokes."
+          },
+          {
+            "heading": "Colors and the psychology of perception",
+            "paragraph": "Colors have a strong psychological effect. They can convey confidence, stability, energy or creativity. The consistent use of colors on the website, in accordance with the visual identity of the brand, contributes to recognition and strengthens the image."
+          },
+          {
+            "heading": "Typography and tone of communication",
+            "paragraph": "The choice of fonts affects whether the brand appears modern, traditional, serious or approachable. Good typography improves readability, but also creates a sense of order and professionalism."
+          },
+          {
+            "heading": "Visual elements and authenticity",
+            "paragraph": "Using high-quality photos, original illustrations and customized graphics significantly increases the perception of brand value. Authentic visuals, such as team photos or real projects, further build trust."
+          },
+          {
+            "heading": "User experience (UX) and brand trust",
+            "paragraph": "Good web design is not just about aesthetics - it must be functional. User experience (UX) has a direct impact on how much users trust your brand.<br/><br/>If the navigation is clear, the structure is logical, and the information is easily accessible, the user gets the impression that the brand is thinking about his needs. It builds trust and encourages longer stays on the site."
+          },
+          {
+            "heading": "Loading speed",
+            "paragraph": "A slow website frustrates users and negatively affects brand image. Today, speed is an important SEO factor, but also a key element of user experience."
+          },
+          {
+            "heading": "Mobile optimization",
+            "paragraph": "Most users access websites via mobile devices. Responsive design is not a luxury, but a standard. A brand that does not have a mobile-optimized website seems frivolous and outdated."
+          },
+          {
+            "heading": "Brand consistency across all digital outlets",
+            "paragraph": "One of the most important factors in building a strong image is consistency. The website must be consistent with other digital channels - social networks, email communication, Google Business profile.<br/><br/>When the user recognizes the same visual style, tone of communication and message on all channels, the brand becomes reliable and easy to remember. Inconsistency, on the other hand, creates confusion and diminishes credibility."
+          },
+          {
+            "heading": "The role of content in building authority",
+            "paragraph": "Quality content is the foundation of a strong brand image. The texts on the website should be clear, informative and adapted to the target audience. Educational blog posts, guides and case studies position the brand as an expert in its field.<br/><br/>When a website offers valuable information, users perceive it as a reliable source, not just a sales channel. This is exactly where SEO strategy and branding come together - quality content improves visibility on Google and builds brand authority."
+          },
+          {
+            "heading": "SEO as part of brand image",
+            "paragraph": "SEO optimization is not only a technical process, but also a part of brand perception. A website that appears on the first pages of a Google search automatically gains more trust.<br/><br/>A good SEO strategy includes:",
+            "list": [
+              "technically correctly created website",
+              "optimized page structure",
+              "relevant keywords",
+              "quality and regularly updated content"
+            ],
+            "paragraphSec": "When SEO is properly implemented, the website becomes visible to the right users at the right time, which directly affects the strengthening of the brand and the increase in the number of inquiries."
+          },
+          {
+            "heading": "Transparency and social proof",
+            "paragraph": "Elements such as clearly displayed contact information, an 'About Us' page, customer reviews and case studies further reinforce the brand image. They show that there is a real, reliable business behind the website.<br/><br/>Social proof has a strong influence on decision-making. When users see that others have had a positive experience with your brand, they are more likely to trust you."
+          },
+          {
+            "heading": "Website as a tool for long-term brand positioning",
+            "paragraph": "Brand image is not built overnight. Professional website development is a long-term investment that pays off many times over. Regularly updated content, following SEO trends and continuously improving the user experience allow the brand to remain relevant and competitive.<br/><br/>A website that develops together with the brand becomes a strong foundation of digital presence and a key channel of communication with the market."
+          },
+          {
+            "heading": "Conclusion",
+            "paragraph": "A website plays a crucial role in shaping your brand image. It affects the first impression, builds trust, conveys values and directly influences the decisions of potential clients. Professional web design, quality content and proper SEO optimization together form the basis of a strong and recognizable brand.<br/><br/>By investing in quality website development, you are not only investing in design - you are investing in perception, reputation and long-term growth of your business."
+          }
+        ]
+      },
       "mobile design": {
         "title": "How important mobile design is and why it affects your sales",
         "description": "In today's digital environment, mobile phones have become the main device for Internet browsing, shopping, communication and information. Over 70% of all internet traffic today comes from mobile devices, which means that mobile design - that is, responsive design - has become a mandatory standard, not an option. Without a site that works perfectly on a phone, you're missing out on a huge amount of leads, calls, bookings and enquiries.<br/></br>This article explains in detail why mobile design is crucial for every modern business and how it directly affects sales, reputation and visibility on Google. If you are running a business and thinking about <aLink>creating a website</aLink> or improving your current one, mobile optimization is one of the first questions you should ask.",
