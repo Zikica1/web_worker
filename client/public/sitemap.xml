@@ -1,269 +1,156 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-<url>
-	<loc>https://www.webworker.rs/</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/en</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/en/</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/o-nama</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/o-nama/</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/en/about</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/en/about/</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/usluge</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/usluge/</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/en/services</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/en/services/</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/usluge/izrada-web-sajta</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/en/services/web-development</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/usluge/seo-optimizacija</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/en/services/seo-optimization</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/usluge/dizajin</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/en/services/web-design</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/usluge/hosting</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/en/services/hosting</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/istaknuto</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/istaknuto/</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/en/showcase</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/en/showcase/</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/blogs</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/blogs/</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/en/blogs</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/en/blogs/</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/blogs/gre%C5%A1ke-u-razvoju-web-sajtova</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/en/blogs/website-development-errors</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/blogs/vodi%C4%8D-web-sajt-za-mali-biznis</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/en/blogs/small-business-website-guide</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/blogs/elementi-modernog-web-sajta</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/en/blogs/elements-of-a-modern-website</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/blogs/za%C5%A1to-vam-je-potreban-web-sajt</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/en/blogs/why-you-need-a-website</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/kontakt</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/kontakt/</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/en/contact</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/en/contact/</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/contact</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/about</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/services</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/showcase</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/blogs</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/o-nama</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/usluge</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/istaknuto</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/kontakt</loc>
-	<lastmod>2025-11-29T13:57:36+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/blogs/gre%C5%A1ke-u-razvoju-web-sajtova</loc>
-	<lastmod>2025-11-29T13:57:44+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/blogs/vodi%C4%8D-web-sajt-za-mali-biznis</loc>
-	<lastmod>2025-11-29T13:57:45+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.webworker.rs/sr/blogs/za%C5%A1to-vam-je-potreban-web-sajt</loc>
-	<lastmod>2025-11-29T13:57:46+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- HOME -->
+  <url>
+    <loc>https://www.webworker.rs/sr/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.webworker.rs/en/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- ABOUT -->
+  <url>
+    <loc>https://www.webworker.rs/sr/o-nama/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.webworker.rs/en/about/</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- SERVICES -->
+  <url>
+    <loc>https://www.webworker.rs/sr/usluge/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.webworker.rs/en/services/</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- SERVICE PAGES -->
+  <url>
+    <loc>https://www.webworker.rs/sr/usluge/izrada-web-sajta/</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.webworker.rs/en/services/web-development/</loc>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webworker.rs/sr/usluge/seo-optimizacija/</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.webworker.rs/en/services/seo-optimization/</loc>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webworker.rs/sr/usluge/dizajin/</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.webworker.rs/en/services/web-design/</loc>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webworker.rs/sr/usluge/hosting/</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.webworker.rs/en/services/hosting/</loc>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- SHOWCASE -->
+  <url>
+    <loc>https://www.webworker.rs/sr/istaknuto/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.webworker.rs/en/showcase/</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- BLOG LIST -->
+  <url>
+    <loc>https://www.webworker.rs/sr/blogs/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.webworker.rs/en/blogs/</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- BLOG POSTS -->
+  <url>
+    <loc>https://www.webworker.rs/sr/blogs/uticaj-websajta-na-imidz-brenda/</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.webworker.rs/en/blogs/influence-of-website-on-brand-image/</loc>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webworker.rs/sr/blogs/mobilni-web-dizain/</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.webworker.rs/en/blogs/mobile-web-design/</loc>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webworker.rs/sr/blogs/greške-u-razvoju-web-sajtova/</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.webworker.rs/en/blogs/website-development-errors/</loc>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webworker.rs/sr/blogs/vodič-web-sajt-za-mali-biznis/</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.webworker.rs/en/blogs/small-business-website-guide/</loc>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webworker.rs/sr/blogs/elementi-modernog-web-sajta/</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.webworker.rs/en/blogs/elements-of-a-modern-website/</loc>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webworker.rs/sr/blogs/zašto-vam-je-potreban-web-sajt/</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.webworker.rs/en/blogs/why-you-need-a-website/</loc>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- CONTACT -->
+  <url>
+    <loc>https://www.webworker.rs/sr/kontakt/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.webworker.rs/en/contact/</loc>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
