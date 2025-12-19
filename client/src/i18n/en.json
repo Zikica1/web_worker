@@ -114,6 +114,10 @@
         ],
         "relatedArticles": [
           {
+            "title": "How a website affects your brand image",
+            "slug": "influence-of-website-on-brand-image"
+          },
+          {
             "title": "Responsive web design",
             "slug": "mobile-web-design"
           },
@@ -420,7 +424,7 @@
     "blogCardDet": {
       "website impact on brand": {
         "title": "How a website affects your brand image",
-        "description": "In the digital age, a website is much more than an online business card. It is the central point of your digital identity, the first contact that potential clients have with your brand and one of the key factors on the basis of which an opinion is formed about your business. Regardless of whether you are dealing with services, selling products or building a personal brand, the way your website is designed, structured and optimized directly affects how your audience perceives you.<br/><br/>In this article, we explain how a website affects brand image, why design, user experience and SEO are inextricably linked and how a professional website design can become a powerful tool for building trust and recognition.",
+        "description": "In the digital age, a website is much more than an online business card. It is the central point of your digital identity, the first contact that potential clients have with your brand and one of the key factors on the basis of which an opinion is formed about your business. Regardless of whether you are dealing with services, selling products or building a personal brand, the way your website is designed, structured and optimized directly affects how your audience perceives you.<br/><br/>In this article, we explain how a website affects brand image, why design, user experience and SEO are inextricably linked and how a <aLink>professional website design</aLink> can become a powerful tool for building trust and recognition.",
         "data": "17.12.2025",
         "author": "WebWorker Tim",
         "sections": [

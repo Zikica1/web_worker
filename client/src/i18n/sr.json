@@ -114,6 +114,10 @@
         ],
         "relatedArticles": [
           {
+            "title": "Kako web sajt utiče na imidž vašeg brenda",
+            "slug": "uticaj-websajta-na-imidz-brenda"
+          },
+          {
             "title": "Prilagodljiv web dizajin",
             "slug": "mobilni-web-dizajn"
           },
@@ -420,7 +424,7 @@
     "blogCardDet": {
       "website impact on brand": {
         "title": "Kako web sajt utiče na imidž vašeg brenda",
-        "description": "U digitalnom dobu, web sajt je mnogo više od online vizit karte. On je centralna tačka vašeg digitalnog identiteta, prvi kontakt koji potencijalni klijenti imaju sa vašim brendom i jedan od ključnih faktora na osnovu kog se formira mišljenje o vašem poslovanju. Bez obzira da li se bavite uslugama, prodajom proizvoda ili gradnjom ličnog brenda, način na koji je vaš web sajt dizajniran, strukturiran i optimizovan direktno utiče na to kako vas publika doživljava.<br/><br/>U ovom članku objašnjavamo kako web sajt utiče na imidž brenda, zašto su dizajn, korisničko iskustvo i SEO neraskidivo povezani i kako profesionalna izrada web sajta može postati snažan alat za izgradnju poverenja i prepoznatljivosti.",
+        "description": "U digitalnom dobu, web sajt je mnogo više od online vizit karte. On je centralna tačka vašeg digitalnog identiteta, prvi kontakt koji potencijalni klijenti imaju sa vašim brendom i jedan od ključnih faktora na osnovu kog se formira mišljenje o vašem poslovanju. Bez obzira da li se bavite uslugama, prodajom proizvoda ili gradnjom ličnog brenda, način na koji je vaš web sajt dizajniran, strukturiran i optimizovan direktno utiče na to kako vas publika doživljava.<br/><br/>U ovom članku objašnjavamo kako web sajt utiče na imidž brenda, zašto su dizajn, korisničko iskustvo i SEO neraskidivo povezani i kako <aLink>profesionalna izrada web sajta</aLink> može postati snažan alat za izgradnju poverenja i prepoznatljivosti.",
         "data": "17.12.2025",
         "author": "WebWorker Tim",
         "sections": [
