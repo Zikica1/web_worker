@@ -2,7 +2,7 @@
   "home": {
     "sr": {
       "title": "Profesionalna web sajt izrada | Agencija za moderne sajtove",
-      "description": "Nudimo profesionalnu web sajt izradu za male i srednje biznise. Kreiramo optimizovane sajtove koji prenose poruku vašeg brenda i privlače klijente",
+      "description": "WebWorker je agencija za profesionalnu izradu web sajtova za male i srednje biznise u Srbiji. Kreiramo brze, SEO optimizovane i moderne sajtove koji donose klijente.",
       "url": "https://www.webworker.rs/sr/",
       "image": "https://www.webworker.rs/assets/pictures/SEO/home-webWorker-web-design-agency.jpg",
       "jsonLd": {
@@ -104,7 +104,7 @@
     },
     "en": {
       "title": "Professional website creation | Agency for modern websites",
-      "description": "We offer professional website development for small and medium businesses. We create optimized websites that convey your brand message and attract customers",
+      "description": "WebWorker is a web design agency creating modern, fast and SEO-optimized websites for small and medium businesses in Serbia. We help brands grow online.",
       "url": "https://www.webworker.rs/en/",
       "image": "https://webworker.rs/assets/pictures/SEO/home-webWorker-web-design-agency.jpg",
       "jsonLd": {
@@ -198,7 +198,7 @@
   "about": {
     "sr": {
       "title": "O nama | Web Worker - Web dizajn i izrada sajtova i SEO",
-      "description": "Upoznajte Web Worker - agenciju specijalizovanu za web dizajn, izradu sajtova i SEO. Saznajte više o nama, iskustvu i vrednostima koje nas izdvajaju.",
+      "description": "Upoznajte Web Worker - agenciju za web dizajn, izradu sajtova i SEO. Saznajte više o našem iskustvu, pristupu i vrednostima koje stoje iza uspešnih projekata.",
       "url": "https://www.webworker.rs/sr/o-nama/",
       "image": "https://www.webworker.rs/assets/pictures/SEO/about-us-webWorker-web-design-agency.jpg",
       "jsonLd": {
@@ -226,7 +226,7 @@
     },
     "en": {
       "title": "About us | Web Worker - Web design, development and SEO",
-      "description": "Meet Web Worker - an agency specialized in web design, website development and SEO. Learn more about us, our experience and the values that set us apart.",
+      "description": "Learn more about WebWorker, a web design and development agency focused on modern websites and SEO. Discover our experience, approach, and values.",
       "url": "https://www.webworker.rs/en/about/",
       "image": "https://www.webworker.rs/assets/pictures/SEO/about-us-webWorker-web-design-agency.jpg",
       "jsonLd": {
@@ -256,7 +256,7 @@
   "services": {
     "sr": {
       "title": "Web dizajn i izrada sajtova | SEO optimizacija Srbija",
-      "description": "Profesionalne usluge izrade sajtova, web dizajna i SEO optimizacije u Srbiji. Unapredite online prisustvo i privucite više klijenata uz naš tim",
+      "description": "WebWorker pruža web dizajn, izradu modernih sajtova i SEO optimizaciju u Srbiji. Pomažemo biznisima da povećaju vidljivost, saobraćaj i broj klijenata.",
       "url": "https://www.webworker.rs/sr/usluge/",
       "image": "https://www.webworker.rs/assets/pictures/SEO/services-webWorker-web-design-agency.jpg",
       "jsonLd": {
@@ -284,7 +284,7 @@
     },
     "en": {
       "title": "Web design and website creation | SEO optimization Serbia",
-      "description": "Professional website development, web design and SEO optimization services in Serbia. Improve your online presence and attract more clients with our team",
+      "description": "WebWorker provides web design, development of modern websites and SEO optimization in Serbia. We help businesses increase visibility, traffic and customer numbers.",
       "url": "https://www.webworker.rs/en/services/",
       "image": "https://www.webworker.rs/assets/pictures/SEO/services-webWorker-web-design-agency.jpg",
       "jsonLd": {
