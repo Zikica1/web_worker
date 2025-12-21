@@ -34,6 +34,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.blogCardDet-entryInfo-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-block: 1.375em;
 }
 
@@ -90,4 +96,15 @@
   margin-block: 0.5em 1em;
   list-style-type: disc;
   padding-inline-start: 2em;
+}
+
+.share-container {
+  margin-block-start: 3.75em;
+  padding-block: 1.5em;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+
+  p {
+    font-size: 1rem;
+  }
 }

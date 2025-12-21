@@ -5,6 +5,7 @@ import { blogs } from '../../data/db';
 import { useLangT } from '../../hook/useLangT';
 import Seo from '../SEO/Seo';
 import seoData from '../../seo/seoData.json';
+import Share from '../share/Share';
 
 const BlogCardDet = () => {
   const { id: slugFromUrl } = useParams();
@@ -114,11 +115,13 @@ const BlogCardDet = () => {
           </header>
 
           <div className='blogCardDet-entryInfo'>
-            <div className='blogCardDet-entryDate'>
-              {t(`blogs.blogCardDet.${id}.data`)}
-            </div>
-            <div className='blogCardDet-entryAuthor'>
-              {t(`blogs.blogCardDet.${id}.author`)}
+            <div className='blogCardDet-entryInfo-wrap'>
+              <div className='blogCardDet-entryDate'>
+                {t(`blogs.blogCardDet.${id}.data`)}
+              </div>
+              <div className='blogCardDet-entryAuthor'>
+                {t(`blogs.blogCardDet.${id}.author`)}
+              </div>
             </div>
           </div>
 
@@ -225,6 +228,14 @@ const BlogCardDet = () => {
                 />
               </p>
             )}
+          </div>
+          <div className='share-container'>
+            <p>
+              {lang === 'sr'
+                ? 'Ako vam je tekst bio koristan, podelite ga:'
+                : 'If you found the text useful, please share it:'}
+            </p>
+            <Share />
           </div>
         </div>
       </article>

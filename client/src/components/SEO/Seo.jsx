@@ -20,6 +20,8 @@ const Seo = ({
       <Meta property='og:title' content={title} />
       <Meta property='og:description' content={description} />
       {image && <Meta property='og:image' content={image} />}
+      {image && <Meta property='og:image:width' content='1200' />}
+      {image && <Meta property='og:image:height' content='630' />}
       {(canonical || url) && (
         <Meta property='og:url' content={canonical || url} />
       )}

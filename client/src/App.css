@@ -68,6 +68,7 @@ html {
   --clr-bg-card: rgb(255 255 255);
   --clr-bg-header: rgb(255 255 255);
   --clr-bg-img-ani: rgb(219 219 219);
+  --clr-bg-icon: rgb(226 225 225);
 
   /* linear-gradient */
   --gradient-prim: linear-gradient(
@@ -102,6 +103,7 @@ html.dark {
   --clr-bg-header: #1e2732;
   --clr-bg-card: #1e2732;
   --clr-menu: #ffffff;
+  --clr-bg-icon: rgb(43, 46, 56);
 
   --gradient-prim: linear-gradient(
     257deg,

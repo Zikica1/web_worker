@@ -1,0 +1,26 @@
+.share-panel {
+  display: flex;
+  align-items: center;
+  gap: 0.35em;
+  margin-block-start: 0.5em;
+}
+
+.share-panel button {
+  border: none;
+  background: var(--clr-bg-icon);
+  border-radius: 4px;
+  padding: 0.5em;
+  width: 2rem;
+  height: 2rem;
+}
+
+.share-panel svg {
+  color: var(--clr-text-ser-card);
+  width: 1.12rem;
+  height: 1.12rem;
+  cursor: pointer;
+}
+
+.share-panel svg:hover {
+  color: var(--clr-text-pri);
+}
