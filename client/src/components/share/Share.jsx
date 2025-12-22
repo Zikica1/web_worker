@@ -97,7 +97,7 @@ const Share = ({ title = '' }) => {
         </button>
 
         {isMobile && (
-          <div>
+          <>
             <button
               aria-label='Share on WhatsApp'
               onClick={() =>
@@ -115,7 +115,7 @@ const Share = ({ title = '' }) => {
             >
               <FaViber />
             </button>
-          </div>
+          </>
         )}
       </div>
     </div>
