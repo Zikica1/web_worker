@@ -50,7 +50,7 @@ const OurSkillsItem = ({ item, index }) => {
             <CountUp
               start={0}
               end={item.utilization}
-              duration={3}
+              duration={2}
               formattingFn={(value) => Math.floor(value / 5) * 5}
             ></CountUp>
           ) : (
