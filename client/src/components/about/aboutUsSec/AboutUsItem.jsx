@@ -1,21 +1,7 @@
 import './aboutUsItem.css';
 import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import { motion, useInView } from 'motion/react';
-
-const itemVar = {
-  hidden: {
-    opacity: 0,
-    y: 50,
-  },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.8,
-    },
-  },
-};
+import { useInView } from 'motion/react';
 
 const AboutUsItem = ({ item }) => {
   const { t } = useTranslation();
@@ -27,13 +13,7 @@ const AboutUsItem = ({ item }) => {
   });
 
   return (
-    <motion.li
-      ref={ref}
-      className='aboutUsItem'
-      variants={itemVar}
-      initial='hidden'
-      animate={isVisible ? 'visible' : 'hidden'}
-    >
+    <li ref={ref} className={`aboutUsItem ${isVisible ? 'visible' : ''}`}>
       <img
         className='aboutUsItem-icon'
         src={item.img}
@@ -48,7 +28,7 @@ const AboutUsItem = ({ item }) => {
           {t(`about.aboutUs.list.${item.id}.text`)}
         </p>
       </div>
-    </motion.li>
+    </li>
   );
 };
 
