@@ -5,19 +5,19 @@ import { motion, useInView } from 'motion/react';
 import { about } from '../../../data/db';
 import AboutUsItem from './AboutUsItem';
 
-const subtitleVar = {
-  hidden: {
-    opacity: 0,
-    y: 50,
-  },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.5,
-    },
-  },
-};
+// const subtitleVar = {
+//   hidden: {
+//     opacity: 0,
+//     y: 50,
+//   },
+//   visible: {
+//     opacity: 1,
+//     y: 0,
+//     transition: {
+//       duration: 0.5,
+//     },
+//   },
+// };
 
 const titleVar = {
   hidden: {
@@ -36,14 +36,14 @@ const titleVar = {
 const AboutUs = () => {
   const [isVisible, setIsVisible] = useState(false);
   const refTitle = useRef(null);
-  const refSubtitle = useRef(null);
+  // const refSubtitle = useRef(null);
   const { t } = useTranslation();
   const imageRef = useRef(null);
 
-  const visible = useInView(refSubtitle, {
-    once: true,
-    amount: 0.1,
-  });
+  // const visible = useInView(refSubtitle, {
+  //   once: true,
+  //   amount: 0.1,
+  // });
 
   const visibleTit = useInView(refTitle, {
     once: true,
@@ -83,18 +83,18 @@ const AboutUs = () => {
       </motion.h1>
       <div className='aboutUsWrapper'>
         <div className='aboutUsContent'>
-          <motion.div
+          {/* <motion.div
             ref={refSubtitle}
             className='subtitle-ani'
             variants={subtitleVar}
             initial='hidden'
             animate={visible ? 'visible' : 'hidden'}
-          >
-            <h2 className='aboutUsContent-subtitle'>
-              {t('about.aboutUs.title')}
-            </h2>
-            <div className='aboutUsContent-divider'></div>
-          </motion.div>
+          > */}
+          <h2 className='aboutUsContent-subtitle'>
+            {t('about.aboutUs.title')}
+          </h2>
+          <div className='aboutUsContent-divider'></div>
+          {/* </motion.div> */}
 
           <ul className='aboutUsList'>
             {about.map((a) => (
