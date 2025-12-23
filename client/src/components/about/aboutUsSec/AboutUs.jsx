@@ -1,34 +1,14 @@
 import './aboutUs.css';
 import { useRef, useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { motion, useInView } from 'motion/react';
+import { motion } from 'motion/react';
 import { about } from '../../../data/db';
 import AboutUsItem from './AboutUsItem';
 
-const titleVar = {
-  hidden: {
-    opacity: 0,
-    scale: 1.2,
-  },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    transition: {
-      duration: 0.5,
-    },
-  },
-};
-
 const AboutUs = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const refTitle = useRef(null);
   const { t } = useTranslation();
   const imageRef = useRef(null);
-
-  const visibleTit = useInView(refTitle, {
-    once: true,
-    amount: 0.1,
-  });
 
   useEffect(() => {
     const observerImg = new IntersectionObserver(
@@ -52,15 +32,7 @@ const AboutUs = () => {
 
   return (
     <section className='aboutUs'>
-      <motion.h1
-        ref={refTitle}
-        className='aboutUs-title'
-        variants={titleVar}
-        initial='hidden'
-        animate={visibleTit ? 'visible' : 'hidden'}
-      >
-        {t('about.mainTitle')}
-      </motion.h1>
+      <h1 className='aboutUs-title aboutUs-h1-ani'>{t('about.mainTitle')}</h1>
       <div className='aboutUsWrapper'>
         <div className='aboutUsContent'>
           <h2 className='aboutUsContent-subtitle'>

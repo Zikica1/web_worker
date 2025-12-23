@@ -18,6 +18,19 @@
   }
 }
 
+.aboutUs-h1-ani {
+  opacity: 0;
+  transform: scale(1.2);
+  animation: h1In 0.5s ease forwards;
+}
+
+@keyframes h1In {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .aboutUsWrapper {
   margin-block-start: 9.37em;
   @media (min-width: 63.75rem) {
