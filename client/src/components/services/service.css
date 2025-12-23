@@ -15,6 +15,19 @@
   padding-block: 1.162em;
 }
 
+.serviceTitle-ani {
+  opacity: 0;
+  transform: scale(1.2);
+  animation: h1Se 0.5s ease forwards;
+}
+
+@keyframes h1Se {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .serviceWrapper {
   margin-block-start: 9.37em;
   display: grid;
@@ -89,12 +102,25 @@
   }
 }
 
+.serviceDes-subTitle {
+  clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+.serviceDes-subTitle.visible {
+  animation: itemClipPath 0.6s ease forwards;
+}
+
+@keyframes itemClipPath {
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
 .serviceDes-para {
   margin-block-end: 3.125em;
 }
 
 .servicesList {
-  /* margin-block-start: 9.375em; */
   padding-block: 9.375em;
   padding-inline: 2.187em;
 }

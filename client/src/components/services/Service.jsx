@@ -7,18 +7,18 @@ import ServicesCards from './ServicesCards';
 import { useTranslation } from 'react-i18next';
 import useMatchUrl from '../../hook/useMatchUrl';
 
-const titleVar = {
-  hidden: {
-    clipPath: 'polygon(0 0, 0 0, 0 100%, 0% 100%)',
-  },
-  visible: {
-    clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
-    transition: {
-      duration: 0.85,
-      ease: 'easeInOut',
-    },
-  },
-};
+// const titleVar = {
+//   hidden: {
+//     clipPath: 'polygon(0 0, 0 0, 0 100%, 0% 100%)',
+//   },
+//   visible: {
+//     clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
+//     transition: {
+//       duration: 0.85,
+//       ease: 'easeInOut',
+//     },
+//   },
+// };
 
 const dividerVar = {
   hidden: {
@@ -115,15 +115,7 @@ const Service = () => {
 
   return (
     <section className='service' key={location.pathname}>
-      <motion.h1
-        className='serviceTitle'
-        initial={{ opacity: 0, scale: 1.2 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        viewport={{ once: true, amount: 0 }}
-        transition={{ duration: 0.8 }}
-      >
-        {t('service.title')}
-      </motion.h1>
+      <h1 className='serviceTitle serviceTitle-ani'>{t('service.title')}</h1>
       <div className='serviceWrapper'>
         <div className='serviceImg'>
           <picture>
@@ -150,15 +142,13 @@ const Service = () => {
         </div>
         <div className='serviceDes'>
           <div className='serviceHead'>
-            <motion.div
+            <div
               ref={refTitle}
-              variants={titleVar}
-              initial='hidden'
-              animate={isInView2 ? 'visible' : 'hidden'}
+              className={`serviceDes-subTitle ${isInView2 ? 'visible' : null}`}
               style={{ transformOrigin: 'left' }}
             >
               <Hading i18nKey='service.top.title' />
-            </motion.div>
+            </div>
 
             <motion.img
               ref={refDiv}
