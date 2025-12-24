@@ -27,7 +27,7 @@ const cardItemsVar = {
       stiffness: 200,
       mass: 2,
       damping: 9,
-      delay: 0.5,
+      // delay: 0.5,
     },
   },
 };
