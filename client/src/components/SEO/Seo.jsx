@@ -1,16 +1,7 @@
 import { Title, Meta, Link } from 'react-head';
 import AlternateLinks from './AlternateLinks';
 
-const Seo = ({
-  title,
-  description,
-  image,
-  url,
-  canonical,
-  jsonLd,
-  type,
-  preloadImage,
-}) => {
+const Seo = ({ title, description, image, url, canonical, jsonLd, type }) => {
   return (
     <>
       <Title>{title}</Title>
@@ -31,16 +22,6 @@ const Seo = ({
       <Meta name='twitter:description' content={description} />
       {image && <Meta name='twitter:image' content={image} />}
       <AlternateLinks />
-      {preloadImage && (
-        <Link
-          rel='preload'
-          as='image'
-          href={preloadImage}
-          type='image/webp'
-          media='(min-width:1025px)'
-          fetchPriority='high'
-        />
-      )}
       {jsonLd && (
         <script type='application/ld+json'>{JSON.stringify(jsonLd)}</script>
       )}
