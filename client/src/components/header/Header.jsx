@@ -95,6 +95,10 @@ const Header = () => {
               className='logo-img'
               src='/assets/pictures/header/web-worker-logo3.webp'
               alt='LogoImg'
+              fetchPriority='hight'
+              decoding='async'
+              width='158'
+              height='45'
             />
           </Link>
         </div>
