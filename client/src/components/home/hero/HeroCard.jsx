@@ -46,7 +46,7 @@ const HeroCard = ({ item, refItem, handleNext, handlePrevious, index }) => {
 
   const isInView2 = useInView(scope, {
     once: true,
-    amount: 0.25,
+    amount: 0.5,
   });
 
   useEffect(() => {
@@ -142,33 +142,60 @@ const HeroCard = ({ item, refItem, handleNext, handlePrevious, index }) => {
         </div>
       </div>
       <div className='heroSlides-rightCol'>
-        <motion.div
-          ref={cardImgRef}
-          variants={cardImgVar}
-          initial='hidden'
-          animate={isInView ? 'visible' : 'hidden'}
-          key={item.id}
-          className='heroSlides-images'
-        >
-          <img
-            className='heroSlide-img'
-            srcSet={`${item.imgMob} 325w,${item.imgMob2} 650w,${item.imgTab} 586w,${item.imgDes} 822w`}
-            sizes='(max-width: 768px) 325px,(max-width: 1024px) 440px,(min-width: 1025px) 625px'
-            src={item.imgDes}
-            alt={t(`hero.heroAlt.${item.id}`)}
-            draggable={false}
-            loading={index === 0 ? undefined : 'lazy'}
-            fetchPriority={index === 0 ? 'high' : undefined}
-            decoding='async'
-          />
-          {[1, 2, 3, 4].map((num) => (
-            <motion.div
-              variants={cardItemsVar}
-              key={num}
-              className={`heroSlide-anim heroSlide-anim--${num}`}
-            ></motion.div>
-          ))}
-        </motion.div>
+        {index === 0 ? (
+          /* LCP SLIDE – NO MOTION, BUT VISIBLE */
+          <div className='heroSlides-images heroSlides-images-ani'>
+            <img
+              className='heroSlide-img'
+              srcSet={`${item.imgMob} 325w, ${item.imgMob2} 650w, ${item.imgTab} 586w, ${item.imgDes} 822w`}
+              sizes='(max-width: 768px) 325px,
+            (max-width: 1024px) 440px,
+            (min-width: 1025px) 625px'
+              src={item.imgDes}
+              alt={t(`hero.heroAlt.${item.id}`)}
+              draggable={false}
+              fetchPriority='high'
+              decoding='async'
+            />
+
+            {[1, 2, 3, 4].map((num) => (
+              <div
+                key={num}
+                className={`heroSlide-anim heroSlide-anim--${num}`}
+              />
+            ))}
+          </div>
+        ) : (
+          /* NON-LCP SLIDES – FULL ANIMATION */
+          <motion.div
+            ref={cardImgRef}
+            variants={cardImgVar}
+            initial='hidden'
+            animate={isInView ? 'visible' : 'hidden'}
+            className='heroSlides-images'
+          >
+            <img
+              className='heroSlide-img'
+              srcSet={`${item.imgMob} 325w, ${item.imgMob2} 650w, ${item.imgTab} 586w, ${item.imgDes} 822w`}
+              sizes='(max-width: 768px) 325px,
+            (max-width: 1024px) 440px,
+            (min-width: 1025px) 625px'
+              src={item.imgDes}
+              alt={t(`hero.heroAlt.${item.id}`)}
+              draggable={false}
+              loading='lazy'
+              decoding='async'
+            />
+
+            {[1, 2, 3, 4].map((num) => (
+              <motion.div
+                key={num}
+                className={`heroSlide-anim heroSlide-anim--${num}`}
+                variants={cardItemsVar}
+              />
+            ))}
+          </motion.div>
+        )}
       </div>
     </li>
   );

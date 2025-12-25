@@ -185,6 +185,19 @@
   }
 }
 
+.heroSlides-images-ani {
+  animation: heroReveal 0.35s ease-out;
+}
+
+@keyframes heroReveal {
+  from {
+    transform: scale(0.98);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
 .heroSlide-img {
   border-radius: 50%;
   filter: drop-shadow(-2px -5px 12px rgba(0 0 0/0.1));
