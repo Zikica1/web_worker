@@ -186,7 +186,7 @@
 }
 
 .heroSlides-images-ani {
-  animation: heroReveal 0.35s ease-out;
+  animation: heroReveal 0.45s ease-out;
 }
 
 @keyframes heroReveal {
