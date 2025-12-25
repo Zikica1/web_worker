@@ -28,12 +28,41 @@
   }
 }
 
+.portfolioHeader {
+  opacity: 0.2;
+  transform: translateX(100px);
+}
+
+.portfolioHeader.portfolioHeader-ani {
+  animation: fadeIn 0.8s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 .portfolioPara {
+  opacity: 0.1;
+  transform: translateX(100px);
   margin-block: 1.25em 7.5em;
   min-width: 0;
   overflow-wrap: break-word;
 
   @media (min-width: 63.75rem) {
     margin-block: 1.25em 0;
+  }
+}
+
+.portfolioPara.portfolioPara-ani {
+  animation: fadeInPar 0.85s forwards;
+}
+
+@keyframes fadeInPar {
+  to {
+    opacity: 1;
+    transform: none;
   }
 }

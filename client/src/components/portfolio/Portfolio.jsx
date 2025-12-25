@@ -1,7 +1,7 @@
 import './portfolio.css';
-import { useEffect } from 'react';
+import { useRef } from 'react';
 import { useLocation } from 'react-router-dom';
-import { motion, useInView, useAnimate } from 'motion/react';
+import { motion, useInView } from 'motion/react';
 import Hading from '../header/Hading';
 import { useTranslation } from 'react-i18next';
 import PortfolioCard from './PortfolioCard';
@@ -12,7 +12,7 @@ import useMatchUrl from '../../hook/useMatchUrl';
 const Portfolio = () => {
   const { t, i18n } = useTranslation();
   const location = useLocation();
-  const [scope, animate] = useAnimate();
+  const scope = useRef(null);
 
   const home = useMatchUrl();
 
@@ -25,27 +25,19 @@ const Portfolio = () => {
     amount: 0.4,
   });
 
-  useEffect(() => {
-    if (isInView) {
-      animate([
-        ['.portfolioHeader', { opacity: 1, x: 0 }, { duration: 0.75 }],
-        ['.portfolioPara', { opacity: 1, x: 0 }, { duration: 0.75 }],
-      ]);
-    }
-  }, [isInView, animate]);
-
   return (
     <section
       className={`${home ? 'portfolioHome' : 'portfolio'}`}
       key={location.pathname}
     >
       <div ref={scope} className='portfolioContentWrapper'>
-        <motion.div
-          className='portfolioHeader'
-          initial={{ opacity: 0, x: 100 }}
+        <div
+          className={`portfolioHeader ${
+            isInView ? 'portfolioHeader-ani' : null
+          }`}
         >
           <Hading i18nKey={'portfolio.title'} />
-          <div className='portfolioImage' initial={{ opacity: 0, x: 100 }}>
+          <div className='portfolioImage'>
             <img
               src='/assets/pictures/services/divider.webp'
               alt='divider'
@@ -53,11 +45,9 @@ const Portfolio = () => {
               height='8'
             />
           </div>
-        </motion.div>
+        </div>
 
-        <motion.p initial={{ opacity: 0, x: 100 }} className='portfolioPara'>
-          {t('portfolio.text')}
-        </motion.p>
+        <p className='portfolioPara portfolioPara-ani'>{t('portfolio.text')}</p>
       </div>
       <ul className='portfolioList'>
         {portfolioFilter.map((p, index) => (
