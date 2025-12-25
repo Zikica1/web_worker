@@ -30,7 +30,7 @@
 
 .portfolioHeader {
   opacity: 0;
-  transform: translateX(100px);
+  transform: translateX(-100px);
 }
 
 .portfolioHeader.portfolioHeader-ani {
@@ -46,7 +46,7 @@
 
 .portfolioPara {
   opacity: 0;
-  transform: translateX(-100px);
+  transform: translateX(100px);
   margin-block: 1.25em 7.5em;
   min-width: 0;
   overflow-wrap: break-word;
