@@ -7,6 +7,22 @@
   }
 }
 
+.blog-header {
+  opacity: 0;
+  transform: scale(1.2);
+}
+
+.blog-header.blog-header--ani {
+  animation: fadeInBlogHead 0.75s forwards;
+}
+
+@keyframes fadeInBlogHead {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .blog-mainTitle {
   color: var(--clr-text-pri);
   font-size: 2.6875rem;
@@ -21,6 +37,19 @@
 .blog-des {
   text-align: center;
   margin-block-start: 9.37em;
+  opacity: 0.2;
+  transform: translateY(100px);
+}
+
+.blog-des.blog-des--ani {
+  animation: fadeInBlogDes 0.075s forwards;
+}
+
+@keyframes fadeInBlogDes {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .blog-desPara {
