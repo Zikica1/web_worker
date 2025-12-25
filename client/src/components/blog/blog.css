@@ -42,7 +42,7 @@
 }
 
 .blog-des.blog-des--ani {
-  animation: fadeInBlogDes 0.075s forwards;
+  animation: fadeInBlogDes 0.75s forwards;
 }
 
 @keyframes fadeInBlogDes {
