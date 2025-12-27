@@ -1,5 +1,5 @@
 [build]
 base = "."
-command = "npm ci && npx playwright install --with-deps && npm run build"
+command = "npm ci && npx playwright install && npm run build"
 publish = "client/dist"
 functions = "netlify/functions"
