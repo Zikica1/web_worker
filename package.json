@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "cd client && npm install && npm run build && cd .. && npm run prerender",
+    "build": "cd client && npm run build && cd .. && npm run prerender",
     "prerender": "node prerender.js"
   },
   "repository": {
@@ -21,9 +21,5 @@
   "description": "",
   "dependencies": {
     "nodemailer": "^7.0.10"
-  },
-  "devDependencies": {
-    "concurrently": "^9.2.1",
-    "playwright": "^1.57.0"
   }
 }
