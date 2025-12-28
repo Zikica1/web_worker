@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "build": "cd client && npm run build && cd .. && npm run prerender",
-    "prerender": "node prerender.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Zikica1/web_worker.git"
