@@ -862,5 +862,10 @@
         "conclusion": "Investing in creating a website brings multiple benefits — from strengthening credibility and brand to increasing sales and better SEO positioning. A professionally created website is the foundation of any successful digital presence and a key step towards modern business.<br/><br/>If you want your business to grow, <strong>now is the right time to create your website</strong>."
       }
     }
+  },
+  "blogNotFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "backHome": "Back to homepage"
   }
 }

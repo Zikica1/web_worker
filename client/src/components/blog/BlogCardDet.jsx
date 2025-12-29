@@ -6,6 +6,7 @@ import { useLangT } from '../../hook/useLangT';
 import Seo from '../SEO/Seo';
 import seoData from '../../seo/seoData.json';
 import Share from '../share/Share';
+import BlogNotFound from './BlogNotFound';
 
 const BlogCardDet = () => {
   const { id: slugFromUrl } = useParams();
@@ -15,8 +16,7 @@ const BlogCardDet = () => {
   const blogDet = blogs.find((item) => item.slugs[lang] === slugFromUrl);
 
   if (!blogDet) {
-    console.error('Service not found for slug:', slugFromUrl, 'in lang:', lang);
-    return <p>Service not found.</p>;
+    return <BlogNotFound />;
   }
 
   const id = blogDet.key;

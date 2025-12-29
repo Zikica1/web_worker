@@ -867,5 +867,10 @@
         "conclusion": "Investicija u izradu web sajta donosi višestruke koristi — od jačanja kredibiliteta i brenda do povećanja prodaje i boljeg SEO pozicioniranja.Profesionalno izrađen web sajt je temelj svakog uspešnog digitalnog nastupa i ključni korak ka modernom poslovanju.<br/><br/>Ako želite da vaš biznis raste, <strong>sada je pravo vreme da napravite svoj web sajt</strong>."
       }
     }
+  },
+  "blogNotFound": {
+    "title": "Stranica nije pronađena",
+    "description": "Stranica koju tražite ne postoji ili je premještena.",
+    "backHome": "Nazad na početnu"
   }
 }
