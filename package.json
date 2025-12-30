@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "npm run build --prefix client && node prerender.js"
+    "build": "npm install --prefix client && npx vite build --prefix client && node prerender.js"
   },
   "repository": {
     "type": "git",
