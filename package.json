@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  "scripts": {
+    "build": "npm run build --prefix client && node prerender.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Zikica1/web_worker.git"
@@ -17,5 +20,10 @@
   "description": "",
   "dependencies": {
     "nodemailer": "^7.0.10"
+  },
+  "devDependencies": {
+    "finalhandler": "^2.1.1",
+    "playwright": "^1.57.0",
+    "serve-static": "^2.2.1"
   }
 }
