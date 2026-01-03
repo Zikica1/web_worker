@@ -33,8 +33,8 @@ const routeSelectors = {
   '/en/blogs/why-you-need-a-website/': 'article.blogCardDet',
 
   // Services
-  '/sr/usluge/': '.services',
-  '/en/services/': '.services',
+  '/sr/blogs/': '.blog article.blogCardDet',
+  '/en/blogs/': '.blog article.blogCardDet',
   '/sr/usluge/izrada-web-sajta/': 'article.serCardDet',
   '/en/services/website-development/': 'article.serCardDet',
   '/sr/usluge/seo-optimizacija/': 'article.serCardDet',
@@ -79,6 +79,9 @@ server.listen(PORT, async () => {
       const route = queue.shift();
       const url = `http://localhost:${PORT}${route}`;
       const selector = routeSelectors[route] || 'main';
+      if (route === '/sr/blogs/' || route === '/en/blogs/') {
+        selector = '.blog article.blogCardDet';
+      }
 
       try {
         // čekamo da svi network zahtevi završe (lazy-load, API)
