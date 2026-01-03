@@ -17,8 +17,8 @@ const routeSelectors = {
   '/en/': '.home',
 
   // Blog
-  '/sr/blogs/': '.blog',
-  '/en/blogs/': '.blog',
+  '/sr/blogs/': '.blog article.blogCardDet',
+  '/en/blogs/': '.blog article.blogCardDet',
   '/sr/blogs/mobilni-web-dizajn/': 'article.blogCardDet',
   '/en/blogs/mobile-web-design/': 'article.blogCardDet',
   '/sr/blogs/uticaj-websajta-na-imidz-brenda/': 'article.blogCardDet',
@@ -78,15 +78,32 @@ server.listen(PORT, async () => {
     while (queue.length > 0) {
       const route = queue.shift();
       const url = `http://localhost:${PORT}${route}`;
-      const selector = routeSelectors[route] || 'main';
-      if (route === '/sr/blogs/' || route === '/en/blogs/') {
-        selector = '.blog article.blogCardDet';
-      }
+      let selector = routeSelectors[route] || 'main';
 
       try {
         // čekamo da svi network zahtevi završe (lazy-load, API)
         await page.goto(url, { waitUntil: 'networkidle', timeout: 60000 });
-        await page.waitForSelector(selector, { timeout: 30000 });
+
+        // posebno za glavnu blog stranicu čekamo da se mount-uje sekcija
+        if (route === '/sr/blogs/' || route === '/en/blogs/') {
+          // prvo čekamo da se pojavi container
+          await page.waitForSelector('.blog', { timeout: 10000 });
+          // onda čekamo da se učita bar 1 kartica
+          await page.waitForFunction(
+            () => {
+              return (
+                document.querySelectorAll('.blog article.blogCardDet').length >
+                0
+              );
+            },
+            { timeout: 30000 }
+          );
+          selector = '.blog'; // za zapisivanje HTML-a
+        } else {
+          // ostale rute
+          await page.waitForSelector(selector, { timeout: 30000 });
+        }
+
         await page.waitForTimeout(200); // extra delay za animacije
 
         const html = await page.content();
