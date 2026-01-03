@@ -17,6 +17,8 @@ const routeSelectors = {
   '/en/': '.home',
 
   // Blog
+  '/sr/blogs/': '.blog',
+  '/en/blogs/': '.blog',
   '/sr/blogs/mobilni-web-dizajn/': 'article.blogCardDet',
   '/en/blogs/mobile-web-design/': 'article.blogCardDet',
   '/sr/blogs/uticaj-websajta-na-imidz-brenda/': 'article.blogCardDet',
