@@ -1,32 +1,41 @@
 import { useLocation } from 'react-router-dom';
 
+/**
+ * Normalizuje path:
+ * - "/"        -> ""
+ * - "/about/"  -> "/about"
+ * - "/about"   -> "/about"
+ */
+const normalizePath = (path) => {
+  if (!path || path === '/') return '';
+  return path.replace(/\/$/, '');
+};
+
 const AlternateLinks = () => {
   const { pathname } = useLocation();
 
-  // const cleanPath = decodeURIComponent(pathname.replace(/^\/(sr|en)/, ''));
-
-  const cleanPath = decodeURIComponent(
+  const rawPath =
     pathname.startsWith('/sr') || pathname.startsWith('/en')
       ? pathname.replace(/^\/(sr|en)/, '')
-      : pathname
-  );
+      : pathname;
+
+  const cleanPath = normalizePath(decodeURIComponent(rawPath));
 
   return (
     <>
-      {' '}
       <link
         rel='alternate'
-        href={`https://www.webworker.rs/sr${cleanPath}/`}
+        href={`https://www.webworker.rs/sr${cleanPath || '/'}`}
         hrefLang='sr'
       />
       <link
         rel='alternate'
-        href={`https://www.webworker.rs/en${cleanPath}/`}
+        href={`https://www.webworker.rs/en${cleanPath || '/'}`}
         hrefLang='en'
       />
       <link
         rel='alternate'
-        href={`https://www.webworker.rs/sr${cleanPath}/`}
+        href={`https://www.webworker.rs${cleanPath || '/'}`}
         hrefLang='x-default'
       />
     </>
