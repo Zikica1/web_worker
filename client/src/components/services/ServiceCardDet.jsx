@@ -1,14 +1,23 @@
 import './serviceCardDet.css';
+import { useState } from 'react';
 import { useParams, Link, useLocation } from 'react-router-dom';
 import { Trans } from 'react-i18next';
 import { services } from '../../data/db';
 import Seo from '../SEO/Seo';
 import seoData from '../../seo/seoData.json';
+import { faqData } from '../../data/seo/faqData';
+import { breadcrumbMap } from '../../data/seo/breadcrumbMap';
+import {
+  buildFaqJsonLd,
+  buildBreadcrumbJsonLd,
+} from '../../utility/seoBuilders';
 import { useLangT } from '../../hook/useLangT';
 import ButtonPrim from '../buttons/primaButton/ButtonPrimary';
 import useMatchUrl from '../../hook/useMatchUrl';
+import { FaPlus, FaMinus } from 'react-icons/fa6';
 
 const ServiceCardDet = () => {
+  const [openIndex, setOpenIndex] = useState(null);
   const { id: slugFromUrl } = useParams();
   const { t, lang } = useLangT();
 
@@ -29,6 +38,23 @@ const ServiceCardDet = () => {
   }
 
   const id = cardDet.category;
+
+  const faq = faqData?.[lang]?.[slugFromUrl] || null;
+  const breadcrumbs = breadcrumbMap?.[lang]?.[slugFromUrl];
+
+  const pagePath =
+    lang === 'sr'
+      ? `/sr/usluge/${slugFromUrl}/`
+      : `/en/services/${slugFromUrl}/`;
+
+  const pageUrl = `https://www.webworker.rs${pagePath}`;
+
+  const faqJson = faq?.length ? buildFaqJsonLd(faq, pageUrl) : null;
+  const breadcrumbJson = buildBreadcrumbJsonLd(
+    breadcrumbs,
+    'https://www.webworker.rs',
+    pageUrl
+  );
 
   const { title, description, url, image, headline } =
     seoData?.serviceCardDet?.[id]?.[lang] || {};
@@ -82,6 +108,8 @@ const ServiceCardDet = () => {
           '@id': 'https://www.webworker.rs/#organization',
         },
       },
+      ...(breadcrumbJson ? [breadcrumbJson] : []),
+      ...(faqJson ? [faqJson] : []),
     ],
   };
 
@@ -106,6 +134,10 @@ const ServiceCardDet = () => {
       lng: lang,
       returnObjects: true,
     }) || [];
+
+  const handleToggle = (index) => {
+    setOpenIndex((prev) => (prev === index ? null : index));
+  };
 
   return (
     <>
@@ -307,26 +339,54 @@ const ServiceCardDet = () => {
                 </p>
               )}
             </div>
-
-            {isWebDevPage && (
-              <section className='relatedArticle'>
-                <h3 className='relatedSecTitle'>
-                  {t(`service.cardDet.${id}.relatedArtiTitle`)}
-                </h3>
-                <ul className='relatedArtiList'>
-                  {relatedArticles.map((item) => (
-                    <li className='relatedArtList-item' key={item.slug}>
-                      <Link to={`/${lang}/blogs/${item.slug}`}>
-                        {item.title}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </section>
-            )}
           </div>
         </div>
       </article>
+
+      <section className='serCardInfo'>
+        {faq?.length > 0 && (
+          <div className='serCardInfo-faq'>
+            <h2 className='serCardInfo-title'>
+              {lang === 'sr'
+                ? 'Često postavljana pitanja'
+                : 'Frequently asked questions'}
+            </h2>
+            <ul className='serCardInfo-list'>
+              {faq.map((item, index) => (
+                <li key={index} className='serCardInfo-item'>
+                  <div className='serCardInfo-wrapper'>
+                    <h3 className='serCardInfo-question'>{item.question}</h3>{' '}
+                    <button
+                      className='serCardInfo-button'
+                      onClick={() => handleToggle(index)}
+                    >
+                      {index === openIndex ? <FaMinus /> : <FaPlus />}
+                    </button>
+                  </div>
+                  {index === openIndex ? (
+                    <p className='serCardInfo-answer'>{item.answer}</p>
+                  ) : null}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {isWebDevPage && (
+          <section className='relatedArticle'>
+            <h3 className='relatedSecTitle'>
+              {t(`service.cardDet.${id}.relatedArtiTitle`)}
+            </h3>
+            <ul className='relatedArtiList'>
+              {relatedArticles.map((item) => (
+                <li className='relatedArtList-item' key={item.slug}>
+                  <Link to={`/${lang}/blogs/${item.slug}`}>{item.title}</Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+      </section>
     </>
   );
 };

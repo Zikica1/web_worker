@@ -1,7 +1,7 @@
 .serCardDet {
   margin-block-start: 9em;
   padding-inline: 2.187em;
-  padding-block-end: 9.375em;
+  padding-block-end: 4.375em;
   overflow-x: clip;
 }
 
@@ -71,7 +71,7 @@ picture img {
 
 .cardDetSecTwo-categories {
   list-style-type: disc;
-  margin-inline-start: 3em;
+  margin-inline-start: 2em;
 }
 
 .cardDetSecTwo-item {
@@ -101,7 +101,7 @@ picture img {
 
 .cardDetSecThreeList {
   margin-block-end: 2.06em;
-  margin-inline-start: 3em;
+  margin-inline-start: 2em;
 }
 
 .cardDetSecThreeList-item {
@@ -123,12 +123,76 @@ picture img {
   font-size: 1.75rem;
 }
 
+.serCardInfo {
+  padding-inline: 35px;
+  padding-block-end: 150px;
+}
+
+.serCardInfo-faq {
+  max-width: 60em;
+  margin-inline: auto;
+}
+
+.serCardInfo-title {
+  color: var(--clr-text-2);
+  font-size: 1.75rem;
+  margin-block-end: 1em;
+}
+
+.serCardInfo-item {
+  margin-block-end: 1em;
+
+  @media (min-width: 48rem) {
+    max-width: 75%;
+  }
+}
+
+.serCardInfo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.serCardInfo-question {
+  color: var(--clr-text-2);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+  max-width: 80%;
+}
+
+.serCardInfo-answer {
+  color: var(--clr-text-ser-card);
+  font-size: 1rem;
+  margin-block: 0.75em;
+  letter-spacing: 0.25px;
+}
+
+.serCardInfo-button {
+  width: 2.5em;
+  height: 2.5em;
+  padding: 0.25em;
+  background: none;
+  border: none;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+
+  svg {
+    color: var(--clr-text-2);
+    font-size: 24px;
+  }
+}
+
 .relatedArticle {
-  margin-block-start: 70px;
+  margin-block-start: 4.375em;
+  max-width: 60em;
+  margin-inline: auto;
 }
 
 .relatedSecTitle {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
   margin-block: 1em;
 }
