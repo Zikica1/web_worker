@@ -4,7 +4,7 @@ import OurMissions from '../components/home/missions/OurMissions';
 import Portfolio from '../components/portfolio/Portfolio';
 import Packages from '../components/home/packagePrices/Packages';
 import BlogHome from '../components/home/blog/BlogHome';
-import Seo from '../components/SEO/Seo';
+import SeoMeta from '../components/SeoMeta';
 import seoData from '../seo/seoData.json';
 import { useTranslation } from 'react-i18next';
 
@@ -13,15 +13,32 @@ const Home = () => {
   const lang = i18n.language;
   const { title, description, url, image, jsonLd } = seoData.home[lang];
 
+  const alternates = [
+    {
+      lang: 'sr',
+      href: seoData.home.sr.url,
+    },
+    {
+      lang: 'en',
+      href: seoData.home.en.url,
+    },
+    {
+      lang: 'x-default',
+      href: 'https://www.webworker.rs/',
+    },
+  ];
+
   return (
     <>
-      <Seo
+      <SeoMeta
         title={title}
         description={description}
         url={url}
+        alternates={alternates}
         canonical={url}
         image={image}
         jsonLd={jsonLd}
+        type='website'
       />
       <main className='home'>
         <Hero />

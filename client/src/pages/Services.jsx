@@ -20,7 +20,7 @@ const Services = () => {
     },
     {
       lang: 'x-default',
-      href: seoData.services.sr.url,
+      href: 'https://www.webworker.rs/usluge/',
     },
   ];
 
