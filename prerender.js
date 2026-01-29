@@ -13,32 +13,32 @@ const PORT = 4173;
 const routeSelectors = {
   // Home
   '/': '.home',
-  '/sr/': '.home',
-  '/en/': '.home',
+  '/sr': '.home',
+  '/en': '.home',
 
   // Blog
-  '/sr/blogs/mobilni-web-dizajn/': 'article.blogCardDet',
-  '/en/blogs/mobile-web-design/': 'article.blogCardDet',
-  '/sr/blogs/uticaj-websajta-na-imidz-brenda/': 'article.blogCardDet',
-  '/en/blogs/influence-of-website-on-brand-image/': 'article.blogCardDet',
-  '/sr/blogs/greške-u-razvoju-web-sajtova/': 'article.blogCardDet',
-  '/en/blogs/website-development-errors/': 'article.blogCardDet',
-  '/sr/blogs/vodič-web-sajt-za-mali-biznis/': 'article.blogCardDet',
-  '/en/blogs/small-business-website-guide/': 'article.blogCardDet',
-  '/sr/blogs/elementi-modernog-web-sajta/': 'article.blogCardDet',
-  '/en/blogs/elements-of-a-modern-website/': 'article.blogCardDet',
-  '/sr/blogs/zašto-vam-je-potreban-web-sajt/': 'article.blogCardDet',
-  '/en/blogs/why-you-need-a-website/': 'article.blogCardDet',
+  '/sr/blogs/mobilni-web-dizajn': 'article.blogCardDet',
+  '/en/blogs/mobile-web-design': 'article.blogCardDet',
+  '/sr/blogs/uticaj-websajta-na-imidz-brenda': 'article.blogCardDet',
+  '/en/blogs/influence-of-website-on-brand-image': 'article.blogCardDet',
+  '/sr/blogs/greške-u-razvoju-web-sajtova': 'article.blogCardDet',
+  '/en/blogs/website-development-errors': 'article.blogCardDet',
+  '/sr/blogs/vodič-web-sajt-za-mali-biznis': 'article.blogCardDet',
+  '/en/blogs/small-business-website-guide': 'article.blogCardDet',
+  '/sr/blogs/elementi-modernog-web-sajta': 'article.blogCardDet',
+  '/en/blogs/elements-of-a-modern-website': 'article.blogCardDet',
+  '/sr/blogs/zašto-vam-je-potreban-web-sajt': 'article.blogCardDet',
+  '/en/blogs/why-you-need-a-website': 'article.blogCardDet',
 
   // Services
-  '/sr/usluge/': '.services',
-  '/en/services/': '.services',
-  '/sr/usluge/izrada-web-sajta/': 'article.serCardDet',
-  '/en/services/website-development/': 'article.serCardDet',
-  '/sr/usluge/seo-optimizacija/': 'article.serCardDet',
-  '/en/services/seo-optimization/': 'article.serCardDet',
-  '/sr/usluge/dizajin/': 'article.serCardDet',
-  '/en/services/design/': 'article.serCardDet',
+  '/sr/usluge': '.services',
+  '/en/services': '.services',
+  '/sr/usluge/izrada-web-sajta': 'article.serCardDet',
+  '/en/services/website-development': 'article.serCardDet',
+  '/sr/usluge/seo-optimizacija': 'article.serCardDet',
+  '/en/services/seo-optimization': 'article.serCardDet',
+  '/sr/usluge/dizajin': 'article.serCardDet',
+  '/en/services/design': 'article.serCardDet',
 };
 
 // SPA server sa fallback na index.html
@@ -85,8 +85,7 @@ server.listen(PORT, async () => {
         await page.waitForTimeout(200); // extra delay za animacije
 
         const html = await page.content();
-        const normalizedRoute =
-          route === '/' ? '' : route.replace(/^\/|\/$/g, '');
+        const normalizedRoute = route === '/' ? '' : route.replace(/^\//, '');
         const outputDir = path.join(distDir, normalizedRoute);
         fs.mkdirSync(outputDir, { recursive: true });
         fs.writeFileSync(path.join(outputDir, 'index.html'), html, 'utf8');
@@ -99,7 +98,7 @@ server.listen(PORT, async () => {
   }
 
   const pages = await Promise.all(
-    Array.from({ length: maxParallelPages }, () => browser.newPage())
+    Array.from({ length: maxParallelPages }, () => browser.newPage()),
   );
   await Promise.all(pages.map((page) => processRoute(page)));
 

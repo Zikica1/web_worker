@@ -20,7 +20,7 @@ const Services = () => {
     },
     {
       lang: 'x-default',
-      href: 'https://www.webworker.rs/usluge/',
+      href: 'https://www.webworker.rs/usluge',
     },
   ];
 

@@ -24,7 +24,7 @@ const Home = () => {
     },
     {
       lang: 'x-default',
-      href: 'https://www.webworker.rs/',
+      href: 'https://www.webworker.rs',
     },
   ];
 

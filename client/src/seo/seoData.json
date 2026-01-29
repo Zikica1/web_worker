@@ -3,15 +3,15 @@
     "sr": {
       "title": "Profesionalna web sajt izrada | Agencija za moderne sajtove",
       "description": "WebWorker je agencija za profesionalnu izradu web sajtova za male i srednje biznise u Srbiji. Kreiramo brze, SEO optimizovane i moderne sajtove koji donose klijente.",
-      "url": "https://www.webworker.rs/sr/",
+      "url": "https://www.webworker.rs/sr",
       "image": "https://www.webworker.rs/assets/pictures/SEO/home-webWorker-web-design-agency.jpg",
       "jsonLd": {
         "@context": "https://schema.org",
         "@graph": [
           {
             "@type": "WebPage",
-            "@id": "https://www.webworker.rs/sr/",
-            "url": "https://www.webworker.rs/sr/",
+            "@id": "https://www.webworker.rs/sr",
+            "url": "https://www.webworker.rs/sr",
             "name": "Profesionalna web sajt izrada | Agencija za moderne sajtove",
             "inLanguage": "sr",
             "isPartOf": {
@@ -22,13 +22,13 @@
             },
             "description": "Nudimo profesionalnu web sajt izradu za male i srednje biznise. Kreiramo optimizovane sajtove koji prenose poruku vašeg brenda i privlače klijente",
             "mainEntityOfPage": {
-              "@id": "https://www.webworker.rs/sr/"
+              "@id": "https://www.webworker.rs/sr"
             }
           },
           {
             "@type": "WebSite",
             "@id": "https://www.webworker.rs/#website",
-            "url": "https://www.webworker.rs/",
+            "url": "https://www.webworker.rs",
             "name": "WebWorker",
             "inLanguage": "sr",
             "publisher": {
@@ -39,7 +39,7 @@
             "@type": ["Organization", "ProfessionalService"],
             "@id": "https://www.webworker.rs/#organization",
             "name": "WebWorker",
-            "url": "https://www.webworker.rs/",
+            "url": "https://www.webworker.rs",
             "logo": {
               "@type": "ImageObject",
               "url": "https://www.webworker.rs/assets/pictures/SEO/logo-webWorker-web-design-agency.png",
@@ -105,15 +105,15 @@
     "en": {
       "title": "Professional website creation | Agency for modern websites",
       "description": "WebWorker is a web design agency creating modern, fast and SEO-optimized websites for small and medium businesses in Serbia. We help brands grow online.",
-      "url": "https://www.webworker.rs/en/",
+      "url": "https://www.webworker.rs/en",
       "image": "https://webworker.rs/assets/pictures/SEO/home-webWorker-web-design-agency.jpg",
       "jsonLd": {
         "@context": "https://schema.org",
         "@graph": [
           {
             "@type": "WebPage",
-            "@id": "https://www.webworker.rs/en/",
-            "url": "https://www.webworker.rs/en/",
+            "@id": "https://www.webworker.rs/en",
+            "url": "https://www.webworker.rs/en",
             "name": "Professional website creation | Agency for modern websites",
             "inLanguage": "en",
             "isPartOf": {
@@ -124,13 +124,13 @@
             },
             "description": "We offer professional website development for small and medium businesses. We create optimized websites that convey your brand message and attract customers",
             "mainEntityOfPage": {
-              "@id": "https://www.webworker.rs/en/"
+              "@id": "https://www.webworker.rs/en"
             }
           },
           {
             "@type": "WebSite",
             "@id": "https://www.webworker.rs/#website",
-            "url": "https://www.webworker.rs/",
+            "url": "https://www.webworker.rs",
             "name": "WebWorker",
             "inLanguage": "en",
             "publisher": {
@@ -141,7 +141,7 @@
             "@type": ["Organization", "ProfessionalService"],
             "@id": "https://www.webworker.rs/#organization",
             "name": "WebWorker",
-            "url": "https://www.webworker.rs/",
+            "url": "https://www.webworker.rs",
             "logo": {
               "@type": "ImageObject",
               "url": "https://www.webworker.rs/assets/pictures/SEO/logo-webWorker-web-design-agency.png"
@@ -199,15 +199,15 @@
     "sr": {
       "title": "O nama | Web Worker - Web dizajn i izrada sajtova i SEO",
       "description": "Upoznajte Web Worker - agenciju za web dizajn, izradu sajtova i SEO. Saznajte više o našem iskustvu, pristupu i vrednostima koje stoje iza uspešnih projekata.",
-      "url": "https://www.webworker.rs/sr/o-nama/",
+      "url": "https://www.webworker.rs/sr/o-nama",
       "image": "https://www.webworker.rs/assets/pictures/SEO/about-us-webWorker-web-design-agency.jpg",
       "jsonLd": {
         "@context": "https://schema.org",
         "@graph": [
           {
             "@type": ["WebPage", "AboutPage"],
-            "@id": "https://www.webworker.rs/sr/o-nama/",
-            "url": "https://www.webworker.rs/sr/o-nama/",
+            "@id": "https://www.webworker.rs/sr/o-nama",
+            "url": "https://www.webworker.rs/sr/o-nama",
             "name": "O nama | Web Worker - Web dizajn i izrada sajtova i SEO",
             "inLanguage": "sr",
             "isPartOf": {
@@ -218,7 +218,7 @@
             },
             "description": "Upoznajte Web Worker - agenciju specijalizovanu za web dizajn, izradu sajtova i SEO. Saznajte više o nama, iskustvu i vrednostima koje nas izdvajaju.",
             "mainEntityOfPage": {
-              "@id": "https://www.webworker.rs/sr/o-nama/"
+              "@id": "https://www.webworker.rs/sr/o-nama"
             }
           },
           {
@@ -229,13 +229,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Početna",
-                "item": "https://www.webworker.rs/sr/"
+                "item": "https://www.webworker.rs/sr"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "O-nama",
-                "item": "https://www.webworker.rs/sr/o-nama/"
+                "item": "https://www.webworker.rs/sr/o-nama"
               }
             ]
           }
@@ -245,15 +245,15 @@
     "en": {
       "title": "About us | Web Worker - Web design, development and SEO",
       "description": "Learn more about WebWorker, a web design and development agency focused on modern websites and SEO. Discover our experience, approach, and values.",
-      "url": "https://www.webworker.rs/en/about/",
+      "url": "https://www.webworker.rs/en/about",
       "image": "https://www.webworker.rs/assets/pictures/SEO/about-us-webWorker-web-design-agency.jpg",
       "jsonLd": {
         "@context": "https://schema.org",
         "@graph": [
           {
             "@type": ["WebPage", "AboutPage"],
-            "@id": "https://www.webworker.rs/en/about/",
-            "url": "https://www.webworker.rs/en/about/",
+            "@id": "https://www.webworker.rs/en/about",
+            "url": "https://www.webworker.rs/en/about",
             "name": "About us | Web Worker - Web design, development and SEO",
             "inLanguage": "en",
             "isPartOf": {
@@ -264,7 +264,7 @@
             },
             "description": "Meet Web Worker - an agency specialized in web design, website development and SEO. Learn more about us, our experience and the values that set us apart.",
             "mainEntityOfPage": {
-              "@id": "https://www.webworker.rs/en/about/"
+              "@id": "https://www.webworker.rs/en/about"
             }
           },
           {
@@ -275,13 +275,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://www.webworker.rs/en/"
+                "item": "https://www.webworker.rs/en"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "About",
-                "item": "https://www.webworker.rs/en/about/"
+                "item": "https://www.webworker.rs/en/about"
               }
             ]
           }
@@ -293,15 +293,15 @@
     "sr": {
       "title": "Web dizajn i izrada sajtova | SEO optimizacija Srbija",
       "description": "WebWorker pruža web dizajn, izradu modernih sajtova i SEO optimizaciju u Srbiji. Pomažemo biznisima da povećaju vidljivost, saobraćaj i broj klijenata.",
-      "url": "https://www.webworker.rs/sr/usluge/",
+      "url": "https://www.webworker.rs/sr/usluge",
       "image": "https://www.webworker.rs/assets/pictures/SEO/services-webWorker-web-design-agency.jpg",
       "jsonLd": {
         "@context": "https://schema.org",
         "@graph": [
           {
             "@type": "WebPage",
-            "@id": "https://www.webworker.rs/sr/usluge/",
-            "url": "https://www.webworker.rs/sr/usluge/",
+            "@id": "https://www.webworker.rs/sr/usluge",
+            "url": "https://www.webworker.rs/sr/usluge",
             "name": "Web dizajn i izrada sajtova | SEO optimizacija Srbija",
             "inLanguage": "sr",
             "isPartOf": {
@@ -312,7 +312,7 @@
             },
             "description": "Profesionalne usluge izrade sajtova, web dizajna i SEO optimizacije u Srbiji. Unapredite online prisustvo i privucite više klijenata uz naš tim",
             "mainEntityOfPage": {
-              "@id": "https://www.webworker.rs/sr/usluge/"
+              "@id": "https://www.webworker.rs/sr/usluge"
             }
           },
           {
@@ -323,13 +323,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Početna",
-                "item": "https://www.webworker.rs/sr/"
+                "item": "https://www.webworker.rs/sr"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Usluge",
-                "item": "https://www.webworker.rs/sr/usluge/"
+                "item": "https://www.webworker.rs/sr/usluge"
               }
             ]
           }
@@ -339,15 +339,15 @@
     "en": {
       "title": "Web design and website creation | SEO optimization Serbia",
       "description": "WebWorker provides web design, development of modern websites and SEO optimization in Serbia. We help businesses increase visibility, traffic and customer numbers.",
-      "url": "https://www.webworker.rs/en/services/",
+      "url": "https://www.webworker.rs/en/services",
       "image": "https://www.webworker.rs/assets/pictures/SEO/services-webWorker-web-design-agency.jpg",
       "jsonLd": {
         "@context": "https://schema.org",
         "@graph": [
           {
             "@type": "WebPage",
-            "@id": "https://www.webworker.rs/en/services/",
-            "url": "https://www.webworker.rs/en/services/",
+            "@id": "https://www.webworker.rs/en/services",
+            "url": "https://www.webworker.rs/en/services",
             "name": "Web design and website creation | SEO optimization Serbia",
             "inLanguage": "en",
             "isPartOf": {
@@ -358,7 +358,7 @@
             },
             "description": "Professional website development, web design and SEO optimization services in Serbia. Improve your online presence and attract more clients with our team",
             "mainEntityOfPage": {
-              "@id": "https://www.webworker.rs/en/services/"
+              "@id": "https://www.webworker.rs/en/services"
             }
           },
           {
@@ -369,13 +369,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://www.webworker.rs/en/"
+                "item": "https://www.webworker.rs/en"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Services",
-                "item": "https://www.webworker.rs/en/services/"
+                "item": "https://www.webworker.rs/en/services"
               }
             ]
           }
@@ -388,14 +388,14 @@
       "sr": {
         "title": "Izrada web sajtova i dizajn | WebWorker Srbija",
         "description": "Izrađujemo moderne, brze i prilagođene web sajtove koji jačaju vaš online identitet i pomažu rast vašeg biznisa u Srbiji.",
-        "url": "https://www.webworker.rs/sr/usluge/izrada-web-sajta/",
+        "url": "https://www.webworker.rs/sr/usluge/izrada-web-sajta",
         "image": "https://www.webworker.rs/assets/pictures/SEO/serviceCardWebDew-webWorker-web-design-agency.jpg",
         "headline": "Izrada web sajtova — ključno za uspešan nastup na internetu"
       },
       "en": {
         "title": "Creation of web sites and design | WebWorker Serbia",
         "description": "We create modern, fast and customized websites that strengthen your online identity and help your business grow in Serbia.",
-        "url": "https://www.webworker.rs/en/services/web-development/",
+        "url": "https://www.webworker.rs/en/services/web-development",
         "image": "https://www.webworker.rs/assets/pictures/SEO/serviceCardWebDew-webWorker-web-design-agency.jpg",
         "headline": "Creating web sites — key to a successful appearance on the Internet"
       }
@@ -404,14 +404,14 @@
       "sr": {
         "title": "SEO optimizacija sajta | Profesionalne SEO usluge | Webworker",
         "description": "Povećajte vidljivost, posetu i prodaju uz profesionalnu SEO optimizaciju web sajta. Optimizacija sajta za Google po najnovijim SEO standardima.",
-        "url": "https://www.webworker.rs/sr/usluge/seo-optimizacija/",
+        "url": "https://www.webworker.rs/sr/usluge/seo-optimizacija",
         "image": "https://www.webworker.rs/assets/pictures/SEO/serviceCardSeo-webWorker-web-design-agency.jpg",
         "headline": "Šta je SEO? Optimizacija sajta za pretraživače"
       },
       "en": {
         "title": "SEO site optimization | Professional SEO Services | Web worker",
         "description": "Increase visibility, traffic and sales with professional SEO website optimization. Site optimization for Google according to the latest SEO standards.",
-        "url": "https://www.webworker.rs/en/services/seo-optimization/",
+        "url": "https://www.webworker.rs/en/services/seo-optimization",
         "image": "https://www.webworker.rs/assets/pictures/SEO/serviceCardSeo-webWorker-web-design-agency.jpg",
         "headline": "What is SEO? Site optimization for search engines"
       }
@@ -420,14 +420,14 @@
       "sr": {
         "title": "Responzivni web dizajn | Moderni i prilagodljivi web sajtovi",
         "description": "Povećajte vidljivost i konverzije uz responzivni web dizajn — optimizovani sajtovi koji se automatski prilagođavaju svakom uređaju i ekranu.",
-        "url": "https://www.webworker.rs/sr/usluge/dizajin/",
+        "url": "https://www.webworker.rs/sr/usluge/dizajin",
         "image": "https://www.webworker.rs/assets/pictures/SEO/serviceCardResponse-webWorker-web-design-agency.jpg",
         "headline": "Responzivni web dizajn - zašto je važan i kako funkcioniše"
       },
       "en": {
         "title": "Responsive web design | Modern and responsive web websites",
         "description": "Increase visibility and conversions with responsive web design — optimized sites that automatically adapt to every device and screen.",
-        "url": "https://www.webworker.rs/en/services/web-design/",
+        "url": "https://www.webworker.rs/en/services/web-design",
         "image": "https://www.webworker.rs/assets/pictures/SEO/serviceCardResponse-webWorker-web-design-agency.jpg",
         "headline": "Responsive web design - why it's important and how it works"
       }
@@ -436,14 +436,14 @@
       "sr": {
         "title": "Šta je hosting i zašto je važan za vaš sajt",
         "description": "Saznajte šta je web hosting, kako funkcioniše i zašto je neophodan da bi vaš sajt bio dostupan na internetu.",
-        "url": "https://www.webworker.rs/sr/usluge/hosting/",
+        "url": "https://www.webworker.rs/sr/usluge/hosting",
         "image": "https://www.webworker.rs/assets/pictures/SEO/serviceCardHosting-webWorker-web-design-agency.jpg",
         "headline": "Osnove web hostinga za vlasnike sajtova"
       },
       "en": {
         "title": "What is hosting and why is it important for your site",
         "description": "Find out what web hosting is, how it works and why it is necessary for your site to be available on the Internet.",
-        "url": "https://www.webworker.rs/en/services/hosting/",
+        "url": "https://www.webworker.rs/en/services/hosting",
         "image": "https://www.webworker.rs/assets/pictures/SEO/serviceCardHosting-webWorker-web-design-agency.jpg",
         "headline": "Web hosting basics for website owners"
       }
@@ -453,7 +453,7 @@
     "sr": {
       "title": "Istaknuto | Naši projekti i realizovana rešenja",
       "description": "Istražite naš portfolio i projekte koji pokazuju naše znanje u oblasti web dizajna, razvoja i SEO optimizacije.",
-      "url": "https://www.webworker.rs/sr/istaknuto/",
+      "url": "https://www.webworker.rs/sr/istaknuto",
       "image": "https://www.webworker.rs/assets/pictures/SEO/showcase-webWorker-web-design-agency.jpg",
       "jsonLd": {
         "@context": "https://schema.org",
@@ -472,7 +472,7 @@
             },
             "description": "Istražite naš portfolio i projekte koji pokazuju naše znanje u oblasti web dizajna, razvoja i SEO optimizacije.",
             "mainEntityOfPage": {
-              "@id": "https://www.webworker.rs/sr/istaknuto/"
+              "@id": "https://www.webworker.rs/sr/istaknuto"
             }
           },
           {
@@ -483,13 +483,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Početna",
-                "item": "https://www.webworker.rs/sr/"
+                "item": "https://www.webworker.rs/sr"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Istaknuto",
-                "item": "https://www.webworker.rs/sr/istaknuto/"
+                "item": "https://www.webworker.rs/sr/istaknuto"
               }
             ]
           }
@@ -499,15 +499,15 @@
     "en": {
       "title": "Featured | Our projects and implemented solutions",
       "description": "Explore our portfolio and projects that demonstrate our expertise in web design, development and SEO optimization.",
-      "url": "https://www.webworker.rs/en/showcase/",
+      "url": "https://www.webworker.rs/en/showcase",
       "image": "https://www.webworker.rs/assets/pictures/SEO/showcase-webWorker-web-design-agency.jpg",
       "jsonLd": {
         "@context": "https://schema.org",
         "@graph": [
           {
             "@type": ["WebPage", "CollectionPage"],
-            "@id": "https://www.webworker.rs/en/showcase/",
-            "url": "https://www.webworker.rs/en/showcase/",
+            "@id": "https://www.webworker.rs/en/showcase",
+            "url": "https://www.webworker.rs/en/showcase",
             "name": "Featured | Our projects and implemented solutions",
             "inLanguage": "en",
             "isPartOf": {
@@ -518,7 +518,7 @@
             },
             "description": "Explore our portfolio and projects that demonstrate our expertise in web design, development and SEO optimization.",
             "mainEntityOfPage": {
-              "@id": "https://www.webworker.rs/en/showcase/"
+              "@id": "https://www.webworker.rs/en/showcase"
             }
           },
           {
@@ -529,13 +529,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://www.webworker.rs/en/"
+                "item": "https://www.webworker.rs/en"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Showcase",
-                "item": "https://www.webworker.rs/en/showcase/"
+                "item": "https://www.webworker.rs/en/showcase"
               }
             ]
           }
@@ -547,15 +547,15 @@
     "sr": {
       "title": "Blog o izradi web sajtova, web dizajnu i SEO optimizaciji",
       "description": "Pročitajte najnovije savete o izradi web sajtova, web dizajnu i SEO optimizaciji. WebWorker blog donosi  vodiče i trendove iz sveta digitalnog marketinga.",
-      "url": "https://www.webworker.rs/sr/blogs/",
+      "url": "https://www.webworker.rs/sr/blogs",
       "image": "https://www.webworker.rs/assets/pictures/blogs/blog-izrada-web-sajtova-webworker.jpg",
       "jsonLd": {
         "@context": "https://schema.org",
         "@graph": [
           {
             "@type": ["WebPage", "Blog"],
-            "@id": "https://www.webworker.rs/sr/blogs/",
-            "url": "https://www.webworker.rs/sr/blogs/",
+            "@id": "https://www.webworker.rs/sr/blogs",
+            "url": "https://www.webworker.rs/sr/blogs",
             "name": "Blog o izradi web sajtova, web dizajnu i SEO optimizaciji",
             "inLanguage": "sr",
             "isPartOf": {
@@ -566,7 +566,7 @@
             },
             "description": "Pročitajte najnovije savete o izradi web sajtova, web dizajnu i SEO optimizaciji. WebWorker blog donosi  vodiče i trendove iz sveta digitalnog marketinga.",
             "mainEntityOfPage": {
-              "@id": "https://www.webworker.rs/sr/blogs/"
+              "@id": "https://www.webworker.rs/sr/blogs"
             }
           },
           {
@@ -577,13 +577,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Početna",
-                "item": "https://www.webworker.rs/sr/"
+                "item": "https://www.webworker.rs/sr"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Blogs",
-                "item": "https://www.webworker.rs/sr/blogs/"
+                "item": "https://www.webworker.rs/sr/blogs"
               }
             ]
           }
@@ -593,7 +593,7 @@
     "en": {
       "title": "Blog about creating websites, web design and SEO optimization",
       "description": "Read the latest tips on website building, web design and SEO optimization. The WebWorker blog brings you guides and trends from the world of digital marketing.",
-      "url": "https://www.webworker.rs/en/blogs/",
+      "url": "https://www.webworker.rs/en/blogs",
       "image": "https://www.webworker.rs/assets/pictures/blogs/blog-izrada-web-sajtova-webworker.jpg",
       "jsonLd": {
         "@context": "https://schema.org",
@@ -620,13 +620,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://www.webworker.rs/en/"
+                "item": "https://www.webworker.rs/en"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Blogs",
-                "item": "https://www.webworker.rs/en/blogs/"
+                "item": "https://www.webworker.rs/en/blogs"
               }
             ]
           }
@@ -639,7 +639,7 @@
       "sr": {
         "title": "Kako web sajt utiče na imidž vašeg brenda",
         "description": "Saznajte kako moderan web sajt utiče na imidž vašeg brenda i zašto je ključan sa vaš brend.",
-        "url": "https://www.webworker.rs/sr/blogs/uticaj-websajta-na-imidz-brenda/",
+        "url": "https://www.webworker.rs/sr/blogs/uticaj-websajta-na-imidz-brenda",
         "image": "https://www.webworker.rs/assets/pictures/blogs/uticaj-modernog-websajta-na-brend-1200px.png",
         "headline": "Kako web sajt utiče na imidž vašeg brenda",
         "datePublished": "2025-12-17",
@@ -658,7 +658,7 @@
       "en": {
         "title": "How a website affects your brand image",
         "description": "Find out how a modern website affects the image of your brand and why it is crucial to your brand.",
-        "url": "https://www.webworker.rs/en/blogs/influence-of-website-on-brand-image/",
+        "url": "https://www.webworker.rs/en/blogs/influence-of-website-on-brand-image",
         "image": "https://www.webworker.rs/assets/pictures/blogs/uticaj-modernog-websajta-na-brend-1200px.png",
         "headline": "How a website affects your brand image",
         "datePublished": "2025-12-17",
@@ -679,7 +679,7 @@
       "sr": {
         "title": "Zašto je mobilni dizajn bitan i kako utiče na prodaju",
         "description": "Saznajte kako mobilni i responsive dizajn utiču na prodaju, korisničko iskustvo i SEO rezultate, i zašto su ključni za uspešan web sajt.",
-        "url": "https://www.webworker.rs/sr/blogs/mobilni-web-dizajn/",
+        "url": "https://www.webworker.rs/sr/blogs/mobilni-web-dizajn",
         "image": "https://www.webworker.rs/assets/pictures/blogs/izrada-web-sajta-mobilna-verzija-og-1200px.jpg",
         "headline": "Zašto je mobilni dizajn bitan i kako utiče na prodaju",
         "datePublished": "2025-12-07",
@@ -710,7 +710,7 @@
       "en": {
         "title": "Why mobile design matters and how it affects sales",
         "description": "Learn how mobile and responsive design affects sales, user experience and SEO results, and why they are critical to a successful website.",
-        "url": "https://www.webworker.rs/en/blogs/mobile-web-design/",
+        "url": "https://www.webworker.rs/en/blogs/mobile-web-design",
         "image": "https://www.webworker.rs/assets/pictures/blogs/izrada-web-sajta-mobilna-verzija-og-1200px.jpg",
         "headline": "Why mobile design matters and how it affects sales",
         "datePublished": "2025-12-07",
@@ -743,7 +743,7 @@
       "sr": {
         "title": "Uobičajne greške u razvoju veb sajta koje treba izbegavati",
         "description": "Saznajte koje su najčešće greške u razvoju veb sajtova i kako ih izbeći. Izbegnite lošu navigaciju, spor sajt i SEO propuste uz savete WebWorker tima.",
-        "url": "https://www.webworker.rs/sr/blogs/greške-u-razvoju-web-sajtova/",
+        "url": "https://www.webworker.rs/sr/blogs/greške-u-razvoju-web-sajtova",
         "image": "https://www.webworker.rs/assets/pictures/blogs/greška-u-web-razvoju-1200px-og.jpg",
         "headline": "Uobičajne greške u razvoju veb sajta koje treba izbegavati",
         "datePublished": "2025-11-02",
@@ -761,7 +761,7 @@
       "en": {
         "title": "Common website development mistakes to avoid",
         "description": "Learn about the most common website development mistakes and how to avoid them. Avoid bad navigation, slow site and SEO failures with tips from the WebWorker",
-        "url": "https://www.webworker.rs/en/blogs/website-development-errors/",
+        "url": "https://www.webworker.rs/en/blogs/website-development-errors",
         "image": "https://www.webworker.rs/assets/pictures/blogs/greška-u-web-razvoju-1200px-og.jpg",
         "headline": "Common website development mistakes to avoid",
         "datePublished": "2025-11-02",
@@ -781,7 +781,7 @@
       "sr": {
         "title": "Veb sajt za male biznise - vodič za početnike | WebWorker",
         "description": "Saznajte kako da napravite profesionalan veb sajt za mali biznis. Korak-po-korak vodič kroz dizajn, SEO, hosting i sadržaj - saveti WebWorker tima.",
-        "url": "https://www.webworker.rs/sr/blogs/vodič-web-sajt-za-mali-biznis/",
+        "url": "https://www.webworker.rs/sr/blogs/vodič-web-sajt-za-mali-biznis",
         "image": "https://www.webworker.rs/assets/pictures/blogs/izrada-web-sajta-za-mali-biznis-1200px-og.jpg",
         "headline": "Veb sajt za male biznise - vodič za početnike",
         "datePublished": "2025-11-01",
@@ -799,7 +799,7 @@
       "en": {
         "title": "Small Business Website - Beginner's Guide | WebWorker",
         "description": "Learn how to create a professional website for your small business. A step-by-step guide to design, SEO, hosting and content - tips from the WebWorker team.",
-        "url": "https://www.webworker.rs/en/blogs/small-business-website-guide/",
+        "url": "https://www.webworker.rs/en/blogs/small-business-website-guide",
         "image": "https://www.webworker.rs/assets/pictures/blogs/izrada-web-sajta-za-mali-biznis-1200px-og.jpg",
         "headline": "Small Business Website - A Beginner's Guide",
         "datePublished": "2025-11-01",
@@ -819,7 +819,7 @@
       "sr": {
         "title": "Elementi koje svaki moderan web sajt mora da ima | WebWorker",
         "description": "Saznajte koji su 7 ključnih elemenata svakog modernog web sajta — od brzine i sigurnosti do dizajna, SEO optimizacije i korisničkog iskustva.",
-        "url": "https://www.webworker.rs/sr/blogs/elementi-modernog-web-sajta/",
+        "url": "https://www.webworker.rs/sr/blogs/elementi-modernog-web-sajta",
         "image": "https://www.webworker.rs/assets/pictures/blogs/izrada-web-sajta-ključni-elementi-1200px-og.jpg",
         "headline": "Elementi koje svaki moderan web sajt mora da ima",
         "datePublished": "2025-10-25",
@@ -842,7 +842,7 @@
       "en": {
         "title": "Elements that every modern website must have | WebWorker",
         "description": "Find out what are the 7 key elements of every modern website — from speed and security to design, SEO optimization and user experience.",
-        "url": "https://www.webworker.rs/en/blogs/elements-of-a-modern-website/",
+        "url": "https://www.webworker.rs/en/blogs/elements-of-a-modern-website",
         "image": "https://www.webworker.rs/assets/pictures/blogs/izrada-web-sajta-ključni-elementi-1200px-og.jpg",
         "headline": "Elements that every modern website must have",
         "datePublished": "2025-10-25",
@@ -867,7 +867,7 @@
       "sr": {
         "title": "5 razloga zašto vam je potreban web sajt | WebWorker",
         "description": "Otkrijte 5 razloga zašto je web sajt ključan za vaš biznis — od kredibiliteta i brenda do SEO optimizacije i bolje komunikacije.",
-        "url": "https://www.webworker.rs/sr/blogs/zašto-vam-je-potreban-web-sajt/",
+        "url": "https://www.webworker.rs/sr/blogs/zašto-vam-je-potreban-web-sajt",
         "image": "https://www.webworker.rs/assets/pictures/blogs/izrada-web-sajta-zašto-je-potrebna-1200px-og.jpg",
         "headline": "5 razloga zašto vam je potreban web sajt",
         "datePublished": "2025-10-26",
@@ -890,7 +890,7 @@
       "en": {
         "title": "5 reasons why you need a website | WebWorker",
         "description": "Discover 5 reasons why a website is crucial for your business — from credibility and brand to SEO optimization and better communication.",
-        "url": "https://www.webworker.rs/en/blogs/why-you-need-a-website/",
+        "url": "https://www.webworker.rs/en/blogs/why-you-need-a-website",
         "image": "https://www.webworker.rs/assets/pictures/blogs/izrada-web-sajta-zašto-je-potrebna-1200px-og.jpg",
         "headline": "5 reasons why you need a website",
         "datePublished": "2025-10-26",
@@ -916,15 +916,15 @@
     "sr": {
       "title": "Kontaktirajte nas | Web Worker",
       "description": "Imate pitanja ili ideju za projekat? Pišite nam ili nas pozovite - Web Worker je tu da pomogne.",
-      "url": "https://www.webworker.rs/sr/kontakt/",
+      "url": "https://www.webworker.rs/sr/kontakt",
       "image": "https://www.webworker.rs/assets/pictures/SEO/contact-page-webWorker-web-agency.jpg",
       "jsonLd": {
         "@context": "https://schema.org",
         "@graph": [
           {
             "@type": ["WebPage", "ContactPage"],
-            "@id": "https://www.webworker.rs/sr/kontakt/",
-            "url": "https://www.webworker.rs/sr/kontakt/",
+            "@id": "https://www.webworker.rs/sr/kontakt",
+            "url": "https://www.webworker.rs/sr/kontakt",
             "name": "Kontaktirajte nas | Web Worker",
             "inLanguage": "sr",
             "isPartOf": {
@@ -935,7 +935,7 @@
             },
             "description": "Imate pitanja ili ideju za projekat? Pišite nam ili nas pozovite - Web Worker je tu da pomogne.",
             "mainEntityOfPage": {
-              "@id": "https://www.webworker.rs/sr/kontakt/"
+              "@id": "https://www.webworker.rs/sr/kontakt"
             }
           },
           {
@@ -946,13 +946,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Početna",
-                "item": "https://www.webworker.rs/sr/"
+                "item": "https://www.webworker.rs/sr"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Kontakt",
-                "item": "https://www.webworker.rs/sr/kontakt/"
+                "item": "https://www.webworker.rs/sr/kontakt"
               }
             ]
           }
@@ -962,15 +962,15 @@
     "en": {
       "title": "Contact Us | Web Worker",
       "description": "Have questions or an idea for a project? Write to us or call us - Web Worker is here to help.",
-      "url": "https://www.webworker.rs/en/contact/",
+      "url": "https://www.webworker.rs/en/contact",
       "image": "https://www.webworker.rs/assets/pictures/SEO/contact-page-webWorker-web-agency.jpg",
       "jsonLd": {
         "@context": "https://schema.org",
         "@graph": [
           {
             "@type": ["WebPage", "ContactPage"],
-            "@id": "https://www.webworker.rs/en/contact/",
-            "url": "https://www.webworker.rs/en/contact/",
+            "@id": "https://www.webworker.rs/en/contact",
+            "url": "https://www.webworker.rs/en/contact",
             "name": "Contact Us | Web Worker",
             "inLanguage": "en",
             "isPartOf": {
@@ -981,7 +981,7 @@
             },
             "description": "Have questions or an idea for a project? Write to us or call us - Web Worker is here to help.",
             "mainEntityOfPage": {
-              "@id": "https://www.webworker.rs/en/contact/"
+              "@id": "https://www.webworker.rs/en/contact"
             }
           },
           {
@@ -992,13 +992,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://www.webworker.rs/en/"
+                "item": "https://www.webworker.rs/en"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Contact",
-                "item": "https://www.webworker.rs/en/contact/"
+                "item": "https://www.webworker.rs/en/contact"
               }
             ]
           }

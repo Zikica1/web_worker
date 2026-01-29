@@ -3,153 +3,153 @@
 
   <!-- HOME -->
   <url>
-    <loc>https://www.webworker.rs/sr/</loc>
+    <loc>https://www.webworker.rs/sr</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.webworker.rs/en/</loc>
+    <loc>https://www.webworker.rs/en</loc>
     <priority>1.0</priority>
   </url>
 
   <!-- ABOUT -->
   <url>
-    <loc>https://www.webworker.rs/sr/o-nama/</loc>
+    <loc>https://www.webworker.rs/sr/o-nama</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.webworker.rs/en/about/</loc>
+    <loc>https://www.webworker.rs/en/about</loc>
     <priority>0.6</priority>
   </url>
 
   <!-- SERVICES -->
   <url>
-    <loc>https://www.webworker.rs/sr/usluge/</loc>
+    <loc>https://www.webworker.rs/sr/usluge</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.webworker.rs/en/services/</loc>
+    <loc>https://www.webworker.rs/en/services</loc>
     <priority>0.6</priority>
   </url>
 
   <!-- SERVICE PAGES -->
   <url>
-    <loc>https://www.webworker.rs/sr/usluge/izrada-web-sajta/</loc>
+    <loc>https://www.webworker.rs/sr/usluge/izrada-web-sajta</loc>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://www.webworker.rs/en/services/web-development/</loc>
-    <priority>0.4</priority>
-  </url>
-
-  <url>
-    <loc>https://www.webworker.rs/sr/usluge/seo-optimizacija/</loc>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://www.webworker.rs/en/services/seo-optimization/</loc>
+    <loc>https://www.webworker.rs/en/services/web-development</loc>
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://www.webworker.rs/sr/usluge/dizajin/</loc>
+    <loc>https://www.webworker.rs/sr/usluge/seo-optimizacija</loc>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://www.webworker.rs/en/services/web-design/</loc>
+    <loc>https://www.webworker.rs/en/services/seo-optimization</loc>
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://www.webworker.rs/sr/usluge/hosting/</loc>
+    <loc>https://www.webworker.rs/sr/usluge/dizajin</loc>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://www.webworker.rs/en/services/hosting/</loc>
+    <loc>https://www.webworker.rs/en/services/web-design</loc>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webworker.rs/sr/usluge/hosting</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.webworker.rs/en/services/hosting</loc>
     <priority>0.4</priority>
   </url>
 
   <!-- SHOWCASE -->
   <url>
-    <loc>https://www.webworker.rs/sr/istaknuto/</loc>
+    <loc>https://www.webworker.rs/sr/istaknuto</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.webworker.rs/en/showcase/</loc>
+    <loc>https://www.webworker.rs/en/showcase</loc>
     <priority>0.6</priority>
   </url>
 
   <!-- BLOG LIST -->
   <url>
-    <loc>https://www.webworker.rs/sr/blogs/</loc>
+    <loc>https://www.webworker.rs/sr/blogs</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.webworker.rs/en/blogs/</loc>
+    <loc>https://www.webworker.rs/en/blogs</loc>
     <priority>0.6</priority>
   </url>
 
   <!-- BLOG POSTS -->
   <url>
-    <loc>https://www.webworker.rs/sr/blogs/uticaj-websajta-na-imidz-brenda/</loc>
+    <loc>https://www.webworker.rs/sr/blogs/uticaj-websajta-na-imidz-brenda</loc>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://www.webworker.rs/en/blogs/influence-of-website-on-brand-image/</loc>
-    <priority>0.4</priority>
-  </url>
-
-  <url>
-    <loc>https://www.webworker.rs/sr/blogs/mobilni-web-dizajn/</loc>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://www.webworker.rs/en/blogs/mobile-web-design/</loc>
+    <loc>https://www.webworker.rs/en/blogs/influence-of-website-on-brand-image</loc>
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://www.webworker.rs/sr/blogs/greške-u-razvoju-web-sajtova/</loc>
+    <loc>https://www.webworker.rs/sr/blogs/mobilni-web-dizajn</loc>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://www.webworker.rs/en/blogs/website-development-errors/</loc>
-    <priority>0.4</priority>
-  </url>
-
-  <url>
-    <loc>https://www.webworker.rs/sr/blogs/vodič-web-sajt-za-mali-biznis/</loc>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://www.webworker.rs/en/blogs/small-business-website-guide/</loc>
+    <loc>https://www.webworker.rs/en/blogs/mobile-web-design</loc>
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://www.webworker.rs/sr/blogs/elementi-modernog-web-sajta/</loc>
+    <loc>https://www.webworker.rs/sr/blogs/greške-u-razvoju-web-sajtova</loc>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://www.webworker.rs/en/blogs/elements-of-a-modern-website/</loc>
+    <loc>https://www.webworker.rs/en/blogs/website-development-errors</loc>
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://www.webworker.rs/sr/blogs/zašto-vam-je-potreban-web-sajt/</loc>
+    <loc>https://www.webworker.rs/sr/blogs/vodič-web-sajt-za-mali-biznis</loc>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://www.webworker.rs/en/blogs/why-you-need-a-website/</loc>
+    <loc>https://www.webworker.rs/en/blogs/small-business-website-guide</loc>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webworker.rs/sr/blogs/elementi-modernog-web-sajta</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.webworker.rs/en/blogs/elements-of-a-modern-website</loc>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webworker.rs/sr/blogs/zašto-vam-je-potreban-web-sajt</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.webworker.rs/en/blogs/why-you-need-a-website</loc>
     <priority>0.4</priority>
   </url>
 
   <!-- CONTACT -->
   <url>
-    <loc>https://www.webworker.rs/sr/kontakt/</loc>
+    <loc>https://www.webworker.rs/sr/kontakt</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.webworker.rs/en/contact/</loc>
+    <loc>https://www.webworker.rs/en/contact</loc>
     <priority>0.6</priority>
   </url>
 

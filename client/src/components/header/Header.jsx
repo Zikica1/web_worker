@@ -90,7 +90,7 @@ const Header = () => {
       </div>
       <div className='headerBott'>
         <div className='logo'>
-          <Link className='logo-link'>
+          <Link to={`/${lang}`} className='logo-link'>
             <img
               className='logo-img'
               src='/assets/pictures/header/web-worker-logo3.webp'
