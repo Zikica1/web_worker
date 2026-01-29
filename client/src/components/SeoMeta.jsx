@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import AlternateLinks from './SEO/AlternateLinks';
 
 const SeoMeta = ({
@@ -10,6 +11,24 @@ const SeoMeta = ({
   jsonLd,
   type = 'website',
 }) => {
+  useEffect(() => {
+    // ukloni prethodni SEO
+    const selectors = [
+      'title',
+      'meta[name="description"]',
+      'meta[name="robots"]',
+      'meta[property^="og:"]',
+      'meta[name^="twitter:"]',
+      'link[rel="canonical"]',
+      'link[rel="alternate"]',
+      'script[type="application/ld+json"]',
+    ];
+
+    selectors.forEach((selector) => {
+      document.querySelectorAll(selector).forEach((el) => el.remove());
+    });
+  }, []);
+
   return (
     <>
       <title>{title}</title>
