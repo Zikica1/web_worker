@@ -1,5 +1,3 @@
-import { useEffect } from 'react';
-
 const SeoMeta = ({
   title,
   description,
@@ -10,23 +8,6 @@ const SeoMeta = ({
   jsonLd,
   type = 'website',
 }) => {
-  useEffect(() => {
-    // izbriši sve SEO‑tagove koje je prethodna stranica ubacila
-    const selectors = [
-      'title',
-      'meta[name="description"]',
-      'meta[name="robots"]',
-      'meta[property^="og:"]',
-      'meta[name^="twitter:"]',
-      'link[rel="canonical"]',
-      'link[rel="alternate"]',
-    ];
-
-    selectors.forEach((sel) => {
-      document.head.querySelectorAll(sel).forEach((el) => el.remove());
-    });
-  }, []); // prazan niz znači – jednom pri montaži
-
   return (
     <>
       <title>{title}</title>
