@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { Trans } from 'react-i18next';
 import { blogs } from '../../data/db';
 import { useLangT } from '../../hook/useLangT';
-import Seo from '../SEO/Seo';
+import SeoMeta from '../SeoMeta';
 import seoData from '../../seo/seoData.json';
 import Share from '../share/Share';
 import BlogNotFound from './BlogNotFound';
@@ -33,6 +33,21 @@ const BlogCardDet = () => {
     articleSection,
     type,
   } = seoData?.blogCardDet?.[id]?.[lang] || {};
+
+  const alternates = [
+    {
+      lang: 'sr',
+      href: `https://www.webworker.rs/sr/blogs/${blogDet.slugs.sr}`,
+    },
+    {
+      lang: 'en',
+      href: `https://www.webworker.rs/en/blogs/${blogDet.slugs.en}`,
+    },
+    {
+      lang: 'x-default',
+      href: 'https://www.webworker.rs',
+    },
+  ];
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -78,11 +93,12 @@ const BlogCardDet = () => {
 
   return (
     <>
-      <Seo
+      <SeoMeta
         title={title}
         description={description}
         image={image}
         url={url}
+        alternates={alternates}
         canonical={url}
         jsonLd={jsonLd}
         type={type}
@@ -134,7 +150,7 @@ const BlogCardDet = () => {
                   aLink: (
                     <Link
                       to={`/${lang}/${t('routes.services')}/${t(
-                        'serviceIds.website'
+                        'serviceIds.website',
                       )}`}
                       style={{ color: '#3498db', fontWeight: '500' }}
                     ></Link>

@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useParams, Link, useLocation } from 'react-router-dom';
 import { Trans } from 'react-i18next';
 import { services } from '../../data/db';
-import Seo from '../SEO/Seo';
+import SeoMeta from '../SeoMeta';
 import seoData from '../../seo/seoData.json';
 import { faqData } from '../../data/seo/faqData';
 import { breadcrumbMap } from '../../data/seo/breadcrumbMap';
@@ -29,7 +29,7 @@ const ServiceCardDet = () => {
 
   const isWebDevPage = useMatchUrl(
     '/sr/usluge/izrada-web-sajta',
-    '/en/services/website-development'
+    '/en/services/website-development',
   );
 
   if (!cardDet) {
@@ -53,18 +53,33 @@ const ServiceCardDet = () => {
   const breadcrumbJson = buildBreadcrumbJsonLd(
     breadcrumbs,
     'https://www.webworker.rs',
-    pageUrl
+    pageUrl,
   );
 
   const { title, description, url, image, headline } =
     seoData?.serviceCardDet?.[id]?.[lang] || {};
+
+  const alternates = [
+    {
+      lang: 'sr',
+      href: `https://www.webworker.rs/sr/usluge/${cardDet.slugs.sr}`,
+    },
+    {
+      lang: 'en',
+      href: `https://www.webworker.rs/en/services/${cardDet.slugs.en}`,
+    },
+    {
+      lang: 'x-default',
+      href: 'https://www.webworker.rs',
+    },
+  ];
 
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'WebPage',
-        '@id': `https://www.webworker.rs/${lang}/${serviceSegment}/${slugFromUrl}/`,
+        '@id': `https://www.webworker.rs/${lang}/${serviceSegment}/${slugFromUrl}`,
         url: url,
         name: title,
         inLanguage: lang,
@@ -76,7 +91,7 @@ const ServiceCardDet = () => {
         },
         description: description,
         mainEntityOfPage: {
-          '@id': `https://www.webworker.rs/${lang}/${serviceSegment}/${slugFromUrl}/`,
+          '@id': `https://www.webworker.rs/${lang}/${serviceSegment}/${slugFromUrl}`,
         },
       },
       {
@@ -141,11 +156,12 @@ const ServiceCardDet = () => {
 
   return (
     <>
-      <Seo
+      <SeoMeta
         title={title}
         description={description}
         image={image}
         url={url}
+        alternates={alternates}
         canonical={url}
         jsonLd={jsonLd}
       />
@@ -171,7 +187,7 @@ const ServiceCardDet = () => {
               <img
                 src={`${cardDet.imgDes}`}
                 alt={`${t(
-                  `service.cardDet.${id}.mainTitle`
+                  `service.cardDet.${id}.mainTitle`,
                 )} - WebWorker Srbija`}
                 fetchPriority='high'
                 decoding='async'
@@ -197,7 +213,7 @@ const ServiceCardDet = () => {
                       <Link
                         style={{ color: '#3498db' }}
                         to={`/${lang}/${t('routes.services')}/${t(
-                          'serviceIds.website'
+                          'serviceIds.website',
                         )}`}
                       ></Link>
                     ),
@@ -286,7 +302,7 @@ const ServiceCardDet = () => {
                           <Link
                             style={{ color: '#3498db' }}
                             to={`/${lang}/${t('routes.services')}/${t(
-                              'serviceIds.website'
+                              'serviceIds.website',
                             )}`}
                           ></Link>
                         ),

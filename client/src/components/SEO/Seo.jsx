@@ -1,5 +1,4 @@
-import { Title, Meta, Link } from 'react-head';
-import AlternateLinks from './AlternateLinks';
+// import { Title, Meta, Link } from 'react-head';
 
 const Seo = ({ title, description, image, url, canonical, jsonLd, type }) => {
   return (

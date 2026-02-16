@@ -1,15 +1,15 @@
 import { Link } from 'react-router-dom';
-import Seo from '../SEO/Seo';
+import SeoMeta from '../SeoMeta';
 import { useLangT } from '../../hook/useLangT';
 
 const BlogNotFound = () => {
   const { t, lang } = useLangT();
 
-  const canonical = `https://www.webworker.rs/${lang}/404/`;
+  const canonical = `https://www.webworker.rs/${lang}/404`;
 
   return (
     <>
-      <Seo
+      <SeoMeta
         title={t('blogNotFound.title')}
         description={t('blogNotFound.description')}
         canonical={canonical}
