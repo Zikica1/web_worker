@@ -14,6 +14,8 @@ export const routes = [
   '/en/blogs/elements-of-a-modern-website',
   '/sr/blogs/zašto-vam-je-potreban-web-sajt',
   '/en/blogs/why-you-need-a-website',
+  '/sr/o-nama',
+  '/en/about',
   '/sr/usluge',
   '/en/services',
   '/sr/usluge/izrada-web-sajta',

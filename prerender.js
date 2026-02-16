@@ -30,6 +30,10 @@ const routeSelectors = {
   '/sr/blogs/zašto-vam-je-potreban-web-sajt': 'article.blogCardDet',
   '/en/blogs/why-you-need-a-website': 'article.blogCardDet',
 
+  //About
+  '/sr/o-nama': '.aboutUs',
+  '/en/about': '.aboutUs',
+
   // Services
   '/sr/usluge': '.services',
   '/en/services': '.services',
